@@ -6,7 +6,7 @@
   - [Docente](#docente)
   - [Enfoque](#enfoque)
   - [Justificación](#justificaci%C3%B3n)
-  - [Objetiv * general](#objetiv--general)
+  - [Objetivo general](#objetivo-general)
   - [Competencia global](#competencia-global)
   - [Competencias específicas](#competencias-espec%C3%ADficas)
   - [Esquema general de los contenidods](#esquema-general-de-los-contenidods)
@@ -25,51 +25,49 @@ Especialización de Geomática, Universidad Militar Nueva Granada
 
 ## Área de formación
 
-Desarroll  *  de nuevas tecnologías
+Desarrollo  de nuevas tecnologías
 
 ## Docente
 
 Juan Carlos Méndez
-
-
+juan[~at~]gkudos.com
 
 ## Enfoque
 
-Adquirir destrezas para publicar datos, y funciones SIG com  *  servicios web, por l  *  tant  *  el alumn  *  conocerá el fluj  *  de trabaj  *  para publicar mapas, imágenes y modelos geográficos para que puedan ser utilizados en aplicaciones web que soporten la visualización y análisis de cartografía.
+Entender los conceptos básicos sobre las tecnologías web aplicables a la cartografía y adquirir destrezas básicas en tecnologías para   publicar datos georreferenciados y servicios web geográficos.
 
 ## Justificación
 
-La información geográfica, es cada vez más útil en diferentes sectores empresariales, porque permite asociar variables a una posición específica, l  *  cual se conoce con el nombre de Geo-posicionamiento. Diversos sectores económicos com  *  los servicios públicos, la banca y la administración pública por mencionar algunos, requieren de mapas para la visualización de la información, con el fin de tomar mejores decisiones. Desde esta perspectiva, cada vez más se solicitan a los profesionales involucrar módulos de visualización de datos sobre mapas, com  *  parte de los sistemas de información empresarial. En consecuencia es importante conocer y manipular las tecnologías de servicios web com  *  elementos a involucrar dentr  *  de los sistemas informáticos institucionales que permitan suplir la necesidad de especializar variables y reutilizar la información geográfica entre sistemas.
+Los datos georreferenciados son cada es más utilizados en la industria como elemento de apoyo para la toma de decisiones.
+Uno de las disciplinas en el campo de la geomática  que más se ha beneficiado con el avance de las tecnologías para la web es el de la cartografía. En ese orden de ideas es conveniente que los profesionales en geomática conozcan los elementos principales y técnicas básicas que pueden utilizarse para la publicación de datos geográficos y mapas a través de la web.
 
-## Objetiv  *  general
+## Objetivo  general
 
-Dar a conocer a los alumnos los flujos de trabaj  *  para la construcción de servicios web geográficos los cuales puedan utilizar en diversas aplicaciones de la geo-matica.
+Entender los conceptos, técnicas y tecnologías básicos para la publicación de cartografía a través de la web.
 
 ## Competencia global
 
-Desarrollar destrezas para compartir contenid  *  geográfic  *  en la web e integrarl  *  en aplicaciones web.
+Desarrollar destrezas para publicar y utilizar datos georreferenciados a través de la web.
 
 ## Competencias específicas
 
 * Ocupacionales y profesionales
-  *  Adquirir destrezas para compartir información geográfica en la Web de acuerd  *  a una necesidad especifica.
+  *  Adquirir destrezas para publicar información geográfica en la Web.
 
 * Cognitivas
-  *  Entender el concept  *  de geo-servicio
-  *  Crear y publicar servicios de mapa
-  *  Crear y publicar servicios OGC
-  *  Configurar modelos SIG y publicarlos
-  *  Integrar geo-servicios con aplicaciones web
+  *  Entender qué son los servicios web geográficos (geoservicios)
+  *  Entender los conceptos de las tecnologías web aplicables a la publicación de servicios web geográficos.
+  *  Crear y publicar mapas para la web
+  *  Crear y publicar servicios geográficos según los estándares de la OGC
+  *  Entender que son los modelos SIG y como publicarlos en la web
+  *  Utilizar geoservicios
 
 * Comunicativas
-  *  Desarrolla la habilidad de argumentar laa diferencias entre geo-servicios y geo-portales
-  *  Comunicar y debatir con profesionales del área la importancia de la tecnología abierta e interoperable de
-los servicios OGC en una IDE
-  *  Desarrollar la habilidad de argumentar estrategias para poder mejora el rendimient  *  de servicios web
-geográficos.
+  *  Desarrollar la habilidad de argumentar técnicamente las estrategias a utilizar para publicar y utilizar servicios web geográficos según las necesidades particulares del caso de negocio a resolver.
+  *  Desarrollar la habilidad de argumentar técnicamente la importancia de la interoperabilidad de la información georreferenciada a través de servicios web.
   
 * Investigativas:
-  *  Fortalecer su capacidad investigativa y analítica en el contenido  del curso.
+  *  Fortalecer su capacidad investigativa y analítica a través del desarrollo  del curso.
 
 ## Esquema general de los contenidods
 
