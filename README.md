@@ -128,6 +128,8 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 * Abdalla, R. (2016). Introduction to geospatial information and communication technology (GeoICT). Switzerland: Springer.
 * Harmon, J. E., & Anderson, S. J. (2003). The design and implementation of geographic information systems. Hoboken, NJ: J. Wiley.
 * A., B. P., M., L. V., & Abarca, O. (2012). Fundamentos de las infraestructuras de datos espaciales. Madrid: UPM Press.
+* Abdalla, R. (2016). Distributed GIS Technology. In Introduction to Geospatial Information and Communication Technology (GeoICT) (pp. 63–81). Springer International Publishing. https://doi.org/10.1007/978-3-319-33603-9_4
+*  Architecting the ArcGIS Platform: Best Practices https://assets.esri.com/content/dam/esrisites/en-us/media/pdf/architecting-the-arcgis-platform.pdf
 
 
 
