@@ -9,12 +9,12 @@
   - [Objetivo general](#objetivo-general)
   - [Competencia global](#competencia-global)
   - [Competencias específicas](#competencias-espec%C3%ADficas)
-  - [Esquema general de los contenidods](#esquema-general-de-los-contenidods)
-    - [Unidad 1: Conceptos](#unidad-1-conceptos)
-    - [Unidad 2: Servicios OGC](#unidad-2-servicios-ogc)
+  - [Esquema general de los contenidos](#esquema-general-de-los-contenidos)
+    - [Unidad 1: Conceptos Generales sobre Tecnologías Web y SIG](#unidad-1-conceptos-generales-sobre-tecnolog%C3%ADas-web-y-sig)
+    - [Unidad 2: Geoservicios y OGC](#unidad-2-geoservicios-y-ogc)
     - [Unidad 3: INGENIERÍA WEB SIG](#unidad-3-ingenieri%CC%81a-web-sig)
     - [Unidad 4: SERVIDORES DE MAPAS](#unidad-4-servidores-de-mapas)
-    - [Unidad 5: INTEGRANDo GEOSERVCIOS CON APLICACIONES WEB GIS](#unidad-5-integrando-geoservcios-con-aplicaciones-web-gis)
+    - [Unidad 5: SIG en la web](#unidad-5-sig-en-la-web)
     - [SISTEMA DE EVALUACIÓN](#sistema-de-evaluacio%CC%81n)
     - [Bibliografía](#bibliograf%C3%ADa)
     - [Material complementario](#material-complementario)
@@ -69,26 +69,29 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 * Investigativas:
   *  Fortalecer su capacidad investigativa y analítica a través del desarrollo  del curso.
 
-## Esquema general de los contenidods
+## Esquema general de los contenidos
 
-### Unidad 1: Conceptos
+### Unidad 1: Conceptos Generales sobre Tecnologías Web y SIG
 
 * Objetivo específico
-  * Identificar los diferentes servicios web que se pueden desarrollar con información geográfica 
+  * Identificar los conceptos básicos de las tecnologías utilizas para la publicación de servicios web geográficos.
 * Temas:
-  * Criterios para categorizar la información geográfica para la construcción de un servici  *  web
-  * Tipos de servicios web de visualización (Caheados y dinamicos)
-  * Estrategias para mejorar el rendimient  *  de los servicios geográficos
-  * Definición de servicios de procesamiento
-  * Definición de servicios de imágenes
-  * Definición de servicios de globo
-  * Definición de servicios de geodata
+  * Introducción a las Tecnologías Web y SIG
+  * Introducción a la cartografía
+  * Introducción al geoprocesamiento
 
-### Unidad 2: Servicios OGC
+### Unidad 2: Geoservicios y OGC
 
 * Objetivo específico
   * Conocer las especificaciones de implementación de los servicios web de visualización de la OGC 
 * Temas:
+ * Criterios para categorizar la información geográfica para la construcción de un servicio   web
+  * Tipos de servicios web de visualización (Caheados y dinamicos)
+  * Estrategias para mejorar el rendimiento  de los servicios geográficos
+  * Definición de servicios de procesamiento
+  * Definición de servicios de imágenes
+  * Definición de servicios de globo
+  * Definición de servicios de geodata
   * Infraestructura de datos espaciales perspectiva tecnológica ISO 19128
   * Modelo  de publicación OGC y su filosofía de trabajo
   * Protocolos  Get y Post
@@ -117,10 +120,10 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
   * OGC especificaciones desde los servidores de mapas (Mapserver y ArcGisServer)
   * Paralel  *  comparativ  *  entre los dos servidores de mapas.
 
-### Unidad 5: INTEGRANDo  GEOSERVCIOS CON APLICACIONES WEB GIS
+### Unidad 5: SIG en la web
 
 * Objetivo específico
-  * Conocer la estrategia de integración de los geo-servicios con aplicaciones HTML   *  java script ya existentes
+  * Conocer tecnologías y servicios aplicables para SIG para la web.
 * Temas
   * OpenGeoSuite
   * ArcGisOnLine
@@ -129,16 +132,24 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 
 ### SISTEMA DE EVALUACIÓN
 
-Númer  *  de sesiones a desarrollar: och  *  (8), incluida una (1) de socialización del trabaj  *  final. La asignatura culmina con la socialización de un trabaj  *  final. Se propondrán temáticas, en las cuales los participantes deberán demostrar la aplicación de los conceptos y conocimientos, así com  *  las destrezas y capacidades obtenidas en desarroll  *  de los mismos. La nota aprobatoria mínima de cada seminarios es cinc  *  5.0. Con tres (3) fallas injustificadas se pierde la asignatura. La justificación de las fallas será evaluada por la Facultad, de conformidad con la validación de las razones y documentos que se adjunten.
+* Número  de sesiones a desarrollar: ocho  (8), incluida una (1) de socialización del trabajo final. La asignatura culmina con la socialización de un trabajo  final.
+* Se propondrán temáticas, en las cuales los participantes deberán demostrar la aplicación de los conceptos y conocimientos, así como  las destrezas y capacidades obtenidas en desarrollo  de los mismos. 
+* La nota aprobatoria mínima de cada seminarios es cinco  5.0.
+* Con tres (3) fallas injustificadas se pierde la asignatura. La justificación de las fallas será evaluada por la Facultad, de conformidad con la validación de las razones y documentos que se adjunten.
 
 ### Bibliografía
+
+* Sistemas  de  Información Geográfica:  Un libro libre de Víctor Olaya http://volaya.github.io/libro-sig/
+
+
+
+s
 
 * OGC Geospatial Portal Reference Architecture: A Community Guide t  *  Implementing Standards-Based , paper discussion OGC version 0.2.
 * Riecken, J., Bernard, L., Portele, C. and A. Remke (2003). “North-Rhine Westphalia: Building a Regional SDI in a Cross-Border Environment / Ad-Hoc Integration of SDIs: Lessons learnt”, Proceedings 9th EC-GI & GIS Workshop ESDI, June 25-27 2003, Coruña, Spain, pp. 13-56. Ispra: European Communities.
 * Rodríguez Portolés, Álvarez P, Muro-Medran  *  P.R., 2005 IDEZar: an example of user needs, technological aspects and the institutional framework of a local SDI Proc. of the 11th EC GI & GIS Workshop: ESDI Setting the Framework. Pp. 56-58. Sardinia.
 * Wernest M, A. Rajabifard and I Williamson., 2003 Understanding inter-organizational collaboration and partnerships in the development of national SDI. Paper presented at the Urban and Regional Information System Association Conference, Atlanta Georgia.
 
-### Material complementario 
+### Material complementario
 
- * Aula virtual: En el aula virtual de la asignatura se incluirán las presentaciones de las clases, las prácticas de laboratorio.
-* Herramientas de colaboración por donde se interactuará con los estudiantes compartiend  *  el contenid  *  programátic  *  y el plan de actividades de la asignatura.
+* Herramientas de colaboración por donde se interactuará con los estudiantes compartiendo  el contenido  programático  y el plan de actividades de la asignatura.
