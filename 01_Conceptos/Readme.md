@@ -6,6 +6,7 @@
     - [Cartografía](#cartograf%C3%ADa)
     - [Datos](#datos)
     - [Procesamiento](#procesamiento)
+    - [Taller 1](#taller-1)
 
 ## Presentación
 
@@ -29,3 +30,13 @@
 ### Procesamiento
 
 * Killing Godzillas using Arcpy https://neogeografia.wordpress.com/2016/05/24/killing-godzillas-using-arcpy/
+
+
+### Taller 1
+
+* QGIS Tutorials http://www.qgistutorials.com/en/index.html
+* Thematic Maps using arcgis http://what-when-how.com/gis-and-spatial-analysis-for-the-social-sciences/thematic-maps-gis-and-spatial-analysis-part-1/ 
+* A quick tour of displaying layers (Arcgis)
+* Elements of a map https://www.gislounge.com/whats-in-a-map/
+* Cartographic Tips For Creating Beautiful Maps With ArcMap https://alexurquhart.com/post/cartography-tips-arcmap/
+
