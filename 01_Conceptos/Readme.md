@@ -10,6 +10,8 @@
       - [Tutoriales cartografía con SIG Desktop](#tutoriales-cartograf%C3%ADa-con-sig-desktop)
       - [Fuentes de datos sugeridas](#fuentes-de-datos-sugeridas)
       - [Ejemplos de presentación de repositorios en github](#ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
+      - [Git y Github](#git-y-github)
+      - [Markdown](#markdown)
 
 ## Presentación
 
@@ -65,3 +67,18 @@ Enlace: https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Concept
 * Dashboard to analyze Rheumatoid Arthritis in Colombia based on Costs per Person https://github.com/dersteppenwolf/isis4822_final_project 
 * We know what you did - An analysis on Colombia congressman financial assests https://github.com/cjcarvajal/cuestion-publica-analysis
 * How does Bogota vote? https://github.com/vgarzom/va-votacion-bogota
+
+#### Git y Github
+
+* Github: Hello world https://guides.github.com/activities/hello-world/
+* An Intro to Git and GitHub for Beginners (Tutorial) https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+* Github desktop https://desktop.github.com/
+* Introducción al control de versiones con GitHub Desktop https://programminghistorian.org/es/lecciones/introduccion-control-versiones-github-desktop
+* La comodidad de TortoiseGit, instalación y manejo http://carmoreno.github.io/tutoriales/2016/04/14/TortoiseGit-Instalacion-y-uso/
+
+#### Markdown
+
+* Markdown tutorial https://www.markdowntutorial.com/
+* Qué es markdown https://markdown.es/
+* Markdown Cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+* Markdown quick reference cheat sheet https://en.support.wordpress.com/markdown-quick-reference/
