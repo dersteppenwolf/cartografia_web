@@ -11,11 +11,10 @@
   - [Competencias específicas](#competencias-espec%C3%ADficas)
   - [Esquema general de los contenidos](#esquema-general-de-los-contenidos)
     - [Unidad 1: Conceptos Generales sobre Tecnologías Web y SIG](#unidad-1-conceptos-generales-sobre-tecnolog%C3%ADas-web-y-sig)
-    - [Unidad 2: Geoservicios y OGC](#unidad-2-geoservicios-y-ogc)
-    - [Unidad 3: INGENIERÍA WEB SIG](#unidad-3-ingenieri%CC%81a-web-sig)
-    - [Unidad 4: SERVIDORES DE MAPAS](#unidad-4-servidores-de-mapas)
-    - [Unidad 5: SIG en la web](#unidad-5-sig-en-la-web)
-    - [SISTEMA DE EVALUACIÓN](#sistema-de-evaluacio%CC%81n)
+    - [Unidad 2: Servicios web, geoservicios y OGC](#unidad-2-servicios-web-geoservicios-y-ogc)
+    - [Unidad 3: Arquitectura de aplicaciones Web para SIG](#unidad-3-arquitectura-de-aplicaciones-web-para-sig)
+    - [Unidad 4: Visualización de datos](#unidad-4-visualizaci%C3%B3n-de-datos)
+    - [Sistema de evaluación](#sistema-de-evaluaci%C3%B3n)
     - [Bibliografía](#bibliograf%C3%ADa)
     - [Material complementario](#material-complementario)
 
@@ -80,57 +79,43 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
   * Introducción a la cartografía
   * Introducción al geoprocesamiento
 
-### Unidad 2: Geoservicios y OGC
+### Unidad 2: Servicios web, geoservicios y OGC
 
 * Objetivo específico
-  * Conocer las especificaciones de implementación de los servicios web de visualización de la OGC 
+  * Conocer las generalidades sobre geoservicios y estándares OGC 
 * Temas:
- * Criterios para categorizar la información geográfica para la construcción de un servicio   web
-  * Tipos de servicios web de visualización (Caheados y dinamicos)
-  * Estrategias para mejorar el rendimiento  de los servicios geográficos
-  * Definición de servicios de procesamiento
-  * Definición de servicios de imágenes
-  * Definición de servicios de globo
-  * Definición de servicios de geodata
-  * Infraestructura de datos espaciales perspectiva tecnológica ISO 19128
-  * Modelo  de publicación OGC y su filosofía de trabajo
-  * Protocolos  Get y Post
-  * OGC WMS funcionamiento
-  * Peticiones GetCapabilities, GetMap, GetFeatureInfo
-  * Compatibilidad entre las versiones de la especificaciones OGC
+  * Introducción a servicios web
+  * Fundamentos sobre aplicaciones web
+  * Tecnologías para el desarrollo de aplicaciones web
+  * Arquitecturas orientadas a servicios
+  * OGC y estándares para servicios web geográficos  (WMS, WMTS, WFS, WCS,CSW , WPS)
+  * Retos de publicación y optimización 
 
-### Unidad 3: INGENIERÍA WEB SIG
+
+### Unidad 3: Arquitectura de aplicaciones Web para SIG
 
 * Objetivo específico
-  * Conocer el patrón de arquitectura para la publicación de un geo-servici  *  recorriend  *  los niveles que intervienen en la publicación del dat  *  geográfico
+  * Conocer las generalidades sobre arquitecturas de software para la publicación de geoservicios y aplicaciones web para SIG
 * Temas
-  * Nivel de datos
-  * Nivel de servicios geográficos (servidor de mapas)
-  * Nivel de interacción (Servidor de aplicaciones / servidor http)
+  * Introducción arquitectura de aplicaciones web
+  * Servidores de mapas
+  * Simbología para mapas en la web
+  * Servicios en la nube
+  * Apis, servicios web.
+  * Ejemplos de aplicaciones
 
-### Unidad 4: SERVIDORES DE MAPAS 
+### Unidad 4: Visualización de datos
 
 * Objetivo específico
-  * Conocer el funcionamiento de los servidores de mapas más utilizados dentr de la comunidad de usuarios de información geográfica.
+  * Conocer tecnologías y servicios aplicables para la visualización y uso datos georreferenciados en la web.
 * Temas
-  * Principios de funcionamient  *  del servidor Mapserver
-  * Construyend  *  servicios de visualización con Mapserver y postgis
-  * Principios de funcionamient  *  del servidor ArcGisServer
-  * Construyend  *  servicios de visualización con ArcGisServer
-  * OGC especificaciones desde los servidores de mapas (Mapserver y ArcGisServer)
-  * Paralel  *  comparativ  *  entre los dos servidores de mapas.
+  * Clientes ligeros
+  * Servicios en la nube
+  * Notebooks
+  * Ejemplos de implementación
 
-### Unidad 5: SIG en la web
 
-* Objetivo específico
-  * Conocer tecnologías y servicios aplicables para SIG para la web.
-* Temas
-  * OpenGeoSuite
-  * ArcGisOnLine
-  * Portal For ArcGis
-  * Concept  *  de Apps
-
-### SISTEMA DE EVALUACIÓN
+### Sistema de evaluación
 
 * Número  de sesiones a desarrollar: ocho  (8), incluida una (1) de socialización del trabajo final. La asignatura culmina con la socialización de un trabajo  final.
 * Se propondrán temáticas, en las cuales los participantes deberán demostrar la aplicación de los conceptos y conocimientos, así como  las destrezas y capacidades obtenidas en desarrollo  de los mismos. 
@@ -140,15 +125,11 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 ### Bibliografía
 
 * Sistemas  de  Información Geográfica:  Un libro libre de Víctor Olaya http://volaya.github.io/libro-sig/
+* Abdalla, R. (2016). Introduction to geospatial information and communication technology (GeoICT). Switzerland: Springer.
+* Harmon, J. E., & Anderson, S. J. (2003). The design and implementation of geographic information systems. Hoboken, NJ: J. Wiley.
+* A., B. P., M., L. V., & Abarca, O. (2012). Fundamentos de las infraestructuras de datos espaciales. Madrid: UPM Press.
 
 
-
-s
-
-* OGC Geospatial Portal Reference Architecture: A Community Guide t  *  Implementing Standards-Based , paper discussion OGC version 0.2.
-* Riecken, J., Bernard, L., Portele, C. and A. Remke (2003). “North-Rhine Westphalia: Building a Regional SDI in a Cross-Border Environment / Ad-Hoc Integration of SDIs: Lessons learnt”, Proceedings 9th EC-GI & GIS Workshop ESDI, June 25-27 2003, Coruña, Spain, pp. 13-56. Ispra: European Communities.
-* Rodríguez Portolés, Álvarez P, Muro-Medran  *  P.R., 2005 IDEZar: an example of user needs, technological aspects and the institutional framework of a local SDI Proc. of the 11th EC GI & GIS Workshop: ESDI Setting the Framework. Pp. 56-58. Sardinia.
-* Wernest M, A. Rajabifard and I Williamson., 2003 Understanding inter-organizational collaboration and partnerships in the development of national SDI. Paper presented at the Urban and Regional Information System Association Conference, Atlanta Georgia.
 
 ### Material complementario
 
