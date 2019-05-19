@@ -10,7 +10,7 @@
   - [Competencia global](#competencia-global)
   - [Competencias específicas](#competencias-espec%C3%ADficas)
   - [Esquema general de los contenidos](#esquema-general-de-los-contenidos)
-    - [Unidad 1: Conceptos Generales sobre Tecnologías Web y SIG ](#unidad-1-conceptos-generales-sobre-tecnolog%C3%ADas-web-y-sig)
+    - [Unidad 1: Conceptos Generales sobre Tecnologías Web y SIG](#unidad-1-conceptos-generales-sobre-tecnolog%C3%ADas-web-y-sig)
     - [Unidad 2: Servicios web, geoservicios y OGC](#unidad-2-servicios-web-geoservicios-y-ogc)
     - [Unidad 3: Arquitectura de aplicaciones Web para SIG](#unidad-3-arquitectura-de-aplicaciones-web-para-sig)
     - [Unidad 4: Visualización de datos](#unidad-4-visualizaci%C3%B3n-de-datos)
@@ -70,7 +70,9 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 
 ## Esquema general de los contenidos
 
-### [Unidad 1: Conceptos Generales sobre Tecnologías Web y SIG ](https://github.com/dersteppenwolf/cartografia_web/tree/master/01_Conceptos)
+### Unidad 1: Conceptos Generales sobre Tecnologías Web y SIG 
+
+[Presentación](https://github.com/dersteppenwolf/cartografia_web/tree/master/01_Conceptos)
 
 * Objetivo específico
   * Identificar los conceptos básicos de las tecnologías utilizas para la publicación de servicios web geográficos.
