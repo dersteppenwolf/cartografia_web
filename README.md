@@ -15,9 +15,9 @@
     - [Unidad 2: Servicios web, geoservicios y OGC](#unidad-2-servicios-web-geoservicios-y-ogc)
     - [Unidad 3: Arquitectura de aplicaciones Web para SIG](#unidad-3-arquitectura-de-aplicaciones-web-para-sig)
     - [Unidad 4: Visualización de datos](#unidad-4-visualizaci%C3%B3n-de-datos)
-    - [Sistema de evaluación](#sistema-de-evaluaci%C3%B3n)
-    - [Bibliografía](#bibliograf%C3%ADa)
-    - [Material complementario](#material-complementario)
+  - [Sistema de evaluación](#sistema-de-evaluaci%C3%B3n)
+  - [Bibliografía](#bibliograf%C3%ADa)
+  - [Material complementario](#material-complementario)
 
 ## Programa
 
@@ -134,14 +134,14 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
   * Ejemplos de implementación
 
 
-### Sistema de evaluación
+## Sistema de evaluación
 
 * Número  de sesiones a desarrollar: ocho  (8), incluida una (1) de socialización del trabajo final. La asignatura culmina con la socialización de un trabajo  final.
 * Se propondrán temáticas, en las cuales los participantes deberán demostrar la aplicación de los conceptos y conocimientos, así como  las destrezas y capacidades obtenidas en desarrollo  de los mismos. 
 * La nota aprobatoria mínima de cada seminarios es cinco  5.0.
 * Con tres (3) fallas injustificadas se pierde la asignatura. La justificación de las fallas será evaluada por la Facultad, de conformidad con la validación de las razones y documentos que se adjunten.
 
-### Bibliografía
+## Bibliografía
 
 * Sistemas  de  Información Geográfica:  Un libro libre de Víctor Olaya http://volaya.github.io/libro-sig/
 * Abdalla, R. (2016). Introduction to geospatial information and communication technology (GeoICT). Switzerland: Springer.
@@ -152,6 +152,6 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 
 
 
-### Material complementario
+## Material complementario
 
 * Herramientas de colaboración por donde se interactuará con los estudiantes compartiendo  el contenido  programático  y el plan de actividades de la asignatura.
