@@ -1,6 +1,6 @@
-# Publicación de cartografía para la web
+# Publicación de cartografía vía web
 
-- [Publicación de cartografía para la web](#publicaci%C3%B3n-de-cartograf%C3%ADa-para-la-web)
+- [Publicación de cartografía vía web](#publicaci%C3%B3n-de-cartograf%C3%ADa-v%C3%ADa-web)
   - [Programa](#programa)
   - [Área de formación](#%C3%A1rea-de-formaci%C3%B3n)
   - [Docente](#docente)
