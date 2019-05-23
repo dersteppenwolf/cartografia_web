@@ -4,6 +4,7 @@
   - [Programa](#programa)
   - [Área de formación](#%C3%A1rea-de-formaci%C3%B3n)
   - [Docente](#docente)
+  - [Programación](#programaci%C3%B3n)
   - [Enfoque](#enfoque)
   - [Justificación](#justificaci%C3%B3n)
   - [Objetivo general](#objetivo-general)
@@ -30,6 +31,22 @@ Desarrollo  de nuevas tecnologías
 
 Juan Carlos Méndez
 juan[~at~]gkudos.com
+
+## Programación
+
+Total: 32 horas 
+
+Días:
+* Semana 1: Jueves 23 , Viernes 24 y  Sábado  25 de  Mayo. 
+* Semana 2: Jueves 30 y Viernes 31 de Mayo. Sábado  1 de  Junio. 
+* Semana 3: Viernes 7 y Sábado  8 de  Junio. 
+
+Horas:
+* Jueves y Viernes: 18:00 a 22:00 
+* Sábados: 8:00 a 12:00 
+
+
+
 
 ## Enfoque
 
