@@ -100,6 +100,8 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 
 ### Unidad 2: Servicios web, geoservicios y OGC
 
+[Presentación](https://github.com/dersteppenwolf/cartografia_web/tree/master/02_Servicios_Web_Geoservicios_OGC)
+
 * Objetivo específico
   * Conocer las generalidades sobre geoservicios y estándares OGC 
 * Temas:
