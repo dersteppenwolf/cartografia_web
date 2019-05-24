@@ -40,11 +40,12 @@
 ![qgis2web](pages.png "pages")
 
 * Url publicado https://dersteppenwolf.github.io/cartografia_web/
-* 
+  
 
 ### Qgis2threejs
 
-* Qgis2threejs plugin documentation https://qgis2threejs.readthedocs.io/en/docs/
-* Tutorial https://qgis2threejs.readthedocs.io/en/docs/Tutorial.html
+* [Qgis2threejs plugin documentation](https://qgis2threejs.readthedocs.io/en/docs/)     
+* [Tutorial](https://qgis2threejs.readthedocs.io/en/docs/Tutorial.html)    
+ 
 
 > Qgis2threejs plugin is a QGIS plugin, which visualizes DEM data and vector data in 3D on web browsers. You can build various kinds of 3D objects with simple settings panels, view them in web view of exporter and generate files to publish them to web in simple procedure. In addition, you can save the 3D model in glTF format for 3DCG or 3D printing.
