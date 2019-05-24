@@ -89,7 +89,7 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 
 ### Unidad 1: Conceptos Generales sobre Tecnologías Web y SIG 
 
-[Presentación](https://github.com/dersteppenwolf/cartografia_web/tree/master/01_Conceptos)
+[Presentación](01_Conceptos)
 
 * Objetivo específico
   * Identificar los conceptos básicos de las tecnologías utilizas para la publicación de servicios web geográficos.
