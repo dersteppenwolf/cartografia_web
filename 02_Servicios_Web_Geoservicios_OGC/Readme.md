@@ -3,6 +3,7 @@
 - [Servicios web, geoservicios y OGC](#servicios-web-geoservicios-y-ogc)
   - [Tutoriales](#tutoriales)
     - [qgis2web](#qgis2web)
+    - [Ejemplo](#ejemplo)
     - [Qgis2threejs](#qgis2threejs)
 
 
@@ -20,11 +21,14 @@
 >
 >Además el plugin es capaz de exportar la simbología definida en QGIS tanto de puntos, líneas y polígonos e incluir un control de visibilidad de capas y varios controles más.
 
-**Ejemplo:**
-* https://sigfedepanela.github.io/PreciosSemanales/
-* https://github.com/sigfedepanela/PreciosSemanales
+### Ejemplo
 
 ![qgis2web](qgis2web.png "qgis2web")
+
+* Página web: https://sigfedepanela.github.io/PreciosSemanales/
+* Repositorio en github: https://github.com/sigfedepanela/PreciosSemanales
+* Geojson generado por la herramienta: https://raw.githubusercontent.com/sigfedepanela/PreciosSemanales/gh-pages/layers/PreciosporDepartamento_2.js
+
 
 
 
