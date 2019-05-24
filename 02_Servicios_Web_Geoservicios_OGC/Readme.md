@@ -3,8 +3,8 @@
 - [Servicios web, geoservicios y OGC](#servicios-web-geoservicios-y-ogc)
   - [Tutoriales](#tutoriales)
     - [qgis2web](#qgis2web)
-    - [Ejemplo](#ejemplo)
-  - [GitHub Pages](#github-pages)
+      - [Ejemplo](#ejemplo)
+    - [GitHub Pages](#github-pages)
     - [Qgis2threejs](#qgis2threejs)
 
 
@@ -23,7 +23,7 @@
 >
 >Además el plugin es capaz de exportar la simbología definida en QGIS tanto de puntos, líneas y polígonos e incluir un control de visibilidad de capas y varios controles más.
 
-### Ejemplo
+#### Ejemplo
 
 ![qgis2web](qgis2web.png "qgis2web")
 
@@ -33,7 +33,7 @@
 
 
 
-## GitHub Pages
+### GitHub Pages
 
 * Getting Started with GitHub Pages https://guides.github.com/features/pages/
 
