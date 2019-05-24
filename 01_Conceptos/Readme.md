@@ -27,6 +27,7 @@ Enlace: https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Concept
 * ColorBrewer: Color Advice for Maps http://colorbrewer2.org/
 * d3-scale-chromatic  : Sequential, diverging and categorical color scales. https://github.com/d3/d3-scale-chromatic
 
+
 ### Datos
 
 * Ejemplo GML https://gist.github.com/dersteppenwolf/fb4a45cc1c640b4ed9909602688acd70
@@ -77,6 +78,7 @@ Enlace: https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Concept
 * Github desktop https://desktop.github.com/
 * Introducción al control de versiones con GitHub Desktop https://programminghistorian.org/es/lecciones/introduccion-control-versiones-github-desktop
 * La comodidad de TortoiseGit, instalación y manejo http://carmoreno.github.io/tutoriales/2016/04/14/TortoiseGit-Instalacion-y-uso/
+* Adding a file to a repository  https://help.github.com/en/articles/adding-a-file-to-a-repository
 
 #### Markdown
 
