@@ -27,7 +27,6 @@ Enlace: https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Concept
 * ColorBrewer: Color Advice for Maps http://colorbrewer2.org/
 * d3-scale-chromatic  : Sequential, diverging and categorical color scales. https://github.com/d3/d3-scale-chromatic
 
-
 ### Datos
 
 * Ejemplo GML https://gist.github.com/dersteppenwolf/fb4a45cc1c640b4ed9909602688acd70
