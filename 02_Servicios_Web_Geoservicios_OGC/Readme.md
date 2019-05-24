@@ -39,7 +39,9 @@
 
 ![qgis2web](pages.png "pages")
 
-* Url publicado https://dersteppenwolf.github.io/cartografia_web/
+* Url  Página principal https://dersteppenwolf.github.io/cartografia_web/
+* Mapa de ejemplo https://dersteppenwolf.github.io/cartografia_web/02_Servicios_Web_Geoservicios_OGC/ejemplo_qgis2web
+* Código fuente generado https://github.com/dersteppenwolf/cartografia_web/tree/master/02_Servicios_Web_Geoservicios_OGC/ejemplo_qgis2web
   
 
 ### Qgis2threejs
