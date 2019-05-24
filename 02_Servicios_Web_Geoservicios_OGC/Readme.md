@@ -4,6 +4,7 @@
   - [Tutoriales](#tutoriales)
     - [qgis2web](#qgis2web)
     - [Ejemplo](#ejemplo)
+  - [GitHub Pages](#github-pages)
     - [Qgis2threejs](#qgis2threejs)
 
 
@@ -14,6 +15,7 @@
 
 * Web Mapping with QGIS2Web https://www.qgistutorials.com/en/docs/web_mapping_with_qgis2web.html
 * Publica tus mapas en la web con qgis2web https://mappinggis.com/2016/03/crea-aplicaciones-webmapping-con-qgis/
+* qgis2web wiki https://github.com/tomchadwin/qgis2web/wiki
   
 > qgis2web es una herramienta que exporta los proyectos de QGIS en mapas web de OpenLayers o Leaflet (crea automáticamente los archivos HTML, Javascript y CSS).
 > 
@@ -31,7 +33,14 @@
 
 
 
+## GitHub Pages
 
+* Getting Started with GitHub Pages https://guides.github.com/features/pages/
+
+![qgis2web](pages.png "pages")
+
+* Url publicado https://dersteppenwolf.github.io/cartografia_web/
+* 
 
 ### Qgis2threejs
 
