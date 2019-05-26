@@ -27,6 +27,7 @@ Enlace: https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Concept
 * ColorBrewer: Color Advice for Maps http://colorbrewer2.org/
 * d3-scale-chromatic  : Sequential, diverging and categorical color scales. https://github.com/d3/d3-scale-chromatic
 * Geospatial Analysis : Classification and clustering http://www.spatialanalysisonline.com/HTML/index.html?classification_and_clustering.htm
+* Data classification methods https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/data-classification-methods.htm
 
 ### Datos
 
