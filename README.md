@@ -5,6 +5,7 @@
   - [Área de formación](#%C3%A1rea-de-formaci%C3%B3n)
   - [Docente](#docente)
   - [Programación](#programaci%C3%B3n)
+  - [Tareas](#tareas)
   - [Enfoque](#enfoque)
   - [Justificación](#justificaci%C3%B3n)
   - [Objetivo general](#objetivo-general)
@@ -45,7 +46,9 @@ Horas:
 * Jueves y Viernes: 18:00 a 22:00 
 * Sábados: 8:00 a 12:00 
 
+## Tareas
 
+[Tareas](Tareas.md)
 
 
 ## Enfoque
