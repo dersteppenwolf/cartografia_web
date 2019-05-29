@@ -43,5 +43,11 @@ Definir e implementar la la solución a un problema de forma  _"no trivial"_ uti
 * Qgis 3
 * Github desktop ( https://desktop.github.com/ ) o tortoise git (https://carmoreno.github.io/tutoriales/2016/04/14/TortoiseGit-Instalacion-y-uso/) para sincronizar más fácilmente los archivos en github.
 * Anaconda / Jupyter ( https://medium.com/saturdays-ai/empezando-a-usar-jupyter-notebook-para-python-parte-1-instalaci%C3%B3n-94e97b4c5f37 )  para las prácticas interactivas con python
-* Postgresql 11 con postgis 
-* Geoserver  
+* Postgresql 11 con postgis 2.5 https://www.postgresql.org/download/
+* Geoserver  https://docs.geoserver.org/latest/en/user/installation/index.html#installation 
+* Mapbox https://www.mapbox.com/
+* Carto https://carto.com/ (Versión para estudiantes disponible en "Github Education pack" https://education.github.com/pack)
+* Arcgis online https://doc.arcgis.com/es/arcgis-online/reference/create-account.htm
+* Mango maps https://mangomap.com/
+* Gis Cloud https://www.giscloud.com/
+* Fulcrum https://www.fulcrumapp.com/
