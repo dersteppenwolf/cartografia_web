@@ -43,6 +43,8 @@ Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Servicio
 
 ![qgis2web](pages.png "pages")
 
+
+
 * Url  Página principal https://dersteppenwolf.github.io/cartografia_web/
 * Mapa de ejemplo https://dersteppenwolf.github.io/cartografia_web/02_Servicios_Web_Geoservicios_OGC/ejemplo_qgis2web
 * Código fuente generado https://github.com/dersteppenwolf/cartografia_web/tree/master/02_Servicios_Web_Geoservicios_OGC/ejemplo_qgis2web
@@ -62,3 +64,10 @@ Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Servicio
 * HTML5 Tutorial https://www.w3schools.com/html/
 * JavaScript Tutorial https://www.w3schools.com/js/default.asp
 * CSS Tutorial https://www.w3schools.com/css/default.asp
+
+
+
+## Otros ejemplos
+
+* Utilizando WMS desde leaflet http://bl.ocks.org/hpfast/2155366c06f4ae0fae59df216fc3f7ec
+* Anaconda https://www.anaconda.com/
