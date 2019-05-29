@@ -7,6 +7,7 @@
   - [Tarea 2](#tarea-2)
   - [Lecturas](#lecturas)
   - [Trabajo final](#trabajo-final)
+  - [Herramientas de apoyo](#herramientas-de-apoyo)
 
 ## Tarea 1
 
@@ -35,3 +36,12 @@ Lecturas sobre las cuales se realizará un quiz el último día de clase (2 preg
 ## Trabajo final
 
 Definir e implementar la la solución a un problema de forma  _"no trivial"_ utilizando tecnologías que faciliten la la publicación de información geográfica a través de la web.  
+
+
+## Herramientas de apoyo
+
+* Qgis 3
+* Github desktop ( https://desktop.github.com/ ) o tortoise git (https://carmoreno.github.io/tutoriales/2016/04/14/TortoiseGit-Instalacion-y-uso/) para sincronizar más fácilmente los archivos en github.
+* Anaconda / Jupyter ( https://medium.com/saturdays-ai/empezando-a-usar-jupyter-notebook-para-python-parte-1-instalaci%C3%B3n-94e97b4c5f37 )  para las prácticas interactivas con python
+* Postgresql 11 con postgis 
+* Geoserver  
