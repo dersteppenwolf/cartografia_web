@@ -24,6 +24,7 @@ Mapa temático aplicación GIS Desktop
 * Url repositorio: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana  
 * Url descripción: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Taller1.md
 * Url mapa: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Rendimiento_Colombia.pdf
+* Url mapa 2: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Rendimiento_Colombia2.pdf
 
 #### Grupo 2
 
@@ -47,6 +48,7 @@ Mapa temático aplicación GIS Desktop
 * Url descripción: https://github.com/Vicajo/Tarea_1/blob/master/README.md
 * Url mapa 1: https://github.com/Vicajo/Tarea_1/blob/master/DR-08%20MODELO%20DIGITAL%20DE%20ELEVACI%C3%93N.pdf
 * Url mapa 2: https://github.com/Vicajo/Tarea_1/blob/master/DR-07%20MAPA%20DE%20PENDIENTES.pdf
+* Url mapa 3: https://github.com/Vicajo/Tarea_1/blob/master/Mapa%20de%20Pendientes_QGIS.pdf
 
 
 
