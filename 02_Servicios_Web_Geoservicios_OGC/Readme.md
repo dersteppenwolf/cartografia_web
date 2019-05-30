@@ -7,6 +7,8 @@
       - [Ejemplo](#ejemplo)
     - [GitHub Pages](#github-pages)
   - [Ejercicio 2 : Publicando mapas utilizando herramientas disponibles en la nube](#ejercicio-2--publicando-mapas-utilizando-herramientas-disponibles-en-la-nube)
+  - [Ejercicio 3: Using Python to Analyze Spatial Data](#ejercicio-3-using-python-to-analyze-spatial-data)
+  - [Ejercicio 4: Ejemplos Python / Arcpy](#ejercicio-4-ejemplos-python--arcpy)
   - [Otros](#otros)
     - [Qgis2threejs](#qgis2threejs)
     - [Tecnologías web](#tecnolog%C3%ADas-web)
@@ -58,6 +60,17 @@ Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Servicio
 ## Ejercicio 2 :  Publicando mapas utilizando herramientas disponibles en la nube
 
 Ver https://github.com/dersteppenwolf/taller_gis_cloud
+
+## Ejercicio 3: Using Python to Analyze Spatial Data
+
+Ver https://github.com/dersteppenwolf/pycon
+
+## Ejercicio 4: Ejemplos Python / Arcpy
+
+* Python variables y operaciones: https://gist.github.com/dersteppenwolf/fca39c1971fd0fd7c3ce
+* Describir feature https://gist.github.com/dersteppenwolf/6dc546ef359ffbb85947
+* Buffer https://gist.github.com/dersteppenwolf/82d65df9544933289bab
+* Clip https://gist.github.com/dersteppenwolf/6dae5bfd9521db50e567
 
 
 ## Otros
