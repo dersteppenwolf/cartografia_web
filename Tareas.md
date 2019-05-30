@@ -36,7 +36,8 @@ Mapa temático aplicación GIS Desktop
 * Integrantes: Lorena Rayo Rocha ,  Fernando Alcarcel Gutierrez, Albeiro López Pulido 
 * Url Repositorio: https://github.com/Geomaticos/Publicacion-de-cartografia-via-web
 * Url descripción: https://github.com/Geomaticos/Publicacion-de-cartografia-via-web/blob/master/README.md
-* Url mapa: https://github.com/Geomaticos/Publicacion-de-cartografia-via-web/blob/master/MetodoNatualEqualInterv.png
+* Url mapa 1: https://raw.githubusercontent.com/Geomaticos/Publicacion-de-cartografia-via-web/master/MetodoNatualBreaks8%20clases.png
+* Url mapa 2: https://raw.githubusercontent.com/Geomaticos/Publicacion-de-cartografia-via-web/master/MetodoNatualEqualInterv.png
 
 
 
