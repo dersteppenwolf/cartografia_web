@@ -2,20 +2,23 @@
 
 - [Servicios web, geoservicios y OGC](#servicios-web-geoservicios-y-ogc)
   - [Presentación](#presentaci%C3%B3n)
-  - [Tutoriales](#tutoriales)
-    - [qgis2web](#qgis2web)
+  - [Ejercicio 1 : Creando mapas con qgis2web y github pages](#ejercicio-1--creando-mapas-con-qgis2web-y-github-pages)
+    - [Documentación](#documentaci%C3%B3n)
       - [Ejemplo](#ejemplo)
     - [GitHub Pages](#github-pages)
+  - [Ejercicio 2 : Publicando mapas utilizando herramientas disponibles en la nube](#ejercicio-2--publicando-mapas-utilizando-herramientas-disponibles-en-la-nube)
+  - [Otros](#otros)
     - [Qgis2threejs](#qgis2threejs)
     - [Tecnologías web](#tecnolog%C3%ADas-web)
+  - [Otros ejemplos](#otros-ejemplos)
 
 ## Presentación
 
 Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Servicios_Web_Geoservicios_OGC/02_%20Servicios_web_geoservicios_OGC.pdf
 
-## Tutoriales
+## Ejercicio 1 : Creando mapas con qgis2web y github pages
 
-### qgis2web
+### Documentación
 
 * Web Mapping with QGIS2Web https://www.qgistutorials.com/en/docs/web_mapping_with_qgis2web.html
 * Publica tus mapas en la web con qgis2web https://mappinggis.com/2016/03/crea-aplicaciones-webmapping-con-qgis/
@@ -37,6 +40,7 @@ Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Servicio
 
 
 
+
 ### GitHub Pages
 
 * Getting Started with GitHub Pages https://guides.github.com/features/pages/
@@ -49,6 +53,14 @@ Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Servicio
 * Mapa de ejemplo https://dersteppenwolf.github.io/cartografia_web/02_Servicios_Web_Geoservicios_OGC/ejemplo_qgis2web
 * Código fuente generado https://github.com/dersteppenwolf/cartografia_web/tree/master/02_Servicios_Web_Geoservicios_OGC/ejemplo_qgis2web
   
+
+
+## Ejercicio 2 :  Publicando mapas utilizando herramientas disponibles en la nube
+
+Ver https://github.com/dersteppenwolf/taller_gis_cloud
+
+
+## Otros
 
 ### Qgis2threejs
 
