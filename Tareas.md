@@ -4,6 +4,7 @@
   - [Tarea 1](#tarea-1)
     - [Resultados](#resultados)
       - [Grupo 1](#grupo-1)
+      - [Grupo 2](#grupo-2)
   - [Tarea 2](#tarea-2)
   - [Lecturas](#lecturas)
   - [Trabajo final](#trabajo-final)
@@ -21,6 +22,14 @@ Mapa temático aplicación GIS Desktop
 * Url repositorio: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana  
 * Url descripción: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Taller1.md
 * Url mapa: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Rendimiento_Colombia.pdf
+
+#### Grupo 2
+
+* Integrantes: Alex Fabián Ramos Moreno, Andrés Ricardo Fonseca Vasquez
+* Url Repositorio: https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR
+* Url descripción: https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR/blob/master/Taller_1.md
+* Url mapa: https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR/blob/master/Taller%201.pdf
+
 
 ## Tarea 2
 
