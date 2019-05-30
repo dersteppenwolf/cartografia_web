@@ -5,6 +5,7 @@
     - [Resultados](#resultados)
       - [Grupo 1](#grupo-1)
       - [Grupo 2](#grupo-2)
+      - [Grupo 3](#grupo-3)
   - [Tarea 2](#tarea-2)
   - [Lecturas](#lecturas)
   - [Trabajo final](#trabajo-final)
@@ -29,6 +30,17 @@ Mapa temático aplicación GIS Desktop
 * Url Repositorio: https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR
 * Url descripción: https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR/blob/master/Taller_1.md
 * Url mapa: https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR/blob/master/Taller%201.pdf
+
+#### Grupo 3
+
+* Integrantes: Lorena Rayo Rocha ,  Fernando Alcarcel Gutierrez, Albeiro López Pulido 
+* Url Repositorio: https://github.com/Geomaticos/Publicacion-de-cartografia-via-web
+* Url descripción: https://github.com/Geomaticos/Publicacion-de-cartografia-via-web/blob/master/README.md
+* Url mapa: https://github.com/Geomaticos/Publicacion-de-cartografia-via-web/blob/master/MetodoNatualEqualInterv.png
+
+
+
+
 
 
 ## Tarea 2
