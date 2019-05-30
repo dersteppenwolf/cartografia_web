@@ -6,6 +6,7 @@
       - [Grupo 1](#grupo-1)
       - [Grupo 2](#grupo-2)
       - [Grupo 3](#grupo-3)
+      - [Grupo 4](#grupo-4)
   - [Tarea 2](#tarea-2)
   - [Lecturas](#lecturas)
   - [Trabajo final](#trabajo-final)
@@ -38,6 +39,14 @@ Mapa temático aplicación GIS Desktop
 * Url descripción: https://github.com/Geomaticos/Publicacion-de-cartografia-via-web/blob/master/README.md
 * Url mapa 1: https://raw.githubusercontent.com/Geomaticos/Publicacion-de-cartografia-via-web/master/MetodoNatualBreaks8%20clases.png
 * Url mapa 2: https://raw.githubusercontent.com/Geomaticos/Publicacion-de-cartografia-via-web/master/MetodoNatualEqualInterv.png
+
+#### Grupo 4
+
+* Integrantes: Johanna Gomez , Viviana Diaz ,  Camilo Lopez 
+* Url Repositorio: https://github.com/Vicajo/Tarea_1
+* Url descripción: https://github.com/Vicajo/Tarea_1/blob/master/README.md
+* Url mapa 1: https://github.com/Vicajo/Tarea_1/blob/master/DR-08%20MODELO%20DIGITAL%20DE%20ELEVACI%C3%93N.pdf
+* Url mapa 2: https://github.com/Vicajo/Tarea_1/blob/master/DR-07%20MAPA%20DE%20PENDIENTES.pdf
 
 
 
