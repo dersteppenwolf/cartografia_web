@@ -16,6 +16,7 @@
   - [Notas adicionales](#notas-adicionales)
     - [Geopackage](#geopackage)
     - [QGIS](#qgis)
+    - [Mapbox y geojson](#mapbox-y-geojson)
 
 ## Presentación
 
@@ -114,3 +115,18 @@ Ver https://github.com/dersteppenwolf/pycon
 * 64 bits vs. 32 bits: ¿en qué se diferencian? https://computerhoy.com/noticias/software/64-bits-vs-32-bits-que-diferencian-57224 
 * ~~"Sistemas operativos de 32 bits vs 64 bits"~~ https://es.slideshare.net/WALDANA81/sistemas-operativos-de-32-bits-vs-64-bits
 
+
+### Mapbox y geojson
+
+Error de geojson exportado desde qgis:
+
+> Input failed. old-style crs member is not recommended, this object is equivalent to the default and should be removed on line 1.
+
+
+Causa del problema "crs":
+
+![qgis2web](geojson1.png "qgis2web")
+
+Solución:
+
+![qgis2web](geojson2.png "qgis2web")
