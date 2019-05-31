@@ -63,7 +63,8 @@ Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Servicio
 
 ## Ejercicio 2 :  Publicando mapas utilizando herramientas disponibles en la nube
 
-Ver https://github.com/dersteppenwolf/taller_gis_cloud
+* Ver https://github.com/dersteppenwolf/taller_gis_cloud
+* Change a map's style https://docs.mapbox.com/mapbox-gl-js/example/setstyle/
 
 ## Ejercicio 3: Using Python to Analyze Spatial Data
 
