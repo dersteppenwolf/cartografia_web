@@ -9,10 +9,12 @@
   - [Ejercicio 2 : Publicando mapas utilizando herramientas disponibles en la nube](#ejercicio-2--publicando-mapas-utilizando-herramientas-disponibles-en-la-nube)
   - [Ejercicio 3: Using Python to Analyze Spatial Data](#ejercicio-3-using-python-to-analyze-spatial-data)
   - [Ejercicio 4: Ejemplos Python / Arcpy](#ejercicio-4-ejemplos-python--arcpy)
+  - [Ejercicio 5: Leaflet y WMS](#ejercicio-5-leaflet-y-wms)
   - [Otros](#otros)
     - [Qgis2threejs](#qgis2threejs)
     - [Tecnologías web](#tecnolog%C3%ADas-web)
-  - [Otros ejemplos](#otros-ejemplos)
+  - [Notas adicionales](#notas-adicionales)
+    - [Geopackage](#geopackage)
 
 ## Presentación
 
@@ -73,6 +75,10 @@ Ver https://github.com/dersteppenwolf/pycon
 * Clip https://gist.github.com/dersteppenwolf/6dae5bfd9521db50e567
 
 
+## Ejercicio 5: Leaflet y WMS
+
+* Utilizando WMS desde leaflet http://bl.ocks.org/hpfast/2155366c06f4ae0fae59df216fc3f7ec
+
 ## Otros
 
 ### Qgis2threejs
@@ -91,8 +97,15 @@ Ver https://github.com/dersteppenwolf/pycon
 * CSS Tutorial https://www.w3schools.com/css/default.asp
 
 
+## Notas adicionales
 
-## Otros ejemplos
+### Geopackage
 
-* Utilizando WMS desde leaflet http://bl.ocks.org/hpfast/2155366c06f4ae0fae59df216fc3f7ec
-* Anaconda https://www.anaconda.com/
+* Switch from shapefile https://es.slideshare.net/jachym/switch-from-shapefile
+* GeoPackage, OWS Context and the OGC Interoperability Program https://es.slideshare.net/rajrsingh/geopackage-ows-context-and-the-ogc-interoperability-program
+* Introduction to SQLite: The Most Popular Database in the World https://es.slideshare.net/jkreibich/introduction-to-sqlite-the-most-popular-database-in-the-world
+* GeoPackage para novatos: ventajas y uso en ArcGIS, QGIS, GeoServer y Leaflet https://mappinggis.com/2017/06/geopackage-para-novatos-uso-en-arcgis-qgis-publicacion-en-geoserver/
+* GeoPackage extensions https://www.geopackage.org/extensions.html
+
+
+
