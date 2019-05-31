@@ -120,7 +120,7 @@ Ver https://github.com/dersteppenwolf/pycon
 
 Error de geojson exportado desde qgis:
 
-> Input failed. old-style crs member is not recommended, this object is equivalent to the default and should be removed on line 1.
+> _Input failed. old-style crs member is not recommended, this object is equivalent to the default and should be removed on line 1._
 
 
 Causa del problema "crs":
@@ -134,4 +134,4 @@ Solución:
 
 Sistema de referencia: https://tools.ietf.org/html/rfc7946
 
-> "geographic coordinate reference system, using the World Geodetic System 1984 (WGS 84) [WGS84] datum, with longitude and latitude units of decimal degrees".
+> _geographic coordinate reference system, using the World Geodetic System 1984 (WGS 84) [WGS84] datum, with longitude and latitude units of decimal degrees_.
