@@ -130,3 +130,8 @@ Causa del problema "crs":
 Solución:
 
 ![qgis2web](geojson2.png "qgis2web")
+
+
+Sistema de referencia: https://tools.ietf.org/html/rfc7946
+
+> "geographic coordinate reference system, using the World Geodetic System 1984 (WGS 84) [WGS84] datum, with longitude and latitude units of decimal degrees".
