@@ -14,7 +14,32 @@
 
 ## Tarea 1
 
-Mapa temático aplicación GIS Desktop
+Mapa temático aplicación GIS Desktop.
+
+* Objetivo: Evaluar la capacidad de los estudiantes para generar salidas gráficas para visualización geográfica
+
+* Descripciòn: Utilizando Qgis, Arcmap o Arcgis Pro cree un mapa temático utilizando un indicador del conjunto de datos del World Bank (ejm: % de población rural) o datos de Colombia
+  * Utilice dos métodos de clasificación diferentes
+  * Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
+
+* Fecha de entrega: 29 de mayo (Enviar enlace del repositorio github al correo electrónico)
+
+
+### Entregables
+
+Crear un repositorio en Github y publicar los siguientes archivos:
+
+* Archivo __Taller1.md__ con la siguiente información:  
+  * Cuál es el problema a tratar?
+  * Por qué un mapa ayuda a resolverlo?
+  * Descripción del mapa temático (Variable seleccionada, utilidad) 
+  * Descripción de los métodos de clasificación seleccionados. Cual es mejor para la variable seleccionada? Por qué?
+  * Listado de fuentes de datos seleccionadas (proveedor, enlace para descarga, descripciòn, procesamiento realizado)
+  * Descripción breve del procedimiento utilizado (plugins, extensiones, procesos, transformaciones de datos, etc)
+  * Ventajas / desventajas / dificultades / diferencias encontradas al utilizar QGIS y Arcgis para el desarrollo del ejercicio 
+* Mapas en pdf
+* Proyecto (mxd / qgis )
+
 
 ### Resultados
 
