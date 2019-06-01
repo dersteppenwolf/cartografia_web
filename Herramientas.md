@@ -5,6 +5,7 @@ Enlaces a herramientas comentadas durante el curso.
 - [Herramientas](#herramientas)
   - [Versionamiento y Colaboración: Git y Github](#versionamiento-y-colaboraci%C3%B3n-git-y-github)
   - [Markdown](#markdown)
+  - [Presentaciones interactivas](#presentaciones-interactivas)
 
 
 
@@ -26,3 +27,31 @@ Enlaces a herramientas comentadas durante el curso.
 * Qué es markdown https://markdown.es/
 * Markdown Cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 * Markdown quick reference cheat sheet https://en.support.wordpress.com/markdown-quick-reference/
+
+
+## Herramiengas GIS en la Nube
+
+* Mapbox https://www.mapbox.com/
+* Carto https://carto.com/
+* Mango Maps https://mangomap.com/
+* Gis Cloud https://www.giscloud.com/
+* Arcgis online http://www.arcgis.com/home/index.html
+
+## Presentaciones interactivas
+
+* Reveal.js,  The HTML Presentation Framework  
+  * https://revealjs.com/
+  * https://github.com/hakimel/reveal.js
+  * Tutorial http://kripken.github.io/talks/
+* Slides: Make better presentations. Slides is a place for creating, presenting and sharing slide decks.
+  https://slides.com/
+  * Ejemplo: Qué es un story map? https://slides.com/omarureta/maptimela_10-11#/   
+* StoryMap JS,  Maps that tell stories.  https://storymap.knightlab.com/
+  * Ejemplo:Game of Thrones: Arya's journey. https://storymap.knightlab.com/examples/aryas-journey/
+* Juxtapose JS: Easy-to-make frame comparisons. https://juxtapose.knightlab.com/
+* Timeline JS: Easy-to-make, beautiful timelines. http://timeline.knightlab.com/
+* ESRI: Get Started with Story Maps https://learn.arcgis.com/en/projects/get-started-with-story-maps/
+
+
+
+
