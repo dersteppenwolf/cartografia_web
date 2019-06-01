@@ -5,6 +5,8 @@ Enlaces a herramientas comentadas durante el curso.
 - [Herramientas](#herramientas)
   - [Versionamiento y Colaboración: Git y Github](#versionamiento-y-colaboraci%C3%B3n-git-y-github)
   - [Markdown](#markdown)
+  - [Herramientas GIS en la Nube](#herramientas-gis-en-la-nube)
+  - [Herramientas GIS desktop](#herramientas-gis-desktop)
   - [Presentaciones interactivas](#presentaciones-interactivas)
 
 
@@ -29,13 +31,20 @@ Enlaces a herramientas comentadas durante el curso.
 * Markdown quick reference cheat sheet https://en.support.wordpress.com/markdown-quick-reference/
 
 
-## Herramiengas GIS en la Nube
+## Herramientas GIS en la Nube
 
 * Mapbox https://www.mapbox.com/
 * Carto https://carto.com/
 * Mango Maps https://mangomap.com/
 * Gis Cloud https://www.giscloud.com/
 * Arcgis online http://www.arcgis.com/home/index.html
+* Qgis Cloud https://qgiscloud.com/
+
+## Herramientas GIS desktop
+
+* Qgis https://www.qgis.org/es/site/
+* Arcmap http://desktop.arcgis.com/es/arcmap/
+* Arcgis Pro https://mappinggis.com/2013/09/que-es-arcgis-pro/
 
 ## Presentaciones interactivas
 
