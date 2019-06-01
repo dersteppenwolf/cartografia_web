@@ -136,3 +136,8 @@ Solución:
 Sistema de referencia: https://tools.ietf.org/html/rfc7946
 
 > _geographic coordinate reference system, using the World Geodetic System 1984 (WGS 84) [WGS84] datum, with longitude and latitude units of decimal degrees_.
+
+
+### Vector Tiles
+
+*  Crear vector tiles con arcgis pro https://pro.arcgis.com/en/pro-app/help/mapping/map-authoring/author-a-map-for-vector-tile-creation.htm
