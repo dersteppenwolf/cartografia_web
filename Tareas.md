@@ -2,6 +2,8 @@
 
 - [Tareas](#tareas)
   - [Tarea 1](#tarea-1)
+    - [Descripción](#descripci%C3%B3n)
+    - [Entregables](#entregables)
     - [Resultados](#resultados)
       - [Grupo 1](#grupo-1)
       - [Grupo 2](#grupo-2)
@@ -16,6 +18,8 @@
 
 Mapa temático aplicación GIS Desktop.
 
+### Descripción
+
 * Objetivo: Evaluar la capacidad de los estudiantes para generar salidas gráficas para visualización geográfica
 
 * Descripciòn: Utilizando Qgis, Arcmap o Arcgis Pro cree un mapa temático utilizando un indicador del conjunto de datos del World Bank (ejm: % de población rural) o datos de Colombia
@@ -25,7 +29,7 @@ Mapa temático aplicación GIS Desktop.
 * Fecha de entrega: 29 de mayo (Enviar enlace del repositorio github al correo electrónico)
 
 
-### Entregables
+### Entregables
 
 Crear un repositorio en Github y publicar los siguientes archivos:
 
