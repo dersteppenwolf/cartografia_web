@@ -90,7 +90,7 @@ Utilizar servicios disponibles en la nube para publicar mapas interactivos para 
 
 ### Descripción
 
-* Objetivo: Evaluar la habilidad de los estudiantes para publicar mapas utilizando herramientas SaaS (Software as a Service)
+* Objetivo: Evaluar la habilidad de los estudiantes para publicar mapas utilizando herramientas dispuestas en la nube bajo el modelo de SaaS (Software as a Service)
 
 * Descripción: Utilizando una o varias de las herramientas para publicación de mapas en la nube publicar salidas gráficas interactivas utilizando los datos del taller 1 según las sugerencias indicadas en lcase
 
