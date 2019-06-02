@@ -85,14 +85,14 @@ Crear un repositorio en Github y publicar los siguientes archivos:
 
 ## Tarea 2
 
-Utilizar servicios disponibles en la nube para publicar mapas interactivos para la web.
+Utilizar servicios disponibles en la nube para publicar **mapas interactivos** para la web.
 
 
 ### Descripción
 
 * Objetivo: Evaluar la habilidad de los estudiantes para publicar mapas utilizando herramientas dispuestas en la nube bajo el modelo de SaaS (Software as a Service)
 
-* Descripción: Utilizando una o varias de las herramientas para publicación de mapas en la nube publicar salidas gráficas interactivas utilizando los datos del taller 1 según las sugerencias indicadas en lcase
+* Descripción: Utilizando una o varias de las herramientas para publicación de mapas en la nube publicar salidas gráficas interactivas utilizando los datos del taller 1 según las sugerencias realizadas durante la clase.
 
 * Fecha de entrega: Miércoles 5 de Junio, 9pm. (Enviar enlace del repositorio github al correo electrónico)
 
@@ -111,7 +111,7 @@ En el repositorio  Github creado para el curso publicar el  siguiente archivo:
     * Cada método debe presentarse en un mapa diferente
   * Descripción breve del procedimiento utilizado para publicar los mapas en la web
   * Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
-  * Urls públicos de los dos mapas
+  * Urls públicos de los dos **mapas interactivos**
 
 
 
