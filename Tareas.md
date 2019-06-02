@@ -33,7 +33,7 @@ Mapa temático aplicación GIS Desktop.
 ### Entregables
 
 Repositorio en Github para el grupo:
-* Crear un repositorio público en github en Github https://github.com/  
+* Crear un repositorio público en Github https://github.com/  
 * El repositorio debe quedar bajo la licencia  MIT
 * Crear archivo Readme.md con la presentación del grupo. (Ejm: nombres, temáticas de interés)
 
