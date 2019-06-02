@@ -10,9 +10,10 @@
       - [Grupo 3](#grupo-3)
       - [Grupo 4](#grupo-4)
   - [Tarea 2](#tarea-2)
+    - [Descripción](#descripci%C3%B3n-1)
+    - [Entregables](#entregables-1)
   - [Lecturas](#lecturas)
   - [Trabajo final](#trabajo-final)
-  - [Herramientas de apoyo](#herramientas-de-apoyo)
 
 ## Tarea 1
 
@@ -20,9 +21,9 @@ Mapa temático aplicación GIS Desktop.
 
 ### Descripción
 
-* Objetivo: Evaluar la capacidad de los estudiantes para generar salidas gráficas para visualización geográfica
+* Objetivo: Diagnosticar la habilidad de los estudiantes para generar salidas gráficas para visualización geográfica
 
-* Descripciòn: Utilizando Qgis, Arcmap o Arcgis Pro cree un mapa temático utilizando un indicador del conjunto de datos del World Bank (ejm: % de población rural) o datos de Colombia
+* Descripción: Utilizando Qgis, Arcmap o Arcgis Pro cree un mapa temático utilizando un indicador del conjunto de datos del World Bank (ejm: % de población rural) o datos de Colombia
   * Utilice dos métodos de clasificación diferentes
   * Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
 
@@ -82,34 +83,52 @@ Crear un repositorio en Github y publicar los siguientes archivos:
 
 
 
-
-
 ## Tarea 2
 
-Publicar mapas en la web a partir de servicios disponibles en la nube  (herramientas que se utilizaran en las clases de la segunda semana)
+Utilizar servicios disponibles en la nube para publicar mapas interactivos para la web.
+
+
+### Descripción
+
+* Objetivo: Evaluar la habilidad de los estudiantes para publicar mapas utilizando herramientas SaaS (Software as a Service)
+
+* Descripción: Utilizando una o varias de las herramientas para publicación de mapas en la nube publicar salidas gráficas interactivas utilizando los datos del taller 1 según las sugerencias indicadas en lcase
+
+* Fecha de entrega: Miércoles 5 de Junio, 9pm. (Enviar enlace del repositorio github al correo electrónico)
+
+
+### Entregables
+
+En el repositorio  Github creado para el curso publicar el  siguiente archivo:
+
+* Archivo __Taller2.md__ con la siguiente información:  
+  * Cuál es el problema a tratar?
+  * Por qué un mapa ayuda a resolverlo?
+  * Descripción de los datos (tipos de geometrías, atributos, sistemas de referencia, urls para descarga de la información, etc) 
+  * Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
+  * Descripción de los métodos / técnicas utilizadas para la visualización. 
+    * Se deben utilizar dos métodos diferentes para representar los datos.
+    * Cada método debe presentarse en un mapa diferente
+  * Descripción breve del procedimiento utilizado para publicar los mapas en la web
+  * Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
+  * Urls públicos de los dos mapas
+
+
+
 
 ## Lecturas
 
-Lecturas sobre las cuales se realizará un quiz el último día de clase (2 preguntas de cada artículo):.
-* "Mapping, Visualization, and Digitization of the Geo-Referenced Information: A case study on Road Network Development in Near Real Time" https://www.researchgate.net/publication/328305585_Mapping_Visualization_and_Digitization_of_the_Geo-Referenced_Information_A_case_study_on_Road_Network_Development_in_Near_Real_Time 
- * "Architecting the ArcGIS Platform: Best Practices" https://www.esri.com/content/dam/esrisites/en-us/media/pdf/architecting-the-arcgis-platform.pdf
+Lectura sobre la que se realizará un quiz el último día de clase:
 * "Geospatial Big Data: Challenges and Opportunities" https://www.cs.helsinki.fi/u/jilu/paper/bigdataapplication03.pdf
+
+
+Opcional:
+
+* "Mapping, Visualization, and Digitization of the Geo-Referenced Information: A case study on Road Network Development in Near Real Time" https://www.researchgate.net/publication/328305585_Mapping_Visualization_and_Digitization_of_the_Geo-Referenced_Information_A_case_study_on_Road_Network_Development_in_Near_Real_Time 
+
 
 ## Trabajo final
 
 Definir e implementar la la solución a un problema de forma  _"no trivial"_ utilizando tecnologías que faciliten la la publicación de información geográfica a través de la web.  
 
 
-## Herramientas de apoyo
-
-* Qgis 3
-* Github desktop ( https://desktop.github.com/ ) o tortoise git (https://carmoreno.github.io/tutoriales/2016/04/14/TortoiseGit-Instalacion-y-uso/) para sincronizar más fácilmente los archivos en github.
-* Anaconda / Jupyter ( https://medium.com/saturdays-ai/empezando-a-usar-jupyter-notebook-para-python-parte-1-instalaci%C3%B3n-94e97b4c5f37 )  para las prácticas interactivas con python
-* Postgresql 11 con postgis 2.5 https://www.postgresql.org/download/
-* Geoserver  https://docs.geoserver.org/latest/en/user/installation/index.html#installation 
-* Mapbox https://www.mapbox.com/
-* Carto https://carto.com/ (Versión para estudiantes disponible en "Github Education pack" https://education.github.com/pack)
-* Arcgis online https://doc.arcgis.com/es/arcgis-online/reference/create-account.htm
-* Mango maps https://mangomap.com/
-* Gis Cloud https://www.giscloud.com/
-* Fulcrum https://www.fulcrumapp.com/
