@@ -11,6 +11,7 @@ Enlaces a herramientas comentadas durante el curso.
   - [Presentaciones interactivas](#presentaciones-interactivas)
   - [Recopilación de datos con dispositivos móviles](#recopilaci%C3%B3n-de-datos-con-dispositivos-m%C3%B3viles)
   - [Entornos interactivos para programación (notebooks)](#entornos-interactivos-para-programaci%C3%B3n-notebooks)
+  - [Tableros de control](#tableros-de-control)
 
 
 
@@ -100,6 +101,10 @@ Enlaces a herramientas comentadas durante el curso.
 * Anaconda / Jupyter ( https://medium.com/saturdays-ai/empezando-a-usar-jupyter-notebook-para-python-parte-1-instalaci%C3%B3n-94e97b4c5f37 )  para las prácticas interactivas con python
 * Observable https://observablehq.com/
 
+## Tableros de control
 
+* PowerBI https://powerbi.microsoft.com/es-es/
+* Tableau  https://www.tableau.com/
+* Qlik https://www.qlik.com/es-es
 
 

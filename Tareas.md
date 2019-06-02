@@ -14,6 +14,8 @@
     - [Entregables](#entregables-1)
   - [Lecturas](#lecturas)
   - [Trabajo final](#trabajo-final)
+    - [Descripción](#descripci%C3%B3n-2)
+    - [Entregables](#entregables-2)
 
 ## Tarea 1
 
@@ -35,7 +37,7 @@ Mapa temático aplicación GIS Desktop.
 Repositorio en Github para el grupo:
 * Crear un repositorio público en Github https://github.com/  
 * El repositorio debe quedar bajo la licencia  MIT
-* Crear archivo Readme.md con la presentación del grupo. (Ejm: nombres, temáticas de interés)
+* Crear archivo __Readme.md__ con la presentación del grupo. (Ejm: nombres, temáticas de interés)
 
 
 Publicar los siguientes archivos en el repositorio github creado:
@@ -91,7 +93,7 @@ Publicar los siguientes archivos en el repositorio github creado:
 
 ## Tarea 2
 
-Utilizar servicios disponibles en la nube para publicar **mapas interactivos** para la web.
+Utilizar servicios disponibles en la nube para publicar __mapas interactivos__ para la web.
 
 
 ### Descripción
@@ -117,7 +119,7 @@ En el repositorio  Github creado para el curso publicar el  siguiente archivo:
     * Cada método debe presentarse en un mapa diferente
   * Descripción breve del procedimiento utilizado para publicar los mapas en la web
   * Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
-  * Urls públicos de los dos **mapas interactivos**
+  * Urls públicos de los dos __mapas interactivos__
 
 
 
@@ -135,6 +137,39 @@ Opcional:
 
 ## Trabajo final
 
-Definir e implementar la la solución a un problema de forma  _"no trivial"_ utilizando tecnologías que faciliten la la publicación de información geográfica a través de la web.  
+Comunicar una _historia_ de través de tecnologìas para la publicación web utilizando  __mapas interactivos__ y elementos multimedia.
+
+
+### Descripción
+
+* Objetivo: Evaluar la habilidad de los estudiantes para comunicar ideas utilizando tecnologías para la web.
+* 
+* Descripción: Utilizando  herramientas para la publicación de contenidos web crear una __experiencia interactiva__ que explique a un usuario una idea o solución a un problema.
+  * La experiencia interactiva debe incluir múltiples __mapas interactivos__
+  * Los datos presentados a través de  __mapas interactivos__ deben demostrar la capacidad que tienen los estudiantes para aplicar técnicas de geoprocesamiento para la resolución de algún tipo de problema que involucre información georreferenciada.
+  * Además de mapas, la experiencia interactiva debe incluir otros elementos que enriquezcan el contenido tales como  ejemplo:
+    * Fotografías
+    * Video
+    * Texto
+    * Tableros de control
+    * Gráficos (charts) interactivos
+
+* Fecha de entrega: Miércoles 12 de Junio, 9pm. (Enviar enlace del repositorio github al correo electrónico)
+
+
+### Entregables
+
+En el repositorio  Github creado para el curso publicar el  siguiente archivo:
+
+* Archivo __Taller3.md__ con la siguiente información:  
+  * Cuál es el problema a tratar?
+  * Por qué una __experiencia interactiva__ ayuda a resolverlo?
+  * Descripción de los datos (tipos de geometrías, atributos, sistemas de referencia, urls para descarga de la información, etc) 
+  * Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
+  * Descripción de las diferentes técncias y métodos utilizados para la visualización de datos. 
+  * Descripción breve de las  diferentes herramientas y  procedimientos utilizadas para publicar el contenido en la web.
+  * Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
+  * Url público de la __experiencia interactiva__ 
+
 
 
