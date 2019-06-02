@@ -142,9 +142,8 @@ Comunicar una _historia_ de través de tecnologìas para la publicación web uti
 
 ### Descripción
 
-* Objetivo: Evaluar la habilidad de los estudiantes para comunicar ideas utilizando tecnologías para la web.
-* 
-* Descripción: Utilizando  herramientas para la publicación de contenidos web crear una __experiencia interactiva__ que explique a un usuario una idea o solución a un problema.
+* **Objetivo:** Evaluar la habilidad de los estudiantes para comunicar ideas utilizando tecnologías para la web.
+* **Descripción:** Utilizando  herramientas para la publicación de contenidos web crear una __experiencia interactiva__ que explique a un usuario una idea o solución a un problema.
   * La experiencia interactiva debe incluir múltiples __mapas interactivos__
   * Los datos presentados a través de  __mapas interactivos__ deben demostrar la capacidad que tienen los estudiantes para aplicar técnicas de geoprocesamiento para la resolución de algún tipo de problema que involucre información georreferenciada.
   * Además de mapas, la experiencia interactiva debe incluir otros elementos que enriquezcan el contenido tales como  ejemplo:
@@ -154,7 +153,7 @@ Comunicar una _historia_ de través de tecnologìas para la publicación web uti
     * Tableros de control
     * Gráficos (charts) interactivos
 
-* Fecha de entrega: Miércoles 12 de Junio, 9pm. (Enviar enlace del repositorio github al correo electrónico)
+* **Fecha de entrega:** Miércoles 12 de Junio, 9pm. (Enviar enlace del repositorio github al correo electrónico)
 
 
 ### Entregables
