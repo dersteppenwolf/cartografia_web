@@ -23,13 +23,13 @@ Mapa temático aplicación GIS Desktop.
 
 ### Descripción
 
-* Objetivo: Diagnosticar la habilidad de los estudiantes para generar salidas gráficas para visualización geográfica
+* **Objetivo:** Diagnosticar la habilidad de los estudiantes para generar salidas gráficas para visualización geográfica
 
-* Descripción: Utilizando Qgis, Arcmap o Arcgis Pro cree un mapa temático utilizando un indicador del conjunto de datos del World Bank (ejm: % de población rural) o datos de Colombia
+* **Descripción:** Utilizando Qgis, Arcmap o Arcgis Pro cree un mapa temático utilizando un indicador del conjunto de datos del World Bank (ejm: % de población rural) o datos de Colombia
   * Utilice dos métodos de clasificación diferentes
   * Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
 
-* Fecha de entrega: 29 de mayo (Enviar enlace del repositorio github al correo electrónico)
+* **Fecha de entrega:** 29 de mayo (Enviar enlace del repositorio github al correo electrónico)
 
 
 ### Entregables
@@ -98,11 +98,11 @@ Utilizar servicios disponibles en la nube para publicar __mapas interactivos__ p
 
 ### Descripción
 
-* Objetivo: Evaluar la habilidad de los estudiantes para publicar mapas utilizando herramientas dispuestas en la nube bajo el modelo de SaaS (Software as a Service)
+* **Objetivo:** Evaluar la habilidad de los estudiantes para publicar mapas utilizando herramientas dispuestas en la nube bajo el modelo de SaaS (Software as a Service)
 
-* Descripción: Utilizando una o varias de las herramientas para publicación de mapas en la nube publicar salidas gráficas interactivas utilizando los datos del taller 1 según las sugerencias realizadas durante la clase.
+* **Descripción:** Utilizando una o varias de las herramientas para publicación de mapas en la nube publicar salidas gráficas interactivas utilizando los datos del taller 1 según las sugerencias realizadas durante la clase.
 
-* Fecha de entrega: Miércoles 5 de Junio, 9pm. (Enviar enlace del repositorio github al correo electrónico)
+* **Fecha de entrega:** Miércoles 5 de Junio, 9pm. (Enviar enlace del repositorio github al correo electrónico)
 
 
 ### Entregables
