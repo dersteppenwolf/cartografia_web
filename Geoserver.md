@@ -6,6 +6,7 @@ Descripción de la configuración de geoserver generada para la clase
   - [Requerimientos](#requerimientos)
   - [Procedimiento utilizado para configurar la versión](#procedimiento-utilizado-para-configurar-la-versi%C3%B3n)
   - [Ejecutar Tomcat](#ejecutar-tomcat)
+  - [Presentaciones](#presentaciones)
 
 
 ## Requerimientos
@@ -65,4 +66,11 @@ Para iniciar el servidor apache tomcat:
 Para detener tomcat:
   * En Windows : Ejecutar el archivo __apache-tomcat-9.0.20/bin/shutdown.bat__
   * En Linux o Mac: Ejecutar el archivo __apache-tomcat-9.0.20/bin/shutdown.sh__ 
+
+## Presentaciones
+
+* GeoServer, an introduction for beginners https://es.slideshare.net/geosolutions/geoserver-an-introduction-for-beginner
+* State of GeoServer 2.14 https://es.slideshare.net/jgarnett/state-of-geoserver-214
+* GeoServer in Production: we do it, here is how! https://www.slideshare.net/geosolutions/geoserver-in-production-we-do-it-here-is-how-foss4g-2016
+* Advanced Security with GeoServer - FOSS4G 2015 https://www.slideshare.net/geosolutions/advanced-security-with-geoserver-foss4g-2015
 
