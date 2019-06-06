@@ -3,11 +3,12 @@
 Descripción de la configuración de geoserver generada para la clase
 
 - [Geoserver](#geoserver)
+  - [Requerimientos](#requerimientos)
   - [Procedimiento utilizado para configurar la versión](#procedimiento-utilizado-para-configurar-la-versi%C3%B3n)
   - [Ejecutar Tomcat](#ejecutar-tomcat)
 
 
-## Requerimientos
+## Requerimientos
 
 * Java 8 https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
   * Tutorial : ¿Cómo puedo descargar e instalar Java en un equipo con Windows de forma manual? https://www.java.com/es/download/help/windows_manual_download.xml
