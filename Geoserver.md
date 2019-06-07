@@ -7,6 +7,7 @@ Descripción de la configuración de geoserver generada para la clase
   - [Procedimiento utilizado para configurar la versión](#procedimiento-utilizado-para-configurar-la-versi%C3%B3n)
   - [Ejecutar Tomcat](#ejecutar-tomcat)
   - [Presentaciones](#presentaciones)
+  - [Ejemplo estilos](#ejemplo-estilos)
 
 
 ## Requerimientos
@@ -74,3 +75,47 @@ Para detener tomcat:
 * GeoServer in Production: we do it, here is how! https://www.slideshare.net/geosolutions/geoserver-in-production-we-do-it-here-is-how-foss4g-2016
 * Advanced Security with GeoServer - FOSS4G 2015 https://www.slideshare.net/geosolutions/advanced-security-with-geoserver-foss4g-2015
 
+
+## Ejemplo estilos
+
+CSS
+
+```css
+/* @title Construccion Rural */
+* {
+    [@sd > 1k][@sd < 70k]  {
+      stroke: #E1E1E1;
+      stroke-width: 1;
+      fill: #ECF0F1;
+      fill-opacity: 1;
+    }
+}
+```
+
+SLD
+```xml
+<?xml version="1.0" encoding="UTF-8"?><sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" version="1.0.0">
+  <sld:NamedLayer>
+    <sld:Name>Default Styler</sld:Name>
+    <sld:UserStyle>
+      <sld:Name>Default Styler</sld:Name>
+      <sld:FeatureTypeStyle>
+        <sld:Rule>
+          <sld:Title>Construccion Rural</sld:Title>
+          <sld:MinScaleDenominator>1000.0</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>70000.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#ECF0F1</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#E1E1E1</sld:CssParameter>
+            </sld:Stroke>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:VendorOption name="ruleEvaluation">first</sld:VendorOption>
+      </sld:FeatureTypeStyle>
+    </sld:UserStyle>
+  </sld:NamedLayer>
+</sld:StyledLayerDescriptor>
+```
