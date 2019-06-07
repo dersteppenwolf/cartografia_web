@@ -6,6 +6,7 @@
     - [Mapbox GL JS](#mapbox-gl-js)
     - [Carto VL](#carto-vl)
     - [D3](#d3)
+    - [Otros](#otros)
 
 ## Ejemplos de clientes ligeros (javascript)
 
@@ -56,7 +57,7 @@
 * Geo Delaunay (observable) https://observablehq.com/@fil/geo-delaunay
 
 
-### Otros
+### Otros
 
 * Openlayers https://openlayers.org/en/latest/examples/
 * Arcgis JS https://developers.arcgis.com/javascript/latest/sample-code/
