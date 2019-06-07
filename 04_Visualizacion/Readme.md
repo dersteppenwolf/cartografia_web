@@ -47,8 +47,21 @@
 
 ### D3
 
+* Hello world https://bl.ocks.org/mbostock/1300016
+* Intro to D3 https://maptimeboston.github.io/d3-maptime/
+* Histogram http://bl.ocks.org/mathieue/599f56182ba49404622e
+* Simple map http://bl.ocks.org/rgdonohue/4793dab7f993a81cc670
+* D3 maps https://maptimeboston.github.io/d3-maptime/#/56
 * Tissot's indicatrix (observable) https://observablehq.com/@fil/tissots-indicatrix?collection=@observablehq/maps
 * Geo Delaunay (observable) https://observablehq.com/@fil/geo-delaunay
 
 
+### Otros
+
+* Openlayers https://openlayers.org/en/latest/examples/
+* Arcgis JS https://developers.arcgis.com/javascript/latest/sample-code/
+* Google maps javascript api https://developers.google.com/maps/documentation/javascript/tutorial
+* ESRI Web AppBuilder for ArcGIS (Developer Edition) https://developers.arcgis.com/web-appbuilder/
+* Mapbox Maps SDK for Android https://docs.mapbox.com/android/maps/overview/
+* 
 
