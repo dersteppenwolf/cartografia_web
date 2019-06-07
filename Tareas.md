@@ -149,9 +149,9 @@ En el repositorio  Github creado para el curso publicar el  siguiente archivo:
 #### Grupo 3
 
 * Integrantes: Lorena Rayo Rocha ,  Fernando Alcarcel Gutierrez, Albeiro López Pulido 
-* Url descripción: 
-* Url mapa 1: 
-* Url mapa 2: 
+* Url descripción: https://github.com/Geomaticos/Taller_2_Publicacion-de-cartografia-via-web 
+* Url mapa 1: https://geomaticos.carto.com/builder/ba2b705a-2b36-4ff2-97d5-49de0a03bb12/embed 
+* Url mapa 2: http://arcg.is/140S9u
 
 #### Grupo 4
 
