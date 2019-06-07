@@ -12,6 +12,11 @@
   - [Tarea 2](#tarea-2)
     - [Descripción](#descripci%C3%B3n-1)
     - [Entregables](#entregables-1)
+    - [Resultados](#resultados-1)
+      - [Grupo 1](#grupo-1-1)
+      - [Grupo 2](#grupo-2-1)
+      - [Grupo 3](#grupo-3-1)
+      - [Grupo 4](#grupo-4-1)
   - [Lecturas](#lecturas)
   - [Trabajo final](#trabajo-final)
     - [Descripción](#descripci%C3%B3n-2)
@@ -120,6 +125,39 @@ En el repositorio  Github creado para el curso publicar el  siguiente archivo:
   * Descripción breve del procedimiento utilizado para publicar los mapas en la web
   * Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
   * Urls públicos de los dos __mapas interactivos__
+
+
+
+### Resultados
+
+#### Grupo 1
+
+* Integrantes: Ricardo Tiga Molina (Codigo: 3101444) Adriana Marcela BUitrago Ardila (Codigo: 3101438)
+* Url repositorio: 
+* Url descripción:
+* Url mapa: 
+* Url mapa 2: 
+
+#### Grupo 2
+
+* Integrantes: Alex Fabián Ramos Moreno, Andrés Ricardo Fonseca Vasquez
+* Url descripción: https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR/blob/master/Taller2.md
+* Url mapa 1: https://axel946.carto.com/builder/462d48f6-d5e2-438b-a640-8d9db33e0f7c/embed
+* Url mapa 2: https://axel946.carto.com/builder/05999a6b-bc5d-4a1d-93b0-d1700b07dfb2/embed
+*  
+
+#### Grupo 3
+
+* Integrantes: Lorena Rayo Rocha ,  Fernando Alcarcel Gutierrez, Albeiro López Pulido 
+* Url descripción: 
+* Url mapa 1: 
+* Url mapa 2: 
+
+#### Grupo 4
+
+* Integrantes: Johanna Gomez , Viviana Diaz ,  Camilo Lopez 
+* Url descripción: https://github.com/Vicajo/TAREA-2
+* Url mapa 1: https://vicajo.carto.com/builder/88fc88e2-4d75-479c-b38e-ba3c6e9272e7/embed
 
 
 
