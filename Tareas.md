@@ -133,10 +133,9 @@ En el repositorio  Github creado para el curso publicar el  siguiente archivo:
 #### Grupo 1
 
 * Integrantes: Ricardo Tiga Molina (Codigo: 3101444) Adriana Marcela BUitrago Ardila (Codigo: 3101438)
-* Url repositorio: 
-* Url descripción:
-* Url mapa: 
-* Url mapa 2: 
+* Url descripción: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Taller2.md
+* Url mapa: https://adrianambuitragoa.carto.com/builder/185ed131-d4f3-4771-8278-b3196898261e/embed
+
 
 #### Grupo 2
 
