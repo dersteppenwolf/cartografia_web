@@ -20,6 +20,7 @@
 * Interactive Choropleth Map https://leafletjs.com/examples/choropleth/
 * ESRI Leaflet: Change basemap https://esri.github.io/esri-leaflet/examples/switching-basemaps.html
 * ESRI Leaflet: Styling polygons https://esri.github.io/esri-leaflet/examples/styling-feature-layer-polygons.html
+* Folium https://python-visualization.github.io/folium/quickstart.html#Getting-Started
 
 
 
