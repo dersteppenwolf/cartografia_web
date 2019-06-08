@@ -190,7 +190,7 @@ Comunicar una _historia_ de través de tecnologìas para la publicación web uti
     * Tableros de control
     * Gráficos (charts) interactivos
 
-* **Fecha de entrega:** Miércoles 12 de Junio, 9pm. (Enviar enlace del repositorio github al correo electrónico)
+* **Fecha de entrega:** Jueves 13 de Junio, 11:59pm. (Enviar enlace del repositorio github al correo electrónico)
 
 
 ### Entregables
