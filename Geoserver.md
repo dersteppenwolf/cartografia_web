@@ -10,16 +10,22 @@ Descripción de la configuración de geoserver generada para la clase
   - [Ejemplo estilos](#ejemplo-estilos)
 
 
-## Requerimientos
+## Instalador de geoserver para windows
+
+Utilizar la versión __"Windows Installer"__ disponible en  http://geoserver.org/release/stable/
+
+## Requerimientos instalación manual con tomcat
 
 * Java 8 https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
   * Tutorial : ¿Cómo puedo descargar e instalar Java en un equipo con Windows de forma manual? https://www.java.com/es/download/help/windows_manual_download.xml
+* Instalar Apache Tomcat en Windows  https://tutobasico.com/instalar-tomcat-windows/
+
+
 
 
 ## Procedimiento utilizado para configurar la versión
 
 Se utilizaron las instrucciones publicadas en https://docs.geoserver.org/latest/en/user/installation/war.html
-
 
 * Se descargó la versión __Web Archive__ de GeoServer 2.15.1 desde la página oficial http://geoserver.org/release/stable/
 * Se descargó la versión __zip_ de   de  apache tomcat 9.0.20  desde la página oficial  https://tomcat.apache.org/download-90.cgi
