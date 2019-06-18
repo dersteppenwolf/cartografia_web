@@ -242,10 +242,12 @@ En el repositorio  Github creado para el curso publicar el  siguiente archivo:
 * Url descripción: https://github.com/Geomaticos/Trabajo-Final/blob/master/Taller3.md
 * url: https://slides.com/geomaticos/deck-1
 
-* __Comentarios:__ Aprovecharon diferentes medios interactivos (además de mapas) para tratar de explicar el fenómeno de interés para un público no técnico.  Sugerencia: mejorar las conclusiones, pudieron realizar algún tipo de geoprocesamiento "avanzado" (más allá de convertir entre formatos) para enriquecer el tema.
+* __Comentarios:__ Aprovecharon diferentes medios interactivos (además de mapas) para tratar de explicar el fenómeno de interés para un público no técnico.  Sugerencias: mejorar las conclusiones, pudieron realizar algún tipo de geoprocesamiento "avanzado" (más allá de convertir entre formatos) para enriquecer el tema.
 
 #### Grupo 4
 
 * Integrantes: Johanna Gomez , Viviana Diaz ,  Camilo Lopez 
-* Url descripción: 
-* Url mapa 1: 
+* Url descripción: https://github.com/Vicajo/TRABAJO_FINAL
+* Url: https://slides.com/vivianacarolinadiazgarnica/estado-red-hidrometeorologica-car#/
+
+* __Comentarios:__ No citan el origen de todas las fuentes de información que utilizan (ejm. videos, imágenes). Aunque tienen mucha información descriptiva, algunos de dichos los datos incluidos en la historia pudieron haber sido mostrados más claramente a través de algún tipo de chart (Ejm. temperaturas medias, máximas, etc) creado con otras herramientas (ejm. tableau, powerbi y similares). Sugerencias:  Para que la presentación se vea mejor podrían utilizar otro tipo de fuente, adicionar conclusiones.
