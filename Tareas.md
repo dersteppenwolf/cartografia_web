@@ -223,16 +223,16 @@ En el repositorio  Github creado para el curso publicar el  siguiente archivo:
 * Url descripción: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Taller3.md
 * Url : https://unimilitar.maps.arcgis.com/apps/MapSeries/index.html?appid=34ff5cbad9914ebc8647c66e253fd252 
   
-* __Comentarios:__ La simbología utilizada no es clara. Cual es la interpretación del heatmap? El histograma de las causas de las inundaciones no se alcanza a leer bien.  La simbología de las causas de las inundaciones muestra casi todo el mapa en "gris". No hay forma de filtrar por categoría. No citan el origen de todas las fuentes de información que utilizan
+* __Comentarios:__ La simbología utilizada no es clara. Cual es la interpretación del heatmap? El histograma de las causas de las inundaciones no se alcanza a leer bien.  La simbología de las causas de las inundaciones muestra casi todo el mapa en "gris". No hay forma de filtrar por categoría. No citan el origen de todas las fuentes de información que utilizan. No aplicaron técnicas "avanzadas" de geoprocesamiento.
 
 
 #### Grupo 2
 
 * Integrantes: Alex Fabián Ramos Moreno, Andrés Ricardo Fonseca Vasquez
-* Url descripción: 
-* Url mapa 1: 
-* Url mapa 2: 
-*  
+* Url descripción:  https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR/blob/master/Taller%203.md
+* Url : No citan el origen de todas las fuentes de información que utilizan (ejm. videos, imágenes). La plantilla de story map seleccionada no permite interactuar con los mapas de carto. Parece que hicieron bastante trabajo con los mapas de carto pero no es posible interactuar con la visualización.    Los "Pie charts" son considerados una mala práctica en visualización de datos (https://medium.com/geckoboard-under-the-hood/think-before-you-pie-chart-and-more-effective-ways-to-visualize-your-data-862ea3456b26 ) y peor si tienen 3d cuando los datos no poseen características intrínsecas de tridimensionalidad (https://www.linkedin.com/pulse/20141112072337-64875646-stop-using-pie-charts-they-are-evil/) .   Aplicaron geoprocesamiento según lo solicitado. 
+
+* __Comentarios:__ 
 
 #### Grupo 3
 
