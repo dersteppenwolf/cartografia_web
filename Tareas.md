@@ -230,16 +230,19 @@ En el repositorio  Github creado para el curso publicar el  siguiente archivo:
 
 * Integrantes: Alex Fabián Ramos Moreno, Andrés Ricardo Fonseca Vasquez
 * Url descripción:  https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR/blob/master/Taller%203.md
-* Url : No citan el origen de todas las fuentes de información que utilizan (ejm. videos, imágenes). La plantilla de story map seleccionada no permite interactuar con los mapas de carto. Parece que hicieron bastante trabajo con los mapas de carto pero no es posible interactuar con la visualización.    Los "Pie charts" son considerados una mala práctica en visualización de datos (https://medium.com/geckoboard-under-the-hood/think-before-you-pie-chart-and-more-effective-ways-to-visualize-your-data-862ea3456b26 ) y peor si tienen 3d cuando los datos no poseen características intrínsecas de tridimensionalidad (https://www.linkedin.com/pulse/20141112072337-64875646-stop-using-pie-charts-they-are-evil/) .   Aplicaron geoprocesamiento según lo solicitado. 
+* Url: https://fr-ingenieria.maps.arcgis.com/apps/Cascade/index.html?appid=11912b51a46441cc81ae56beb1df818a
 
-* __Comentarios:__ 
+* __Comentarios:__ No citan el origen de todas las fuentes de información que utilizan (ejm. videos, imágenes). La plantilla de story map seleccionada no permite interactuar con los mapas de carto. Parece que hicieron bastante trabajo con los mapas de carto pero no es posible interactuar con la visualización.    Los "Pie charts" son considerados una mala práctica en visualización de datos (https://medium.com/geckoboard-under-the-hood/think-before-you-pie-chart-and-more-effective-ways-to-visualize-your-data-862ea3456b26 ) y peor si tienen 3d cuando los datos no poseen características intrínsecas de tridimensionalidad (https://www.linkedin.com/pulse/20141112072337-64875646-stop-using-pie-charts-they-are-evil/) .   Aplicaron geoprocesamiento según lo solicitado. 
+
+
 
 #### Grupo 3
 
 * Integrantes: Lorena Rayo Rocha ,  Fernando Alcarcel Gutierrez, Albeiro López Pulido 
-* Url descripción: 
-* Url mapa 1: 
-* Url mapa 2: 
+* Url descripción: https://github.com/Geomaticos/Trabajo-Final/blob/master/Taller3.md
+* url: https://slides.com/geomaticos/deck-1
+
+* __Comentarios:__ Aprovecharon diferentes medios interactivos (además de mapas) para tratar de explicar el fenómeno de interés para un público no técnico.  Sugerencia: mejorar las conclusiones, pudieron realizar algún tipo de geoprocesamiento "avanzado" (más allá de convertir entre formatos) para enriquecer el tema.
 
 #### Grupo 4
 
