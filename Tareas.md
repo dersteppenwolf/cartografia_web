@@ -21,6 +21,11 @@
   - [Trabajo final](#trabajo-final)
     - [Descripción](#descripci%C3%B3n-2)
     - [Entregables](#entregables-2)
+    - [Resultados](#resultados-2)
+      - [Grupo 1](#grupo-1-2)
+      - [Grupo 2](#grupo-2-2)
+      - [Grupo 3](#grupo-3-2)
+      - [Grupo 4](#grupo-4-2)
 
 ## Tarea 1
 
@@ -209,3 +214,35 @@ En el repositorio  Github creado para el curso publicar el  siguiente archivo:
 
 
 
+
+### Resultados
+
+#### Grupo 1
+
+* Integrantes: Ricardo Tiga Molina (Codigo: 3101444) Adriana Marcela BUitrago Ardila (Codigo: 3101438)
+* Url descripción: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Taller3.md
+* Url : https://unimilitar.maps.arcgis.com/apps/MapSeries/index.html?appid=34ff5cbad9914ebc8647c66e253fd252 
+  
+* __Comentarios:__ La simbología utilizada no es clara. Cual es la interpretación del heatmap? El histograma de las causas de las inundaciones no se alcanza a leer bien.  La simbología de las causas de las inundaciones muestra casi todo el mapa en "gris". No hay forma de filtrar por categoría. No citan el origen de todas las fuentes de información que utilizan
+
+
+#### Grupo 2
+
+* Integrantes: Alex Fabián Ramos Moreno, Andrés Ricardo Fonseca Vasquez
+* Url descripción: 
+* Url mapa 1: 
+* Url mapa 2: 
+*  
+
+#### Grupo 3
+
+* Integrantes: Lorena Rayo Rocha ,  Fernando Alcarcel Gutierrez, Albeiro López Pulido 
+* Url descripción: 
+* Url mapa 1: 
+* Url mapa 2: 
+
+#### Grupo 4
+
+* Integrantes: Johanna Gomez , Viviana Diaz ,  Camilo Lopez 
+* Url descripción: 
+* Url mapa 1: 
