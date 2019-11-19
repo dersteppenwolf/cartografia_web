@@ -5,7 +5,6 @@
   - [Área de formación](#%C3%A1rea-de-formaci%C3%B3n)
   - [Docente](#docente)
   - [Programación](#programaci%C3%B3n)
-  - [Tareas](#tareas)
   - [Enfoque](#enfoque)
   - [Justificación](#justificaci%C3%B3n)
   - [Objetivo general](#objetivo-general)
@@ -38,17 +37,15 @@ juan[~at~]gkudos.com
 Total: 32 horas 
 
 Días:
-* Semana 1: Jueves 23 , Viernes 24 y  Sábado  25 de  Mayo. 
-* Semana 2: Jueves 30 y Viernes 31 de Mayo. Sábado  1 de  Junio. 
-* Semana 3: Viernes 7 y Sábado  8 de  Junio. 
+* Semana 1: Viernes 22 y  Sábado 23 de Noviembre
+* Semana 2: Jueves 28,  Viernes 29 y Sábado  30 de  Noviembre.
+* Semana 3: Viernes 5 y  Sábado 6 de Diciembre
+* Semana 4: Jueves 12  Diciembre
 
 Horas:
-* Jueves y Viernes: 18:00 a 22:00 
-* Sábados: 8:00 a 12:00 
+* Jueves y Viernes: 18:00 a 22:00
+* Sábados: 8:00 a 12:00
 
-## Tareas
-
-[Tareas](Tareas.md)
 
 
 ## Enfoque
