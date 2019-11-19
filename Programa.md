@@ -37,10 +37,10 @@ juan[~at~]gkudos.com
 Total: 32 horas 
 
 Días:
-* Semana 1: Viernes 22 y  Sábado 23 de Noviembre
-* Semana 2: Jueves 28,  Viernes 29 y Sábado  30 de  Noviembre.
-* Semana 3: Viernes 5 y  Sábado 6 de Diciembre
-* Semana 4: Jueves 12  Diciembre
+* Semana 1: Viernes 22 y Sábado 23 de Noviembre
+* Semana 2: Jueves 28, Viernes 29 y Sábado  30 de  Noviembre.
+* Semana 3: Jueves 5 , Viernes 6 y Sábado 7 de Diciembre
+
 
 Horas:
 * Jueves y Viernes: 18:00 a 22:00
