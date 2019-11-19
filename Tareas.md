@@ -6,26 +6,17 @@
     - [Entregables](#entregables)
     - [Resultados](#resultados)
       - [Grupo 1](#grupo-1)
-      - [Grupo 2](#grupo-2)
-      - [Grupo 3](#grupo-3)
-      - [Grupo 4](#grupo-4)
   - [Tarea 2](#tarea-2)
     - [Descripción](#descripci%C3%B3n-1)
     - [Entregables](#entregables-1)
     - [Resultados](#resultados-1)
       - [Grupo 1](#grupo-1-1)
-      - [Grupo 2](#grupo-2-1)
-      - [Grupo 3](#grupo-3-1)
-      - [Grupo 4](#grupo-4-1)
   - [Lecturas](#lecturas)
   - [Trabajo final](#trabajo-final)
     - [Descripción](#descripci%C3%B3n-2)
     - [Entregables](#entregables-2)
     - [Resultados](#resultados-2)
       - [Grupo 1](#grupo-1-2)
-      - [Grupo 2](#grupo-2-2)
-      - [Grupo 3](#grupo-3-2)
-      - [Grupo 4](#grupo-4-2)
 
 ## Tarea 1
 
@@ -39,7 +30,7 @@ Mapa temático aplicación GIS Desktop.
   * Utilice dos métodos de clasificación diferentes
   * Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
 
-* **Fecha de entrega:** 29 de mayo (Enviar enlace del repositorio github al correo electrónico)
+* **Fecha de entrega:** xxx (Enviar enlace del repositorio github al correo electrónico)
 
 
 ### Entregables
@@ -69,35 +60,12 @@ Publicar los siguientes archivos en el repositorio github creado:
 #### Grupo 1
 
 * Integrantes: Ricardo Tiga Molina (Codigo: 3101444) Adriana Marcela BUitrago Ardila (Codigo: 3101438)
-* Url repositorio: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana  
-* Url descripción: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Taller1.md
-* Url mapa: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Rendimiento_Colombia.pdf
-* Url mapa 2: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Rendimiento_Colombia2.pdf
+* Url repositorio: 
+* Url descripción: 
+* Url mapa: 
+* Url mapa 2: 
 
-#### Grupo 2
-
-* Integrantes: Alex Fabián Ramos Moreno, Andrés Ricardo Fonseca Vasquez
-* Url Repositorio: https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR
-* Url descripción: https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR/blob/master/Taller_1.md
-* Url mapa: https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR/blob/master/Taller%201.pdf
-
-#### Grupo 3
-
-* Integrantes: Lorena Rayo Rocha ,  Fernando Alcarcel Gutierrez, Albeiro López Pulido 
-* Url Repositorio: https://github.com/Geomaticos/Publicacion-de-cartografia-via-web
-* Url descripción: https://github.com/Geomaticos/Publicacion-de-cartografia-via-web/blob/master/README.md
-* Url mapa 1: https://raw.githubusercontent.com/Geomaticos/Publicacion-de-cartografia-via-web/master/MetodoNatualBreaks8%20clases.png
-* Url mapa 2: https://raw.githubusercontent.com/Geomaticos/Publicacion-de-cartografia-via-web/master/MetodoNatualEqualInterv.png
-
-#### Grupo 4
-
-* Integrantes: Johanna Gomez , Viviana Diaz ,  Camilo Lopez 
-* Url Repositorio: https://github.com/Vicajo/Tarea_1
-* Url descripción: https://github.com/Vicajo/Tarea_1/blob/master/README.md
-* Url mapa 1: https://github.com/Vicajo/Tarea_1/blob/master/DR-08%20MODELO%20DIGITAL%20DE%20ELEVACI%C3%93N.pdf
-* Url mapa 2: https://github.com/Vicajo/Tarea_1/blob/master/DR-07%20MAPA%20DE%20PENDIENTES.pdf
-* Url mapa 3: https://github.com/Vicajo/Tarea_1/blob/master/Mapa%20de%20Pendientes_QGIS.pdf
-
+#
 
 
 
@@ -112,7 +80,7 @@ Utilizar servicios disponibles en la nube para publicar __mapas interactivos__ p
 
 * **Descripción:** Utilizando una o varias de las herramientas para publicación de mapas en la nube publicar salidas gráficas interactivas utilizando los datos del taller 1 según las sugerencias realizadas durante la clase.
 
-* **Fecha de entrega:** Miércoles 5 de Junio, 9pm. (Enviar enlace del repositorio github al correo electrónico)
+* **Fecha de entrega:**  xxx , 9pm. (Enviar enlace del repositorio github al correo electrónico)
 
 
 ### Entregables
@@ -137,31 +105,11 @@ En el repositorio  Github creado para el curso publicar el  siguiente archivo:
 
 #### Grupo 1
 
-* Integrantes: Ricardo Tiga Molina (Codigo: 3101444) Adriana Marcela BUitrago Ardila (Codigo: 3101438)
-* Url descripción: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Taller2.md
-* Url mapa: https://adrianambuitragoa.carto.com/builder/185ed131-d4f3-4771-8278-b3196898261e/embed
+* Integrantes: 
+* Url descripción: 
+* Url mapa: 
 
 
-#### Grupo 2
-
-* Integrantes: Alex Fabián Ramos Moreno, Andrés Ricardo Fonseca Vasquez
-* Url descripción: https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR/blob/master/Taller2.md
-* Url mapa 1: https://axel946.carto.com/builder/462d48f6-d5e2-438b-a640-8d9db33e0f7c/embed
-* Url mapa 2: https://axel946.carto.com/builder/05999a6b-bc5d-4a1d-93b0-d1700b07dfb2/embed
-*  
-
-#### Grupo 3
-
-* Integrantes: Lorena Rayo Rocha ,  Fernando Alcarcel Gutierrez, Albeiro López Pulido 
-* Url descripción: https://github.com/Geomaticos/Taller_2_Publicacion-de-cartografia-via-web 
-* Url mapa 1: https://geomaticos.carto.com/builder/ba2b705a-2b36-4ff2-97d5-49de0a03bb12/embed 
-* Url mapa 2: http://arcg.is/140S9u
-
-#### Grupo 4
-
-* Integrantes: Johanna Gomez , Viviana Diaz ,  Camilo Lopez 
-* Url descripción: https://github.com/Vicajo/TAREA-2
-* Url mapa 1: https://vicajo.carto.com/builder/88fc88e2-4d75-479c-b38e-ba3c6e9272e7/embed
 
 
 
@@ -195,7 +143,7 @@ Comunicar una _historia_ de través de tecnologìas para la publicación web uti
     * Tableros de control
     * Gráficos (charts) interactivos
 
-* **Fecha de entrega:** Jueves 13 de Junio, 11:59pm. (Enviar enlace del repositorio github al correo electrónico)
+* **Fecha de entrega:** xxx, 11:59pm. (Enviar enlace del repositorio github al correo electrónico)
 
 
 ### Entregables
@@ -214,40 +162,13 @@ En el repositorio  Github creado para el curso publicar el  siguiente archivo:
 
 
 
-
 ### Resultados
 
 #### Grupo 1
 
-* Integrantes: Ricardo Tiga Molina (Codigo: 3101444) Adriana Marcela BUitrago Ardila (Codigo: 3101438)
-* Url descripción: https://github.com/adrianambuitragoa/Cartografia_Web_Ricardo_Adriana/blob/master/Taller3.md
-* Url : https://unimilitar.maps.arcgis.com/apps/MapSeries/index.html?appid=34ff5cbad9914ebc8647c66e253fd252 
+* Integrantes: 
+* Url descripción: 
+* Url : 
   
-* __Comentarios:__ La simbología utilizada no es clara. Cual es la interpretación del heatmap? El histograma de las causas de las inundaciones no se alcanza a leer bien.  La simbología de las causas de las inundaciones muestra casi todo el mapa en "gris". No hay forma de filtrar por categoría. No citan el origen de todas las fuentes de información que utilizan. No aplicaron técnicas "avanzadas" de geoprocesamiento.
+* __Comentarios:__ xxx
 
-
-#### Grupo 2
-
-* Integrantes: Alex Fabián Ramos Moreno, Andrés Ricardo Fonseca Vasquez
-* Url descripción:  https://github.com/andres8604/Cartografia-Web---AndresF-y-FabianR/blob/master/Taller%203.md
-* Url: https://fr-ingenieria.maps.arcgis.com/apps/Cascade/index.html?appid=11912b51a46441cc81ae56beb1df818a
-
-* __Comentarios:__ No citan el origen de todas las fuentes de información que utilizan (ejm. videos, imágenes). La plantilla de story map seleccionada no permite interactuar con los mapas de carto. Parece que hicieron bastante trabajo con los mapas de carto pero no es posible interactuar con la visualización.    Los "Pie charts" son considerados una mala práctica en visualización de datos (https://medium.com/geckoboard-under-the-hood/think-before-you-pie-chart-and-more-effective-ways-to-visualize-your-data-862ea3456b26 ) y peor si tienen 3d cuando los datos no poseen características intrínsecas de tridimensionalidad (https://www.linkedin.com/pulse/20141112072337-64875646-stop-using-pie-charts-they-are-evil/) .   Aplicaron geoprocesamiento según lo solicitado. 
-
-
-
-#### Grupo 3
-
-* Integrantes: Lorena Rayo Rocha ,  Fernando Alcarcel Gutierrez, Albeiro López Pulido 
-* Url descripción: https://github.com/Geomaticos/Trabajo-Final/blob/master/Taller3.md
-* url: https://slides.com/geomaticos/deck-1
-
-* __Comentarios:__ Aprovecharon diferentes medios interactivos (además de mapas) para tratar de explicar el fenómeno de interés para un público no técnico.  Sugerencias: mejorar las conclusiones, pudieron realizar algún tipo de geoprocesamiento "avanzado" (más allá de convertir entre formatos) para enriquecer el tema.
-
-#### Grupo 4
-
-* Integrantes: Johanna Gomez , Viviana Diaz ,  Camilo Lopez 
-* Url descripción: https://github.com/Vicajo/TRABAJO_FINAL
-* Url: https://slides.com/vivianacarolinadiazgarnica/estado-red-hidrometeorologica-car#/
-
-* __Comentarios:__ No citan el origen de todas las fuentes de información que utilizan (ejm. videos, imágenes). Aunque tienen mucha información descriptiva, algunos de dichos los datos incluidos en la historia pudieron haber sido mostrados más claramente a través de algún tipo de chart (Ejm. temperaturas medias, máximas, etc) creado con otras herramientas (ejm. tableau, powerbi y similares). Sugerencias:  Para que la presentación se vea mejor podrían utilizar otro tipo de fuente, adicionar conclusiones.
