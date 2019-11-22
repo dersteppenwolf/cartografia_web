@@ -72,7 +72,7 @@ Parte 2:
 **Fecha Máxima de entrega:** 2019-11-27 19:00 
 
 * Instalar Qgis https://www.qgis.org/es/site/
-* Crear mapas temàticos con QGIS: 
+* Crear mapas temáticos con QGIS: 
   * Utilizando Qgis cree un mapa temático utilizando datos de Colombia
   * Utilice dos métodos de clasificación diferentes
   * Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
