@@ -145,7 +145,8 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 * Con tres (3) fallas injustificadas se pierde la asignatura. La justificación de las fallas será evaluada por la Facultad, de conformidad con la validación de las razones y documentos que se adjunten.
 * Notas:
   * Exámenes cortos (Quiz) - Individual:   20%
-  * Taller 1 "Servicios Web Geográficos" - Individual:   20%
+  * Tarea 1 "Qgis" - Individual:   10%
+  *  Tarea 2 "Servicios Web Geográficos" - Individual:   10%
   * Taller 2 "Web Gis" - Individual:   20%
   * Control de lectura -  Individual 20%
   * Trabajo final - Grupo :  20%

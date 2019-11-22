@@ -4,7 +4,7 @@
 - [Talleres](#talleres)
   - [Taller 1 : Herramientas Colaborativas](#taller-1--herramientas-colaborativas)
     - [Ejemplos de presentación de repositorios en github](#ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
-  - [Taller 2: Qgis](#taller-2-qgis)
+  - [Taller 2: Qgis (Tarea 1)](#taller-2-qgis-tarea-1)
       - [Tutoriales cartografía con SIG Desktop](#tutoriales-cartograf%C3%ADa-con-sig-desktop)
       - [Fuentes de datos sugeridas](#fuentes-de-datos-sugeridas)
 
@@ -12,11 +12,15 @@
 
 Parte 1:
 
+* Instalar kahoot en sus dispositivos móviles https://kahoot.com/
 * Cada persona debe crear una cuenta en github https://github.com/
   * Git and GitHub: A Guide for Beginners https://www.coursereport.com/blog/what-is-github
   * Github hello world https://guides.github.com/activities/hello-world/
 * Crear un repositorio público personal (Licencia MIT / Creative Commons)
-* Crear archivo Readme.md con la presentación. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
+* Crear archivo **Readme.md** con la presentación. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
+* Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
+  * Título: Taller 1 - CODIGO_ESTUDIANTE
+  * Contenido: Enlace al repositorio creado
 
 Parte 2: 
 
@@ -35,10 +39,35 @@ Parte 2:
 
 
   
-## Taller 2: Qgis
+## Taller 2: Qgis  (Tarea 1)
+
+**Fecha Máxima de entrega:** 2019-11-27 19:00 
 
 * Instalar Qgis https://www.qgis.org/es/site/
-* Crear mapas temàticos con QGIS
+* Crear mapas temàticos con QGIS: 
+  * Utilizando Qgis cree un mapa temático utilizando datos de Colombia
+  * Utilice dos métodos de clasificación diferentes
+  * Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
+  * Genere los  mapas como pdf 
+
+Publicar Resultados En el repositorio github personal creado:
+
+*  Crear Archivo __Taller2.md__ con la siguiente información sobre los mapas que creó:  
+* Cuál es el problema a tratar?
+* Por qué un mapa ayuda a resolverlo?
+* Descripción del mapa temático (Variable seleccionada, utilidad) 
+* Descripción de los métodos de clasificación seleccionados. Cual es mejor para la variable seleccionada? Por qué?
+* Listado de fuentes de datos seleccionadas (proveedor, enlace para descarga, descripciòn, procesamiento realizado)
+* Descripción breve del procedimiento utilizado (plugins, extensiones, procesos, transformaciones de datos, etc)
+* Ventajas / desventajas / dificultades / diferencias encontradas al utilizar QGIS  para el desarrollo del ejercicio 
+* Mapas en pdf
+* Proyecto  qgis 
+* Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
+  * Título: Tarea 1 - CODIGO_ESTUDIANTE
+  * Contenido: Enlace al repositorio creado
+
+
+
 
 #### Tutoriales cartografía con SIG Desktop
 
