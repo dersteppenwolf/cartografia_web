@@ -4,10 +4,11 @@
 - [Talleres y Tareas](#talleres-y-tareas)
   - [Nota](#nota)
   - [Taller 1 : Herramientas Colaborativas](#taller-1--herramientas-colaborativas)
-    - [Markdown](#markdown)
-    - [Ejemplos de presentación de repositorios en github](#ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
+    - [Docs: Versionamiento y Colaboración: Git y Github](#docs-versionamiento-y-colaboraci%C3%B3n-git-y-github)
+    - [Docs: Markdown](#docs-markdown)
+    - [Docs: Ejemplos de presentación de repositorios en github](#docs-ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
   - [Taller 2: Qgis (Tarea 1)](#taller-2-qgis-tarea-1)
-      - [Tutoriales cartografía con SIG Desktop](#tutoriales-cartograf%C3%ADa-con-sig-desktop)
+      - [Docs: Tutoriales cartografía con SIG Desktop](#docs-tutoriales-cartograf%C3%ADa-con-sig-desktop)
       - [Fuentes de datos sugeridas](#fuentes-de-datos-sugeridas)
 
 ## Nota
@@ -21,8 +22,7 @@ Parte 1:
 
 * Instalar kahoot en sus dispositivos móviles https://kahoot.com/
 * Cada persona debe crear una cuenta en github https://github.com/
-  * Git and GitHub: A Guide for Beginners https://www.coursereport.com/blog/what-is-github
-  * Github hello world https://guides.github.com/activities/hello-world/
+
 * Crear un repositorio público personal (Licencia MIT / Creative Commons)
 * Crear archivo **Readme.md** con la presentación. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
 * Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
@@ -34,13 +34,30 @@ Parte 2:
 * Instalar Github Desktop https://desktop.github.com/
 * Crear el primer repositorio mediante GitHub Desktop https://help.github.com/es/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop
 * Instalación y Uso de GitHub Desktop https://luismasdev.com/instalacion-y-uso-de-github-desktop/
+* Tortoise git (https://carmoreno.github.io/tutoriales/2016/04/14/TortoiseGit-Instalacion-y-uso/) para sincronizar más fácilmente los archivos en github.
 
-### Markdown
+### Docs: Versionamiento y Colaboración: Git y Github
 
+* Git and GitHub: A Guide for Beginners https://www.coursereport.com/blog/what-is-github
+* Github hello world https://guides.github.com/activities/hello-world/
+* Introducción a Git y Github https://desarrolloweb.com/articulos/introduccion-git-github.html
+* Github: Hello world https://guides.github.com/activities/hello-world/
+* An Intro to Git and GitHub for Beginners (Tutorial) https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+* Introducción al control de versiones con GitHub Desktop https://programminghistorian.org/es/lecciones/introduccion-control-versiones-github-desktop
+* La comodidad de TortoiseGit, instalación y manejo http://carmoreno.github.io/tutoriales/2016/04/14/TortoiseGit-Instalacion-y-uso/
+* Adding a file to a repository  https://help.github.com/en/articles/adding-a-file-to-a-repository
+* Getting Started with GitHub Pages https://guides.github.com/features/pages/
+
+### Docs: Markdown
+
+* Qué es Markdown, para qué sirve y cómo usarlo https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo
+* Markdown tutorial https://www.markdowntutorial.com/
+* Qué es markdown https://markdown.es/
 * Markdown Cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+* Markdown quick reference cheat sheet https://en.support.wordpress.com/markdown-quick-reference/
 
 
-### Ejemplos de presentación de repositorios en github
+### Docs: Ejemplos de presentación de repositorios en github
 
 * Explore Worldwide Female Educational Opportunities https://github.com/Divyaraaga/w209-datavis-project
 * Visual analytics https://github.com/dersteppenwolf/isis4822
@@ -80,7 +97,7 @@ Publicar Resultados En el repositorio github personal creado:
 
 
 
-#### Tutoriales cartografía con SIG Desktop
+#### Docs: Tutoriales cartografía con SIG Desktop
 
 * QGIS Tutorials http://www.qgistutorials.com/en/index.html
 * Thematic Maps using arcgis http://what-when-how.com/gis-and-spatial-analysis-for-the-social-sciences/thematic-maps-gis-and-spatial-analysis-part-1/ 
