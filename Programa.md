@@ -17,7 +17,6 @@
     - [Unidad 4: Visualización de datos](#unidad-4-visualizaci%C3%B3n-de-datos)
   - [Sistema de evaluación](#sistema-de-evaluaci%C3%B3n)
   - [Bibliografía](#bibliograf%C3%ADa)
-  - [Material complementario](#material-complementario)
 
 ## Programa
 
@@ -145,9 +144,13 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 * La nota aprobatoria mínima de cada seminarios es cinco  5.0.
 * Con tres (3) fallas injustificadas se pierde la asignatura. La justificación de las fallas será evaluada por la Facultad, de conformidad con la validación de las razones y documentos que se adjunten.
 * Notas:
-  * taller 1 y 2 mapa cloud  grupo 20%
-  * control de lectura individual 30%
-  * trabajo final grupo 50%
+  * Exámenes cortos (Quiz) - Individual:   20%
+  * Taller 1 "Servicios Web Geográficos" - Individual:   20%
+  * Taller 2 "Web Gis" - Individual:   20%
+  * Control de lectura -  Individual 20%
+  * Trabajo final - Grupo :  20%
+
+
 
 ## Bibliografía
 
@@ -160,6 +163,3 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 
 
 
-## Material complementario
-
-* Herramientas de colaboración por donde se interactuará con los estudiantes compartiendo  el contenido  programático  y el plan de actividades de la asignatura.
