@@ -11,13 +11,19 @@ juan[~at~]gkudos.com
 
 ## Contenido
 
+Principal:
+
 * [Programa](Programa.md)
 * [Tareas](Tareas.md)
+* [Talleres](Talleres.md)
 * [Unidad 1: Conceptos Generales sobre Tecnologías Web y SIG](01_Conceptos)
 * [Unidad 2: Servicios web, geoservicios y OGC](02_Servicios_Web_Geoservicios_OGC)
 * [Unidad 3: Arquitectura de aplicaciones Web para SIG](03_Arquitectura_SIG)
 * [Unidad 4: Visualización de datos](04_Visualizacion)
 * [Taller: Publicando mapas utilizando herramientas disponibles en la nube](https://github.com/dersteppenwolf/taller_gis_cloud)
+
+Otros :
+
 * [Herramientas](Herramientas.md)
 * [Geoserver](Geoserver.md)
 
