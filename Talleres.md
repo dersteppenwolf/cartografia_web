@@ -1,12 +1,19 @@
 
-# Talleres
+# Talleres y Tareas
 
-- [Talleres](#talleres)
+- [Talleres y Tareas](#talleres-y-tareas)
+  - [Nota](#nota)
   - [Taller 1 : Herramientas Colaborativas](#taller-1--herramientas-colaborativas)
+    - [Markdown](#markdown)
     - [Ejemplos de presentación de repositorios en github](#ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
   - [Taller 2: Qgis (Tarea 1)](#taller-2-qgis-tarea-1)
       - [Tutoriales cartografía con SIG Desktop](#tutoriales-cartograf%C3%ADa-con-sig-desktop)
       - [Fuentes de datos sugeridas](#fuentes-de-datos-sugeridas)
+
+## Nota
+
+* Las tareas deben ser entregadas antes de la fecha máxima indicada.
+* Las entrega tardía de tareas genera penalización en las notas 
 
 ## Taller 1 : Herramientas Colaborativas
 
@@ -27,6 +34,10 @@ Parte 2:
 * Instalar Github Desktop https://desktop.github.com/
 * Crear el primer repositorio mediante GitHub Desktop https://help.github.com/es/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop
 * Instalación y Uso de GitHub Desktop https://luismasdev.com/instalacion-y-uso-de-github-desktop/
+
+### Markdown
+
+* Markdown Cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 ### Ejemplos de presentación de repositorios en github
