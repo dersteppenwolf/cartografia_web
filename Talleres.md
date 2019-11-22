@@ -3,16 +3,42 @@
 
 - [Talleres](#talleres)
   - [Taller 1 : Herramientas Colaborativas](#taller-1--herramientas-colaborativas)
-  - [Taller 2](#taller-2)
+    - [Ejemplos de presentación de repositorios en github](#ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
+  - [Taller 2: Qgis](#taller-2-qgis)
       - [Tutoriales cartografía con SIG Desktop](#tutoriales-cartograf%C3%ADa-con-sig-desktop)
       - [Fuentes de datos sugeridas](#fuentes-de-datos-sugeridas)
-      - [Ejemplos de presentación de repositorios en github](#ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
 
 ## Taller 1 : Herramientas Colaborativas
 
+Parte 1:
+
+* Cada persona debe crear una cuenta en github https://github.com/
+  * Git and GitHub: A Guide for Beginners https://www.coursereport.com/blog/what-is-github
+  * Github hello world https://guides.github.com/activities/hello-world/
+* Crear un repositorio público personal (Licencia MIT / Creative Commons)
+* Crear archivo Readme.md con la presentación. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
+
+Parte 2: 
+
+* Instalar Github Desktop https://desktop.github.com/
+* Crear el primer repositorio mediante GitHub Desktop https://help.github.com/es/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop
+* Instalación y Uso de GitHub Desktop https://luismasdev.com/instalacion-y-uso-de-github-desktop/
 
 
-## Taller 2
+### Ejemplos de presentación de repositorios en github
+
+* Explore Worldwide Female Educational Opportunities https://github.com/Divyaraaga/w209-datavis-project
+* Visual analytics https://github.com/dersteppenwolf/isis4822
+* Dashboard to analyze Rheumatoid Arthritis in Colombia based on Costs per Person https://github.com/dersteppenwolf/isis4822_final_project 
+* We know what you did - An analysis on Colombia congressman financial assests https://github.com/cjcarvajal/cuestion-publica-analysis
+* How does Bogota vote? https://github.com/vgarzom/va-votacion-bogota
+
+
+  
+## Taller 2: Qgis
+
+* Instalar Qgis https://www.qgis.org/es/site/
+* Crear mapas temàticos con QGIS
 
 #### Tutoriales cartografía con SIG Desktop
 
@@ -35,11 +61,4 @@
 * IDECA https://www.ideca.gov.co/datos-de-referencia
 * Datos abiertos Bogotá http://datosabiertos.bogota.gov.co/
 
-#### Ejemplos de presentación de repositorios en github
-
-* Explore Worldwide Female Educational Opportunities https://github.com/Divyaraaga/w209-datavis-project
-* Visual analytics https://github.com/dersteppenwolf/isis4822
-* Dashboard to analyze Rheumatoid Arthritis in Colombia based on Costs per Person https://github.com/dersteppenwolf/isis4822_final_project 
-* We know what you did - An analysis on Colombia congressman financial assests https://github.com/cjcarvajal/cuestion-publica-analysis
-* How does Bogota vote? https://github.com/vgarzom/va-votacion-bogota
 
