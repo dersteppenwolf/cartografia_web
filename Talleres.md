@@ -106,7 +106,6 @@ Enviar resultados para revisión:
 
 
 
-
 #### Docs: Tutoriales cartografía con SIG Desktop
 
 * QGIS Tutorials http://www.qgistutorials.com/en/index.html
