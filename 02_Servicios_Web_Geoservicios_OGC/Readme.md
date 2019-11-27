@@ -2,7 +2,7 @@
 
 - [Servicios web, geoservicios y OGC](#servicios-web-geoservicios-y-ogc)
   - [Presentación](#presentaci%C3%B3n)
-  - [Notas adicionales](#notas-adicionales)
+  - [Recursos adicionales](#recursos-adicionales)
     - [Geopackage](#geopackage)
     - [QGIS](#qgis)
     - [Mapbox y geojson](#mapbox-y-geojson)
@@ -12,7 +12,7 @@
 
 Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Servicios_Web_Geoservicios_OGC/02_%20Servicios_web_geoservicios_OGC.pdf
 
-## Notas adicionales
+## Recursos adicionales
 
 ### Geopackage
 
