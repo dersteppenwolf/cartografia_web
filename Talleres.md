@@ -5,7 +5,7 @@
   - [Taller 1 : Herramientas Colaborativas](#taller-1--herramientas-colaborativas)
     - [Docs: Versionamiento y Colaboración: Git y Github](#docs-versionamiento-y-colaboraci%C3%B3n-git-y-github)
     - [Docs: Markdown](#docs-markdown)
-    - [Linter](#linter)
+    - [Docs: Linter](#docs-linter)
     - [Docs: Ejemplos de presentación de repositorios en github](#docs-ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
   - [Taller 2: Qgis (Tarea 1)](#taller-2-qgis-tarea-1)
     - [Docs: Tutoriales cartografía con SIG Desktop](#docs-tutoriales-cartograf%C3%ADa-con-sig-desktop)
@@ -56,7 +56,7 @@ Parte 2:
 - Markdown Cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 - Markdown quick reference cheat sheet https://en.support.wordpress.com/markdown-quick-reference/
 
-### Linter
+### Docs: Linter
 
 - Formatting Markdown and Codeblocks With Prettier and Hugo https://www.christopherbiscardi.com/post/formatting-markdown-and-codeblocks-with-prettier-and-hugo/
 
