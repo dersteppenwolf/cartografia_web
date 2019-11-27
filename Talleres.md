@@ -8,9 +8,11 @@
     - [Docs: Linter](#docs-linter)
     - [Docs: Ejemplos de presentación de repositorios en github](#docs-ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
   - [Taller 2: Introducción a Qgis](#taller-2-introducci%C3%B3n-a-qgis)
-  - [Objetivos](#objetivos)
+    - [Objetivos](#objetivos)
     - [Docs: Tutoriales cartografía con SIG Desktop](#docs-tutoriales-cartograf%C3%ADa-con-sig-desktop)
     - [Fuentes de datos sugeridas](#fuentes-de-datos-sugeridas)
+  - [Tareas](#tareas)
+    - [Tarea 1](#tarea-1)
 
 ## Nota
 
@@ -73,7 +75,7 @@ Parte 2:
 
 ## Taller 2: Introducción a Qgis
 
-## Objetivos
+### Objetivos
 
 - Conocer el funcionamiento básico de QGIS
 - Publicar mapas en la web con la ayuda de QGIS.
@@ -99,9 +101,9 @@ Parte 2:
 - IDECA https://www.ideca.gov.co/datos-de-referencia
 - Datos abiertos Bogotá http://datosabiertos.bogota.gov.co/
 
-## Tareas
+## Tareas
 
-### Tarea 1
+### Tarea 1
 
 **Fecha Máxima de entrega:** 2019-11-30 19:00
 
@@ -112,11 +114,12 @@ Prerrequisitos:
 
 Crear mapas temáticos con QGIS:
 
-- Utilizando Qgis cree un mapa temático utilizando datos de Colombia
+- Utilizando Qgis cree un mapa temático (Sugerencia: datos de Colombia)
 - Utilice dos métodos de clasificación diferentes
 - Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
 - Genere los mapas como pdf
-- Publique los 2 mapas en QGIS Cloud
+- Publique los 2 mapas temáticos en QGIS Cloud
+- Con datos diferentes Diseñe otro nuevo mapa temático con QGIS2Web y publiquelo uno de los mapas en Github Pages
 
 Publicar Resultados En el repositorio github personal creado:
 
@@ -131,6 +134,7 @@ Publicar Resultados En el repositorio github personal creado:
 - Mapas en pdf
 - Proyecto qgis
 - Urls de los mapas publicados en QGIS Cloud
+- Url del mapa generado con QGIS2Web publicado en Github Pages
 
 Enviar resultados para revisión:
 
