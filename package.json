@@ -2,14 +2,12 @@
   "name": "cartografia_web",
   "version": "1.0.0",
   "description": "Publicación de cartografía vía web",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1"
   },
-  "devDependencies": {},
-  
-
   "scripts": {
     "precommit": "lint-staged"
   },
@@ -19,8 +17,6 @@
       "git add"
     ]
   },
-
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dersteppenwolf/cartografia_web.git"
