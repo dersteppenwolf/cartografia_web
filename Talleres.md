@@ -69,14 +69,21 @@ Parte 2:
   
 ## Taller 2: Qgis  (Tarea 1)
 
-**Fecha Máxima de entrega:** 2019-11-27 19:00 
+**Fecha Máxima de entrega:** 2019-11-30 19:00 
+
+Prerrequisitos: 
 
 * Instalar Qgis https://www.qgis.org/es/site/
-* Crear mapas temáticos con QGIS: 
+* Crear una cuenta en https://qgiscloud.com/
+
+
+Crear mapas temáticos con QGIS: 
+
   * Utilizando Qgis cree un mapa temático utilizando datos de Colombia
   * Utilice dos métodos de clasificación diferentes
   * Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
   * Genere los  mapas como pdf 
+  * Publique los 2 mapas en QGIS Cloud
 
 Publicar Resultados En el repositorio github personal creado:
 
@@ -90,6 +97,9 @@ Publicar Resultados En el repositorio github personal creado:
 * Ventajas / desventajas / dificultades / diferencias encontradas al utilizar QGIS  para el desarrollo del ejercicio 
 * Mapas en pdf
 * Proyecto  qgis 
+* Urls de los mapas publicados en QGIS Cloud
+
+Enviar resultados para revisión:
 * Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
   * Título: Tarea 1 - CODIGO_ESTUDIANTE
   * Contenido: Enlace al repositorio creado
