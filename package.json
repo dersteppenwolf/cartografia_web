@@ -1,0 +1,34 @@
+{
+  "name": "cartografia_web",
+  "version": "1.0.0",
+  "description": "Publicación de cartografía vía web",
+  "dependencies": {
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {},
+  
+
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.md": [
+      "prettier --parser markdown --write",
+      "git add"
+    ]
+  },
+
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dersteppenwolf/cartografia_web.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dersteppenwolf/cartografia_web/issues"
+  },
+  "homepage": "https://github.com/dersteppenwolf/cartografia_web#readme"
+}
