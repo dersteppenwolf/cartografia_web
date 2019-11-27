@@ -147,7 +147,7 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
   - Exámenes cortos (Quiz) - Individual: 20%
   - Tarea 1 "Qgis" - Individual: 10%
   - Tarea 2 "Servicios Web Geográficos" - Individual: 10%
-  - Taller 2 "Web Gis" - Individual: 20%
+  - Tarea 3 "Web Gis" - Individual: 20%
   - Control de lectura - Individual 20%
   - Trabajo final - Grupo : 20%
 
