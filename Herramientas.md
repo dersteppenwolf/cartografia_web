@@ -73,6 +73,9 @@ Comerciales:
 
 - Anaconda / Jupyter ( https://medium.com/saturdays-ai/empezando-a-usar-jupyter-notebook-para-python-parte-1-instalaci%C3%B3n-94e97b4c5f37 ) para las prácticas interactivas con python
 - Observable https://observablehq.com/
+- Google Colab https://medium.com/better-programming/one-stop-guide-to-google-colab-d67c94d30516
+- Intro a Google colab https://colab.research.google.com/notebooks/welcome.ipynb?hl=es
+- Google Colab: Tips para principiantes https://medium.com/marvik/google-colab-tips-para-principiantes-e39d6e7051d4
 
 ## Tableros de control
 
