@@ -1,6 +1,5 @@
 # Talleres y Tareas
 
-**ESTO ES UNA PRUEBA**
 
 - [Talleres y Tareas](#talleres-y-tareas)
   - [Nota](#nota)
