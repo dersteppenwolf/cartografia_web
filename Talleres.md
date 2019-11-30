@@ -218,7 +218,7 @@ Crear mapas temáticos con QGIS:
 
 Publicar Resultados En el repositorio github personal creado:
 
-- Crear Archivo **Taller2.md** con la siguiente información sobre los mapas que creó:
+- Crear Archivo **Tarea1.md** con la siguiente información sobre los mapas que creó:
 - Cuál es el problema a tratar?
 - Por qué un mapa ayuda a resolverlo?
 - Descripción del mapa temático (Variable seleccionada, utilidad)
@@ -226,7 +226,6 @@ Publicar Resultados En el repositorio github personal creado:
 - Listado de fuentes de datos seleccionadas (proveedor, enlace para descarga, descripciòn, procesamiento realizado)
 - Descripción breve del procedimiento utilizado (plugins, extensiones, procesos, transformaciones de datos, etc)
 - Ventajas / desventajas / dificultades / diferencias encontradas al utilizar QGIS para el desarrollo del ejercicio
-- Mapas en pdf
 - Proyecto qgis
 - Urls de los mapas publicados en QGIS Cloud
 - Url del mapa generado con QGIS2Web publicado en Github Pages
