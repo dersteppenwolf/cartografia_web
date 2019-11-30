@@ -200,7 +200,7 @@ Ver https://github.com/dersteppenwolf/pycon
 
 ### Tarea 1
 
-**Fecha Máxima de entrega:** 2019-11-30 19:00
+**Fecha Máxima de entrega:** 2019-12-04 21:00
 
 Prerrequisitos:
 
