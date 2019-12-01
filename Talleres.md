@@ -1,6 +1,5 @@
 # Talleres y Tareas
 
-
 - [Talleres y Tareas](#talleres-y-tareas)
   - [Nota](#nota)
   - [Taller 1 : Herramientas Colaborativas](#taller-1--herramientas-colaborativas)
@@ -202,21 +201,15 @@ Ver https://github.com/dersteppenwolf/pycon
 
 **Fecha Máxima de entrega:** 2019-12-04 21:00
 
-Prerrequisitos:
-
-- Instalar Qgis https://www.qgis.org/es/site/
-- Crear una cuenta en https://qgiscloud.com/
-
-Crear mapas temáticos con QGIS:
+**Crear mapas temáticos con QGIS:**
 
 - Utilizando Qgis cree un mapa temático (Sugerencia: datos de Colombia)
 - Utilice dos métodos de clasificación diferentes
 - Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
-- Genere los mapas como pdf
 - Publique los 2 mapas temáticos en QGIS Cloud
 - Con datos diferentes Diseñe otro nuevo mapa temático con QGIS2Web y publiquelo uno de los mapas en Github Pages
 
-Publicar Resultados En el repositorio github personal creado:
+**Publicar Resultados En el repositorio github personal creado:**
 
 - Crear Archivo **Tarea1.md** con la siguiente información sobre los mapas que creó:
 - Cuál es el problema a tratar?
@@ -227,10 +220,9 @@ Publicar Resultados En el repositorio github personal creado:
 - Descripción breve del procedimiento utilizado (plugins, extensiones, procesos, transformaciones de datos, etc)
 - Ventajas / desventajas / dificultades / diferencias encontradas al utilizar QGIS para el desarrollo del ejercicio
 - Proyecto qgis
-- Urls de los mapas publicados en QGIS Cloud
-- Url del mapa generado con QGIS2Web publicado en Github Pages
+- Urls de los mapas publicados en la web ya sea con Qgiscloud o QGIS2Web / Github Pages
 
-Enviar resultados para revisión:
+**Enviar resultados para revisión:**
 
 - Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
   - Título: Tarea 1 - CODIGO_ESTUDIANTE
