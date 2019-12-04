@@ -59,4 +59,8 @@
 - Google maps javascript api https://developers.google.com/maps/documentation/javascript/tutorial
 - ESRI Web AppBuilder for ArcGIS (Developer Edition) https://developers.arcgis.com/web-appbuilder/
 - Mapbox Maps SDK for Android https://docs.mapbox.com/android/maps/overview/
--
+
+### Ejemplos de Visualizaciones interactivas con mapas
+
+- The New York City Subway Map as You’ve Never Seen It Before - The New York Times https://www.nytimes.com/interactive/2019/12/02/nyregion/nyc-subway-map.html 
+
