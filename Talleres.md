@@ -18,6 +18,7 @@
       - [Docs: Tecnologías web](#docs-tecnolog%C3%ADas-web)
       - [Docs: Qgis2threejs](#docs-qgis2threejs)
       - [Docs: GitHub Pages](#docs-github-pages)
+  - [Taller 3: Geojson](#taller-3-geojson)
   - [Taller 3: Servicios OGC](#taller-3-servicios-ogc)
   - [Taller 4: Publicando mapas utilizando herramientas disponibles en la nube](#taller-4-publicando-mapas-utilizando-herramientas-disponibles-en-la-nube)
   - [Taller 5: Using Python to Analyze Spatial Data](#taller-5-using-python-to-analyze-spatial-data)
@@ -170,6 +171,49 @@ Con **GitHub Pages** es posible publicar de forma sencilla un sitio web con arch
 
 - Getting Started with GitHub Pages https://guides.github.com/features/pages/
 - Publicar tu web usando GitHub Pages https://devcode.la/tutoriales/publicar-tu-web-usando-github-pages/
+
+## Taller 3: Geojson
+
+Conociendo y Visualizando geojson :
+
+Ejercicio 1:
+
+- Ingrese al portal de datos abiertos de Philadelphia y descarge el conjunto de datos “Licenses and Inspections Districts” en formato geojson https://www.opendataphilly.org/dataset/licenses-inspections-district-boundaries
+- Ingrese a http://geojson.io/ y cargue el archivo
+- Preguntas:
+  - Qué tipo de geometría tienen los datos?
+  - Qué atributos tiene?
+  - Cuantos registros hay?
+
+Ejercicio 2:
+
+- Descargue otros conjuntos de datos desde opendataphilly y haga el mismo procedimiento https://www.opendataphilly.org/dataset?res_format=geojson
+- Tipos de Geometrías:
+  - Líneas
+  - Puntos
+- Pregunta: En qué otros formatos está disponible la información?
+
+Ejercicio 3: Clientes ligeros
+
+- Visualizando geojson usando mapbox gl https://www.mapbox.com/mapbox-gl-js/example/geojson-polygon/
+- Visualizando geojson usando leaflet http://leafletjs.com/examples/geojson/
+- Visualizando geojson Usando openlayers http://dev.openlayers.org/examples/geojson.html
+
+Ejercicio 4: Clientes Pesados - Qgis
+
+- Busque en la web archivos de tipo geojson Ejemplo: https://bit.ly/2EqUvFG
+- Cargue el archivo en QGIS http://webgeodatavore.com/add-geojson-content-in-qgis-short-recipes.html
+- Preguntas:
+  - Tipo de geometría? Atributos? Cantidad registros?
+  - Se puede editar?
+
+Ejercicio 5: Clientes Pesados - Qgis
+
+- Cargue los datos geojson en Arcgis Desktop
+- Edite la información y/o utilice alguna herramienta de geoprocesamiento
+- Tips:
+  - https://opengislab.com/blog/2018/11/8/adding-and-viewing-geojson-in-qgis-and-arcgis
+  - https://www.esri.com/en-us/arcgis/products/arcgis-data-interoperability/overview
 
 ## Taller 3: Servicios OGC
 
