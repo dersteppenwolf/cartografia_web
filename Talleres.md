@@ -19,10 +19,12 @@
       - [Docs: Qgis2threejs](#docs-qgis2threejs)
       - [Docs: GitHub Pages](#docs-github-pages)
   - [Taller 3: Geojson](#taller-3-geojson)
-  - [Taller 3: Servicios OGC](#taller-3-servicios-ogc)
-  - [Taller 4: Publicando mapas utilizando herramientas disponibles en la nube](#taller-4-publicando-mapas-utilizando-herramientas-disponibles-en-la-nube)
-  - [Taller 5: Using Python to Analyze Spatial Data](#taller-5-using-python-to-analyze-spatial-data)
-  - [Taller 6: Ejemplos Python / Arcpy](#taller-6-ejemplos-python--arcpy)
+  - [Taller 4: Consumiendo servicios WMS](#taller-4-consumiendo-servicios-wms)
+  - [Taller 5: Consumiendo servicios WMTS](#taller-5-consumiendo-servicios-wmts)
+  - [Taller 6: Consumiendo servicios WFS](#taller-6-consumiendo-servicios-wfs)
+  - [Taller 8: Publicando mapas utilizando herramientas disponibles en la nube](#taller-8-publicando-mapas-utilizando-herramientas-disponibles-en-la-nube)
+  - [Taller 9: Using Python to Analyze Spatial Data](#taller-9-using-python-to-analyze-spatial-data)
+  - [Taller 10: Ejemplos Python / Arcpy](#taller-10-ejemplos-python--arcpy)
   - [Taller 7: Desarrollo web con Leaflet y WMS](#taller-7-desarrollo-web-con-leaflet-y-wms)
   - [Tareas](#tareas)
     - [Tarea 1](#tarea-1)
@@ -198,6 +200,7 @@ Ejercicio 3: Clientes ligeros
 - Visualizando geojson usando mapbox gl https://www.mapbox.com/mapbox-gl-js/example/geojson-polygon/
 - Visualizando geojson usando leaflet http://leafletjs.com/examples/geojson/
 - Visualizando geojson Usando openlayers http://dev.openlayers.org/examples/geojson.html
+- Arcgis JS Geojson layer https://developers.arcgis.com/javascript/latest/sample-code/layers-geojson/index.html
 
 Ejercicio 4: Clientes Pesados - Qgis
 
@@ -215,20 +218,62 @@ Ejercicio 5: Clientes Pesados - Qgis
   - https://opengislab.com/blog/2018/11/8/adding-and-viewing-geojson-in-qgis-and-arcgis
   - https://www.esri.com/en-us/arcgis/products/arcgis-data-interoperability/overview
 
-## Taller 3: Servicios OGC
+## Taller 4: Consumiendo servicios WMS
 
-TODO
+Ejemplos de WMS:
 
-## Taller 4: Publicando mapas utilizando herramientas disponibles en la nube
+- IGAC https://geoportal.igac.gov.co/contenido/datos-abiertos-cartografia-y-geografia
+- Datos Abiertos Bogotá https://datosabiertos.bogota.gov.co/dataset?res_format=WMS
+
+Ejercicio 1: Visualizar con clientes ligeros
+
+- Visor WMS Esri Js https://developers.arcgis.com/javascript/3/samples/layers_wms/
+- Mapbox Gl https://www.mapbox.com/mapbox-gl-js/example/wms/
+- Carto https://carto.com/learn/guides/styling/inserting-external-basemaps/
+
+Ejercicio 2: Visualizar con clientes pesados
+
+- Qgis Working with WMS Data http://www.qgistutorials.com/en/docs/working_with_wms.html
+- Arcgis Desktop Adding WMS services http://desktop.arcgis.com/en/arcmap/latest/map/web-maps-and-services/adding-wms-services.htm
+
+## Taller 5: Consumiendo servicios WMTS
+
+Ejercicios
+
+- Cree una cuenta en mapbox https://www.mapbox.com/
+- Modifique / publique un mapa base
+- Consuma el mapa como WMTS con diferentes clientes
+
+Referencias:
+
+- Mapa base con Cartogram https://apps.mapbox.com/cartogram/#13.01/40.7251/-74.0051
+- Mapbox Create a custom style https://docs.mapbox.com/help/tutorials/create-a-custom-style/
+- Add Mapbox maps as layers in ArcGIS and QGIS with WMTS https://docs.mapbox.com/help/tutorials/mapbox-arcgis-qgis/
+- Is it possible to use WMTS in QGIS? https://gis.stackexchange.com/questions/52346/is-it-possible-to-use-wmts-in-qgis
+
+## Taller 6: Consumiendo servicios WFS
+
+Ejemplos de WFS:
+
+- Datos Abiertos Bogotá https://datosabiertos.bogota.gov.co/dataset?res_format=WFS&_res_format_limit=0
+- Servidor Geoserver Clase http://34.83.176.208:18080/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities
+
+Ejercicio 1:
+
+- Cargue datos vectoriales en QGIS y Arcgis desde servicios WFS
+- QGIS : Using WFS https://docs.qgis.org/testing/en/docs/training_manual/online_resources/wfs.html
+- Arcgis : Adding a WFS connection https://desktop.arcgis.com/en/arcmap/latest/extensions/production-mapping/adding-a-wfs-connection.htm
+
+## Taller 8: Publicando mapas utilizando herramientas disponibles en la nube
 
 - Ver https://github.com/dersteppenwolf/taller_gis_cloud
 - Change a map's style https://docs.mapbox.com/mapbox-gl-js/example/setstyle/
 
-## Taller 5: Using Python to Analyze Spatial Data
+## Taller 9: Using Python to Analyze Spatial Data
 
 Ver https://github.com/dersteppenwolf/pycon
 
-## Taller 6: Ejemplos Python / Arcpy
+## Taller 10: Ejemplos Python / Arcpy
 
 - Python variables y operaciones: https://gist.github.com/dersteppenwolf/fca39c1971fd0fd7c3ce
 - Describir feature https://gist.github.com/dersteppenwolf/6dc546ef359ffbb85947
