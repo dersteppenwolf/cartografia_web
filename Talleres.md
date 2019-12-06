@@ -215,7 +215,7 @@ Ejercicio 4: Clientes Pesados - Qgis
   - Tipo de geometría? Atributos? Cantidad registros?
   - Se puede editar?
 
-Ejercicio 5: Clientes Pesados - Qgis
+Ejercicio 5: Clientes Pesados - Arcgis
 
 - Cargue los datos geojson en Arcgis Desktop
 - Edite la información y/o utilice alguna herramienta de geoprocesamiento
