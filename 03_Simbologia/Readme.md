@@ -1,9 +1,11 @@
 # Simbología para Mapas Web
 
 - [Simbología para Mapas Web](#simbolog%C3%ADa-para-mapas-web)
-  - [Básico](#b%C3%A1sico)
+  - [Geoserver](#geoserver)
+    - [Básico](#b%C3%A1sico)
+    - [Avanzado](#avanzado)
 
-## Geoserver
+##  Geoserver
 
 ### Básico
 
@@ -16,7 +18,7 @@
 - MBStyle Styling https://docs.geoserver.org/stable/en/user/styling/mbstyle/index.html
 - Styling workshop https://docs.geoserver.org/stable/en/user/styling/workshop/index.html
 
-### Avanzado
+### Avanzado
 
 - Creating Stunning Maps in GeoServer: mastering SLD and CSS styles https://es.slideshare.net/geosolutions/creating-stunning-maps-in-geoserver-mastering-sld-and-css-styles-foss4g-2016
 
