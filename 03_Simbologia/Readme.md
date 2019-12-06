@@ -156,8 +156,8 @@ SLD https://mapserver.org/ogc/sld.html
 - Diferencias entre teselas raster y vector https://es.slideshare.net/bolosig/del-wms-al-vector-tiles/13
 - Mapbox Vector tiles https://docs.mapbox.com/vector-tiles/reference/
 
-  Vector tiles are an open standard under a
-  Creative Commons Attribution 3.0 US License.
+  Vector tiles are an **open standard** under a
+  **Creative Commons Attribution 3.0** US License.
 
 - Mapbox Vector Tile specification
 
@@ -350,6 +350,16 @@ SLD https://mapserver.org/ogc/sld.html
   ]
 }
 ```
+
+- OGC Calls for Participation in Vector Tiles Pilot https://www.opengeospatial.org/pressroom/pressreleases/2837
+
+  The Open Geospatial Consortium (OGC) has released a Call
+  for Participation to solicit proposals for the OGC Vector Tiles Pilot Initiative.
+
+  The Vector Tiles Pilot, sponsored by the US Army Geospatial
+  Center and the UK Defence Science and Technology Laboratory
+  (Dstl) will advance an OGC approach to encode and publish Vector Tiles,
+  and will propose extensions for WFS, WMTS, and GeoPackage.
 
 - awesome implementations of the Mapbox Vector Tile specification https://github.com/mapbox/awesome-vector-tiles
 
