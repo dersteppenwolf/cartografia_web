@@ -133,11 +133,15 @@ SLD https://mapserver.org/ogc/sld.html
 
 ## Vector tiles
 
-- Ejemplo Change a map's style https://docs.mapbox.com/mapbox-gl-js/example/setstyle/
+- Ejemplo: Change a map's style https://docs.mapbox.com/mapbox-gl-js/example/setstyle/
 
 ![alt text](mbstyle1.png)
 
 ![alt text](mbstyle2.png)
+
+- Ejemplo: Display buildings in 3D https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/
+
+![alt text](mbstyle3.png)
 
 - Diferencias entre teselas raster y vector https://es.slideshare.net/bolosig/del-wms-al-vector-tiles/13
 - Mapbox Vector tiles https://docs.mapbox.com/vector-tiles/reference/
