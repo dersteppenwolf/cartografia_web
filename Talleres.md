@@ -313,6 +313,7 @@ Ejercicio: Introducción a Python
 - Python for beginners https://data-flair.training/blogs/start-learning-python-with-infographic/ https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2019/02/Python-Infographic-for-beginners-to-learn-Python-Quickly.jpg
 - Python Hello world https://www.learnpython.org/en/Hello,_World!
 - Primeros pasos con Jupyter Notebook https://www.adictosaltrabajo.com/2018/01/18/primeros-pasos-con-jupyter-notebook/
+- [Ejemplo Python y Jupyter : "Hola Mundo" ](02_Servicios_Web_Geoservicios_OGC/ejemplo_python.ipynb)
 - Google Colab: Python y Machine Learning en la nube https://www.adictosaltrabajo.com/2019/06/04/google-colab-python-y-machine-learning-en-la-nube/
   - “Colaboratory es un entorno gratuito de Jupyter Notebook que no requiere configuración y que se ejecuta completamente en la nube.”
 - Ejemplo de servicios OGC con Python OWSLib https://colab.research.google.com/drive/1S1UygmFjZIFswq8gtMxuYoX571vdI2KR
