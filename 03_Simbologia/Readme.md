@@ -14,12 +14,20 @@
 Styled Layer Descriptor https://www.opengeospatial.org/standards/sld
 
     The OpenGIS® Styled Layer Descriptor (SLD) Profile of the OpenGIS® Web Map Service (WMS)
-    Encoding Standard [http://www.opengeospatial.org/standards/wms] defines an encoding that extends the WMS standard to allow user-defined symbolization
-    and coloring of geographic feature[http://www.opengeospatial.org/ogc/glossary/f] and coverage[http://www.opengeospatial.org/ogc/glossary/c] data.
+    Encoding Standard [http://www.opengeospatial.org/standards/wms] defines
+    an encoding that extends
+     the WMS standard to allow user-defined symbolization
+    and coloring of geographic feature[http://www.opengeospatial.org/ogc/glossary/f]
+    and coverage[http://www.opengeospatial.org/ogc/glossary/c] data.
 
 https://en.wikipedia.org/wiki/Styled_Layer_Descriptor
 
-    In cartography, a Styled Layer Descriptor (SLD) is an XML schema specified by the Open Geospatial Consortium (OGC) for describing the appearance of map layers. It is capable of describing the rendering of vector and raster data. A typical use of SLDs is to instruct a Web Map Service (WMS) how to render a specific layer.
+    In cartography, a Styled Layer Descriptor (SLD) is an XML
+    schema specified by the Open Geospatial Consortium (OGC)
+    for describing the appearance of map layers.
+    It is capable of describing the rendering of vector and raster data.
+    A typical use of SLDs is to instruct a Web Map Service (WMS)
+    how to render a specific layer.
 
 Ejemplo:
 
@@ -148,7 +156,8 @@ SLD https://mapserver.org/ogc/sld.html
 - Diferencias entre teselas raster y vector https://es.slideshare.net/bolosig/del-wms-al-vector-tiles/13
 - Mapbox Vector tiles https://docs.mapbox.com/vector-tiles/reference/
 
-  Vector tiles are an open standard under a Creative Commons Attribution 3.0 US License.
+  Vector tiles are an open standard under a
+  Creative Commons Attribution 3.0 US License.
 
 - Mapbox Vector Tile specification
 
