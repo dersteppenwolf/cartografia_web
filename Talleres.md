@@ -376,7 +376,7 @@ Ver https://github.com/dersteppenwolf/pycon
 
 ### Tarea 2
 
-**Fecha Máxima de entrega:** 2019-12-11 22:00
+**Fecha Máxima de entrega:** 2019-12-11 24:00
 
 **Publicar servicios geográficos basados en estándares OGC:**
 
