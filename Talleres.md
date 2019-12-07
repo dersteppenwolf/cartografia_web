@@ -33,6 +33,7 @@
   - [Taller 16: Desarrollo web con Leaflet y WMS](#taller-16-desarrollo-web-con-leaflet-y-wms)
   - [Tareas](#tareas)
     - [Tarea 1](#tarea-1)
+    - [Tarea 2](#tarea-2)
 
 ## Nota
 
@@ -369,4 +370,40 @@ Ver https://github.com/dersteppenwolf/pycon
 
 - Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
   - Título: Tarea 1 - CODIGO_ESTUDIANTE
+  - Contenido: Enlace al repositorio creado
+
+### Tarea 2
+
+**Fecha Máxima de entrega:** 2019-12-10 12:00
+
+**Publicar servicios geográficos basados en estándares OGC:**
+
+- Notas:
+  - Para el nombramiento de las tablas, estilos, capas utilice el prefijo asignado en clase. Ejm e0_poligono_departamentos
+  - Utilizar datos de Colombia, datos de su trabajo personal.
+- Publique al menos 3 conjuntos de datos en el servidor postgresql / postgis asignado para la clase
+- Realice procesamiento adicional de los datos utilizando postgis (Ejm. enriquecimiento con atributos nuevos, generación de tablas derivadas a partir de geoprocesamiento, etc)
+- Publique las capas en geoserver
+- Cree simbología para cada una de las las capas utilizando SLD o CSS (Mínimo un SLD y un CSS)
+- Publique un grupo de capas
+
+**Publicar Resultados En el repositorio github personal creado:**
+
+- Crear Archivo **Tarea2.md** con la siguiente información sobre los mapas que creó:
+- Cuál es el problema a tratar?
+- Por qué la publicación de servicios OGC puede ayudar a resolverlo?
+- Qué servicios propone para la solución de su problema? WMS? WMTS? WFS? Por qué ?
+- Descripción de los datos seleccionados (Origen, descripción, características especiales, atributos, url para descarga)
+- Descripción del procesamiento realizado con postgis (Incluir los sqls)
+- Descripción de la forma en que creó la simbología (incluir los sld's y css)
+- Nombres de las tablas creadas en postgis
+- Nombres de las capas y estilos publicadas en geoserver.
+- Url de la previsualización del grupo de capas en Geoserver
+- Pantallazos con la forma en que los usuarios pueden consultar su geoservicio a través de QGIS
+- Ventajas / desventajas / dificultades encontradas durante el proceso
+
+**Enviar resultados para revisión:**
+
+- Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
+  - Título: Tarea 2 - CODIGO_ESTUDIANTE
   - Contenido: Enlace al repositorio creado
