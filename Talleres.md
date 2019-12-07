@@ -34,6 +34,8 @@
   - [Tareas](#tareas)
     - [Tarea 1](#tarea-1)
     - [Tarea 2](#tarea-2)
+    - [Tarea 3](#tarea-3)
+    - [Entregables](#entregables)
 
 ## Nota
 
@@ -374,7 +376,7 @@ Ver https://github.com/dersteppenwolf/pycon
 
 ### Tarea 2
 
-**Fecha Máxima de entrega:** 2019-12-10 12:00
+**Fecha Máxima de entrega:** 2019-12-11 22:00
 
 **Publicar servicios geográficos basados en estándares OGC:**
 
@@ -406,4 +408,45 @@ Ver https://github.com/dersteppenwolf/pycon
 
 - Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
   - Título: Tarea 2 - CODIGO_ESTUDIANTE
+  - Contenido: Enlace al repositorio creado
+
+### Tarea 3
+
+**Fecha Máxima de entrega:** 2019-12-15 22:00
+
+**Objetivo**
+
+Comunicar una _historia_ de través de tecnologìas para la publicación web utilizando **mapas interactivos** y elementos multimedia.
+
+**Descripción**
+
+Utilizando herramientas para la publicación de contenidos web crear una **experiencia interactiva** que explique a un usuario una idea o solución a un problema.
+
+- La experiencia interactiva debe incluir múltiples **mapas interactivos**
+- Los datos presentados a través de **mapas interactivos** deben demostrar la capacidad que tienen los estudiantes para aplicar técnicas de geoprocesamiento para la resolución de algún tipo de problema que involucre información georreferenciada.
+- Además de mapas, la experiencia interactiva debe incluir otros elementos que enriquezcan el contenido tales como ejemplo:
+  - Fotografías
+  - Video
+  - Texto
+  - Tableros de control
+  - Gráficos (charts) interactivos
+
+### Entregables
+
+En el repositorio Github creado para el curso publicar el siguiente archivo:
+
+- Archivo **Taller3.md** con la siguiente información:
+  - Cuál es el problema a tratar?
+  - Por qué una **experiencia interactiva** ayuda a resolverlo?
+  - Descripción de los datos (tipos de geometrías, atributos, sistemas de referencia, urls para descarga de la información, etc)
+  - Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
+  - Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos.
+  - Descripción breve de las diferentes herramientas y procedimientos utilizadas para publicar el contenido en la web.
+  - Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
+  - Url público de la **experiencia interactiva**
+
+**Enviar resultados para revisión:**
+
+- Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
+  - Título: Tarea 3 - CODIGO_ESTUDIANTE
   - Contenido: Enlace al repositorio creado
