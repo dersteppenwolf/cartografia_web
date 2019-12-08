@@ -414,6 +414,8 @@ Ver https://github.com/dersteppenwolf/pycon
 
 **Fecha Máxima de entrega:** 2019-12-15 22:00
 
+Grupos de 2 personas
+
 **Objetivo**
 
 Comunicar una _historia_ de través de tecnologìas para la publicación web utilizando **mapas interactivos** y elementos multimedia.
