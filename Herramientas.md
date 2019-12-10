@@ -4,6 +4,7 @@ Enlaces a herramientas comentadas durante el curso.
 
 - [Herramientas](#herramientas)
   - [Software libre para SIG](#software-libre-para-sig)
+  - [Bases de datos espaciales](#bases-de-datos-espaciales)
   - [Migración de Datos / ETL](#migraci%C3%B3n-de-datos--etl)
   - [Herramientas GIS en la Nube](#herramientas-gis-en-la-nube)
   - [Recopilación de datos con dispositivos móviles](#recopilaci%C3%B3n-de-datos-con-dispositivos-m%C3%B3viles)
@@ -13,7 +14,7 @@ Enlaces a herramientas comentadas durante el curso.
 
 - OSGeoLive: http://live.osgeo.org/en/index.html OSGeoLive is a self-contained bootable DVD, USB thumb drive or Virtual Machine based on Lubuntu, that allows you to try a wide variety of open source geospatial software without installing anything. It is composed entirely of free software, allowing it to be freely distributed, duplicated and passed around.
 
-## Bases de datos espaciales
+## Bases de datos espaciales
 
 - Postgis https://postgis.net/
 - Spatialite https://www.gaia-gis.it/fossil/libspatialite/index
