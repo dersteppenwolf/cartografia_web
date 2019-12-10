@@ -22,10 +22,15 @@ Human in the loop...
 
 ![VA](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/architecture.png)
 
+Mapa de Mortalidad:
+http://kronista.gkudos.com/projects/2013/MapaMortalidad/
+
 A Visual tool for Data Quality Checking of Geomagnetic Data https://github.com/dersteppenwolf/isis4822/tree/master/hw2
 
+Driving in Bogotá, How did we do it in 2017?
 https://github.com/dersteppenwolf/isis4822/tree/master/hw4
 
+Temperatura:
 https://github.com/dersteppenwolf/isis4822/tree/master/midterm
 
 ## Storytelling
