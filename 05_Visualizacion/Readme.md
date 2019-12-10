@@ -7,6 +7,7 @@
   - [Herramientas para crear visualizaciones interactivas con mapas](#herramientas-para-crear-visualizaciones-interactivas-con-mapas)
   - [Business Intelligence - Tableros de control](#business-intelligence---tableros-de-control)
   - [Herramientas para desarrollo de clientes ligeros (javascript)](#herramientas-para-desarrollo-de-clientes-ligeros-javascript)
+    - [Openlayers](#openlayers)
     - [Leaflet](#leaflet)
     - [Mapbox GL JS](#mapbox-gl-js)
     - [Carto VL](#carto-vl)
@@ -73,6 +74,12 @@ https://github.com/dersteppenwolf/isis4822/tree/master/hw4
 
 ## Herramientas para desarrollo de clientes ligeros (javascript)
 
+### Openlayers
+
+- WMTS https://openlayers.org/en/latest/examples/wmts.html?q=wmts
+- WMS https://openlayers.org/en/latest/examples/wms-image.html?q=wms
+- WFS https://openlayers.org/en/latest/examples/vector-wfs.html?q=wfs
+
 ### Leaflet
 
 - Quick start
@@ -118,8 +125,6 @@ https://github.com/dersteppenwolf/isis4822/tree/master/hw4
 ### Otros
 
 - TerriaJS https://terria.io/ An open-source framework for web-based geospatial catalogue explorers
-- Openlayers https://openlayers.org/en/latest/examples/
 - Arcgis JS https://developers.arcgis.com/javascript/latest/sample-code/
 - Google maps javascript api https://developers.google.com/maps/documentation/javascript/tutorial
 - ESRI Web AppBuilder for ArcGIS (Developer Edition) https://developers.arcgis.com/web-appbuilder/
-- Mapbox Maps SDK for Android https://docs.mapbox.com/android/maps/overview/
