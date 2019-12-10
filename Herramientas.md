@@ -23,6 +23,9 @@ Enlaces a herramientas comentadas durante el curso.
 ## Migración de Datos / ETL
 
 - GDAL: A translator library for raster and vector geospatial data formats https://gdal.org/
+
+ogr2ogr -f "Geojson" mydata.geojson PG:"host=localhost user=user dbname=yourdb password=yourpwd" -sql "SELECT \* FROM my_table " -progress
+
 - fgdb2postgis: Python library providing functionality for converting ESRI file geodatabase to PostGIS https://github.com/dersteppenwolf/fgdb2postgis
 - FME https://www.safe.com/
 - GeoKettle https://live.osgeo.org/archive/10.5/ko/overview/geokettle_overview.html
