@@ -6,9 +6,7 @@ Enlaces a herramientas comentadas durante el curso.
   - [Software libre para SIG](#software-libre-para-sig)
   - [Herramientas GIS en la Nube](#herramientas-gis-en-la-nube)
   - [Recopilación de datos con dispositivos móviles](#recopilaci%C3%B3n-de-datos-con-dispositivos-m%C3%B3viles)
-  - [Presentaciones interactivas](#presentaciones-interactivas)
   - [Entornos interactivos para programación (notebooks)](#entornos-interactivos-para-programaci%C3%B3n-notebooks)
-  - [Tableros de control](#tableros-de-control)
 
 ## Software libre para SIG
 
@@ -54,21 +52,6 @@ Comerciales:
 - Geographical Open Data Kit http://geoodk.com/
 - Fulcrum https://www.fulcrumapp.com/
 
-## Presentaciones interactivas
-
-- Reveal.js, The HTML Presentation Framework
-  - https://revealjs.com/
-  - https://github.com/hakimel/reveal.js
-  - Tutorial http://kripken.github.io/talks/
-- Slides: Make better presentations. Slides is a place for creating, presenting and sharing slide decks.
-  https://slides.com/
-  - Ejemplo: Qué es un story map? https://slides.com/omarureta/maptimela_10-11#/
-- StoryMap JS, Maps that tell stories. https://storymap.knightlab.com/
-  - Ejemplo:Game of Thrones: Arya's journey. https://storymap.knightlab.com/examples/aryas-journey/
-- Juxtapose JS: Easy-to-make frame comparisons. https://juxtapose.knightlab.com/
-- Timeline JS: Easy-to-make, beautiful timelines. http://timeline.knightlab.com/
-- ESRI: Get Started with Story Maps https://learn.arcgis.com/en/projects/get-started-with-story-maps/
-
 ## Entornos interactivos para programación (notebooks)
 
 - Anaconda / Jupyter ( https://medium.com/saturdays-ai/empezando-a-usar-jupyter-notebook-para-python-parte-1-instalaci%C3%B3n-94e97b4c5f37 ) para las prácticas interactivas con python
@@ -76,10 +59,3 @@ Comerciales:
 - Google Colab https://medium.com/better-programming/one-stop-guide-to-google-colab-d67c94d30516
 - Intro a Google colab https://colab.research.google.com/notebooks/welcome.ipynb?hl=es
 - Google Colab: Tips para principiantes https://medium.com/marvik/google-colab-tips-para-principiantes-e39d6e7051d4
-
-## Tableros de control
-
-- PowerBI https://powerbi.microsoft.com/es-es/
-- Tableau https://www.tableau.com/
-- Qlik https://www.qlik.com/es-es
-- Metabase https://www.metabase.com/

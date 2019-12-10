@@ -1,14 +1,41 @@
 # Visualización de datos
 
 - [Visualización de datos](#visualizaci%C3%B3n-de-datos)
-  - [Ejemplos de clientes ligeros (javascript)](#ejemplos-de-clientes-ligeros-javascript)
+  - [Presentaciones interactivas](#presentaciones-interactivas)
+  - [Tableros de control](#tableros-de-control)
+  - [Herramientas para desarrollo de clientes ligeros (javascript)](#herramientas-para-desarrollo-de-clientes-ligeros-javascript)
     - [Leaflet](#leaflet)
     - [Mapbox GL JS](#mapbox-gl-js)
     - [Carto VL](#carto-vl)
     - [D3](#d3)
     - [Otros](#otros)
+    - [Ejemplos de Visualizaciones interactivas con mapas](#ejemplos-de-visualizaciones-interactivas-con-mapas)
 
-## Ejemplos de clientes ligeros (javascript)
+## Presentaciones interactivas
+
+- storymap: A JavaScript library for digital storytelling with web maps. https://github.com/jakobzhao/storymap Ejemplos:
+  - Oregon Water Atlas http://oregonwater.info/
+- Reveal.js, The HTML Presentation Framework
+  - https://revealjs.com/
+  - https://github.com/hakimel/reveal.js
+  - Tutorial http://kripken.github.io/talks/
+- Slides: Make better presentations. Slides is a place for creating, presenting and sharing slide decks.
+  https://slides.com/
+  - Ejemplo: Qué es un story map? https://slides.com/omarureta/maptimela_10-11#/
+- StoryMap JS, Maps that tell stories. https://storymap.knightlab.com/
+  - Ejemplo:Game of Thrones: Arya's journey. https://storymap.knightlab.com/examples/aryas-journey/
+- Juxtapose JS: Easy-to-make frame comparisons. https://juxtapose.knightlab.com/
+- Timeline JS: Easy-to-make, beautiful timelines. http://timeline.knightlab.com/
+- ESRI: Get Started with Story Maps https://learn.arcgis.com/en/projects/get-started-with-story-maps/
+
+## Tableros de control
+
+- PowerBI https://powerbi.microsoft.com/es-es/
+- Tableau https://www.tableau.com/
+- Qlik https://www.qlik.com/es-es
+- Metabase https://www.metabase.com/
+
+## Herramientas para desarrollo de clientes ligeros (javascript)
 
 ### Leaflet
 

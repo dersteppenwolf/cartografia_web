@@ -441,11 +441,11 @@ En el repositorio Github creado para el curso publicar el siguiente archivo:
   - Cuál es el problema a tratar?
   - Por qué una **experiencia interactiva** ayuda a resolverlo?
   - Descripción de los datos (tipos de geometrías, atributos, sistemas de referencia, urls para descarga de la información, etc)
-  - Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
-  - Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos.
+  - Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, sql's de postgis, etc)
+  - Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos. (Incluir slds, css, etc)
   - Descripción breve de las diferentes herramientas y procedimientos utilizadas para publicar el contenido en la web.
   - Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
-  - Url público de la **experiencia interactiva**
+  - Url público de la o las **experiencia interactiva**
 
 **Enviar resultados para revisión:**
 
