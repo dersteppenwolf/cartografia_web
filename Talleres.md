@@ -26,10 +26,10 @@
   - [Taller 8: Cargando datos en Postgis Utilizando QGIS](#taller-8-cargando-datos-en-postgis-utilizando-qgis)
   - [Taller 9: Publicando servicios WMS, WMTS y WFS en Geoserver](#taller-9-publicando-servicios-wms-wmts-y-wfs-en-geoserver)
   - [Taller 11: Publicando datos en Geonode](#taller-11-publicando-datos-en-geonode)
-  - [Taller 12: Servicios OGC y Python](#taller-12-servicios-ogc-y-python)
-  - [Taller 13: Publicando mapas utilizando herramientas disponibles en la nube](#taller-13-publicando-mapas-utilizando-herramientas-disponibles-en-la-nube)
-  - [Taller 14: Using Python to Analyze Spatial Data](#taller-14-using-python-to-analyze-spatial-data)
-  - [Taller 15: Ejemplos Python / Arcpy](#taller-15-ejemplos-python--arcpy)
+  - [Taller 12: Publicando mapas utilizando herramientas disponibles en la nube](#taller-12-publicando-mapas-utilizando-herramientas-disponibles-en-la-nube)
+  - [Taller 13: Ejemplos Python / Arcpy](#taller-13-ejemplos-python--arcpy)
+  - [Taller 14: Servicios OGC y Python](#taller-14-servicios-ogc-y-python)
+  - [Taller 15: Using Python to Analyze Spatial Data](#taller-15-using-python-to-analyze-spatial-data)
   - [Taller 16: Desarrollo web con Leaflet y WMS](#taller-16-desarrollo-web-con-leaflet-y-wms)
   - [Tareas](#tareas)
     - [Tarea 1](#tarea-1)
@@ -309,7 +309,18 @@ Ejercicio:
 - Geonode Quick start https://live.osgeo.org/es/quickstart/geonode_quickstart.html
 - Nota: Al nombre de la capa publicada asígnele su prefijo asignado según la lista de clase. Ejemplo: u1_departamentos_layer
 
-## Taller 12: Servicios OGC y Python
+## Taller 12: Publicando mapas utilizando herramientas disponibles en la nube
+
+- Ver https://github.com/dersteppenwolf/taller_gis_cloud
+
+## Taller 13: Ejemplos Python / Arcpy
+
+- Python variables y operaciones: https://gist.github.com/dersteppenwolf/fca39c1971fd0fd7c3ce
+- Describir feature https://gist.github.com/dersteppenwolf/6dc546ef359ffbb85947
+- Buffer https://gist.github.com/dersteppenwolf/82d65df9544933289bab
+- Clip https://gist.github.com/dersteppenwolf/6dae5bfd9521db50e567
+
+## Taller 14: Servicios OGC y Python
 
 Ejercicio: Introducción a Python
 
@@ -321,21 +332,9 @@ Ejercicio: Introducción a Python
   - “Colaboratory es un entorno gratuito de Jupyter Notebook que no requiere configuración y que se ejecuta completamente en la nube.”
 - Ejemplo de servicios OGC con Python OWSLib https://colab.research.google.com/drive/1S1UygmFjZIFswq8gtMxuYoX571vdI2KR
 
-## Taller 13: Publicando mapas utilizando herramientas disponibles en la nube
-
-- Ver https://github.com/dersteppenwolf/taller_gis_cloud
-- Change a map's style https://docs.mapbox.com/mapbox-gl-js/example/setstyle/
-
-## Taller 14: Using Python to Analyze Spatial Data
+## Taller 15: Using Python to Analyze Spatial Data
 
 Ver https://github.com/dersteppenwolf/pycon
-
-## Taller 15: Ejemplos Python / Arcpy
-
-- Python variables y operaciones: https://gist.github.com/dersteppenwolf/fca39c1971fd0fd7c3ce
-- Describir feature https://gist.github.com/dersteppenwolf/6dc546ef359ffbb85947
-- Buffer https://gist.github.com/dersteppenwolf/82d65df9544933289bab
-- Clip https://gist.github.com/dersteppenwolf/6dae5bfd9521db50e567
 
 ## Taller 16: Desarrollo web con Leaflet y WMS
 
