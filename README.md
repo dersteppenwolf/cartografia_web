@@ -20,8 +20,8 @@ Principal:
 - [Unidad 3: Simbologia](03_Simbologia)
 - [Unidad 4: Arquitectura de aplicaciones Web para SIG y Servidores de Mapas](04_Arquitectura_SIG)
 - [Unidad 5: Visualización de datos](05_Visualizacion)
+- [Unidad 6: Herramientas](Herramientas.md)
 
 Otros :
 
-- [Herramientas](Herramientas.md)
 - [Geoserver](Geoserver.md)

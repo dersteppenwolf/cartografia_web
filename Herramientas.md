@@ -4,6 +4,7 @@ Enlaces a herramientas comentadas durante el curso.
 
 - [Herramientas](#herramientas)
   - [Software libre para SIG](#software-libre-para-sig)
+  - [Migración de Datos / ETL](#migraci%C3%B3n-de-datos--etl)
   - [Herramientas GIS en la Nube](#herramientas-gis-en-la-nube)
   - [Recopilación de datos con dispositivos móviles](#recopilaci%C3%B3n-de-datos-con-dispositivos-m%C3%B3viles)
   - [Entornos interactivos para programación (notebooks)](#entornos-interactivos-para-programaci%C3%B3n-notebooks)
@@ -11,6 +12,24 @@ Enlaces a herramientas comentadas durante el curso.
 ## Software libre para SIG
 
 - OSGeoLive: http://live.osgeo.org/en/index.html OSGeoLive is a self-contained bootable DVD, USB thumb drive or Virtual Machine based on Lubuntu, that allows you to try a wide variety of open source geospatial software without installing anything. It is composed entirely of free software, allowing it to be freely distributed, duplicated and passed around.
+
+## Bases de datos espaciales
+
+- Postgis https://postgis.net/
+- Spatialite https://www.gaia-gis.it/fossil/libspatialite/index
+- Spatialite y Geopackage https://acolita.com/introduccion-al-uso-de-spatialite-y-geopackage-en-qgis-3/
+
+## Migración de Datos / ETL
+
+- GDAL: A translator library for raster and vector geospatial data formats https://gdal.org/
+- fgdb2postgis: Python library providing functionality for converting ESRI file geodatabase to PostGIS https://github.com/dersteppenwolf/fgdb2postgis
+- FME https://www.safe.com/
+- GeoKettle https://live.osgeo.org/archive/10.5/ko/overview/geokettle_overview.html
+
+## Database Tools
+
+- registrant: Python package used for generating HTML reports about the contents of Esri geodatabases. https://github.com/dersteppenwolf/registrant
+- Enterprise architect https://sparxsystems.com/arcgis/
 
 ## Herramientas GIS en la Nube
 
@@ -23,12 +42,6 @@ Enlaces a herramientas comentadas durante el curso.
 - Mango Maps https://mangomap.com/
 - Gis Cloud https://www.giscloud.com/
 - Arcgis online http://www.arcgis.com/home/index.html
-
-## Bases de datos espaciales
-
-- Postgis https://postgis.net/
-- Spatialite https://www.gaia-gis.it/fossil/libspatialite/index
-- Spatialite y Geopackage https://acolita.com/introduccion-al-uso-de-spatialite-y-geopackage-en-qgis-3/
 
 ## Servidores GIS
 
