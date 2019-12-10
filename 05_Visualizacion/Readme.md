@@ -15,6 +15,7 @@
 
 - storymap: A JavaScript library for digital storytelling with web maps. https://github.com/jakobzhao/storymap Ejemplos:
   - Oregon Water Atlas http://oregonwater.info/
+  - Stand With #StandingRock https://winkyt.github.io/standwithstandingrock/
 - Reveal.js, The HTML Presentation Framework
   - https://revealjs.com/
   - https://github.com/hakimel/reveal.js
