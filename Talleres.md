@@ -432,7 +432,7 @@ Utilizando herramientas para la publicación de contenidos web crear una **exper
   - Tableros de control
   - Gráficos (charts) interactivos
 
-#### Entregables
+**Entregables**
 
 En el repositorio Github creado para el curso publicar el siguiente archivo:
 
