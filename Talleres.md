@@ -449,5 +449,5 @@ En el repositorio Github creado para el curso publicar el siguiente archivo:
 **Enviar resultados para revisión:**
 
 - Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
-  - Título: Tarea 3 - CODIGO_ESTUDIANTE
-  - Contenido: Enlace al repositorio creado
+  - Título: Tarea 3 - CODIGO_ESTUDIANTE1- CODIGO_ESTUDIANTE1
+  - Contenido: Enlace al repositorio creado, Nombres de los estudiantes
