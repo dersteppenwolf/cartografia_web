@@ -5,6 +5,7 @@
   - [Storytelling](#storytelling)
     - [Ejemplos](#ejemplos)
   - [Herramientas para crear visualizaciones interactivas con mapas](#herramientas-para-crear-visualizaciones-interactivas-con-mapas)
+  - [Visualización de datos a través de herramientas en la nube](#visualizaci%C3%B3n-de-datos-a-trav%C3%A9s-de-herramientas-en-la-nube)
   - [Business Intelligence - Tableros de control](#business-intelligence---tableros-de-control)
   - [Herramientas para desarrollo de clientes ligeros (javascript)](#herramientas-para-desarrollo-de-clientes-ligeros-javascript)
     - [Openlayers](#openlayers)
@@ -72,6 +73,12 @@ https://github.com/dersteppenwolf/isis4822/tree/master/midterm
 * Juxtapose JS: Easy-to-make frame comparisons. https://juxtapose.knightlab.com/
 * Timeline JS: Easy-to-make, beautiful timelines. http://timeline.knightlab.com/
 * ESRI: Get Started with Story Maps https://learn.arcgis.com/en/projects/get-started-with-story-maps/
+
+## Visualización de datos a través de herramientas en la nube
+
+- Fluorish https://flourish.studio/
+- Datawrapper https://www.datawrapper.de/
+- Storytelling with data http://www.storytellingwithdata.com/blog/2019/1/24/new-year-new-tools
 
 ## Business Intelligence - Tableros de control
 
