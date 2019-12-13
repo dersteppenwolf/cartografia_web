@@ -9,6 +9,7 @@ Enlaces a herramientas comentadas durante el curso.
   - [Herramientas GIS en la Nube](#herramientas-gis-en-la-nube)
   - [Recopilación de datos con dispositivos móviles](#recopilaci%C3%B3n-de-datos-con-dispositivos-m%C3%B3viles)
   - [Entornos interactivos para programación (notebooks)](#entornos-interactivos-para-programaci%C3%B3n-notebooks)
+  - [Varios](#varios)
 
 ## Software libre para SIG
 
@@ -76,3 +77,8 @@ Comerciales:
 - Google Colab https://medium.com/better-programming/one-stop-guide-to-google-colab-d67c94d30516
 - Intro a Google colab https://colab.research.google.com/notebooks/welcome.ipynb?hl=es
 - Google Colab: Tips para principiantes https://medium.com/marvik/google-colab-tips-para-principiantes-e39d6e7051d4
+
+## Varios
+
+- GitHub userscripts : Userscripts to add functionality to GitHub. https://github.com/Mottie/GitHub-userscripts
+- GitHub static time: A userscript that replaces relative times with a static time formatted as you like it https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-static-time
