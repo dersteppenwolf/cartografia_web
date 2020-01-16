@@ -22,6 +22,10 @@ Enlace: https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Concept
 - d3-scale-chromatic : Sequential, diverging and categorical color scales. https://github.com/d3/d3-scale-chromatic
 - Geospatial Analysis : Classification and clustering http://www.spatialanalysisonline.com/HTML/index.html?classification_and_clustering.htm
 - Data classification methods https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/data-classification-methods.htm
+- Vuestros mapas son feos y no sabéis por qué
+  -   https://geoinquietosvlc.github.io/tus_mapas_son_feos/
+  -   https://github.com/geoinquietosvlc/tus_mapas_son_feos
+  -   https://tus-mapas-son-feos.readthedocs.io/es/develop/
 
 ### Datos
 
