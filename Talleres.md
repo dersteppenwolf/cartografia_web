@@ -8,12 +8,9 @@
     - [Ejercicio 1](#ejercicio-1)
       - [Docs: Tutoriales cartografía con SIG Desktop](#docs-tutoriales-cartograf%C3%ADa-con-sig-desktop)
       - [Fuentes de datos sugeridas](#fuentes-de-datos-sugeridas)
-    - [Ejercicio 2: Creando mapas con Qgis2web y github pages](#ejercicio-2-creando-mapas-con-qgis2web-y-github-pages)
-    - [GitHub Pages](#github-pages)
+    - [Ejercicio 2: Creando mapas con Qgis2web](#ejercicio-2-creando-mapas-con-qgis2web)
       - [Docs: QGIS2Web](#docs-qgis2web)
-      - [Docs: Tecnologías web](#docs-tecnolog%C3%ADas-web)
       - [Docs: Qgis2threejs](#docs-qgis2threejs)
-      - [Docs: GitHub Pages](#docs-github-pages)
   - [Taller 3: Geojson](#taller-3-geojson)
   - [Taller 4: Consumiendo servicios WMS](#taller-4-consumiendo-servicios-wms)
   - [Taller 5: Consumiendo servicios WMTS](#taller-5-consumiendo-servicios-wmts)
@@ -93,7 +90,7 @@ Conocer el funcionamiento básico de QGIS
 - IDECA https://www.ideca.gov.co/datos-de-referencia
 - Datos abiertos Bogotá http://datosabiertos.bogota.gov.co/
 
-### Ejercicio 2: Creando mapas con Qgis2web y github pages
+### Ejercicio 2: Creando mapas con Qgis2web 
 
 Qgis2web es una herramienta que exporta los proyectos de QGIS en mapas web de OpenLayers https://openlayers.org/ o Leaflet https://leafletjs.com/ (crea automáticamente los archivos HTML, Javascript y CSS).
 
@@ -109,19 +106,7 @@ Además el plugin es capaz de exportar la simbología definida en QGIS tanto de 
 - Repositorio en github: https://github.com/sigfedepanela/PreciosSemanales
 - Geojson generado por la herramienta: https://raw.githubusercontent.com/sigfedepanela/PreciosSemanales/gh-pages/layers/PreciosporDepartamento_2.js
 
-### GitHub Pages
 
-**GitHub Pages** es un sistema de publicación de contenido web a través de **GitHub**.
-
-Con **GitHub Pages** es posible publicar de forma sencilla un sitio web con archivos almacenados en repositorios git. GitHub automáticamente se encarga de configurar y actualizar el servidor web correspondiente.
-
-**Ejemplo**
-
-![qgis2web](images/pages.png "pages")
-
-- Url Página principal https://dersteppenwolf.github.io/cartografia_web/
-- Mapa de ejemplo https://dersteppenwolf.github.io/cartografia_web/02_Servicios_Web_Geoservicios_OGC/ejemplo_qgis2web
-- Código fuente generado https://github.com/dersteppenwolf/cartografia_web/tree/master/02_Servicios_Web_Geoservicios_OGC/ejemplo_qgis2web
 
 #### Docs: QGIS2Web
 
@@ -129,11 +114,7 @@ Con **GitHub Pages** es posible publicar de forma sencilla un sitio web con arch
 - Publica tus mapas en la web con qgis2web https://mappinggis.com/2016/03/crea-aplicaciones-webmapping-con-qgis/
 - Qgis2web wiki https://github.com/tomchadwin/qgis2web/wiki
 
-#### Docs: Tecnologías web
 
-- HTML5 Tutorial https://www.w3schools.com/html/
-- JavaScript Tutorial https://www.w3schools.com/js/default.asp
-- CSS Tutorial https://www.w3schools.com/css/default.asp
 
 #### Docs: Qgis2threejs
 
@@ -142,10 +123,6 @@ Con **GitHub Pages** es posible publicar de forma sencilla un sitio web con arch
 
 > Qgis2threejs plugin is a QGIS plugin, which visualizes DEM data and vector data in 3D on web browsers. You can build various kinds of 3D objects with simple settings panels, view them in web view of exporter and generate files to publish them to web in simple procedure. In addition, you can save the 3D model in glTF format for 3DCG or 3D printing.
 
-#### Docs: GitHub Pages
-
-- Getting Started with GitHub Pages https://guides.github.com/features/pages/
-- Publicar tu web usando GitHub Pages https://devcode.la/tutoriales/publicar-tu-web-usando-github-pages/
 
 ## Taller 3: Geojson
 
