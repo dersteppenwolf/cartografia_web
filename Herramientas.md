@@ -82,3 +82,6 @@ Comerciales:
 
 - GitHub userscripts : Userscripts to add functionality to GitHub. https://github.com/Mottie/GitHub-userscripts
 - GitHub static time: A userscript that replaces relative times with a static time formatted as you like it https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-static-time
+- Formatting Markdown and Codeblocks With Prettier and Hugo https://www.christopherbiscardi.com/post/formatting-markdown-and-codeblocks-with-prettier-and-hugo/
+- Using Prettier with a Pre-commit Hook https://www.brianhan.co/prettier-with-a-pre-commit-hook
+
