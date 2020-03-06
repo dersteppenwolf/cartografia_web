@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "type": "Feature", 
+      "id": "u_terreno.1501624", 
+      "geometry": {
+        "type": "MultiPolygon", 
+        "coordinates": [
+          [
+            [
+              [
+                -74.21473, 
+                4.577656
+              ], 
+              [
+                -74.214833, 
+                4.577559
+              ], 
+              [
+                -74.214848, 
+                4.577545
+              ], 
+              [
+                -74.214879, 
+                4.577586
+              ], 
+              [
+                -74.214889, 
+                4.577599
+              ], 
+              [
+                -74.214826, 
+                4.577657
+              ], 
+              [
+                -74.21481, 
+                4.577673
+              ], 
+              [
+                -74.2148, 
+                4.577682
+              ], 
+              [
+                -74.214771, 
+                4.57771
+              ], 
+              [
+                -74.21473, 
+                4.577656
+              ]
+            ]
+          ]
+        ]
+      }, 
+      "geometry_name": "geom", 
+      "properties": {
+        "codigo": "257540102000000270006000000000", 
+        "manzana_codigo": "25754010200000027", 
+        "codigo_anterior": "25754010200270006000"
+      }
+    }
+  ], 
+  "totalFeatures": 1, 
+  "numberMatched": 1, 
+  "numberReturned": 1, 
+  "timeStamp": "2020-03-06T06:12:01.778Z", 
+  "crs": {
+    "type": "name", 
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4686"
+    }
+  }
+}
