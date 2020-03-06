@@ -156,14 +156,18 @@ Realizar lo siguiente:
 Leaflet (https://leafletjs.com/) es una librería open source de javascript que permite publicar mapas interactivos de forma sencilla.
 
 Ejemplo visor simple con leaflet: 
-- vista pública: 
-- código fuente: 
+- vista pública: https://dersteppenwolf.github.io/cartografia_web/01_Fundamentos/ejemplo_leaflet.html
+- código fuente: https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Fundamentos/ejemplo_leaflet.html
 
 
+Realizar lo siguiente: 
+- Modificar el ejemplo (ejemplo_leaflet.html) para que el mapa muestre la zona de Bogotá.
+- Modificar el ejemplo para que el "marker" aparezca en su lugar de trabajo.
+- Publicar el archivo modificado en su repositorio personal de github.
 - Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
-  - Título: Ejercicio 3 - CODIGO_ESTUDIANTE
+  - Título: Ejercicio 2 - CODIGO_ESTUDIANTE
   - Contenido: 
-    - Enlace al archivo **Readme.md** publicado en github (vista html generada por github)
+    - Enlace a la vista pública a través de github pages del ejemplo modificado.
 
 
 
