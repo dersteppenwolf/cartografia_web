@@ -166,11 +166,10 @@ La idea general es que el autor crea el contenido con texto sencillo basado en l
 
 Qué es markdown https://markdown.es/
 
-
-Realizar lo siguiente: 
-
-- Edite el archivo **Readme.md** e ingrese sus datos de presentación personal. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
-- Utilice diferentes elementos para formateado tales como por ejemplo listas, imágenes, negrilla, etc.
+Ejemplo:
+- Texto Markdown de página web: https://raw.githubusercontent.com/dersteppenwolf/cartografia_web/master/README.md
+- Vista html de la página a través de github: https://github.com/dersteppenwolf/cartografia_web/blob/master/README.md
+- Vista html de la página a través de github pages con plantilla de diseño : https://dersteppenwolf.github.io/cartografia_web/
 
 
 Ejemplos de presentación de repositorios en github:
@@ -182,6 +181,15 @@ Ejemplos de presentación de repositorios en github:
 - How does Bogota vote? https://github.com/vgarzom/va-votacion-bogota
 
 
+
+Realizar lo siguiente: 
+
+- Edite el archivo **Readme.md** e ingrese sus datos de presentación personal. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
+- Utilice diferentes elementos para formateado tales como por ejemplo listas, imágenes, negrilla, etc.
+- Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
+  - Título: Ejercicio 2 - CODIGO_ESTUDIANTE
+  - Contenido: 
+    - Enlace al archivo **Readme.md** publicado en github (vista html generada por github)
 
 
 
