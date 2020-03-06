@@ -121,11 +121,10 @@ Realizar lo siguiente:
     -  https://dersteppenwolf.github.io/cartografia_web/
     -  https://dersteppenwolf.github.io/tareas_jc/
 
-- Url Página principal https://dersteppenwolf.github.io/cartografia_web/
-- Vista en el navegador de la Página de ejemplo 
-https://dersteppenwolf.github.io/cartografia_web/01_Fundamentos/hello.html 
-- Código fuente de la página 
-https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Fundamentos/hello.html 
+- Url de la página html a través del servidor web administrado por github:
+https://dersteppenwolf.github.io/tareas_jc/ejercicio_01/hello.html 
+- Vista del Código fuente de la página html:
+https://github.com/dersteppenwolf/tareas_jc/blob/master/ejercicio_01/hello.html 
 
 
 
