@@ -1,7 +1,6 @@
 # Talleres y Tareas
 
 - [Talleres y Tareas](#talleres-y-tareas)
-  - [Nota](#nota)
   - [Taller 1 : Herramientas Colaborativas](#taller-1--herramientas-colaborativas)
   - [Taller 2: Introducción a Qgis](#taller-2-introducci%C3%B3n-a-qgis)
     - [Objetivos](#objetivos)
@@ -24,25 +23,13 @@
   - [Taller 14: Servicios OGC y Python](#taller-14-servicios-ogc-y-python)
   - [Taller 15: Using Python to Analyze Spatial Data](#taller-15-using-python-to-analyze-spatial-data)
   - [Taller 16: Desarrollo web con Leaflet y WMS](#taller-16-desarrollo-web-con-leaflet-y-wms)
-  - [Tareas](#tareas)
-    - [Tarea 1](#tarea-1)
-    - [Tarea 2](#tarea-2)
-    - [Tarea 3](#tarea-3)
 
 
-## Nota
 
-- Las tareas deben ser entregadas antes de la fecha máxima indicada.
-- Las entrega tardía de tareas genera penalización en las notas
 
 ## Taller 1 : Herramientas Colaborativas
 
-Parte 1:
-
-- Instalar kahoot en sus dispositivos móviles https://kahoot.com/
-- Cada persona debe crear una cuenta en github https://github.com/
-
-- Crear un repositorio público personal (Licencia MIT / Creative Commons)
+- En Github Crear un repositorio público personal (Licencia MIT / Creative Commons)
 - Crear archivo **Readme.md** con la presentación. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
 - Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
   - Título: Taller 1 - CODIGO_ESTUDIANTE
@@ -282,114 +269,4 @@ Ver https://github.com/dersteppenwolf/pycon
 
 - Utilizando WMS desde leaflet http://bl.ocks.org/hpfast/2155366c06f4ae0fae59df216fc3f7ec
 
-## Tareas
 
-### Tarea 1
-
-**Fecha Máxima de entrega:** 2019-12-04 21:00
-
-**Crear mapas temáticos con QGIS:**
-
-- Utilizando Qgis cree un mapa temático (Sugerencia: datos de Colombia)
-- Utilice dos métodos de clasificación diferentes
-- Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
-- Publique los 2 mapas temáticos en QGIS Cloud
-- Con datos diferentes Diseñe otro nuevo mapa temático con QGIS2Web y publiquelo uno de los mapas en Github Pages
-
-**Publicar Resultados En el repositorio github personal creado:**
-
-- Crear Archivo **Tarea1.md** con la siguiente información sobre los mapas que creó:
-- Cuál es el problema a tratar?
-- Por qué un mapa ayuda a resolverlo?
-- Descripción del mapa temático (Variable seleccionada, utilidad)
-- Descripción de los métodos de clasificación seleccionados. Cual es mejor para la variable seleccionada? Por qué?
-- Listado de fuentes de datos seleccionadas (proveedor, enlace para descarga, descripciòn, procesamiento realizado)
-- Descripción breve del procedimiento utilizado (plugins, extensiones, procesos, transformaciones de datos, etc)
-- Ventajas / desventajas / dificultades / diferencias encontradas al utilizar QGIS para el desarrollo del ejercicio
-- Proyecto qgis
-- Urls de los mapas publicados en la web ya sea con Qgiscloud o QGIS2Web / Github Pages
-
-**Enviar resultados para revisión:**
-
-- Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
-  - Título: Tarea 1 - CODIGO_ESTUDIANTE
-  - Contenido: Enlace al repositorio creado
-
-### Tarea 2
-
-**Fecha Máxima de entrega:** 2019-12-11 24:00
-
-**Publicar servicios geográficos basados en estándares OGC:**
-
-- Notas:
-  - Para el nombramiento de las tablas, estilos, capas utilice el prefijo asignado en clase. Ejm e0_poligono_departamentos
-  - Utilizar datos de Colombia, datos de su trabajo personal.
-- Publique al menos 3 conjuntos de datos en el servidor postgresql / postgis asignado para la clase
-- Realice procesamiento adicional de los datos utilizando postgis (Ejm. enriquecimiento con atributos nuevos, generación de tablas derivadas a partir de geoprocesamiento, etc)
-- Publique las capas en geoserver
-- Cree simbología para cada una de las las capas utilizando SLD o CSS (Mínimo un SLD y un CSS)
-- Publique un grupo de capas
-
-**Publicar Resultados En el repositorio github personal creado:**
-
-- Crear Archivo **Tarea2.md** con la siguiente información sobre los mapas que creó:
-- Cuál es el problema a tratar?
-- Por qué la publicación de servicios OGC puede ayudar a resolverlo?
-- Qué servicios propone para la solución de su problema? WMS? WMTS? WFS? Por qué ?
-- Descripción de los datos seleccionados (Origen, descripción, características especiales, atributos, url para descarga)
-- Descripción del procesamiento realizado con postgis (Incluir los sqls)
-- Descripción de la forma en que creó la simbología (incluir los sld's y css)
-- Nombres de las tablas creadas en postgis
-- Nombres de las capas y estilos publicadas en geoserver.
-- Url de la previsualización del grupo de capas en Geoserver
-- Pantallazos con la forma en que los usuarios pueden consultar su geoservicio a través de QGIS
-- Ventajas / desventajas / dificultades encontradas durante el proceso
-
-**Enviar resultados para revisión:**
-
-- Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
-  - Título: Tarea 2 - CODIGO_ESTUDIANTE
-  - Contenido: Enlace al repositorio creado
-
-### Tarea 3
-
-**Fecha Máxima de entrega:** 2019-12-15 22:00
-
-Grupos de 2 personas
-
-**Objetivo**
-
-Comunicar una _historia_ de través de tecnologìas para la publicación web utilizando **mapas interactivos** y elementos multimedia.
-
-**Descripción**
-
-Utilizando herramientas para la publicación de contenidos web crear una **experiencia interactiva** que explique a un usuario una idea o solución a un problema.
-
-- La experiencia interactiva debe incluir múltiples **mapas interactivos**
-- Los datos presentados a través de **mapas interactivos** deben demostrar la capacidad que tienen los estudiantes para aplicar técnicas de geoprocesamiento para la resolución de algún tipo de problema que involucre información georreferenciada.
-- Además de mapas, la experiencia interactiva debe incluir otros elementos que enriquezcan el contenido tales como ejemplo:
-  - Fotografías
-  - Video
-  - Texto
-  - Tableros de control
-  - Gráficos (charts) interactivos
-
-**Entregables**
-
-En el repositorio Github creado para el curso publicar el siguiente archivo:
-
-- Archivo **Taller3.md** con la siguiente información:
-  - Cuál es el problema a tratar?
-  - Por qué una **experiencia interactiva** ayuda a resolverlo?
-  - Descripción de los datos (tipos de geometrías, atributos, sistemas de referencia, urls para descarga de la información, etc)
-  - Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, sql's de postgis, etc)
-  - Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos. (Incluir slds, css, etc)
-  - Descripción breve de las diferentes herramientas y procedimientos utilizadas para publicar el contenido en la web.
-  - Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
-  - Url público de la o las **experiencia interactiva**
-
-**Enviar resultados para revisión:**
-
-- Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
-  - Título: Tarea 3 - CODIGO_ESTUDIANTE1- CODIGO_ESTUDIANTE1
-  - Contenido: Enlace al repositorio creado, Nombres de los estudiantes
