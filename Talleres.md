@@ -2,6 +2,7 @@
 
 - [Talleres y Tareas](#talleres-y-tareas)
   - [Taller 1 : Herramientas Colaborativas](#taller-1--herramientas-colaborativas)
+    - [Docs: Ejemplos de presentación de repositorios en github](#docs-ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
   - [Taller 2: Introducción a Qgis](#taller-2-introducci%C3%B3n-a-qgis)
     - [Objetivos](#objetivos)
     - [Ejercicio 1](#ejercicio-1)
@@ -42,7 +43,13 @@ Parte 2:
 - Instalación y Uso de GitHub Desktop https://luismasdev.com/instalacion-y-uso-de-github-desktop/
 - Tortoise git (https://carmoreno.github.io/tutoriales/2016/04/14/TortoiseGit-Instalacion-y-uso/) para sincronizar más fácilmente los archivos en github.
 
+### Docs: Ejemplos de presentación de repositorios en github
 
+- Explore Worldwide Female Educational Opportunities https://github.com/Divyaraaga/w209-datavis-project
+- Visual analytics https://github.com/dersteppenwolf/isis4822
+- Dashboard to analyze Rheumatoid Arthritis in Colombia based on Costs per Person https://github.com/dersteppenwolf/isis4822_final_project
+- We know what you did - An analysis on Colombia congressman financial assests https://github.com/cjcarvajal/cuestion-publica-analysis
+- How does Bogota vote? https://github.com/vgarzom/va-votacion-bogota
 
 
 ## Taller 2: Introducción a Qgis

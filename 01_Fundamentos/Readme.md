@@ -2,18 +2,20 @@
 
 - [1 - Fundamentos de Internet](#1---fundamentos-de-internet)
   - [Presentación](#presentaci%C3%B3n)
-      - [Fundamentos Html](#fundamentos-html)
+- [Enlaces adicionales](#enlaces-adicionales)
+  - [Fundamentos Html](#fundamentos-html)
   - [GitHub Pages](#github-pages)
   - [Markdown](#markdown)
-  - [Docs: Versionamiento y Colaboración: Git y Github](#docs-versionamiento-y-colaboraci%C3%B3n-git-y-github)
-    - [Docs: Ejemplos de presentación de repositorios en github](#docs-ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
+  - [Versionamiento y Colaboración: Git y Github](#versionamiento-y-colaboraci%C3%B3n-git-y-github)
 
 ## Presentación
 
 Enlace:  
 
 
-#### Fundamentos Html
+# Enlaces adicionales
+
+## Fundamentos Html
 
 - HTML5 Tutorial https://www.w3schools.com/html/
 - JavaScript Tutorial https://www.w3schools.com/js/default.asp
@@ -25,7 +27,6 @@ Enlace:
 - Publicar tu web usando GitHub Pages https://devcode.la/tutoriales/publicar-tu-web-usando-github-pages/
 
 
-
 ## Markdown
 
 - Qué es Markdown, para qué sirve y cómo usarlo https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo
@@ -34,7 +35,7 @@ Enlace:
 - Markdown Cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 - Markdown quick reference cheat sheet https://en.support.wordpress.com/markdown-quick-reference/
 
-## Docs: Versionamiento y Colaboración: Git y Github
+## Versionamiento y Colaboración: Git y Github
 
 - Git and GitHub: A Guide for Beginners https://www.coursereport.com/blog/what-is-github
 - Github hello world https://guides.github.com/activities/hello-world/
@@ -48,10 +49,3 @@ Enlace:
 
 
 
-### Docs: Ejemplos de presentación de repositorios en github
-
-- Explore Worldwide Female Educational Opportunities https://github.com/Divyaraaga/w209-datavis-project
-- Visual analytics https://github.com/dersteppenwolf/isis4822
-- Dashboard to analyze Rheumatoid Arthritis in Colombia based on Costs per Person https://github.com/dersteppenwolf/isis4822_final_project
-- We know what you did - An analysis on Colombia congressman financial assests https://github.com/cjcarvajal/cuestion-publica-analysis
-- How does Bogota vote? https://github.com/vgarzom/va-votacion-bogota
