@@ -2,6 +2,7 @@
 
 - [1 - Fundamentos de Internet](#1---fundamentos-de-internet)
   - [Presentación](#presentaci%C3%B3n)
+    - [Ejemplos formatos de Datos](#ejemplos-formatos-de-datos)
   - [Ejercicio 1: Publicar página web a través de servidor de Github pages](#ejercicio-1-publicar-p%C3%A1gina-web-a-trav%C3%A9s-de-servidor-de-github-pages)
   - [Ejercicio 2: Mi primer mapa web](#ejercicio-2-mi-primer-mapa-web)
   - [Ejercicio 3: Publique contenido web utilizando Markdown y Github](#ejercicio-3-publique-contenido-web-utilizando-markdown-y-github)
@@ -15,6 +16,11 @@
 
 Enlace:  https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Fundamentos/01_Fundamentos_Internet.pdf
 
+### Ejemplos formatos de Datos
+
+- Ejemplo GML https://gist.github.com/dersteppenwolf/fb4a45cc1c640b4ed9909602688acd70
+- Ejemplo XSD https://gist.github.com/dersteppenwolf/aaafc3b6a1c25d17ce5aad0a8c4490b3
+- Ejemplo geojson https://gist.github.com/dersteppenwolf/955924464bf71c2030d0791cd01992f0
 
 ## Ejercicio 1: Publicar página web a través de servidor de Github pages
 
