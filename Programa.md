@@ -56,6 +56,7 @@ Entender los conceptos básicos sobre las tecnologías web aplicables a la carto
 ## Justificación
 
 Los datos georreferenciados son cada es más utilizados en la industria como elemento de apoyo para la toma de decisiones.
+
 Uno de las disciplinas en el campo de la geomática que más se ha beneficiado con el avance de las tecnologías para la web es el de la cartografía. En ese orden de ideas es conveniente que los profesionales en geomática conozcan los elementos principales y técnicas básicas que pueden utilizarse para la publicación de datos geográficos y mapas a través de la web.
 
 ## Objetivo general
@@ -86,7 +87,8 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
   - Desarrollar la habilidad de argumentar técnicamente las estrategias a utilizar para publicar y utilizar servicios web geográficos según las necesidades particulares del caso de negocio a resolver.
   - Desarrollar la habilidad de argumentar técnicamente la importancia de la interoperabilidad de la información georreferenciada a través de servicios web.
 
-- Investigativas:
+- Investigativas
+  
   - Fortalecer su capacidad investigativa y analítica a través del desarrollo del curso.
 
 ## Esquema general de los contenidos
