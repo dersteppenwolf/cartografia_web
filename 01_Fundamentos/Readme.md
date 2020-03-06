@@ -155,6 +155,20 @@ Realizar lo siguiente:
 
 ## Ejercicio 2: Publique contenido web utilizando Markdown  y Github 
 
+
+**Qué es markdown?**
+
+La sintaxis de html es algo compleja para los humanos.
+
+Markdown es una herramienta de conversión de texto plano a HTML.
+
+La idea general es que el autor crea el contenido con texto sencillo basado en la sintaxis de mardown y un programa se encarga de convertirlo a su equivalente Html.  
+
+Qué es markdown https://markdown.es/
+
+
+Realizar lo siguiente: 
+
 - Edite el archivo **Readme.md** e ingrese sus datos de presentación personal. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
 - Utilice diferentes elementos para formateado tales como por ejemplo listas, imágenes, negrilla, etc.
 
@@ -202,6 +216,6 @@ Ejemplos de presentación de repositorios en github:
 
 - Qué es Markdown, para qué sirve y cómo usarlo https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo
 - Markdown tutorial https://www.markdowntutorial.com/
-- Qué es markdown https://markdown.es/
+
 - Markdown Cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 - Markdown quick reference cheat sheet https://en.support.wordpress.com/markdown-quick-reference/
