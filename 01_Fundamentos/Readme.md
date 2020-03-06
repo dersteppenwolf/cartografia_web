@@ -18,8 +18,25 @@ Enlace:
 
 ## Ejercicio: Publicar página web a través de servidor de Github pages
 
+**Qué es Git?**
+
+Git es un sistema de control de versiones que permite llevar el registro completo de cambios de un
+conjunto de archivos pertenecientes a un proyecto.  (Histórico de cambios)
+
+Permite hacer comparaciones entre versiones de archivos basados en texto. (Ejm páginas html, código javascript, código python, etc)
+
+**Qué es Github ?**
+
+Github es un servicio que permite la publicación y administracióin de repositorios Git en línea.
+
+La disposición en línea facilita el trabajo colaborativo entre personas (Ejm. desarrolladores ) 
+
+Github permite realizar el reporte de __"issues"__ (asuntos)  sobre reporte de errores, solicitud de cambios, etc.
+
+
+
 - Crear una cuenta gratuita en github https://github.com/
-- Crear un repositorio en Github. Al crear el repositorio debe tener  en cuenta lo siguiente:
+- Crear un repositorio en Github. Al crearlo debe tener  en cuenta lo siguiente:
   - Cada estudiante debe crear su propio repositorio.  A travès de este repositorio se realizará la entrega de las tareas.  
     - Ejemplos 
       - https://github.com/dersteppenwolf/tareas_jc
@@ -30,11 +47,20 @@ Enlace:
 - Proceso paso a paso para la creación del repositorio a través de la interfaz web https://help.github.com/es/github/getting-started-with-github/create-a-repo
 
 
-
+**Qué es Github Desktop ?**
 
 - Instalar Github Desktop https://desktop.github.com/
   - Instalación y Uso de GitHub Desktop https://luismasdev.com/instalacion-y-uso-de-github-desktop/
   - Crear el primer repositorio mediante GitHub Desktop https://help.github.com/es/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop
+
+
+**Qué es Github Pages?**
+
+GitHub Pages es un sistema de publicación de contenido web a través de GitHub.
+
+Con GitHub Pages es posible publicar de forma sencilla un sitio web con archivos almacenados en repositorios git. 
+
+GitHub automáticamente se encarga de publicar automáticamente los contenidos en un servidor web.
 
 
 - Habilitar Github Pages en su repositorio: 
@@ -42,6 +68,12 @@ Enlace:
 ![pages](pages.png "pages")
 
 Url Página principal https://dersteppenwolf.github.io/cartografia_web/
+
+- Url Página principal https://dersteppenwolf.github.io/cartografia_web/
+- Vista en el navegador de la Página de ejemplo 
+https://dersteppenwolf.github.io/cartografia_web/01_Fundamentos/hello.html 
+- Código fuente de la página 
+https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Fundamentos/hello.html 
 
 
 
@@ -52,6 +84,10 @@ Url Página principal https://dersteppenwolf.github.io/cartografia_web/
 - Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
   - Título: Ejercicio 1 - CODIGO_ESTUDIANTE
   - Contenido: Enlace al repositorio creado
+
+
+
+
 
 ## Ejercicio: Publique contenido web utilizando Markdown  y Github 
 
