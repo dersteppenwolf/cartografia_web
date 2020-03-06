@@ -1,6 +1,6 @@
-# 1 - Conceptos Generales sobre Tecnologías Web y SIG
+# 2 - Conceptos Generales sobre Tecnologías Web y SIG
 
-- [1 - Conceptos Generales sobre Tecnologías Web y SIG](#1---conceptos-generales-sobre-tecnolog%C3%ADas-web-y-sig)
+- [2 - Conceptos Generales sobre Tecnologías Web y SIG](#2---conceptos-generales-sobre-tecnolog%C3%ADas-web-y-sig)
   - [Presentación](#presentaci%C3%B3n)
   - [Recursos adicionales](#recursos-adicionales)
     - [Cartografía](#cartograf%C3%ADa)
@@ -9,7 +9,7 @@
 
 ## Presentación
 
-Enlace: https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Conceptos/01_Conceptos_Generales_Tecnologias_Web_y_SIG.pdf
+Enlace: https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/02_Conceptos_Generales_Tecnologias_Web_y_SIG.pdf
 
 ## Recursos adicionales
 
