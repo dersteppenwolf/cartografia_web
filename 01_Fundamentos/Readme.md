@@ -3,7 +3,7 @@
 - [1 - Fundamentos de Internet](#1---fundamentos-de-internet)
   - [Presentación](#presentaci%C3%B3n)
   - [Ejercicio: Publicar página web a través de servidor de Github pages](#ejercicio-publicar-p%C3%A1gina-web-a-trav%C3%A9s-de-servidor-de-github-pages)
-  - [Ejercicio: Publique contenido web utilizando Markdown y Github](#ejercicio-publique-contenido-web-utilizando-markdown-y-github)
+  - [Ejercicio 2: Publique contenido web utilizando Markdown y Github](#ejercicio-2-publique-contenido-web-utilizando-markdown-y-github)
   - [Enlaces adicionales](#enlaces-adicionales)
     - [Fundamentos Html](#fundamentos-html)
     - [Versionamiento y Colaboración: Git y Github](#versionamiento-y-colaboraci%C3%B3n-git-y-github)
@@ -128,19 +128,32 @@ https://github.com/dersteppenwolf/tareas_jc/blob/master/ejercicio_01/hello.html
 
 
 
+**Qué es el sistema de Issues de Github?**
+
+Las propuestas ("issues") permiten rastrear ideas, mejoras, tareas o errores para el trabajo en GitHub.
+A través de ellas se puede recopilar opiniones del usuario, informar errores de software y organizar tareas que se quieran realizar para un repositorio. Las propuestas pueden actuar como más que un simple lugar para informar errores de software. https://help.github.com/es/github/managing-your-work-on-github/about-issues
+
+- Ejemplos: 
+  - https://github.com/CrunchyData/pg_tileserv/issues
+  - https://github.com/sacridini/GEET/issues
+
+Para nuestra clase se realizará la entrega de los ejercicios y tareas a través de issues creados en github.
 
 
-
+Realizar lo siguiente: 
 
 - Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
   - Título: Ejercicio 1 - CODIGO_ESTUDIANTE
-  - Contenido: Enlace al repositorio creado
+  - Contenido: 
+    - Enlace al repositorio creado durante el ejercicio
+    - Enlace público a la página "hello.html" publicada a través de github pages.
+  - Ejemplo: https://github.com/dersteppenwolf/cartografia_web/issues/36 
 
 
 
 
 
-## Ejercicio: Publique contenido web utilizando Markdown  y Github 
+## Ejercicio 2: Publique contenido web utilizando Markdown  y Github 
 
 - Edite el archivo **Readme.md** e ingrese sus datos de presentación personal. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
 - Utilice diferentes elementos para formateado tales como por ejemplo listas, imágenes, negrilla, etc.
@@ -153,6 +166,9 @@ Ejemplos de presentación de repositorios en github:
 - Dashboard to analyze Rheumatoid Arthritis in Colombia based on Costs per Person https://github.com/dersteppenwolf/isis4822_final_project
 - We know what you did - An analysis on Colombia congressman financial assests https://github.com/cjcarvajal/cuestion-publica-analysis
 - How does Bogota vote? https://github.com/vgarzom/va-votacion-bogota
+
+
+
 
 
 ## Enlaces adicionales
@@ -180,6 +196,7 @@ Ejemplos de presentación de repositorios en github:
 
 - Getting Started with GitHub Pages https://guides.github.com/features/pages/
 - Publicar tu web usando GitHub Pages https://devcode.la/tutoriales/publicar-tu-web-usando-github-pages/
+- How to create open educational resources with Jekyll and GitHub Pages https://localpreservation.github.io/how-to-open-education-jekyll-github-pages/
 
 ### Markdown
 
