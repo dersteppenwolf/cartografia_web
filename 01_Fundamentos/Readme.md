@@ -3,7 +3,8 @@
 - [1 - Fundamentos de Internet](#1---fundamentos-de-internet)
   - [Presentación](#presentaci%C3%B3n)
   - [Ejercicio: Publicar página web a través de servidor de Github pages](#ejercicio-publicar-p%C3%A1gina-web-a-trav%C3%A9s-de-servidor-de-github-pages)
-  - [Ejercicio 2: Publique contenido web utilizando Markdown y Github](#ejercicio-2-publique-contenido-web-utilizando-markdown-y-github)
+  - [Ejercicio 2: Mi primer mapa web](#ejercicio-2-mi-primer-mapa-web)
+  - [Ejercicio 3: Publique contenido web utilizando Markdown y Github](#ejercicio-3-publique-contenido-web-utilizando-markdown-y-github)
   - [Enlaces adicionales](#enlaces-adicionales)
     - [Fundamentos Html](#fundamentos-html)
     - [Versionamiento y Colaboración: Git y Github](#versionamiento-y-colaboraci%C3%B3n-git-y-github)
@@ -150,10 +151,10 @@ Realizar lo siguiente:
   - Ejemplo: https://github.com/dersteppenwolf/cartografia_web/issues/36 
 
 
+## Ejercicio 2: Mi primer mapa web
 
 
-
-## Ejercicio 2: Publique contenido web utilizando Markdown  y Github 
+## Ejercicio 3: Publique contenido web utilizando Markdown  y Github 
 
 
 **Qué es markdown?**
