@@ -25,9 +25,20 @@ conjunto de archivos pertenecientes a un proyecto.  (Histórico de cambios)
 
 Permite hacer comparaciones entre versiones de archivos basados en texto. (Ejm páginas html, código javascript, código python, etc)
 
+Las operaciones principales realizadas en los repositorios git son las siguientes:
+
+- Copiar repositorio remoto en la máquina local (clone)
+- Adicionar / Eliminar / Modificar archivo  (add)
+- Confirmar cambios (commit)
+- Traer los cambios desde un repositorio remoto (pull)
+- Enviar cambios a repositorio remoto (push)
+
+![git](git.png "git")
+
+
 **Qué es Github ?**
 
-Github es un servicio que permite la publicación y administracióin de repositorios Git en línea.
+Github es un servicio que permite la publicación y administración de repositorios Git en línea.
 
 La disposición en línea facilita el trabajo colaborativo entre personas (Ejm. desarrolladores ) 
 
@@ -35,10 +46,19 @@ Github permite realizar el reporte de __"issues"__ (asuntos)  sobre reporte de e
 
 Un repositorio en Github es similar a la carpeta de un proyecto que además de contener los archivos permite realizar el seguimiento histórico de los mismos.
 
+
+**Para qué vamos a utilizar Github en la clase?**
+
+A través de esta herramienta los estudiantes publicarán los archivos de sus tareas (Ejm. páginas html, js,etc).
+
+
+
+**Crear repositorio**
+
 Realizar lo siguiente: 
 
 - Crear una cuenta gratuita en github https://github.com/
-- Crear un repositorio en Github teniendo en  cuenta lo siguiente:
+- Crear un repositorio en Github (ejm: __tareas_jc__  )teniendo en  cuenta lo siguiente:
   - Cada estudiante debe crear su propio repositorio.  A travès de este repositorio se realizará la entrega de las tareas.  
     - Ejemplos 
       - https://github.com/dersteppenwolf/tareas_jc
@@ -51,9 +71,23 @@ Realizar lo siguiente:
 
 **Qué es Github Desktop ?**
 
+Github Desktop es una herramienta de escritorio que facilita la publicación y sincronización de archivos en repositorios git (push, pull, commit).
+
+Realizar lo siguiente: 
 - Instalar Github Desktop https://desktop.github.com/
-  - Instalación y Uso de GitHub Desktop https://luismasdev.com/instalacion-y-uso-de-github-desktop/
-  - Crear el primer repositorio mediante GitHub Desktop https://help.github.com/es/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop
+- Guía: Instalación y Uso de GitHub Desktop https://luismasdev.com/instalacion-y-uso-de-github-desktop/
+- "Clone" en su máquina el repositorio que creó en github (ejm: __tareas_jc__  )
+
+![clone](clone.png "clone")
+
+- Edite el archivo **Readme.md**  y publique los cambios en el repositorio de github
+  
+![commit](commit.png "commit")
+
+
+
+
+- Si lo desea también puede crear nuevos repositorios mediante GitHub Desktop https://help.github.com/es/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop
 
 
 **Qué es Github Pages?**
@@ -93,7 +127,7 @@ https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Fundamentos/hel
 
 ## Ejercicio: Publique contenido web utilizando Markdown  y Github 
 
-- Crear archivo **Readme.md** con la presentación. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
+- Edite el archivo **Readme.md** con la presentación. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
 
 
 ### Ejemplos de presentación de repositorios en github
