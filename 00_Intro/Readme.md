@@ -45,7 +45,7 @@ Intereses:
 
 ## Prerrequisitos del curso 
 
-Conocimientos básicos en
+Conocimientos básicos en...
 
 * Redes y comunicaciones
 * Ingeniería de software
