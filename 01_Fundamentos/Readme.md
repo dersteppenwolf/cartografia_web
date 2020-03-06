@@ -222,8 +222,9 @@ Realizar lo siguiente:
 ### Fundamentos Html
 
 - HTML5 Tutorial https://www.w3schools.com/html/
-- JavaScript Tutorial https://www.w3schools.com/js/default.asp
 - CSS Tutorial https://www.w3schools.com/css/default.asp
+- JavaScript Tutorial https://www.w3schools.com/js/default.asp
+- The JavaScript Beginner's Handbook (2020 Edition) https://www.freecodecamp.org/news/the-complete-javascript-handbook-f26b2c71719c/
 
 
 ### Versionamiento y Colaboración: Git y Github
