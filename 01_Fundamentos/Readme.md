@@ -33,10 +33,12 @@ La disposición en línea facilita el trabajo colaborativo entre personas (Ejm. 
 
 Github permite realizar el reporte de __"issues"__ (asuntos)  sobre reporte de errores, solicitud de cambios, etc.
 
+Un repositorio en Github es similar a la carpeta de un proyecto que además de contener los archivos permite realizar el seguimiento histórico de los mismos.
 
+Realizar lo siguiente: 
 
 - Crear una cuenta gratuita en github https://github.com/
-- Crear un repositorio en Github. Al crearlo debe tener  en cuenta lo siguiente:
+- Crear un repositorio en Github teniendo en  cuenta lo siguiente:
   - Cada estudiante debe crear su propio repositorio.  A travès de este repositorio se realizará la entrega de las tareas.  
     - Ejemplos 
       - https://github.com/dersteppenwolf/tareas_jc
