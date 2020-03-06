@@ -80,11 +80,13 @@ Realizar lo siguiente:
 
 ![clone](clone.png "clone")
 
-- Edite el archivo **Readme.md**  y publique los cambios en el repositorio de github
+- Edite el archivo **Readme.md**  y confirme los cambios en el repositorio de github (commit)
   
 ![commit](commit.png "commit")
 
+- Sincronice los cambios locales con el servicio en línea de github (push)
 
+![push](push.png "push")
 
 
 - Si lo desea también puede crear nuevos repositorios mediante GitHub Desktop https://help.github.com/es/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop
