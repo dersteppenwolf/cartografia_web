@@ -153,6 +153,19 @@ Realizar lo siguiente:
 
 ## Ejercicio 2: Mi primer mapa web
 
+Leaflet (https://leafletjs.com/) es una librería open source de javascript que permite publicar mapas interactivos de forma sencilla.
+
+Ejemplo visor simple con leaflet: 
+- vista pública: 
+- código fuente: 
+
+
+- Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
+  - Título: Ejercicio 3 - CODIGO_ESTUDIANTE
+  - Contenido: 
+    - Enlace al archivo **Readme.md** publicado en github (vista html generada por github)
+
+
 
 ## Ejercicio 3: Publique contenido web utilizando Markdown  y Github 
 
@@ -188,7 +201,7 @@ Realizar lo siguiente:
 - Edite el archivo **Readme.md** e ingrese sus datos de presentación personal. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
 - Utilice diferentes elementos para formateado tales como por ejemplo listas, imágenes, negrilla, etc.
 - Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
-  - Título: Ejercicio 2 - CODIGO_ESTUDIANTE
+  - Título: Ejercicio 3 - CODIGO_ESTUDIANTE
   - Contenido: 
     - Enlace al archivo **Readme.md** publicado en github (vista html generada por github)
 
