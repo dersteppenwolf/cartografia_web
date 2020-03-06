@@ -4,7 +4,6 @@
   - [Presentación](#presentaci%C3%B3n)
   - [Ejercicio: Publicar página web a través de servidor de Github pages](#ejercicio-publicar-p%C3%A1gina-web-a-trav%C3%A9s-de-servidor-de-github-pages)
   - [Ejercicio: Publique contenido web utilizando Markdown y Github](#ejercicio-publique-contenido-web-utilizando-markdown-y-github)
-    - [Ejemplos de presentación de repositorios en github](#ejemplos-de-presentaci%C3%B3n-de-repositorios-en-github)
   - [Enlaces adicionales](#enlaces-adicionales)
     - [Fundamentos Html](#fundamentos-html)
     - [Versionamiento y Colaboración: Git y Github](#versionamiento-y-colaboraci%C3%B3n-git-y-github)
@@ -74,6 +73,7 @@ Realizar lo siguiente:
 Github Desktop es una herramienta de escritorio que facilita la publicación y sincronización de archivos en repositorios git (push, pull, commit).
 
 Realizar lo siguiente: 
+
 - Instalar Github Desktop https://desktop.github.com/
 - Guía: Instalación y Uso de GitHub Desktop https://luismasdev.com/instalacion-y-uso-de-github-desktop/
 - "Clone" en su máquina el repositorio que creó en github (ejm: __tareas_jc__  )
@@ -108,12 +108,18 @@ Con GitHub Pages es posible publicar de forma sencilla un sitio web con archivos
 
 GitHub automáticamente se encarga de publicar automáticamente los contenidos en un servidor web.
 
+A través de GitHub Pages podremos lograr de forma fácil que nuestros archivos (ejm. páginas html) queden disponibles a través de un servidor web.
+
+Realizar lo siguiente: 
 
 - Habilitar Github Pages en su repositorio: 
 
 ![pages](pages.png "pages")
 
-Url Página principal https://dersteppenwolf.github.io/cartografia_web/
+- Github asigna un Url a la Página principal de su repositorio. 
+  - Ejemplos
+    -  https://dersteppenwolf.github.io/cartografia_web/
+    -  https://dersteppenwolf.github.io/tareas_jc/
 
 - Url Página principal https://dersteppenwolf.github.io/cartografia_web/
 - Vista en el navegador de la Página de ejemplo 
@@ -137,16 +143,18 @@ https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Fundamentos/hel
 
 ## Ejercicio: Publique contenido web utilizando Markdown  y Github 
 
-- Edite el archivo **Readme.md** con la presentación. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
+- Edite el archivo **Readme.md** e ingrese sus datos de presentación personal. (Ejm: nombres, temáticas de interés, enlaces a trabajos personales, artículos, etc)
+- Utilice diferentes elementos para formateado tales como por ejemplo listas, imágenes, negrilla, etc.
 
 
-### Ejemplos de presentación de repositorios en github
+Ejemplos de presentación de repositorios en github:
 
 - Explore Worldwide Female Educational Opportunities https://github.com/Divyaraaga/w209-datavis-project
 - Visual analytics https://github.com/dersteppenwolf/isis4822
 - Dashboard to analyze Rheumatoid Arthritis in Colombia based on Costs per Person https://github.com/dersteppenwolf/isis4822_final_project
 - We know what you did - An analysis on Colombia congressman financial assests https://github.com/cjcarvajal/cuestion-publica-analysis
 - How does Bogota vote? https://github.com/vgarzom/va-votacion-bogota
+
 
 ## Enlaces adicionales
 
