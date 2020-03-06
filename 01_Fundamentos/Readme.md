@@ -88,6 +88,14 @@ Realizar lo siguiente:
 
 ![push](push.png "push")
 
+- Ingrese a la página web de su proyecto (ejm. https://github.com/dersteppenwolf/tareas_jc) y verifique que en servicio en línea de github se encuentran ya disponibles los cambios realizados
+
+![push](push_ok.png "push")
+
+- Ubique en su sistema de archivos donde se encuentra descargado el repositorio: Ejm: /Users/juan/Downloads/work/universidad_militar/tareas_jc
+- Dentro de ese proyecto cree una carpeta llamada "ejercicio_01"
+- Dentro de la carpeta "ejercicio_01" cree una página html básica llamada "hello.html"
+- Publique los nuevos archivos en github y verifique que se encuentran disponibles en github.com
 
 - Si lo desea también puede crear nuevos repositorios mediante GitHub Desktop https://help.github.com/es/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop
 
