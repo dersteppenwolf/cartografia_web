@@ -1,7 +1,8 @@
-# Talleres y Tareas
+# Talleres 
 
-- [Talleres y Tareas](#talleres-y-tareas)
+- [Talleres](#talleres)
   - [Taller 4: Consumiendo servicios WMS](#taller-4-consumiendo-servicios-wms)
+  - [Taller 16: Desarrollo web con Leaflet y WMS](#taller-16-desarrollo-web-con-leaflet-y-wms)
   - [Taller 5: Consumiendo servicios WMTS](#taller-5-consumiendo-servicios-wmts)
   - [Taller 6: Consumiendo servicios WFS](#taller-6-consumiendo-servicios-wfs)
   - [Taller 7: Consumiendo servicios WCS](#taller-7-consumiendo-servicios-wcs)
@@ -11,8 +12,6 @@
   - [Taller 12: Publicando mapas utilizando herramientas disponibles en la nube](#taller-12-publicando-mapas-utilizando-herramientas-disponibles-en-la-nube)
   - [Taller 13: Ejemplos Python / Arcpy](#taller-13-ejemplos-python--arcpy)
   - [Taller 14: Servicios OGC y Python](#taller-14-servicios-ogc-y-python)
-  - [Taller 15: Using Python to Analyze Spatial Data](#taller-15-using-python-to-analyze-spatial-data)
-  - [Taller 16: Desarrollo web con Leaflet y WMS](#taller-16-desarrollo-web-con-leaflet-y-wms)
 
 
 
@@ -34,6 +33,10 @@ Ejercicio 2: Visualizar con clientes pesados
 
 - Qgis Working with WMS Data http://www.qgistutorials.com/en/docs/working_with_wms.html
 - Arcgis Desktop Adding WMS services http://desktop.arcgis.com/en/arcmap/latest/map/web-maps-and-services/adding-wms-services.htm
+
+## Taller 16: Desarrollo web con Leaflet y WMS
+
+- Utilizando WMS desde leaflet http://bl.ocks.org/hpfast/2155366c06f4ae0fae59df216fc3f7ec
 
 ## Taller 5: Consumiendo servicios WMTS
 
@@ -123,12 +126,8 @@ Ejercicio: Introducción a Python
   - “Colaboratory es un entorno gratuito de Jupyter Notebook que no requiere configuración y que se ejecuta completamente en la nube.”
 - Ejemplo de servicios OGC con Python OWSLib https://colab.research.google.com/drive/1S1UygmFjZIFswq8gtMxuYoX571vdI2KR
 
-## Taller 15: Using Python to Analyze Spatial Data
 
-Ver https://github.com/dersteppenwolf/pycon
 
-## Taller 16: Desarrollo web con Leaflet y WMS
 
-- Utilizando WMS desde leaflet http://bl.ocks.org/hpfast/2155366c06f4ae0fae59df216fc3f7ec
 
 

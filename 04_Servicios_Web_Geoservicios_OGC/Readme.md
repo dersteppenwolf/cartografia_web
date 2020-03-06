@@ -4,7 +4,6 @@
   - [Presentación](#presentaci%C3%B3n)
   - [Recursos adicionales](#recursos-adicionales)
     - [Geopackage](#geopackage)
-    - [QGIS](#qgis)
     - [Mapbox y geojson](#mapbox-y-geojson)
     - [Vector Tiles](#vector-tiles)
 
@@ -22,11 +21,7 @@ Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Servicio
 - GeoPackage para novatos: ventajas y uso en ArcGIS, QGIS, GeoServer y Leaflet https://mappinggis.com/2017/06/geopackage-para-novatos-uso-en-arcgis-qgis-publicacion-en-geoserver/
 - GeoPackage extensions https://www.geopackage.org/extensions.html
 
-### QGIS
 
-- Se encuentra disponible tanto para 32 como 64 bits https://qgis.org/es/site/forusers/download.html
-- 64 bits vs. 32 bits: ¿en qué se diferencian? https://computerhoy.com/noticias/software/64-bits-vs-32-bits-que-diferencian-57224
-- "Sistemas operativos de 32 bits vs 64 bits" https://es.slideshare.net/WALDANA81/sistemas-operativos-de-32-bits-vs-64-bits
 
 ### Mapbox y geojson
 

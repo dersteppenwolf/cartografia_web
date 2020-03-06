@@ -164,7 +164,7 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 - Utilice dos métodos de clasificación diferentes
 - Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
 - Publique los 2 mapas temáticos en QGIS Cloud
-- Con datos diferentes Diseñe otro nuevo mapa temático con QGIS2Web y publiquelo uno de los mapas en Github Pages
+- Genere los 2 mapas temáticos con QGIS2Web y publiquelos  en Github Pages
 
 **Publicar Resultados En el repositorio github personal creado:**
 
