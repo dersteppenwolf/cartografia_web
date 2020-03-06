@@ -2,7 +2,7 @@
 
 - [1 - Fundamentos de Internet](#1---fundamentos-de-internet)
   - [Presentación](#presentaci%C3%B3n)
-  - [Ejercicio: Publicar página web a través de servidor de Github pages](#ejercicio-publicar-p%C3%A1gina-web-a-trav%C3%A9s-de-servidor-de-github-pages)
+  - [Ejercicio 1: Publicar página web a través de servidor de Github pages](#ejercicio-1-publicar-p%C3%A1gina-web-a-trav%C3%A9s-de-servidor-de-github-pages)
   - [Ejercicio 2: Mi primer mapa web](#ejercicio-2-mi-primer-mapa-web)
   - [Ejercicio 3: Publique contenido web utilizando Markdown y Github](#ejercicio-3-publique-contenido-web-utilizando-markdown-y-github)
   - [Enlaces adicionales](#enlaces-adicionales)
@@ -16,7 +16,7 @@
 Enlace:  
 
 
-## Ejercicio: Publicar página web a través de servidor de Github pages
+## Ejercicio 1: Publicar página web a través de servidor de Github pages
 
 **Qué es Git?**
 
