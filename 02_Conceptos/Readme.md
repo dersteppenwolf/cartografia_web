@@ -86,13 +86,17 @@ Ejercicio 2:
 Ejercicio 3: Visualizando Geojson con Clientes ligeros
 
 - Visualizando geojson usando leaflet 
+- 
   - Ejemplo 1: Leaflet Simple 
-    - Vista mapa
-    - Código 
+    - Vista mapa  https://dersteppenwolf.github.io/cartografia_web/02_Conceptos/html/leaflet_geojson_simple.html
+    - Código https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/leaflet_geojson_simple.html
     - Tutorial http://leafletjs.com/examples/geojson/
+
+
   - Ejemplo 2: Geojson externo
-    - Vista mapa
-    - Código 
+    - Vista mapa https://dersteppenwolf.github.io/cartografia_web/02_Conceptos/html/leaflet_geojson_externo.html
+    - Código https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/leaflet_geojson_externo.html
+    - Datos https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/datos/limite_departamental_simplificado.geojson 
     - Tutorial: Loading External GeoJSON: A(nother) Way to Do It with jQuery  https://medium.com/@maptastik/loading-external-geojson-a-nother-way-to-do-it-with-jquery-c72ae3b41c01
 
 - Visualizando geojson usando mapbox gl https://www.mapbox.com/mapbox-gl-js/example/geojson-polygon/
