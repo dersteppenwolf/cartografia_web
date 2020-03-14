@@ -16,11 +16,11 @@
     - [Unidad 3: Arquitectura de aplicaciones Web para SIG](#unidad-3-arquitectura-de-aplicaciones-web-para-sig)
     - [Unidad 4: Visualización de datos](#unidad-4-visualizaci%C3%B3n-de-datos)
   - [Sistema de evaluación](#sistema-de-evaluaci%C3%B3n)
+  - [Bibliografía](#bibliograf%C3%ADa)
   - [Tareas](#tareas)
-    - [Tarea 1](#tarea-1)
+    - [Tarea 1 - Publicación de mapas básica](#tarea-1---publicaci%C3%B3n-de-mapas-b%C3%A1sica)
     - [Tarea 2](#tarea-2)
     - [Tarea 3](#tarea-3)
-  - [Bibliografía](#bibliograf%C3%ADa)
 
 ## Programa
 
@@ -152,42 +152,66 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
   - Tarea 2 "Servicios Web Geográficos" - Individual: 20%
   - Tarea Final "Web Gis" - Individual: 30%
 
+
+## Bibliografía
+
+- Sistemas de Información Geográfica: Un libro libre de Víctor Olaya http://volaya.github.io/libro-sig/
+- Abdalla, R. (2016). Introduction to geospatial information and communication technology (GeoICT). Switzerland: Springer.
+- Harmon, J. E., & Anderson, S. J. (2003). The design and implementation of geographic information systems. Hoboken, NJ: J. Wiley.
+- A., B. P., M., L. V., & Abarca, O. (2012). Fundamentos de las infraestructuras de datos espaciales. Madrid: UPM Press.
+- Abdalla, R. (2016). Distributed GIS Technology. In Introduction to Geospatial Information and Communication Technology (GeoICT) (pp. 63–81). Springer International Publishing. https://doi.org/10.1007/978-3-319-33603-9_4
+- Architecting the ArcGIS Platform: Best Practices https://assets.esri.com/content/dam/esrisites/en-us/media/pdf/architecting-the-arcgis-platform.pdf
+
+
+
+
 ## Tareas
 
-### Tarea 1
+### Tarea 1 - Publicación de mapas básica
 
-**Fecha Máxima de entrega:** 2019-12-04 21:00
+**Fecha Máxima de entrega:** 2020-04-12 21:00
 
-**Crear mapas temáticos con QGIS:**
+Individual
 
-- Utilizando Qgis cree un mapa temático (Sugerencia: datos de Colombia)
-- Utilice dos métodos de clasificación diferentes
-- Enriquezca el mapa con información de contexto (Ejm: Natural Earth)
-- Publique los 2 mapas temáticos en QGIS Cloud
-- Genere los 2 mapas temáticos con QGIS2Web y publiquelos  en Github Pages
+**Objetivos**
 
-**Publicar Resultados En el repositorio github personal creado:**
+- Utilizar datos geográficos para resolver un problema específico y publicar los resultados en la web para fácil acceso a los usuarios. 
+- Publicar mapas temáticos en la web
 
-- Crear Archivo **Tarea1.md** con la siguiente información sobre los mapas que creó:
-- Cuál es el problema a tratar?
-- Por qué un mapa ayuda a resolverlo?
-- Descripción del mapa temático (Variable seleccionada, utilidad)
-- Descripción de los métodos de clasificación seleccionados. Cual es mejor para la variable seleccionada? Por qué?
-- Listado de fuentes de datos seleccionadas (proveedor, enlace para descarga, descripciòn, procesamiento realizado)
-- Descripción breve del procedimiento utilizado (plugins, extensiones, procesos, transformaciones de datos, etc)
-- Ventajas / desventajas / dificultades / diferencias encontradas al utilizar QGIS para el desarrollo del ejercicio
-- Proyecto qgis
-- Urls de los mapas publicados en la web ya sea con Qgiscloud o QGIS2Web / Github Pages
+**Actividades**
+
+- En el repositorio github personal creado para la clase crear una carpeta llamada **Tarea_1**
+- Dentro de la carpeta  **Tarea_1** Crear un archivo **Readme.md** con la siguiente información: (Cada item tiene un valor de 10 puntos)
+  
+  1.  Cuál es el problema a tratar?
+  2.  Por qué los datos geográficos  ayudan a resolverlo?
+  3.  Descripción de la solución propuesta.
+  4.  Listado detallado de las fuentes de datos seleccionadas (proveedor, enlace para descarga, descripciòn, atributos principales) 
+  5. Descripción detallada del procesamiento **no trivial** realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
+  6. Descripción detallada de la metodología utilizada para generar los mapas (atributos seleccionadas, métodos de clasificación, colores, etc)
+  7. Descripción detallada del procedimiento técnico utilizado para generar los mapas (plugins, extensiones, procesos, transformaciones de datos, etc). Ejemplos de herramientas:  __Qgiscloud__ , __leaflet__,  __QGIS2Web__ , __Github Pages__.
+  8. Adicionar al repositorio github los archivos generados (ejm. html) en la subcarpeta **Tarea_1/html/**
+  9. Urls de los mapas publicados en la web 
+  10. Conclusiones Ventajas / desventajas / dificultades  encontradas durante el desarrollo del ejercicio
+
+Bonus (20 puntos):
+  11. Tendrá derecho al bono si implementa los mapas realizando desarrollo a la medida directamente en javascript utilizando  leaflet o mapboxgl.  El desarrollo implementado debe ser __no trivial__ (aprovechar aquellas funcionalidades avanzadas de las librerías javascript que no se encuentran disponibles en herramientas como __QGIS2Web__ ).  En caso de reutilizar código (https://www.goodreads.com/book/show/29437996-copying-and-pasting-from-stack-overflow)    debe citar las fuentes originales e indicar los cambios realizados.  
+
 
 **Enviar resultados para revisión:**
 
 - Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
   - Título: Tarea 1 - CODIGO_ESTUDIANTE
-  - Contenido: Enlace al repositorio creado
+  - Contenido: Enlace a la carpeta **Tarea_1** en el repositorio personal creado para el curso
+
+
+
 
 ### Tarea 2
 
-**Fecha Máxima de entrega:** 2019-12-11 24:00
+**Fecha Máxima de entrega:** 2020-xx-xx 24:00
+
+Individual
 
 **Publicar servicios geográficos basados en estándares OGC:**
 
@@ -223,9 +247,9 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 
 ### Tarea 3
 
-**Fecha Máxima de entrega:** 2019-12-15 22:00
+**Fecha Máxima de entrega:** 2020-xx-xx 24:00
 
-Grupos de 2 personas
+Individual
 
 **Objetivo**
 
@@ -264,11 +288,4 @@ En el repositorio Github creado para el curso publicar el siguiente archivo:
   - Título: Tarea 3 - CODIGO_ESTUDIANTE1- CODIGO_ESTUDIANTE1
   - Contenido: Enlace al repositorio creado, Nombres de los estudiantes
 
-## Bibliografía
 
-- Sistemas de Información Geográfica: Un libro libre de Víctor Olaya http://volaya.github.io/libro-sig/
-- Abdalla, R. (2016). Introduction to geospatial information and communication technology (GeoICT). Switzerland: Springer.
-- Harmon, J. E., & Anderson, S. J. (2003). The design and implementation of geographic information systems. Hoboken, NJ: J. Wiley.
-- A., B. P., M., L. V., & Abarca, O. (2012). Fundamentos de las infraestructuras de datos espaciales. Madrid: UPM Press.
-- Abdalla, R. (2016). Distributed GIS Technology. In Introduction to Geospatial Information and Communication Technology (GeoICT) (pp. 63–81). Springer International Publishing. https://doi.org/10.1007/978-3-319-33603-9_4
-- Architecting the ArcGIS Platform: Best Practices https://assets.esri.com/content/dam/esrisites/en-us/media/pdf/architecting-the-arcgis-platform.pdf
