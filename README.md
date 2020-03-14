@@ -16,7 +16,7 @@ juan[~at~]gkudos.com
 - [Programa](Programa.md)
 - [Talleres](Talleres.md)
 - [Unidad 1: Fundamentos de Internet](01_Fundamentos)
-- [Unidad 2: Conceptos Generales sobre Tecnologías Web y SIG](02_Conceptos)
+- [Unidad 2: Los SIG y la Web](02_Conceptos)
 - [Unidad 3: Servicios web, geoservicios y OGC](03_Servicios_Web_Geoservicios_OGC)
 - [Unidad 4: Simbologia](04_Simbologia)
 - [Unidad 5: Arquitectura de aplicaciones Web para SIG y Servidores de Mapas](05_Arquitectura_SIG)
@@ -27,3 +27,29 @@ juan[~at~]gkudos.com
 
 - [Herramientas](Herramientas.md)
 - [Geoserver](Geoserver.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

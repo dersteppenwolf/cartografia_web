@@ -1,18 +1,18 @@
-# 2 - Conceptos Generales sobre Tecnologías Web y SIG
+# 2 - Los SIG y la Web
 
-- [2 - Conceptos Generales sobre Tecnologías Web y SIG](#2---conceptos-generales-sobre-tecnolog%C3%ADas-web-y-sig)
+
+- [2 - Los SIG y la Web](#2---los-sig-y-la-web)
   - [Presentación](#presentaci%C3%B3n)
   - [Ejercicio 1 : Introducción a Qgis](#ejercicio-1--introducci%C3%B3n-a-qgis)
-      - [Fuentes de datos sugeridas](#fuentes-de-datos-sugeridas)
+    - [Fuentes de datos sugeridas](#fuentes-de-datos-sugeridas)
   - [Ejercicio 2: Creando mapas con Qgis2web](#ejercicio-2-creando-mapas-con-qgis2web)
-      - [QGIS2Web](#qgis2web)
-      - [Qgis2threejs](#qgis2threejs)
-  - [Ejercicio 3: Geojson](#ejercicio-3-geojson)
-    - [Procesamiento](#procesamiento)
+    - [Documentación QGIS2Web](#documentaci%C3%B3n-qgis2web)
+    - [Generación de mapas 3D: Qgis2threejs](#generaci%C3%B3n-de-mapas-3d-qgis2threejs)
+  - [Ejercicio 3: Conociendo Geojson](#ejercicio-3-conociendo-geojson)
 
 ## Presentación
 
-Enlace: https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/02_Conceptos_Generales_Tecnologias_Web_y_SIG.pdf
+Enlace: https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/02_Los_SIG_y_la_web.pdf
 
 
 
@@ -27,19 +27,37 @@ Objetivos
 - QGIS Tutorials http://www.qgistutorials.com/en/index.html
 
 
+Realizar lo siguiente: 
 
-#### Fuentes de datos sugeridas
+- Instale QGIS 3.x https://www.qgis.org/es/site/ versión LTS (Long Term Support). Versión a la fecha 3.10
+- Explore la interfaz de qgis
+- Descargue un conjunto de datos pequeño (shapefile o geojson) desde alguna de las fuentes sugeridas.
+- Adicione una capa a qgis
+- Cuantos registros tiene?
+- Asigne simbología a la capa
+- Adicione otras capas y asigne simbología según corresponda
+- Impresión de mapas: Seguir el tutorial  https://docs.qgis.org/3.4/en/docs/training_manual/map_composer/map_composer.html
+- Generar pdf y subirlo a su repositorio de github
+- Publique el mapa generado su repositorio git con el fin de poder visualizarlo a través de github pages (Carpeta __ejercicio_qgis2web__).
+* Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
+  - Título: Ejercicio Mapa Pdf QGIS - CODIGO_ESTUDIANTE
+  - Contenido: 
+    - Enlace público en github al pdf generado
 
+### Fuentes de datos sugeridas
+
+- Portal de datos abiertos de Colombia: https://www.datos.gov.co/
+- Portal de datos abiertos del IGAC: https://geoportal.igac.gov.co/
+- Openstreetmap (geofabrik) http://download.geofabrik.de/
+- IDECA https://www.ideca.gov.co/datos-de-referencia
+- Datos abiertos Bogotá http://datosabiertos.bogota.gov.co/
 - Natural Earth (Large scale data, 1:10m) http://www.naturalearthdata.com/downloads/
 - Marco Geográfico Nacional (MGN) Dane 2017 - Colombia https://geoportal.dane.gov.co/
 - World Borders http://thematicmapping.org/downloads/world_borders.php
 - World Bank https://data.worldbank.org/
 - World Bank Explorer http://data.un.org/Explorer.aspx
-- Portal de datos abiertos de Colombia: datos.gov.co
-- Portal de datos abiertos del IGAC: datos.igac.gov.co
-- Openstreetmap (geofabrik) http://download.geofabrik.de/
-- IDECA https://www.ideca.gov.co/datos-de-referencia
-- Datos abiertos Bogotá http://datosabiertos.bogota.gov.co/
+
+
 
 ## Ejercicio 2: Creando mapas con Qgis2web 
 
@@ -58,8 +76,22 @@ Además el plugin es capaz de exportar la simbología definida en QGIS tanto de 
 - Geojson generado por la herramienta: https://raw.githubusercontent.com/sigfedepanela/PreciosSemanales/gh-pages/layers/PreciosporDepartamento_2.js
 
 
+Realizar lo siguiente: 
 
-#### QGIS2Web
+* Instalar el plugin Qgis2web. (Instalación de plugins https://docs.qgis.org/3.4/en/docs/training_manual/qgis_plugins/fetching_plugins.html)
+* A partir del mapa generado en el ejercicio 1, genere el mapa para la web utilizando Qgis2web
+* Características del mapa generado: 
+  * Exportar como leaflet
+  * habilitar popups (personalizar campos a mostrar)
+  * Activar Encendido / apagado de mapas
+* Publique el mapa generado su repositorio git con el fin de poder visualizarlo a través de github pages (Carpeta __ejercicio_qgis2web__).
+* Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
+  - Título: Ejercicio Qgis2web - CODIGO_ESTUDIANTE
+  - Contenido: 
+    - Enlace a la vista pública del mapa generado a través de github pages.
+
+
+### Documentación QGIS2Web
 
 - Web Mapping with QGIS2Web https://www.qgistutorials.com/en/docs/web_mapping_with_qgis2web.html
 - Publica tus mapas en la web con qgis2web https://mappinggis.com/2016/03/crea-aplicaciones-webmapping-con-qgis/
@@ -67,7 +99,8 @@ Además el plugin es capaz de exportar la simbología definida en QGIS tanto de 
 
 
 
-#### Qgis2threejs
+
+### Generación de mapas 3D:  Qgis2threejs
 
 - [Qgis2threejs plugin documentation](https://qgis2threejs.readthedocs.io/en/docs/)
 - [Tutorial](https://qgis2threejs.readthedocs.io/en/docs/Tutorial.html)
@@ -75,7 +108,9 @@ Además el plugin es capaz de exportar la simbología definida en QGIS tanto de 
 > Qgis2threejs plugin is a QGIS plugin, which visualizes DEM data and vector data in 3D on web browsers. You can build various kinds of 3D objects with simple settings panels, view them in web view of exporter and generate files to publish them to web in simple procedure. In addition, you can save the 3D model in glTF format for 3DCG or 3D printing.
 
 
-## Ejercicio 3: Geojson
+
+
+## Ejercicio 3: Conociendo Geojson
 
 Conociendo y Visualizando geojson :
 
@@ -121,9 +156,8 @@ Ejercicio 5: Clientes Pesados - Arcgis
 
 
 
-### Procesamiento
 
-- Killing Godzillas using Arcpy https://neogeografia.wordpress.com/2016/05/24/killing-godzillas-using-arcpy/
+
 
 
 

@@ -30,159 +30,253 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
-        <script src="data/UnidaddePlaneamiento_0.js"></script>
+        <script src="data/limite_departamental_simplificado_0.js"></script>
+        <script src="data/gis_osm_places_a_free_1_1.js"></script>
         <script>
-        var highlightLayer;
-        function highlightFeature(e) {
-            highlightLayer = e.target;
-
-            if (e.target.feature.geometry.type === 'LineString') {
-              highlightLayer.setStyle({
-                color: '#ffff00',
-              });
-            } else {
-              highlightLayer.setStyle({
-                fillColor: '#ffff00',
-                fillOpacity: 1
-              });
-            }
-        }
         var map = L.map('map', {
-            zoomControl:true, maxZoom:28, minZoom:10
-        }).fitBounds([[4.511737556247324,-74.20629780035138],[4.790604952709954,-73.94888174207831]]);
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[1.6263471706789439,-80.08783143131676],[8.34310386385599,-66.66851837623788]]);
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
         }
-        function pop_UnidaddePlaneamiento_0(feature, layer) {
-            layer.on({
-                mouseout: function(e) {
-                    for (i in e.target._eventParents) {
-                        e.target._eventParents[i].resetStyle(e.target);
-                    }
-                },
-                mouseover: highlightFeature,
-            });
+        function pop_limite_departamental_simplificado_0(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['UPlCodigo'] !== null ? Autolinker.link(String(feature.properties['UPlCodigo'])) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['cartodb_id'] !== null ? Autolinker.link(feature.properties['cartodb_id'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['UPlTipo'] !== null ? Autolinker.link(String(feature.properties['UPlTipo'])) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['cod_depart'] !== null ? Autolinker.link(feature.properties['cod_depart'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>UPlNombre</strong><br />' + (feature.properties['UPlNombre'] !== null ? Autolinker.link(String(feature.properties['UPlNombre'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['UPlAAdmini'] !== null ? Autolinker.link(String(feature.properties['UPlAAdmini'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['UPlArea'] !== null ? Autolinker.link(String(feature.properties['UPlArea'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['SHAPE_Leng'] !== null ? Autolinker.link(String(feature.properties['SHAPE_Leng'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['SHAPE_Area'] !== null ? Autolinker.link(String(feature.properties['SHAPE_Area'])) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['first_depa'] !== null ? Autolinker.link(feature.properties['first_depa'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_UnidaddePlaneamiento_0_0(feature) {
-            if (feature.properties['UPlArea'] >= 73960.161342 && feature.properties['UPlArea'] <= 4000322.316830 ) {
-                return {
-                pane: 'pane_UnidaddePlaneamiento_0',
+        function style_limite_departamental_simplificado_0_0() {
+            return {
+                pane: 'pane_limite_departamental_simplificado_0',
                 opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '1,5',
                 lineCap: 'butt',
                 lineJoin: 'miter',
                 weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(237,248,251,1.0)',
-            }
-            }
-            if (feature.properties['UPlArea'] >= 4000322.316830 && feature.properties['UPlArea'] <= 36886663.727500 ) {
-                return {
-                pane: 'pane_UnidaddePlaneamiento_0',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(178,226,226,1.0)',
-            }
-            }
-            if (feature.properties['UPlArea'] >= 36886663.727500 && feature.properties['UPlArea'] <= 359666143.577000 ) {
-                return {
-                pane: 'pane_UnidaddePlaneamiento_0',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(102,194,164,1.0)',
-            }
-            }
-            if (feature.properties['UPlArea'] >= 359666143.577000 && feature.properties['UPlArea'] <= 421283865.373000 ) {
-                return {
-                pane: 'pane_UnidaddePlaneamiento_0',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(35,139,69,1.0)',
-            }
+                fillOpacity: 0,
+                interactive: true,
             }
         }
-        map.createPane('pane_UnidaddePlaneamiento_0');
-        map.getPane('pane_UnidaddePlaneamiento_0').style.zIndex = 400;
-        map.getPane('pane_UnidaddePlaneamiento_0').style['mix-blend-mode'] = 'normal';
-        var layer_UnidaddePlaneamiento_0 = new L.geoJson(json_UnidaddePlaneamiento_0, {
+        map.createPane('pane_limite_departamental_simplificado_0');
+        map.getPane('pane_limite_departamental_simplificado_0').style.zIndex = 400;
+        map.getPane('pane_limite_departamental_simplificado_0').style['mix-blend-mode'] = 'normal';
+        var layer_limite_departamental_simplificado_0 = new L.geoJson(json_limite_departamental_simplificado_0, {
             attribution: '',
-            pane: 'pane_UnidaddePlaneamiento_0',
-            onEachFeature: pop_UnidaddePlaneamiento_0,
-            style: style_UnidaddePlaneamiento_0_0,
+            interactive: true,
+            dataVar: 'json_limite_departamental_simplificado_0',
+            layerName: 'layer_limite_departamental_simplificado_0',
+            pane: 'pane_limite_departamental_simplificado_0',
+            onEachFeature: pop_limite_departamental_simplificado_0,
+            style: style_limite_departamental_simplificado_0_0,
         });
-        bounds_group.addLayer(layer_UnidaddePlaneamiento_0);
-        map.addLayer(layer_UnidaddePlaneamiento_0);
+        bounds_group.addLayer(layer_limite_departamental_simplificado_0);
+        map.addLayer(layer_limite_departamental_simplificado_0);
+        function pop_gis_osm_places_a_free_1_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">osm_id</th>\
+                        <td>' + (feature.properties['osm_id'] !== null ? Autolinker.link(feature.properties['osm_id'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['code'] !== null ? Autolinker.link(feature.properties['code'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['fclass'] !== null ? Autolinker.link(feature.properties['fclass'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['population'] !== null ? Autolinker.link(feature.properties['population'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">name</th>\
+                        <td>' + (feature.properties['name'] !== null ? Autolinker.link(feature.properties['name'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_gis_osm_places_a_free_1_1_0(feature) {
+            switch(String(feature.properties['fclass'])) {
+                case 'city':
+                    return {
+                pane: 'pane_gis_osm_places_a_free_1_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(222,192,91,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'farm':
+                    return {
+                pane: 'pane_gis_osm_places_a_free_1_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(15,185,223,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'hamlet':
+                    return {
+                pane: 'pane_gis_osm_places_a_free_1_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(206,13,209,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'island':
+                    return {
+                pane: 'pane_gis_osm_places_a_free_1_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(236,77,45,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'locality':
+                    return {
+                pane: 'pane_gis_osm_places_a_free_1_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(193,239,112,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'region':
+                    return {
+                pane: 'pane_gis_osm_places_a_free_1_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(128,212,126,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'suburb':
+                    return {
+                pane: 'pane_gis_osm_places_a_free_1_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(223,82,141,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'town':
+                    return {
+                pane: 'pane_gis_osm_places_a_free_1_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(75,105,213,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'village':
+                    return {
+                pane: 'pane_gis_osm_places_a_free_1_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(152,114,212,1.0)',
+                interactive: true,
+            }
+                    break;
+                default:
+                    return {
+                pane: 'pane_gis_osm_places_a_free_1_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(47,203,136,1.0)',
+                interactive: true,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_gis_osm_places_a_free_1_1');
+        map.getPane('pane_gis_osm_places_a_free_1_1').style.zIndex = 401;
+        map.getPane('pane_gis_osm_places_a_free_1_1').style['mix-blend-mode'] = 'normal';
+        var layer_gis_osm_places_a_free_1_1 = new L.geoJson(json_gis_osm_places_a_free_1_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_gis_osm_places_a_free_1_1',
+            layerName: 'layer_gis_osm_places_a_free_1_1',
+            pane: 'pane_gis_osm_places_a_free_1_1',
+            onEachFeature: pop_gis_osm_places_a_free_1_1,
+            style: style_gis_osm_places_a_free_1_1_0,
+        });
+        bounds_group.addLayer(layer_gis_osm_places_a_free_1_1);
+        map.addLayer(layer_gis_osm_places_a_free_1_1);
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'gis_osm_places_a_free_1<br /><table><tr><td style="text-align: center;"><img src="legend/gis_osm_places_a_free_1_1_city0.png" /></td><td>city</td></tr><tr><td style="text-align: center;"><img src="legend/gis_osm_places_a_free_1_1_farm1.png" /></td><td>farm</td></tr><tr><td style="text-align: center;"><img src="legend/gis_osm_places_a_free_1_1_hamlet2.png" /></td><td>hamlet</td></tr><tr><td style="text-align: center;"><img src="legend/gis_osm_places_a_free_1_1_island3.png" /></td><td>island</td></tr><tr><td style="text-align: center;"><img src="legend/gis_osm_places_a_free_1_1_locality4.png" /></td><td>locality</td></tr><tr><td style="text-align: center;"><img src="legend/gis_osm_places_a_free_1_1_region5.png" /></td><td>region</td></tr><tr><td style="text-align: center;"><img src="legend/gis_osm_places_a_free_1_1_suburb6.png" /></td><td>suburb</td></tr><tr><td style="text-align: center;"><img src="legend/gis_osm_places_a_free_1_1_town7.png" /></td><td>town</td></tr><tr><td style="text-align: center;"><img src="legend/gis_osm_places_a_free_1_1_village8.png" /></td><td>village</td></tr><tr><td style="text-align: center;"><img src="legend/gis_osm_places_a_free_1_1_9.png" /></td><td></td></tr></table>': layer_gis_osm_places_a_free_1_1,'<img src="legend/limite_departamental_simplificado_0.png" /> limite_departamental_simplificado': layer_limite_departamental_simplificado_0,}).addTo(map);
         setBounds();
-        var i = 0;
-        layer_UnidaddePlaneamiento_0.eachLayer(function(layer) {
-            var context = {
-                feature: layer.feature,
-                variables: {}
-            };
-            layer.bindTooltip((layer.feature.properties['UPlNombre'] !== null?String('<div style="color: #000000; font-size: 9pt; font-family: \'Arial Unicode MS\', sans-serif;">' + layer.feature.properties['UPlNombre']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_UnidaddePlaneamiento_0'});
-            labels.push(layer);
-            totalMarkers += 1;
-              layer.added = true;
-              addLabel(layer, i);
-              i++;
-        });
-        resetLabels([layer_UnidaddePlaneamiento_0]);
-        map.on("zoomend", function(){
-            resetLabels([layer_UnidaddePlaneamiento_0]);
-        });
-        map.on("layeradd", function(){
-            resetLabels([layer_UnidaddePlaneamiento_0]);
-        });
-        map.on("layerremove", function(){
-            resetLabels([layer_UnidaddePlaneamiento_0]);
-        });
         </script>
     </body>
 </html>
