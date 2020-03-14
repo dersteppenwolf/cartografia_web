@@ -184,7 +184,8 @@ Individual
 **Actividades**
 
 - En el repositorio github personal creado para la clase crear una carpeta llamada **Tarea_1**
-- Dentro de la carpeta  **Tarea_1** Crear un archivo **Readme.md** con la siguiente información: (Cada item tiene un valor de 1 punto)
+- Dentro de la carpeta  **Tarea_1** Crear un archivo **Readme.md** con la siguiente información: 
+  - Cada item tiene un valor de __1__ punto si está completo. En caso de estar incompleto o incorrecto se otorgará __0__ puntos.
   
   1.  Cuál es el problema a tratar?
   2.  Por qué los datos geográficos  ayudan a resolverlo?
