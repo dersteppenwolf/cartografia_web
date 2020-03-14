@@ -14,7 +14,6 @@ juan[~at~]gkudos.com
 
 - [Introducción](00_Intro)
 - [Programa](Programa.md)
-- [Talleres](Talleres.md)
 - [Unidad 1: Fundamentos de Internet](01_Fundamentos)
 - [Unidad 2: Los SIG y la Web](02_Conceptos)
 - [Unidad 3: Cartografía](03_Cartografia)
