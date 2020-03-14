@@ -6,6 +6,12 @@
   - [Ejercicio 1 : Introducción a Qgis](#ejercicio-1--introducci%C3%B3n-a-qgis)
     - [Fuentes de datos sugeridas](#fuentes-de-datos-sugeridas)
   - [Ejercicio 2: Conociendo Geojson](#ejercicio-2-conociendo-geojson)
+    - [Ejercicio 2.1](#ejercicio-21)
+    - [Ejercicio 2.2](#ejercicio-22)
+    - [Ejercicio 2.3 - Visualizando Geojson con Clientes ligeros - Leaflet](#ejercicio-23---visualizando-geojson-con-clientes-ligeros---leaflet)
+    - [Ejercicio 2.4 - Visualizando Geojson con Clientes ligeros - Otras librerías Javascript](#ejercicio-24---visualizando-geojson-con-clientes-ligeros---otras-librer%C3%ADas-javascript)
+    - [Ejercicio 2.5 - Clientes Pesados - Qgis](#ejercicio-25---clientes-pesados---qgis)
+    - [Ejercicio 2.6 - Clientes Pesados - Arcgis](#ejercicio-26---clientes-pesados---arcgis)
   - [Ejercicio 3: Creando mapas con Qgis2web](#ejercicio-3-creando-mapas-con-qgis2web)
     - [Documentación QGIS2Web](#documentaci%C3%B3n-qgis2web)
     - [Generación de mapas 3D: Qgis2threejs](#generaci%C3%B3n-de-mapas-3d-qgis2threejs)
@@ -66,7 +72,7 @@ Realizar lo siguiente:
 
 Conociendo y Visualizando geojson :
 
-Ejercicio 1:
+### Ejercicio 2.1
 
 - Ingrese al portal de datos abiertos de Philadelphia y descarge el conjunto de datos “Licenses and Inspections Districts” en formato geojson https://www.opendataphilly.org/dataset/licenses-inspections-district-boundaries
 - Ingrese a http://geojson.io/ y cargue el archivo
@@ -75,7 +81,7 @@ Ejercicio 1:
   - Qué atributos tiene?
   - Cuantos registros hay?
 
-Ejercicio 2:
+### Ejercicio 2.2
 
 - Descargue otros conjuntos de datos desde opendataphilly y haga el mismo procedimiento https://www.opendataphilly.org/dataset?res_format=geojson
 - Tipos de Geometrías:
@@ -83,28 +89,29 @@ Ejercicio 2:
   - Puntos
 - Pregunta: En qué otros formatos está disponible la información?
 
-Ejercicio 3: Visualizando Geojson con Clientes ligeros
-
-- Visualizando geojson usando leaflet 
-- 
-  - Ejemplo 1: Leaflet Simple 
-    - Vista mapa  https://dersteppenwolf.github.io/cartografia_web/02_Conceptos/html/leaflet_geojson_simple.html
-    - Código https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/leaflet_geojson_simple.html
-    - Tutorial http://leafletjs.com/examples/geojson/
+### Ejercicio 2.3 - Visualizando Geojson con Clientes ligeros - Leaflet
 
 
-  - Ejemplo 2: Geojson externo
-    - Vista mapa https://dersteppenwolf.github.io/cartografia_web/02_Conceptos/html/leaflet_geojson_externo.html
-    - Código https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/leaflet_geojson_externo.html
-    - Datos https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/datos/limite_departamental_simplificado.geojson 
-    - Tutorial: Loading External GeoJSON: A(nother) Way to Do It with jQuery  https://medium.com/@maptastik/loading-external-geojson-a-nother-way-to-do-it-with-jquery-c72ae3b41c01
+Ejemplo 1: Leaflet Simple 
+  - Vista mapa  https://dersteppenwolf.github.io/cartografia_web/02_Conceptos/html/leaflet_geojson_simple.html
+  - Código https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/leaflet_geojson_simple.html
+  - Tutorial http://leafletjs.com/examples/geojson/
+
+
+Ejemplo 2: Geojson externo
+  - Vista mapa https://dersteppenwolf.github.io/cartografia_web/02_Conceptos/html/leaflet_geojson_externo.html
+  - Código https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/leaflet_geojson_externo.html
+  - Datos https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/datos/limite_departamental_simplificado.geojson 
+  - Tutorial: Loading External GeoJSON: A(nother) Way to Do It with jQuery  https://medium.com/@maptastik/loading-external-geojson-a-nother-way-to-do-it-with-jquery-c72ae3b41c01
+
+
+### Ejercicio 2.4 - Visualizando Geojson con Clientes ligeros - Otras librerías Javascript
 
 - Visualizando geojson usando mapbox gl https://www.mapbox.com/mapbox-gl-js/example/geojson-polygon/
-
 - Visualizando geojson Usando openlayers http://dev.openlayers.org/examples/geojson.html
 - Arcgis JS Geojson layer https://developers.arcgis.com/javascript/latest/sample-code/layers-geojson/index.html
 
-Ejercicio 4: Clientes Pesados - Qgis
+### Ejercicio 2.5 -  Clientes Pesados - Qgis
 
 - Busque en la web archivos de tipo geojson Ejemplo: https://bit.ly/2EqUvFG
 - Cargue el archivo en QGIS http://webgeodatavore.com/add-geojson-content-in-qgis-short-recipes.html
@@ -112,7 +119,7 @@ Ejercicio 4: Clientes Pesados - Qgis
   - Tipo de geometría? Atributos? Cantidad registros?
   - Se puede editar?
 
-Ejercicio 5: Clientes Pesados - Arcgis
+### Ejercicio 2.6 -   Clientes Pesados - Arcgis
 
 - Cargue los datos geojson en Arcgis Desktop
 - Edite la información y/o utilice alguna herramienta de geoprocesamiento
