@@ -88,7 +88,7 @@ Realizar lo siguiente:
 * Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
   - Título: Ejercicio Qgis2web - CODIGO_ESTUDIANTE
   - Contenido: 
-    - Enlace a la vista pública del mapa generado a través de github pages.
+    - Enlace a la vista pública del mapa generado a través de github pages. (Ejemplo: https://dersteppenwolf.github.io/cartografia_web/02_Conceptos/ejemplo_qgis2web/ )
 
 
 ### Documentación QGIS2Web
@@ -96,8 +96,6 @@ Realizar lo siguiente:
 - Web Mapping with QGIS2Web https://www.qgistutorials.com/en/docs/web_mapping_with_qgis2web.html
 - Publica tus mapas en la web con qgis2web https://mappinggis.com/2016/03/crea-aplicaciones-webmapping-con-qgis/
 - Qgis2web wiki https://github.com/tomchadwin/qgis2web/wiki
-
-
 
 
 ### Generación de mapas 3D:  Qgis2threejs
