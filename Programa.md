@@ -195,7 +195,10 @@ Individual
   10. Conclusiones Ventajas / desventajas / dificultades  encontradas durante el desarrollo del ejercicio
 
 Bonus (20 puntos):
-  11. Tendrá derecho al bono si implementa los mapas realizando desarrollo a la medida directamente en javascript utilizando  leaflet o mapboxgl.  El desarrollo implementado debe ser __no trivial__ (aprovechar aquellas funcionalidades avanzadas de las librerías javascript que no se encuentran disponibles en herramientas como __QGIS2Web__ ).  En caso de reutilizar código (https://www.goodreads.com/book/show/29437996-copying-and-pasting-from-stack-overflow)    debe citar las fuentes originales e indicar los cambios realizados.  
+
+  11. Tendrá derecho al bono si implementa los mapas realizando desarrollo a la medida directamente en javascript utilizando  leaflet o mapboxgl.  
+      1.  El desarrollo implementado debe ser __no trivial__ (aprovechar aquellas funcionalidades avanzadas de las librerías javascript que no se encuentran disponibles en herramientas como __QGIS2Web__ ).  
+      2.  En caso de reutilizar código (https://www.goodreads.com/book/show/29437996-copying-and-pasting-from-stack-overflow)    debe citar las fuentes originales e indicar los cambios realizados.  
 
 
 **Enviar resultados para revisión:**
