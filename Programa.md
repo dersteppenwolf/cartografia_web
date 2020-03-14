@@ -16,7 +16,7 @@
     - [Unidad 3: Arquitectura de aplicaciones Web para SIG](#unidad-3-arquitectura-de-aplicaciones-web-para-sig)
     - [Unidad 4: Visualización de datos](#unidad-4-visualizaci%C3%B3n-de-datos)
   - [Sistema de evaluación](#sistema-de-evaluaci%C3%B3n)
-  - [Notas:](#notas)
+  - [Notas](#notas)
   - [Bibliografía](#bibliograf%C3%ADa)
   - [Tareas](#tareas)
     - [Tarea 1 - Publicación de mapas web básicos](#tarea-1---publicaci%C3%B3n-de-mapas-web-b%C3%A1sicos)
@@ -147,7 +147,7 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 - Las entrega tardía de tareas genera penalización en las notas
 - Las tareas se publican a través de un respositorio personal creado en github https://github.com/
 
-## Notas:
+## Notas
 
   - Exámenes cortos (Quiz) - Individual: 30%  
     - Instalar kahoot en sus dispositivos móviles https://kahoot.com/
