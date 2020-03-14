@@ -16,9 +16,10 @@
     - [Unidad 3: Arquitectura de aplicaciones Web para SIG](#unidad-3-arquitectura-de-aplicaciones-web-para-sig)
     - [Unidad 4: Visualización de datos](#unidad-4-visualizaci%C3%B3n-de-datos)
   - [Sistema de evaluación](#sistema-de-evaluaci%C3%B3n)
+  - [Notas:](#notas)
   - [Bibliografía](#bibliograf%C3%ADa)
   - [Tareas](#tareas)
-    - [Tarea 1 - Publicación de mapas básica](#tarea-1---publicaci%C3%B3n-de-mapas-b%C3%A1sica)
+    - [Tarea 1 - Publicación de mapas web básicos](#tarea-1---publicaci%C3%B3n-de-mapas-web-b%C3%A1sicos)
     - [Tarea 2](#tarea-2)
     - [Tarea 3](#tarea-3)
 
@@ -146,11 +147,13 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 - Las entrega tardía de tareas genera penalización en las notas
 - Las tareas se publican a través de un respositorio personal creado en github https://github.com/
 
-- Notas:
-  - Exámenes cortos (Quiz) - Individual: 30% : Instalar kahoot en sus dispositivos móviles https://kahoot.com/
-  - Tarea 1 "Qgis" - Individual: 20%
-  - Tarea 2 "Servicios Web Geográficos" - Individual: 20%
-  - Tarea Final "Web Gis" - Individual: 30%
+## Notas:
+
+  - Exámenes cortos (Quiz) - Individual: 30%  
+    - Instalar kahoot en sus dispositivos móviles https://kahoot.com/
+  - Tarea 1 - Publicación de mapas web básicos  - 20%
+  - Tarea 2 - Servicios Web Geográficos -  20%
+  - Tarea 3 - Aplicación Web -  30%
 
 
 ## Bibliografía
@@ -167,7 +170,7 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 
 ## Tareas
 
-### Tarea 1 - Publicación de mapas básica
+### Tarea 1 - Publicación de mapas web básicos
 
 **Fecha Máxima de entrega:** 2020-04-12 21:00
 
