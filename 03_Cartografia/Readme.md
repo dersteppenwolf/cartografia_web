@@ -48,7 +48,28 @@ Realizar lo siguiente:
 
 ## Ejercicio 2 : Visualizando datos con Kepler.gl
 
-Datos Tweets Georreferenciados
+**Kepler.gl**  https://kepler.gl/ __Kepler.gl is a powerful open source geospatial analysis tool for large-scale data sets.__
+
+Kepler.gl is a data-agnostic, high-performance web-based application for visual exploration of large-scale geolocation data sets. Built on top of **Mapbox GL** and **deck.gl**, kepler.gl can render millions of points representing thousands of trips and perform spatial aggregations on the fly.
+
+**Enlaces:**
+
+- Mapbox GL JS is a JavaScript library that uses WebGL to render interactive maps from vector tiles and Mapbox styles.  https://docs.mapbox.com/mapbox-gl-js/api/
+- WebGL	It is the JavaScript binding for OpenGL. OpenGL (Open Graphics Library) is a cross-language, cross-platform API for 2D and 3D graphics. https://www.tutorialspoint.com/webgl/webgl_introduction.htm
+  - It is a JavaScript API that can be used with HTML5. WebGL code is written within the <canvas> tag of HTML5. It is a specification that allows Internet browsers access to Graphic Processing Units (GPUs) on those computers where they were used.
+- **deck.gl** is a WebGL-powered framework for visual exploratory data analysis of large datasets. https://deck.gl/#/
+- 
+- From Beautiful Maps to Actionable Insights: Introducing kepler.gl, Uber’s Open Source Geospatial Toolbox https://eng.uber.com/keplergl/
+- User guide: https://github.com/keplergl/kepler.gl/blob/master/docs/user-guides/j-get-started.md
+- Código en Github https://github.com/keplergl/kepler.gl
+- How to create a map in 3 minutes: Animating 40 years of California Earthquakes https://medium.com/vis-gl/animating-40-years-of-california-earthquakes-e4ffcdd4a289
+- Making a choropleth map: Visualizing Unemployment for U.S. Counties with kepler.gl https://medium.com/vis-gl/visualizing-u-s-county-unemployment-with-kepler-gl-c5f2ed31c71
+-  Uber Movement and kepler.gl : Using kepler.gl and Movement data to Visualize Traffic Effects of a Rainstorm https://medium.com/vis-gl/movement-in-kepler-d00e843f464d
+
+
+
+**Datos Tweets Georreferenciados:**
+
  - Formato Csv https://github.com/dersteppenwolf/cartografia_web/blob/master/03_Cartografia/example/geotweets.csv
 
 |id                 |source      |user.screen_name|pin.location.lat|pin.location.lon|lang|creation_date      |user.followers_count|entities.hashtags.text                   |
