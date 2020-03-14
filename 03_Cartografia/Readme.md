@@ -4,6 +4,7 @@
   - [Recursos](#recursos)
   - [Tutoriales cartografía con SIG Desktop](#tutoriales-cartograf%C3%ADa-con-sig-desktop)
   - [Ejercicio 1 : Publicando mapas en la nube con Qgis Cloud](#ejercicio-1--publicando-mapas-en-la-nube-con-qgis-cloud)
+  - [Ejercicio 2 : Visualizando datos con Kepler.gl](#ejercicio-2--visualizando-datos-con-keplergl)
 
 ## Presentación
 
@@ -42,3 +43,36 @@ Realizar lo siguiente:
 - Publique mapas en Qgis Cloud desde Qgis 
   - Quickstart https://qgiscloud.com/pages/quickstart
   - Cómo publicar mapas online con QGIS Cloud https://mappinggis.com/2019/01/como-publicar-mapas-con-qgis/
+
+
+
+## Ejercicio 2 : Visualizando datos con Kepler.gl
+
+Datos Tweets Georreferenciados
+ - Formato Csv https://github.com/dersteppenwolf/cartografia_web/blob/master/03_Cartografia/example/geotweets.csv
+
+|id                 |source      |user.screen_name|pin.location.lat|pin.location.lon|lang|creation_date      |user.followers_count|entities.hashtags.text                   |
+|-------------------|------------|----------------|----------------|----------------|----|-------------------|--------------------|-----------------------------------------|
+|1201026267883065344|instagram   |alitos25        |3.47645398      |-76.52784348    |es  |2019-12-01T01:32:30|696                 |Chipichape,Mom,Diciembre,ILoveYou        |
+|1201026433306357767|instagram   |GuillermoLVP80  |3.89502747      |-76.29474677    |es  |2019-12-01T01:33:10|15                  |nuevostalentos,guadalajaradebuga         |
+|1201026492236533760|instagram   |COMBOESTRELLAS  |4.83553936      |-75.66899716    |es  |2019-12-01T01:33:24|727                 |elcombodelasestrellas,marlonmuriel,envivo|
+|1201027339578007552|world cities|MedellinCO      |6.24            |-75.59          |en  |2019-12-01T01:36:46|133                 |                                         |
+
+
+ - Formato geojson https://github.com/dersteppenwolf/cartografia_web/blob/master/03_Cartografia/example/geotweets.geojson
+
+```json
+{
+"type": "FeatureCollection",
+"name": "geotweets",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "1201026267883065344", "source": "instagram", "user.screen_name": "alitos25", "pin.location.lat": "3.47645398", "pin.location.lon": "-76.52784348", "lang": "es", "creation_date": "2019-12-01T01:32:30", "user.followers_count": "696", "entities.hashtags.text": "Chipichape,Mom,Diciembre,ILoveYou" }, "geometry": { "type": "Point", "coordinates": [ -76.52784348, 3.47645398 ] } },
+{ "type": "Feature", "properties": { "id": "1201026433306357767", "source": "instagram", "user.screen_name": "GuillermoLVP80", "pin.location.lat": "3.89502747", "pin.location.lon": "-76.29474677", "lang": "es", "creation_date": "2019-12-01T01:33:10", "user.followers_count": "15", "entities.hashtags.text": "nuevostalentos,guadalajaradebuga" }, "geometry": { "type": "Point", "coordinates": [ -76.29474677, 3.89502747 ] } },
+{ "type": "Feature", "properties": { "id": "1201026492236533760", "source": "instagram", "user.screen_name": "COMBOESTRELLAS", "pin.location.lat": "4.83553936", "pin.location.lon": "-75.66899716", "lang": "es", "creation_date": "2019-12-01T01:33:24", "user.followers_count": "727", "entities.hashtags.text": "elcombodelasestrellas,marlonmuriel,envivo" }, "geometry": { "type": "Point", "coordinates": [ -75.66899716, 4.83553936 ] } },
+
+```
+
+Archivo Html Generado por kepler.gl 
+- vista web https://dersteppenwolf.github.io/cartografia_web/03_Cartografia/example/kepler.gl.html
+- código https://github.com/dersteppenwolf/cartografia_web/blob/master/03_Cartografia/example/kepler.gl.html
