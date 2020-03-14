@@ -15,6 +15,7 @@
   - [Ejercicio 3: Creando mapas con Qgis2web](#ejercicio-3-creando-mapas-con-qgis2web)
     - [Documentación QGIS2Web](#documentaci%C3%B3n-qgis2web)
     - [Generación de mapas 3D: Qgis2threejs](#generaci%C3%B3n-de-mapas-3d-qgis2threejs)
+  - [Ejercicio 4: Geojson vs Topojson](#ejercicio-4-geojson-vs-topojson)
 
 ## Presentación
 
@@ -181,3 +182,16 @@ Realizar lo siguiente:
 
 
 
+## Ejercicio 4: Geojson vs Topojson 
+
+Comparar tamaños de archivos: https://github.com/dersteppenwolf/cartografia_web/tree/master/02_Conceptos/html/datos
+* Departamentos en Geojson https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/datos/limite_departamental.geojson
+* Departamentos simplificados en Geojson  https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/datos/limite_departamental_simplificado.geojson
+* Departamentos simplificados en Topojson  https://github.com/dersteppenwolf/cartografia_web/blob/master/02_Conceptos/html/datos/limite_departamental_simplificado.topojson.json
+
+Ejemplos / Aplicaciones
+
+* Visor de Geojson: http://geojson.io/
+* Visor de topojson: http://bl.ocks.org/enjalot/fe2a8ee0ad59a58ce295f035419d9e63
+* Conversión a topojson / simplificación: https://mapshaper.org/
+* Leaflet with a topojson layer http://bl.ocks.org/hpfast/2fb8de57c356d8c45ce511189eec5d6a  http://bl.ocks.org/mpmckenna8/af23032b41f0ea1212563b523e859228
