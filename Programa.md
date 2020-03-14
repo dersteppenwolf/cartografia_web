@@ -184,7 +184,7 @@ Individual
 **Actividades**
 
 - En el repositorio github personal creado para la clase crear una carpeta llamada **Tarea_1**
-- Dentro de la carpeta  **Tarea_1** Crear un archivo **Readme.md** con la siguiente información: (Cada item tiene un valor de 10 puntos)
+- Dentro de la carpeta  **Tarea_1** Crear un archivo **Readme.md** con la siguiente información: (Cada item tiene un valor de 1 punto)
   
   1.  Cuál es el problema a tratar?
   2.  Por qué los datos geográficos  ayudan a resolverlo?
@@ -197,7 +197,7 @@ Individual
   9. Urls de los mapas publicados en la web 
   10. Conclusiones Ventajas / desventajas / dificultades  encontradas durante el desarrollo del ejercicio
 
-Bonus (20 puntos):
+Bonus (2 puntos):
 
   11. Tendrá derecho al bono si implementa los mapas realizando desarrollo a la medida directamente en javascript utilizando  leaflet o mapboxgl.  
       1.  El desarrollo implementado debe ser __no trivial__ (aprovechar aquellas funcionalidades avanzadas de las librerías javascript que no se encuentran disponibles en herramientas como __QGIS2Web__ ).  
