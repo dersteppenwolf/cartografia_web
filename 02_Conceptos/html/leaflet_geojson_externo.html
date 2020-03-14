@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>GeoJSON tutorial - Leaflet</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		#map {
+			width: 800px;
+			height: 600px;
+		}
+	</style>
+
+	
+</head>
+<body>
+
+<div id='map'></div>
+
+
+
+<script>
+
+    var deptos = $.ajax({
+          url:"datos/limite_departamental_simplificado.geojson",
+          dataType: "json",
+          success: console.log("County data successfully loaded."),
+          error: function (xhr) {
+            alert(xhr.statusText)
+          }
+        })
+
+    $.when(deptos).done(function() {
+            var map = L.map('map').setView([4.857507, -74.632935], 5);
+
+            var basemap = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+                subdomains: 'abcd',
+                maxZoom: 19
+            }).addTo(map);
+
+
+            function onEachFeature(feature, layer) {
+                var popupContent = "<p>Departamento</p>";
+                if (feature.properties ) {
+                    popupContent += feature.properties.first_depa + " - " + feature.properties.cod_depart;
+                }
+                layer.bindPopup(popupContent);
+            }
+
+             // Add requested external GeoJSON to map
+             var kyCounties = L.geoJSON(deptos.responseJSON, {
+                    onEachFeature: onEachFeature,
+                    }).addTo(map);
+    });
+
+
+
+</script>
+
+
+
+</body>
+</html>
