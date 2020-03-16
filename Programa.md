@@ -18,7 +18,9 @@
   - [Sistema de evaluación](#sistema-de-evaluaci%C3%B3n)
   - [Notas](#notas)
   - [Bibliografía](#bibliograf%C3%ADa)
-  - [Recursos para educación virtual](#recursos-para-educaci%C3%B3n-virtual)
+  - [Educación virtual](#educaci%C3%B3n-virtual)
+    - [Herramientas](#herramientas)
+    - [Enlaces de interés](#enlaces-de-inter%C3%A9s)
   - [Tareas](#tareas)
     - [Tarea 1 - Publicación de mapas web básicos](#tarea-1---publicaci%C3%B3n-de-mapas-web-b%C3%A1sicos)
     - [Tarea 2 (pendiente actualización)](#tarea-2-pendiente-actualizaci%C3%B3n)
@@ -167,13 +169,13 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 - Architecting the ArcGIS Platform: Best Practices https://assets.esri.com/content/dam/esrisites/en-us/media/pdf/architecting-the-arcgis-platform.pdf
 
 
-## Recursos para educación virtual
+## Educación virtual
 
 En vista de los últimos acontecimientos el curso se llevará a cabo de forma virtual.
 A continuación un listado de recursos y herramientas propuestas para el desarrollo del curso.
 Su retroalimentación y comentarios son bienvenida.
 
-### Herramientas
+### Herramientas
 
 - Publicación de contenidos: **Github** https://github.com/
   - Publicación y versionamiento de archivos 
@@ -197,10 +199,15 @@ Su retroalimentación y comentarios son bienvenida.
   - Notificaciones en tiempo real
   - Aplicación móvil, desktop
   - Integración con otras aplicaciones
--  How I Use Slack Inside of the Classroom: Adventures in the collaboration tool that has taken the world by storm. https://www.philsimon.com/blog/higher-education/use-slack-inside-classroom/
+  -  How I Use Slack Inside of the Classroom: Adventures in the collaboration tool that has taken the world by storm. https://www.philsimon.com/blog/higher-education/use-slack-inside-classroom/
+- Entorno interactivo para programación en python: **Google Colab**  https://colab.research.google.com/
+  - Servicio en la nube gratuito
+  - Programación interactiva con Jupyter / Python
+- Servidores: **Google Cloud Compute Engine** https://cloud.google.com/compute
+  - Máquinas virtuales en la nube Linux / Windows
 
 
-### Enlaces de interés
+### Enlaces de interés
 
 - How to teach remotely, all of a sudden https://medium.com/@scotthmurray/how-to-teach-remotely-all-of-a-sudden-4bb0237999e9 
 
