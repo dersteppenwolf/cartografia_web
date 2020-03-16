@@ -171,9 +171,11 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 
 ## Educación virtual
 
-En vista de los últimos acontecimientos el curso se llevará a cabo de forma virtual.
-A continuación un listado de recursos y herramientas propuestas para el desarrollo del curso.
-Su retroalimentación y comentarios son bienvenida.
+En vista de los últimos acontecimientos para todos conocidos, el curso se llevará a cabo de forma virtual.
+Dada la eventualidad y premura respecto a la preparación  y desarrollo de cursos virtuales,  se agradece su retroalimentación y comentarios constructivos con ánimo de mejorar. 
+
+A continuación un listado de recursos y herramientas propuestas para el desarrollo del presente curso.
+
 
 ### Herramientas
 
@@ -189,9 +191,9 @@ Su retroalimentación y comentarios son bienvenida.
   - Compartir pantalla
   - Comparación con hangouts  https://support.google.com/a/answer/7303775?hl=es
 - Evaluación: **Kahoot** https://kahoot.com/
-  - Evaluación a través de juego 
+  - Evaluación a través de juegos
   - Aplicación móvil https://kahoot.com/mobile-app/
-- Documentos Colaborativos: Google Docs / Google sheets    https://www.google.com/docs/about/
+- Documentos Colaborativos: **Google Docs / Google sheets**    https://www.google.com/docs/about/
   - Compartir documentos en tiempo real
   - Edición colaborativa de documentos
 - Comunicación: **Slack** https://slack.com/
