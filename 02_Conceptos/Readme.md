@@ -32,7 +32,8 @@ Objetivos
 - Conocer el funcionamiento básico de QGIS
 - Publicar mapas en la web con la ayuda de QGIS.
 - QGIS Tutorials http://www.qgistutorials.com/en/index.html
-
+- Introduction to Open Source GIS: QGIS Desktop (Richard A. Henson. Salisbury University. School of Science and Technology
+) https://succeed.salisbury.edu/browse/henson/courses/introduction-to-open-source-gis
 
 Realizar lo siguiente: 
 

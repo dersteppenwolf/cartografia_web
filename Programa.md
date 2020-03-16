@@ -18,10 +18,11 @@
   - [Sistema de evaluación](#sistema-de-evaluaci%C3%B3n)
   - [Notas](#notas)
   - [Bibliografía](#bibliograf%C3%ADa)
+  - [Recursos para educación virtual](#recursos-para-educaci%C3%B3n-virtual)
   - [Tareas](#tareas)
     - [Tarea 1 - Publicación de mapas web básicos](#tarea-1---publicaci%C3%B3n-de-mapas-web-b%C3%A1sicos)
-    - [Tarea 2](#tarea-2)
-    - [Tarea 3](#tarea-3)
+    - [Tarea 2 (pendiente actualización)](#tarea-2-pendiente-actualizaci%C3%B3n)
+    - [Tarea 3 (pendiente actualización)](#tarea-3-pendiente-actualizaci%C3%B3n)
 
 ## Programa
 
@@ -166,6 +167,42 @@ Desarrollar destrezas para publicar y utilizar datos georreferenciados a través
 - Architecting the ArcGIS Platform: Best Practices https://assets.esri.com/content/dam/esrisites/en-us/media/pdf/architecting-the-arcgis-platform.pdf
 
 
+## Recursos para educación virtual
+
+En vista de los últimos acontecimientos el curso se llevará a cabo de forma virtual.
+A continuación un listado de recursos y herramientas propuestas para el desarrollo del curso.
+Su retroalimentación y comentarios son bienvenida.
+
+### Herramientas
+
+- Publicación de contenidos: **Github** https://github.com/
+  - Publicación y versionamiento de archivos 
+  - Publicación simple de páginas web con Markdwon
+  - Sistema de "issues" para reporte de preguntas,   tareas y ejercicios.
+- Publicación de sitios web:  **Github Pages** https://pages.github.com/
+  - Publica automáticamente sitios web a partir de contenidos publicados en github
+- Videoconferencia: **Google Meet** https://gsuite.google.com/intl/es-419/products/meet/ 
+  - Hasta 100 usuarios
+  - Chat
+  - Compartir pantalla
+  - Comparación con hangouts  https://support.google.com/a/answer/7303775?hl=es
+- Evaluación: **Kahoot** https://kahoot.com/
+  - Evaluación a través de juego 
+  - Aplicación móvil https://kahoot.com/mobile-app/
+- Documentos Colaborativos: Google Docs / Google sheets    https://www.google.com/docs/about/
+  - Compartir documentos en tiempo real
+  - Edición colaborativa de documentos
+- Comunicación: **Slack** https://slack.com/
+  - Canales por tema
+  - Notificaciones en tiempo real
+  - Aplicación móvil, desktop
+  - Integración con otras aplicaciones
+-  How I Use Slack Inside of the Classroom: Adventures in the collaboration tool that has taken the world by storm. https://www.philsimon.com/blog/higher-education/use-slack-inside-classroom/
+
+
+### Enlaces de interés
+
+- How to teach remotely, all of a sudden https://medium.com/@scotthmurray/how-to-teach-remotely-all-of-a-sudden-4bb0237999e9 
 
 
 ## Tareas
@@ -217,7 +254,7 @@ Bonus (2 puntos):
 
 
 
-### Tarea 2
+### Tarea 2  (pendiente actualización)
 
 **Fecha Máxima de entrega:** 2020-xx-xx 24:00
 
@@ -255,7 +292,7 @@ Individual
   - Título: Tarea 2 - CODIGO_ESTUDIANTE
   - Contenido: Enlace al repositorio creado
 
-### Tarea 3
+### Tarea 3 (pendiente actualización)
 
 **Fecha Máxima de entrega:** 2020-xx-xx 24:00
 
