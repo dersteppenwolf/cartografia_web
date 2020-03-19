@@ -62,7 +62,7 @@ Realizar lo siguiente:
 - Natural Earth (Large scale data, 1:10m) http://www.naturalearthdata.com/downloads/
 - Marco Geográfico Nacional (MGN) Dane 2017 - Colombia https://geoportal.dane.gov.co/
 - World Borders http://thematicmapping.org/downloads/world_borders.php
-- World Bank https://data.worldbank.org/
+- World Bank https://data.worldbank.org/  https://datacatalog.worldbank.org/
 - World Bank Explorer http://data.un.org/Explorer.aspx
 - Uber Movement https://movement.uber.com/?lang=es-CO
 

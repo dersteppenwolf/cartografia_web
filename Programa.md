@@ -180,33 +180,32 @@ A continuación un listado de recursos y herramientas propuestas para el desarro
 ### Herramientas
 
 - Publicación de contenidos: **Github** https://github.com/
-  - Publicación y versionamiento de archivos 
-  - Publicación simple de páginas web con Markdwon
+  - Ventajas: Publicación y versionamiento de archivos.  Publicación simple de páginas web con Markdwon
   - Sistema de "issues" para reporte de preguntas,   tareas y ejercicios.
 - Publicación de sitios web:  **Github Pages** https://pages.github.com/
-  - Publica automáticamente sitios web a partir de contenidos publicados en github
+  - Publica automáticamente sitios web a partir de contenidos dispuestos en repositorios de github
 - Videoconferencia: **Google Meet** https://gsuite.google.com/intl/es-419/products/meet/ 
-  - Hasta 100 usuarios
-  - Chat
-  - Compartir pantalla
-  - Comparación con hangouts  https://support.google.com/a/answer/7303775?hl=es
+  - Ventajas: Hasta 100 usuarios, Chat, Compartir pantalla
+  - Más información: Comparación con hangouts  https://support.google.com/a/answer/7303775?hl=es
 - Evaluación: **Kahoot** https://kahoot.com/
-  - Evaluación a través de juegos
+  - Ventajas: Evaluación a través de juegos
   - Aplicación móvil https://kahoot.com/mobile-app/
 - Documentos Colaborativos: **Google Docs / Google sheets**    https://www.google.com/docs/about/
-  - Compartir documentos en tiempo real
-  - Edición colaborativa de documentos
+  - Ventajas: Compartir documentos en tiempo real. Edición colaborativa de documentos
 - Comunicación: **Slack** https://slack.com/
-  - Canales por tema
-  - Notificaciones en tiempo real
-  - Aplicación móvil, desktop
-  - Integración con otras aplicaciones
-  -  How I Use Slack Inside of the Classroom: Adventures in the collaboration tool that has taken the world by storm. https://www.philsimon.com/blog/higher-education/use-slack-inside-classroom/
+  - Ventajas: Canales por tema. Notificaciones en tiempo real. Aplicación móvil, desktop. Integración con otras plataformas.
+  -  Más información: How I Use Slack Inside of the Classroom: Adventures in the collaboration tool that has taken the world by storm. https://www.philsimon.com/blog/higher-education/use-slack-inside-classroom/
+- Tableros en línea: 
+  - Web Whiteboard https://www.webwhiteboard.com/
+    - Ventajas: Los tableros gratuitos están disponibles por 3 semanas.
+    - Desventaja: A veces falla al exportar el tablero a png.
+  - Ziteboard https://ziteboard.com/
+    - Ventajas: La versión gratuita permite crear hasta 3 tableros por usuario. Exportación de tableros en png, pdf, jpg, svg.
+    - Desventajas: La versión gratuita no tiene "Highlighter pens"
 - Entorno interactivo para programación en python: **Google Colab**  https://colab.research.google.com/
-  - Servicio en la nube gratuito
-  - Programación interactiva con Jupyter / Python
+  - Ventajas:  Servicio en la nube gratuito. Programación interactiva con Jupyter / Python
 - Servidores: **Google Cloud Compute Engine** https://cloud.google.com/compute
-  - Máquinas virtuales en la nube Linux / Windows
+  - Ventajas: Máquinas virtuales en la nube Linux / Windows
 
 
 ### Enlaces de interés
