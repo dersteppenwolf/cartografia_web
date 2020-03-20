@@ -78,6 +78,6 @@ Librería de python para el desarrollo de clientes para servicios web basados en
 Realizar lo siguiente: 
 - Crear cuenta en Google Colaboratory https://colab.research.google.com/ (Requiere cuenta de gmail)
 - Sigua el siguiente  ejemplo de OWSLib / python ejecutado a través de  Google Colaboratory  https://colab.research.google.com/drive/1S1UygmFjZIFswq8gtMxuYoX571vdI2KR
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dersteppenwolf/cartografia_web/blob/master/04_Servicios_Web_Geoservicios_OGC/ejemplo_python.ipynb)
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dersteppenwolf/cartografia_web/blob/master/04_Servicios_Web_Geoservicios_OGC/ejemplo_python_wms.ipynb)
 
 ![img](img/colab.png "img")
