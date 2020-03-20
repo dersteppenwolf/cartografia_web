@@ -41,8 +41,24 @@ Realizar lo siguiente:
 
 ## Ejercicio 2: Consumiendo servicios WMS con clientes ligeros
 
+A través de clientes ligeros javascript es posible  consumir servicios OGC WMS y WFS
 
-Otras herramientas: 
+Ejemplo 1 leaflet y wms: 
+- Vista web:  https://dersteppenwolf.github.io/cartografia_web/04_Servicios_Web_Geoservicios_OGC/html/leaflet_wms.html
+- Código:  https://github.com/dersteppenwolf/cartografia_web/blob/master/04_Servicios_Web_Geoservicios_OGC/html/leaflet_wms.html
+
+Ejemplo 2 leaflet y wms: 
+- Vista web:  https://dersteppenwolf.github.io/cartografia_web/04_Servicios_Web_Geoservicios_OGC/html/leaflet_wms_2.html
+- Código: https://github.com/dersteppenwolf/cartografia_web/blob/master/04_Servicios_Web_Geoservicios_OGC/html/leaflet_wms_2.html
+
+
+Realizar lo siguiente: 
+- A partir de los ejemplos mostrados en clase, modificar el código html / js  para cargar diferentes wms de servicios de entidades colombianas.
+- Publique el html generado en github (Carpeta: ogc, Archivo: wms.html ). 
+- Comparta el url del html generado (vista github pages y código en github)  a través del chat de la clase.
+
+Ejemplos de visualización de WMS con otras herramientas basadas en javascript: 
+
 - Visor WMS Esri Js https://developers.arcgis.com/javascript/3/samples/layers_wms/
 - Mapbox Gl https://www.mapbox.com/mapbox-gl-js/example/wms/
 - Carto https://carto.com/learn/guides/styling/inserting-external-basemaps/
@@ -59,6 +75,8 @@ Librería de python para el desarrollo de clientes para servicios web basados en
 
 **Colaboratory** es un entorno gratuito de Jupyter Notebook que no requiere configuración y que se ejecuta completamente en la nube.
 
-Ejemplo de OWSLib utilizando Google Colaboratory  https://colab.research.google.com/drive/1S1UygmFjZIFswq8gtMxuYoX571vdI2KR
+Realizar lo siguiente: 
+- Crear cuenta en Google Colaboratory https://colab.research.google.com/ (Requiere cuenta de gmail)
+- Sigua el siguiente  ejemplo de OWSLib / python ejecutado a través de  Google Colaboratory  https://colab.research.google.com/drive/1S1UygmFjZIFswq8gtMxuYoX571vdI2KR
 
 ![img](img/colab.png "img")
