@@ -2,7 +2,7 @@
 - [3 - Cartografía](#3---cartograf%C3%ADa)
   - [Presentación](#presentaci%C3%B3n)
   - [Recursos](#recursos)
-  - [Tutoriales cartografía con SIG Desktop](#tutoriales-cartograf%C3%ADa-con-sig-desktop)
+    - [Tutoriales cartografía con SIG Desktop](#tutoriales-cartograf%C3%ADa-con-sig-desktop)
   - [Ejercicio 1 : Publicando mapas en la nube con Qgis Cloud](#ejercicio-1--publicando-mapas-en-la-nube-con-qgis-cloud)
   - [Ejercicio 2 : Visualizando datos con Kepler.gl](#ejercicio-2--visualizando-datos-con-keplergl)
 
@@ -25,7 +25,7 @@ Enlace: https://github.com/dersteppenwolf/cartografia_web/blob/master/03_Cartogr
   -   https://github.com/geoinquietosvlc/tus_mapas_son_feos
   -   https://tus-mapas-son-feos.readthedocs.io/es/develop/
 
-## Tutoriales cartografía con SIG Desktop
+### Tutoriales cartografía con SIG Desktop
 
 - Thematic Maps using arcgis http://what-when-how.com/gis-and-spatial-analysis-for-the-social-sciences/thematic-maps-gis-and-spatial-analysis-part-1/
 - Elements of a map https://www.gislounge.com/whats-in-a-map/

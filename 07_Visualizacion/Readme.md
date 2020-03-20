@@ -13,6 +13,7 @@
     - [Mapbox GL JS](#mapbox-gl-js)
     - [Carto VL](#carto-vl)
     - [D3](#d3)
+  - [Infografías](#infograf%C3%ADas)
     - [Otros](#otros)
 
 ## Visual Analytics
@@ -138,6 +139,10 @@ https://github.com/dersteppenwolf/isis4822/tree/master/midterm
 - D3 maps https://maptimeboston.github.io/d3-maptime/#/56
 - Tissot's indicatrix (observable) https://observablehq.com/@fil/tissots-indicatrix?collection=@observablehq/maps
 - Geo Delaunay (observable) https://observablehq.com/@fil/geo-delaunay
+
+## Infografías
+
+- Infogram https://infogram.com/
 
 ### Otros
 
