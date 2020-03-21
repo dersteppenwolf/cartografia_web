@@ -19,6 +19,8 @@ Cartografía Temática:
 - So You Want To Make A Map? https://medium.com/data-visualization-society/so-you-want-to-make-a-map-58c7f55f6b20
 - Lab Thematic Web Map Design  https://github.com/dersteppenwolf/geog371/blob/master/labs/lab03/readme.md
 - Intro to thematic mapping with carto https://www.slideshare.net/KristenVincent/maptime-madison-december-7th-2016?qid=09ec7af3-f23f-4dae-afc0-20aac79202c6&v=&b=&from_search=8
+- Making Great Maps https://www.e-education.psu.edu/maps/l5_p2.html
+- Layout and Symbolization https://www.e-education.psu.edu/maps/l5_p3.html
 
 
 Vuestros mapas son feos y no sabéis por qué
@@ -28,17 +30,22 @@ Vuestros mapas son feos y no sabéis por qué
 
 Colores:
 
+- Choosing Colors, Match Colors To Your Data https://www.e-education.psu.edu/maps/l5_p5.html
 - ColorBrewer: Color Advice for Maps http://colorbrewer2.org/
 - d3-scale-chromatic : Sequential, diverging and categorical color scales. https://github.com/d3/d3-scale-chromatic
 
 Métodos de clasificación:
 
+- Data Classification https://www.e-education.psu.edu/maps/l5_p6.html 
 - Geospatial Analysis : Classification and clustering http://www.spatialanalysisonline.com/HTML/index.html?classification_and_clustering.htm
 - Data classification methods https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/data-classification-methods.htm
+
 
 Normalización de datos:
 
 - Normalization, Mapping Rates, Not Totals https://www.e-education.psu.edu/maps/l4_p5.html
+- CV-05 - Statistical Mapping (Enumeration, Normalization, Classification) https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification
+- Mapping with Aggregated Statistics http://www.pbcgis.com/normalize/
 
 ### Tutoriales cartografía con SIG Desktop
 
