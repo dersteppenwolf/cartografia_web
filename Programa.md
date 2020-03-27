@@ -43,13 +43,23 @@ juan[~at~]gkudos.com
 
 Total: 32 horas
 
+Horario: 18:00 a 22:00
+
 Días:
 
-- Semana 1: Lunes 30 de Marzo, Martes 31 de Marzo y Miércoles 1 de Abril  (18:00 a 22:00)
-- Semana 2: Martes 14 y Miércoles 15 de Abril  (18:00 a 22:00)
-- Semana 3: Miércoles 22 de Abril (18:00 a 22:00)
-- Semana 4: Miércoles 29 de Abril (18:00 a 22:00)
-- Semana 5: Lunes  11  de Mayo (18:00 a 22:00)
+- Semana 1: 
+  - Lunes 30 de Marzo : 0 - Introducción.  1 - Fundamentos de Internet.
+  - Martes 31 de Marzo: 2  - Los SIG y la Web
+  - Miércoles 1 de Abril: 3 - Cartografía  
+- Semana 2: 
+  - Martes 14 de Abril: 4 - Servicios web, geoservicios y OGC
+  - Miércoles 15 de Abril: 5 - Servidores de mapas 
+- Semana 3: 
+  - Miércoles 22 de Abril: 6 -  
+- Semana 4: 
+  - Miércoles 29 de Abril: 7 -
+- Semana 5: 
+  - Lunes  11  de Mayo: 8 -  
 
 
 
