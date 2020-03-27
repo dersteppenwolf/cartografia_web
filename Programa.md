@@ -193,8 +193,13 @@ A continuación un listado de recursos y herramientas propuestas para el desarro
 - Documentos Colaborativos: **Google Docs / Google sheets**    https://www.google.com/docs/about/
   - Ventajas: Compartir documentos en tiempo real. Edición colaborativa de documentos
 - Comunicación: **Slack** https://slack.com/
+  - Espacio de trabajo: https://cartografaweb.slack.com
   - Ventajas: Canales por tema. Notificaciones en tiempo real. Aplicación móvil, desktop. Integración con otras plataformas.
   -  Más información: How I Use Slack Inside of the Classroom: Adventures in the collaboration tool that has taken the world by storm. https://www.philsimon.com/blog/higher-education/use-slack-inside-classroom/
+  -  Instaladores
+     -  Para Android https://slack.com/intl/es-co/downloads/android
+     -  Para windows https://slack.com/intl/es-co/downloads/windows
+     -  Para Mac https://slack.com/intl/es-co/downloads/mac
 - Tableros en línea: 
   - Web Whiteboard https://www.webwhiteboard.com/
     - Ventajas: Los tableros gratuitos están disponibles por 3 semanas.
