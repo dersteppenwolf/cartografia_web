@@ -206,7 +206,8 @@ Ejemplos de presentación de repositorios en github:
 
 
 Ejemplos sintaxis markdown:
--  
+- vista generada https://github.com/dersteppenwolf/cartografia_web/blob/master/01_Fundamentos/ejemplo_markdown.md
+- código markdown https://raw.githubusercontent.com/dersteppenwolf/cartografia_web/master/01_Fundamentos/ejemplo_markdown.md
 
 
 
@@ -253,6 +254,6 @@ Realizar lo siguiente:
 
 - Qué es Markdown, para qué sirve y cómo usarlo https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo
 - Markdown tutorial https://www.markdowntutorial.com/
-
+- Github Markdow  Basic writing and formatting syntax   https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
 - Markdown Cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 - Markdown quick reference cheat sheet https://en.support.wordpress.com/markdown-quick-reference/

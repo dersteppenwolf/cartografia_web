@@ -47,6 +47,10 @@ Normalización de datos:
 - CV-05 - Statistical Mapping (Enumeration, Normalization, Classification) https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification
 - Mapping with Aggregated Statistics http://www.pbcgis.com/normalize/
 
+
+Otros:
+- Visualize 2015 Urban Populations with Proportional Symbols https://carto.com/blog/proportional-symbol-maps/
+
 ### Tutoriales cartografía con SIG Desktop
 
 - Thematic Maps using arcgis http://what-when-how.com/gis-and-spatial-analysis-for-the-social-sciences/thematic-maps-gis-and-spatial-analysis-part-1/
