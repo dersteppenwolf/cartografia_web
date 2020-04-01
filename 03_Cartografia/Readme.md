@@ -49,7 +49,9 @@ Normalización de datos:
 
 
 Otros:
+- Recomendaciones cartografía símbolos proporcionales https://twitter.com/ramiroaznar/status/1245323283756613632?s=03
 - Visualize 2015 Urban Populations with Proportional Symbols https://carto.com/blog/proportional-symbol-maps/
+- Recomendaciones mapas coropletas https://twitter.com/ramiroaznar/status/1242693988680859650
 
 ### Tutoriales cartografía con SIG Desktop
 
