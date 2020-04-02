@@ -46,7 +46,7 @@ Realizar lo siguiente:
 - Adicione otras capas y asigne simbología según corresponda
 - Impresión de mapas: Seguir el tutorial  https://docs.qgis.org/3.4/en/docs/training_manual/map_composer/map_composer.html
 - Generar pdf y subirlo a su repositorio de github
-- Publique el mapa generado su repositorio git con el fin de poder visualizarlo a través de github pages (Carpeta __ejercicio_qgis2web__).
+- Publique el mapa generado su repositorio git con el fin de poder visualizarlo a través de github pages (Carpeta __ejercicio_qgis__).
 * Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
   - Título: Ejercicio Mapa Pdf QGIS - CODIGO_ESTUDIANTE
   - Contenido: 
@@ -65,9 +65,6 @@ Realizar lo siguiente:
 - World Bank https://data.worldbank.org/  https://datacatalog.worldbank.org/
 - World Bank Explorer http://data.un.org/Explorer.aspx
 - Uber Movement https://movement.uber.com/?lang=es-CO
-
-
-
 
 
 
