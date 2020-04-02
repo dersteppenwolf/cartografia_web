@@ -5,6 +5,8 @@
     - [Tutoriales cartografía con SIG Desktop](#tutoriales-cartograf%C3%ADa-con-sig-desktop)
   - [Ejercicio 1 : Publicando mapas en la nube con Qgis Cloud](#ejercicio-1--publicando-mapas-en-la-nube-con-qgis-cloud)
   - [Ejercicio 2 : Visualizando datos con Kepler.gl](#ejercicio-2--visualizando-datos-con-keplergl)
+  - [Ejercicio 3 : Visualizando datos con qgiscloud](#ejercicio-3--visualizando-datos-con-qgiscloud)
+  - [Ejercicio 4 : Visualizando datos con Fluorish](#ejercicio-4--visualizando-datos-con-fluorish)
 
 ## Presentación
 
@@ -124,3 +126,30 @@ Kepler.gl is a data-agnostic, high-performance web-based application for visual 
 Archivo Html Generado por kepler.gl 
 - vista web https://dersteppenwolf.github.io/cartografia_web/03_Cartografia/example/kepler.gl.html
 - código https://github.com/dersteppenwolf/cartografia_web/blob/master/03_Cartografia/example/kepler.gl.html
+
+
+## Ejercicio 3 : Visualizando datos con qgiscloud
+
+**QGIS Cloud** https://qgiscloud.com/ es un servicio en la nube para publicar mapas, datos y servicios en Internet de forma sencilla.
+
+A través del plugin para QGIS **QGIS Cloud Plugin** es posible publicar un proyecto (mapa) creado con QGIS en el servicio web de **QGIS Cloud** 
+
+- Quickstart https://www.qgiscloud.com/en/pages/quickstart
+- Tutorial: Cómo publicar mapas online con QGIS Cloud  https://mappinggis.com/2019/01/como-publicar-mapas-con-qgis/
+
+## Ejercicio 4 : Visualizando datos con Fluorish
+
+**Fluorish**  https://flourish.studio/ es una aplicación web para  visualización de datos que permite crear fácilmente gráficos interactivos. 
+
+**Ejemplo:** Mapa de tierras ANH
+https://public.flourish.studio/visualisation/1778269/
+
+![](flourish.png "Ejemplo flourish")
+
+Más información:
+
+- Herramienta para periodistas: Flourish, para crear visualizaciones de datos sin conocimientos de programación https://www.fopea.org/herramienta-para-periodistas-flourish-para-crear-visualizaciones-de-datos-sin-conocimientos-de-programacion/
+- Aprende a crear gráficos utilizando Flourish Studio para enganchar a tu audiencia https://consejoderedaccion.org/cdrlab/herramientas/item/772-flourish-studio-para-enganchar-usando-datos
+- Flourish: Data Visualization and storytelling, No coding required  https://neogeografia.wordpress.com/2018/09/26/flourish-data-visualization-and-storytelling-no-coding-required/
+- You can now make data-driven maps using custom boundaries, without coding https://flourish.studio/2018/10/23/make-your-own-data-driven-maps/
+- Make interactive maps without coding.  Easily create stunning interactive maps with Flourish, the platform for data visualization and storytelling https://flourish.studio/visualisations/maps/
