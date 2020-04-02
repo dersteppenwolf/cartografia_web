@@ -82,7 +82,7 @@ Realizar lo siguiente:
 
 Kepler.gl is a data-agnostic, high-performance web-based application for visual exploration of large-scale geolocation data sets. Built on top of **Mapbox GL** and **deck.gl**, kepler.gl can render millions of points representing thousands of trips and perform spatial aggregations on the fly.
 
-**Enlaces:**
+**Documentación:**
 
 - **Mapbox GL JS** is a JavaScript library that uses WebGL to render interactive maps from vector tiles and Mapbox styles.  https://docs.mapbox.com/mapbox-gl-js/api/
 - **WebGL**	It is the JavaScript binding for OpenGL. OpenGL (Open Graphics Library) is a cross-language, cross-platform API for 2D and 3D graphics. https://www.tutorialspoint.com/webgl/webgl_introduction.htm
@@ -94,6 +94,8 @@ Kepler.gl is a data-agnostic, high-performance web-based application for visual 
 - **How to create a map in 3 minutes:** Animating 40 years of California Earthquakes https://medium.com/vis-gl/animating-40-years-of-california-earthquakes-e4ffcdd4a289
 - **Making a choropleth map:** Visualizing Unemployment for U.S. Counties with kepler.gl https://medium.com/vis-gl/visualizing-u-s-county-unemployment-with-kepler-gl-c5f2ed31c71
 -  Uber Movement and kepler.gl : Using kepler.gl and Movement data to Visualize Traffic Effects of a Rainstorm https://medium.com/vis-gl/movement-in-kepler-d00e843f464d
+-  Video  Introduction to Kepler.gl  https://www.youtube.com/watch?v=b8wKEY4dlvg 
+-  Video Exploring large-scale geospatial data on the web with Kepler.gl https://www.youtube.com/watch?v=i2fRN4e2s0A  
 
 
 
