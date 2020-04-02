@@ -256,7 +256,7 @@ Items:
   4.  Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los  atributos principales a utilizar.
   5. Descripción detallada del procesamiento **no trivial** realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
   6. Descripción detallada de la metodología utilizada para generar los mapas (atributos seleccionadas, métodos de clasificación, colores, etc)
-  7. Descripción detallada del procedimiento técnico utilizado para generar los mapas (plugins, extensiones, procesos, transformaciones de datos, etc). Ejemplos de herramientas:  __Qgiscloud__ , __leaflet__,  __QGIS2Web__ , __Github Pages__, __kepler.gl__, etc.
+  7. Descripción detallada del procedimiento técnico utilizado para generar los mapas (plugins, extensiones, procesos, transformaciones de datos, etc). Ejemplos de herramientas:  __Qgiscloud__ , __leaflet__,  __QGIS2Web__ , __Github Pages__, __kepler.gl__, __flourish__,  etc.
   8. Adicionar al repositorio github los archivos generados (ejm. html) en la subcarpeta **Tarea_1/html/**
   9. Urls de los mapas publicados en la web 
   10. Conclusiones Ventajas / desventajas / dificultades  encontradas durante el desarrollo del ejercicio
