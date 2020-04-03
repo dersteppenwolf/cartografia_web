@@ -221,6 +221,15 @@ A continuación un listado de recursos y herramientas propuestas para el desarro
   - Ventajas:  Servicio en la nube gratuito. Programación interactiva con Jupyter / Python
 - Servidores: **Google Cloud Compute Engine** https://cloud.google.com/compute
   - Ventajas: Máquinas virtuales en la nube Linux / Windows
+- Grabar y compartir videos
+  - Loom https://www.loom.com/
+    - Loom es una herramienta que permite de forma sencilla grabar y compartir la pantalla del  ordenador y la webcam.  Las grabaciones se pueden realizar con una extensión de Chrome o con una aplicación de escritorio.
+    - Cómo usar Loom, la herramienta para grabar vídeos de tu escritorio de tu ordenador. https://paidmediatips.com/herramientas-productividad/como-usar-loom-para-grabar-videos-de-tu-escritorio/
+    - Loom, herramienta para grabar y compartir vídeos, ¡es lo más!  https://enclaveproductiva.es/loom-herramienta-para-grabar-y-compartir-videos/
+  - Youtube https://www.youtube.com/
+    - Permite  publicar  y hacer streaming de video. 
+    - Cómo subir videos en YouTube Studio https://support.google.com/youtube/answer/57407?co=GENIE.Platform%3DDesktop&hl=es-419
+    - Cómo transmitir en vivo en YouTube con OBS https://es.digitaltrends.com/videojuego/transmitir-en-vivo-youtube/
 
 
 ### Enlaces de interés
