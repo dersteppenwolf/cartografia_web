@@ -35,6 +35,24 @@ Colores:
 - Choosing Colors, Match Colors To Your Data https://www.e-education.psu.edu/maps/l5_p5.html
 - ColorBrewer: Color Advice for Maps http://colorbrewer2.org/
 - d3-scale-chromatic : Sequential, diverging and categorical color scales. https://github.com/d3/d3-scale-chromatic
+- Interaction of Color:  
+  - > Josef Albers’s Interaction of Color is a masterwork in twentieth-century art education. Conceived as a handbook and teaching aid for artists, instructors, and students, this timeless book presents Albers’s unique ideas of color experimentation in a way that is valuable to specialists as well as to a larger audience.
+  - Aplicación para iPad. http://yupnet.org/interactionofcolor/  
+  - Libro http://yupnet.org/interactionofcolor/50th-anniversary-edition-paperback/ 
+- Color harmony concepts: http://paletton.com/
+- Colorgorical: http://vrl.cs.brown.edu/color   Generate a palette with n colors.
+- Color blindness simulator https://www.color-blindness.com/coblis-color-blindness-simulator/
+- Adobe color: Hace más fácil la creación y descubrimiento de temas de colores únicos y accesibles 
+  - https://www.adobe.com/la/products/color.html  
+  - https://color.adobe.com/es/create
+- Viz-Palette: 
+  - > Born out of a frustration with picking colors for data visualizations. This project is optimized for tweaking, copying, and pasting colors in and out of JavaScript.
+  - https://www.susielu.com/data-viz/viz-palette
+  - https://projects.susielu.com/viz-palette
+- Data color picker https://learnui.design/tools/data-color-picker.html
+- Accesible color generator https://learnui.design/tools/accessible-color-generator.html
+
+
 
 Métodos de clasificación:
 
