@@ -22,7 +22,7 @@
     - [Herramientas](#herramientas)
     - [Enlaces de interés](#enlaces-de-inter%C3%A9s)
   - [Tareas](#tareas)
-  - [Entrega de tareas](#entrega-de-tareas)
+    - [Entrega de tareas](#entrega-de-tareas)
     - [Tarea 1 - Publicación de mapas web básicos](#tarea-1---publicaci%C3%B3n-de-mapas-web-b%C3%A1sicos)
     - [Tarea 2 (pendiente actualización)](#tarea-2-pendiente-actualizaci%C3%B3n)
     - [Tarea 3 (pendiente actualización)](#tarea-3-pendiente-actualizaci%C3%B3n)
@@ -241,7 +241,7 @@ A continuación un listado de recursos y herramientas propuestas para el desarro
 
 ## Tareas
 
-## Entrega de tareas
+### Entrega de tareas
 
 Para enviar los resultados con las tareas debe realizar lo siguiente: 
 - Crear archivo markdown (ejm. Tarea2.md )  con los contenidos definidos para la tarea. 
