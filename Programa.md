@@ -22,6 +22,7 @@
     - [Herramientas](#herramientas)
     - [Enlaces de interés](#enlaces-de-inter%C3%A9s)
   - [Tareas](#tareas)
+  - [Entrega de tareas](#entrega-de-tareas)
     - [Tarea 1 - Publicación de mapas web básicos](#tarea-1---publicaci%C3%B3n-de-mapas-web-b%C3%A1sicos)
     - [Tarea 2 (pendiente actualización)](#tarea-2-pendiente-actualizaci%C3%B3n)
     - [Tarea 3 (pendiente actualización)](#tarea-3-pendiente-actualizaci%C3%B3n)
@@ -240,6 +241,17 @@ A continuación un listado de recursos y herramientas propuestas para el desarro
 
 ## Tareas
 
+## Entrega de tareas
+
+Para enviar los resultados con las tareas debe realizar lo siguiente: 
+- Crear archivo markdown (ejm. Tarea2.md )  con los contenidos definidos para la tarea. 
+- Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
+  - Título: Tarea _X_ - _CODIGO_ESTUDIANTE_ 
+  - Contenido: Enlace (URL) al archivo markdown publicado en el repositorio personal 
+  - Ejemplo tarea diligenciada: https://github.com/jenny-saray/Jenny_Saray/blob/master/Tarea2.md
+  - Ejemplo plantilla tabla de contenido: https://github.com/dersteppenwolf/tareas_jc/blob/master/Tarea_1/README.md
+- Nota:  La publicación del issue debe realizarse **antes** de la fecha máxima de entrega
+
 ### Tarea 1 - Publicación de mapas web básicos
 
 **Fecha Máxima de entrega:** 2020-04-12 21:00
@@ -282,7 +294,7 @@ Bonus (2 puntos):
 
 - Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
   - Título: Tarea 1 - CODIGO_ESTUDIANTE
-  - Contenido: Enlace a la carpeta **Tarea_1** en el repositorio personal creado para el curso
+  - Contenido: Enlace (URL) al archivo **Readme.md** dentro de  la carpeta **Tarea_1** publicado en el repositorio personal del curso. Ejemplo: https://github.com/dersteppenwolf/tareas_jc/blob/master/Tarea_1/README.md
 
 
 
