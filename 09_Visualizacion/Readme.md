@@ -14,7 +14,8 @@
     - [Carto VL](#carto-vl)
     - [D3](#d3)
   - [Infografías](#infograf%C3%ADas)
-    - [Otros](#otros)
+    - [Otras herramientas](#otras-herramientas)
+  - [Cursos sobre visualización de datos](#cursos-sobre-visualizaci%C3%B3n-de-datos)
 
 ## Visual Analytics
 
@@ -144,9 +145,18 @@ https://github.com/dersteppenwolf/isis4822/tree/master/midterm
 
 - Infogram https://infogram.com/
 
-### Otros
+### Otras herramientas
 
+- Mapbos Sheet Mapper 
+  - https://www.mapbox.com/impact-tools/sheet-mapper/ 
+  - Create a live-updating map that displays the locations of all of your POIs or events, powered by a simple spreadsheet.
 - TerriaJS https://terria.io/ An open-source framework for web-based geospatial catalogue explorers
 - Arcgis JS https://developers.arcgis.com/javascript/latest/sample-code/
 - Google maps javascript api https://developers.google.com/maps/documentation/javascript/tutorial
 - ESRI Web AppBuilder for ArcGIS (Developer Edition) https://developers.arcgis.com/web-appbuilder/
+- Tabletop.js https://github.com/jsoma/tabletop  Tabletop.js takes a Google Spreadsheet and makes it easily accessible through JavaScript.
+
+## Cursos sobre visualización de datos
+
+- Information Visualization Courses Comparison https://docs.google.com/spreadsheets/d/1oMP9naWGMpzQcNknwh56atwBxLIaZ_emaIP2nsSIX30/edit#gid=1363449623
+- Visual analytics https://johnguerra.co/classes/visual_analytics_fall_2019/

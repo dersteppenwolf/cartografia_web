@@ -8,6 +8,7 @@
     - [Básico](#b%C3%A1sico)
     - [Avanzado](#avanzado)
   - [Vector tiles](#vector-tiles)
+  - [Otros](#otros)
 
 ## SLD
 
@@ -362,5 +363,9 @@ SLD https://mapserver.org/ogc/sld.html
 
 - awesome implementations of the Mapbox Vector Tile specification https://github.com/mapbox/awesome-vector-tiles
 
-* Vector Tiles with GeoServer and OpenLayers https://es.slideshare.net/jgarnett/vector-tiles-with-geoserver-and-openlayers
-* Geoserver Vector tiles tutorial https://docs.geoserver.org/latest/en/user/extensions/vectortiles/tutorial.html
+- Vector Tiles with GeoServer and OpenLayers https://es.slideshare.net/jgarnett/vector-tiles-with-geoserver-and-openlayers
+-  Geoserver Vector tiles tutorial https://docs.geoserver.org/latest/en/user/extensions/vectortiles/tutorial.html
+
+## Otros
+
+-  bridge-style https://github.com/GeoCat/bridge-style Cartography library making style format conversions as easy as using Python.
