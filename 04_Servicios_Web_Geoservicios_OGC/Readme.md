@@ -6,6 +6,7 @@
   - [Ejercicio 2: Consumiendo servicios WMS con clientes ligeros](#ejercicio-2-consumiendo-servicios-wms-con-clientes-ligeros)
   - [Ejercicio 3: Servicios OGC y Python](#ejercicio-3-servicios-ogc-y-python)
     - [Otros recursos sobre python](#otros-recursos-sobre-python)
+    - [Ejemplos Python / Arcpy](#ejemplos-python--arcpy)
 
 ## Presentación
 
@@ -91,3 +92,10 @@ Realizar lo siguiente:
 - Primeros pasos con Jupyter Notebook https://www.adictosaltrabajo.com/2018/01/18/primeros-pasos-con-jupyter-notebook/
 - Google Colab: Python y Machine Learning en la nube https://www.adictosaltrabajo.com/2019/06/04/google-colab-python-y-machine-learning-en-la-nube/
 - Utilizando python para GIS   https://twitter.com/ramiroaznar/status/1241297375903318017
+
+### Ejemplos Python / Arcpy
+
+- Python variables y operaciones: https://gist.github.com/dersteppenwolf/fca39c1971fd0fd7c3ce
+- Describir feature https://gist.github.com/dersteppenwolf/6dc546ef359ffbb85947
+- Buffer https://gist.github.com/dersteppenwolf/82d65df9544933289bab
+- Clip https://gist.github.com/dersteppenwolf/6dae5bfd9521db50e567
