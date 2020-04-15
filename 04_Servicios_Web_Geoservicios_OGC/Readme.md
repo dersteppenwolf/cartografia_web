@@ -5,6 +5,7 @@
   - [Ejercicio 1: Consumiendo servicios WMS con clientes de escritorio](#ejercicio-1-consumiendo-servicios-wms-con-clientes-de-escritorio)
   - [Ejercicio 2: Consumiendo servicios WMS con clientes ligeros](#ejercicio-2-consumiendo-servicios-wms-con-clientes-ligeros)
   - [Ejercicio 3: Servicios OGC y Python](#ejercicio-3-servicios-ogc-y-python)
+    - [Otros recursos sobre python](#otros-recursos-sobre-python)
 
 ## Presentación
 
@@ -82,3 +83,11 @@ Realizar lo siguiente:
 -  Consumiendo servicios WMS [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dersteppenwolf/cartografia_web/blob/master/04_Servicios_Web_Geoservicios_OGC/ejemplo_wms.ipynb)
 
 ![img](img/colab.png "img")
+
+### Otros recursos sobre python 
+
+- Python for beginners https://data-flair.training/blogs/start-learning-python-with-infographic/ https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2019/02/Python-Infographic-for-beginners-to-learn-Python-Quickly.jpg
+- Python Hello world https://www.learnpython.org/en/Hello,_World!
+- Primeros pasos con Jupyter Notebook https://www.adictosaltrabajo.com/2018/01/18/primeros-pasos-con-jupyter-notebook/
+- Google Colab: Python y Machine Learning en la nube https://www.adictosaltrabajo.com/2019/06/04/google-colab-python-y-machine-learning-en-la-nube/
+- Utilizando python para GIS   https://twitter.com/ramiroaznar/status/1241297375903318017
