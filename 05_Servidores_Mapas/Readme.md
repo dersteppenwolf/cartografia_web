@@ -5,8 +5,9 @@
   - [Ejercicio 1: Crear y publicar mapa base simple con mapbox](#ejercicio-1-crear-y-publicar-mapa-base-simple-con-mapbox)
   - [Ejercicio 2: Crear y publicar mapas bases con mapbox](#ejercicio-2-crear-y-publicar-mapas-bases-con-mapbox)
   - [Ejercicio 3: Publicar datos en Postgis Utilizando QGIS](#ejercicio-3-publicar-datos-en-postgis-utilizando-qgis)
-  - [Ejercicio 4: Publicando servicios WMS, WMTS y WFS en Geoserver](#ejercicio-4-publicando-servicios-wms-wmts-y-wfs-en-geoserver)
-  - [Ejercicio 5: Consumiendo servicios WCS](#ejercicio-5-consumiendo-servicios-wcs)
+  - [Ejercicio 4: Consultando datos de Postgis con Dbeaver](#ejercicio-4-consultando-datos-de-postgis-con-dbeaver)
+  - [Ejercicio 5: Publicando servicios WMS, WMTS y WFS en Geoserver](#ejercicio-5-publicando-servicios-wms-wmts-y-wfs-en-geoserver)
+  - [Ejercicio 6: Consumiendo servicios WCS](#ejercicio-6-consumiendo-servicios-wcs)
 
 ## Presentación
 
@@ -49,8 +50,17 @@ Realizar lo siguiente:
 - Nota: Al nombre de la capa asígnele su prefijo asignado según la lista de clase. Ejemplo: u1_departamentos
 
 
+## Ejercicio 4: Consultando datos de Postgis con Dbeaver 
 
-## Ejercicio 4: Publicando servicios WMS, WMTS y WFS en Geoserver
+Realizar lo siguiente: 
+- Instale Dbeaver community https://dbeaver.io/
+- Cree una conexión al servidor postgresql  asignado para la clase https://github.com/dbeaver/dbeaver/wiki/Create-Connection
+- Realice consultas sql
+- Previsualice las geometrías con Dbeaver https://dbeaver.com/docs/wiki/Working-with-Spatial-GIS-data/
+- 
+
+
+## Ejercicio 5: Publicando servicios WMS, WMTS y WFS en Geoserver
 
 Realizar lo siguiente: 
 
@@ -59,7 +69,7 @@ Realizar lo siguiente:
 - Publishing a PostGIS table https://docs.geoserver.org/stable/en/user/gettingstarted/postgis-quickstart/index.html
 - Nota: Al nombre de la capa publicada asígnele su prefijo asignado según la lista de clase. Ejemplo: u1_departamentos_layer
   
-## Ejercicio 5: Consumiendo servicios WCS
+## Ejercicio 6: Consumiendo servicios WCS
 
 Realizar lo siguiente: 
 

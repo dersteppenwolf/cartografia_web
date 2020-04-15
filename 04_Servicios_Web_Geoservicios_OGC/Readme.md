@@ -92,6 +92,8 @@ Realizar lo siguiente:
 - Primeros pasos con Jupyter Notebook https://www.adictosaltrabajo.com/2018/01/18/primeros-pasos-con-jupyter-notebook/
 - Google Colab: Python y Machine Learning en la nube https://www.adictosaltrabajo.com/2019/06/04/google-colab-python-y-machine-learning-en-la-nube/
 - Utilizando python para GIS   https://twitter.com/ramiroaznar/status/1241297375903318017
+- Course Files for Complete Python 3 Bootcamp Course on Udemy https://github.com/Pierian-Data/Complete-Python-3-Bootcamp
+- Introducing kepler.gl for Jupyter https://medium.com/vis-gl/introducing-kepler-gl-for-jupyter-f72d41659fbf
 
 ### Ejemplos Python / Arcpy
 
