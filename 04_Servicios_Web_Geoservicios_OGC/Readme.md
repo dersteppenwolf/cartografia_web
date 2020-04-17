@@ -94,6 +94,11 @@ Realizar lo siguiente:
 - Utilizando python para GIS   https://twitter.com/ramiroaznar/status/1241297375903318017
 - Course Files for Complete Python 3 Bootcamp Course on Udemy https://github.com/Pierian-Data/Complete-Python-3-Bootcamp
 - Introducing kepler.gl for Jupyter https://medium.com/vis-gl/introducing-kepler-gl-for-jupyter-f72d41659fbf
+- Python for geo-people - Fall 2016 https://github.com/Python-for-geo-people/Course-information
+- Automating GIS processes course
+  - 2016 https://automating-gis-processes.github.io/2016/index.html
+  - 2018 https://automating-gis-processes.github.io/site/2018/
+  - github https://github.com/Automating-GIS-processes/Course-information
 
 ### Ejemplos Python / Arcpy
 
