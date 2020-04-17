@@ -1,9 +1,10 @@
 # Arquitectura de aplicaciones Web para SIG
 
 - [Arquitectura de aplicaciones Web para SIG](#arquitectura-de-aplicaciones-web-para-sig)
-  - [Lecturas](#lecturas)
+  - [Arquitectura de aplicaciones SIG : Lecturas](#arquitectura-de-aplicaciones-sig--lecturas)
+  - [Bases de datos espaciales](#bases-de-datos-espaciales)
 
-## Lecturas
+## Arquitectura de aplicaciones SIG : Lecturas
 
 - Design and implementation of spatial database and geo-processing models for a road geo-hazard information management and risk assessment system WeiDong Wang, Jie Wu, LiGang Fang, Ke Zeng, XinSheng Chang
 
@@ -22,3 +23,7 @@
   https://link.springer.com/chapter/10.1007/978-3-319-62401-3_37
 
 - Geospatial Big Data: Challenges and Opportunities. Jae-Gil Lee, Minseo Kang
+
+## Bases de datos espaciales
+
+Nosql

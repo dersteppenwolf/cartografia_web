@@ -24,8 +24,6 @@
   - [Tareas](#tareas)
     - [Entrega de tareas](#entrega-de-tareas)
     - [Tarea 1 - Publicación de mapas web básicos](#tarea-1---publicaci%C3%B3n-de-mapas-web-b%C3%A1sicos)
-    - [Tarea 2 (pendiente actualización)](#tarea-2-pendiente-actualizaci%C3%B3n)
-    - [Tarea 3 (pendiente actualización)](#tarea-3-pendiente-actualizaci%C3%B3n)
 
 ## Programa
 
@@ -56,7 +54,7 @@ Días:
   - Martes 14 de Abril: 4 - Servicios web, geoservicios y OGC
   - Miércoles 15 de Abril: 5 - Servidores de mapas 
 - Semana 3: 
-  - Miércoles 22 de Abril: 6 -  
+  - Miércoles 22 de Abril: 6 - Simbología para Mapas Web
 - Semana 4: 
   - Miércoles 29 de Abril: 7 -
 - Semana 5: 
@@ -298,86 +296,5 @@ Bonus (2 puntos):
 
 
 
-
-### Tarea 2  (pendiente actualización)
-
-**Fecha Máxima de entrega:** 2020-xx-xx 24:00
-
-Individual
-
-**Publicar servicios geográficos basados en estándares OGC:**
-
-- Notas:
-  - Para el nombramiento de las tablas, estilos, capas utilice el prefijo asignado en clase. Ejm e0_poligono_departamentos
-  - Utilizar datos de Colombia, datos de su trabajo personal.
-- Publique al menos 3 conjuntos de datos en el servidor postgresql / postgis asignado para la clase
-- Realice procesamiento adicional de los datos utilizando postgis (Ejm. enriquecimiento con atributos nuevos, generación de tablas derivadas a partir de geoprocesamiento, etc)
-- Publique las capas en geoserver
-- Cree simbología para cada una de las las capas utilizando SLD o CSS (Mínimo un SLD y un CSS)
-- Publique un grupo de capas
-
-**Publicar Resultados En el repositorio github personal creado:**
-
-- Crear Archivo **Tarea2.md** con la siguiente información sobre los mapas que creó:
-- Cuál es el problema a tratar?
-- Por qué la publicación de servicios OGC puede ayudar a resolverlo?
-- Qué servicios propone para la solución de su problema? WMS? WMTS? WFS? Por qué ?
-- Descripción de los datos seleccionados (Origen, descripción, características especiales, atributos, url para descarga)
-- Descripción del procesamiento realizado con postgis (Incluir los sqls)
-- Descripción de la forma en que creó la simbología (incluir los sld's y css)
-- Nombres de las tablas creadas en postgis
-- Nombres de las capas y estilos publicadas en geoserver.
-- Url de la previsualización del grupo de capas en Geoserver
-- Pantallazos con la forma en que los usuarios pueden consultar su geoservicio a través de QGIS
-- Ventajas / desventajas / dificultades encontradas durante el proceso
-
-**Enviar resultados para revisión:**
-
-- Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
-  - Título: Tarea 2 - CODIGO_ESTUDIANTE
-  - Contenido: Enlace al repositorio creado
-
-### Tarea 3 (pendiente actualización)
-
-**Fecha Máxima de entrega:** 2020-xx-xx 24:00
-
-Individual
-
-**Objetivo**
-
-Comunicar una _historia_ de través de tecnologìas para la publicación web utilizando **mapas interactivos** y elementos multimedia.
-
-**Descripción**
-
-Utilizando herramientas para la publicación de contenidos web crear una **experiencia interactiva** que explique a un usuario una idea o solución a un problema.
-
-- La experiencia interactiva debe incluir múltiples **mapas interactivos**
-- Los datos presentados a través de **mapas interactivos** deben demostrar la capacidad que tienen los estudiantes para aplicar técnicas de geoprocesamiento para la resolución de algún tipo de problema que involucre información georreferenciada.
-- Además de mapas, la experiencia interactiva debe incluir otros elementos que enriquezcan el contenido tales como ejemplo:
-  - Fotografías
-  - Video
-  - Texto
-  - Tableros de control
-  - Gráficos (charts) interactivos
-
-**Entregables**
-
-En el repositorio Github creado para el curso publicar el siguiente archivo:
-
-- Archivo **Taller3.md** con la siguiente información:
-  - Cuál es el problema a tratar?
-  - Por qué una **experiencia interactiva** ayuda a resolverlo?
-  - Descripción de los datos (tipos de geometrías, atributos, sistemas de referencia, urls para descarga de la información, etc)
-  - Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, sql's de postgis, etc)
-  - Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos. (Incluir slds, css, etc)
-  - Descripción breve de las diferentes herramientas y procedimientos utilizadas para publicar el contenido en la web.
-  - Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
-  - Url público de la o las **experiencia interactiva**
-
-**Enviar resultados para revisión:**
-
-- Crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
-  - Título: Tarea 3 - CODIGO_ESTUDIANTE1- CODIGO_ESTUDIANTE1
-  - Contenido: Enlace al repositorio creado, Nombres de los estudiantes
 
 

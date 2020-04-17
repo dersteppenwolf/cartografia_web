@@ -19,9 +19,9 @@ juan[~at~]gkudos.com
 - [Unidad 3: Cartografía](03_Cartografia)
 - [Unidad 4: Servicios web, geoservicios y estándares OGC](04_Servicios_Web_Geoservicios_OGC)
 - [Unidad 5: Servidores de mapas](05_Servidores_Mapas)
-- [Unidad 6: Simbologia](04_Simbologia)
-- [Unidad 7: Arquitectura de aplicaciones Web para SIG](05_Arquitectura_SIG)
-- [Unidad 8: Visualización de datos](05_Visualizacion)
+- [Unidad 6: Simbologia](06_Simbologia)
+- [Unidad 7: Servicios en la Nube](07_Servicios_Cloud)
+- [Unidad 8: Arquitectura de aplicaciones Web para SIG](05_Arquitectura_SIG)
 
 
 ## Otros 
