@@ -317,6 +317,8 @@ Individual
 
 **Calificación**
 
+- Total de puntos obligatorios: 8
+- Total de opcionales para bono extra: 5
 - Cada actividad tiene un valor de __1__ punto si está completo y correcto. 
 - En caso de estar incompleta o incorrecta se otorgará __0__ puntos.
 - En caso de entregar tarde se le restará un punto.
