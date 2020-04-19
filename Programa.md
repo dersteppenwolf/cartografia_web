@@ -24,6 +24,7 @@
   - [Tareas](#tareas)
     - [Entrega de tareas](#entrega-de-tareas)
     - [Tarea 1 - Publicación de mapas web básicos](#tarea-1---publicaci%C3%B3n-de-mapas-web-b%C3%A1sicos)
+    - [Tarea 2 - Publicación de mapas bajo estándares OGC utilizando base de datos espacial y servidor de mapas](#tarea-2---publicaci%C3%B3n-de-mapas-bajo-est%C3%A1ndares-ogc-utilizando-base-de-datos-espacial-y-servidor-de-mapas)
 
 ## Programa
 
@@ -295,6 +296,145 @@ Bonus (2 puntos):
   - Contenido: Enlace (URL) al archivo **Readme.md** dentro de  la carpeta **Tarea_1** publicado en el repositorio personal del curso. Ejemplo: https://github.com/dersteppenwolf/tareas_jc/blob/master/Tarea_1/README.md
 
 
+
+
+### Tarea 2 - Publicación de mapas bajo estándares OGC utilizando base de datos espacial y servidor de mapas
+
+**Fecha Máxima de entrega:** 2020-04-28 21:00 (Martes)
+
+Individual
+
+**Objetivos**
+
+- Entender el proceso de publicación de mapas en internet  utilizando una  base de datos espacial y un servidor de mapas bajo el marco de los estándares de interoperabilidad de OGC.
+
+**Restricciones**
+
+- Los datos deben quedar publicados en el servidor postgresql / postgis asignado para la clase.
+- Los mapas generados deben quedar publicados en el servidor geoserver asignado para la clase a través de WMS o WMTS.
+- Dadas las restricciones de ancho que tenemos para la carga de los datos en la base de datos, en caso que los conjuntos de datos a utilizar sean demasiado grandes, se sugiere limitar la zona de estudio a áreas más pequeñas.  Por ejemplo, en lugar de todos los predios de Bogotá, utilizar solamente los predios de la localidad X.
+
+
+**Calificación**
+
+- Cada actividad tiene un valor de __1__ punto si está completo y correcto. 
+- En caso de estar incompleta o incorrecta se otorgará __0__ puntos.
+- En caso de entregar tarde se le restará un punto.
+
+
+**Entrega de resultados para revisión:**
+
+- Deben publicarse en geoserver como mínimo 3 capas individuales 
+- Las capas publicadas deben agruparse bajo  un grupo de capas  (layer group)
+- En el repositorio github personal creado para la clase crear una carpeta llamada **Tarea_2**
+- Dentro de la carpeta  **Tarea_2** Crear un archivo **Readme.md** con los resultados de las actividades solicitadas.  
+- Una vez tenga los resultados publicados en github, crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
+  - Título: Tarea 2 - CODIGO_ESTUDIANTE
+  - Contenido: Enlace (URL) al archivo **Readme.md** dentro de  la carpeta **Tarea_2** publicado en el repositorio personal del curso. Ejemplo: https://github.com/dersteppenwolf/tareas_jc/blob/master/Tarea_1/README.md
+
+
+**Actividades**
+
+1.  Definición del problema 
+
+
+* Describa un problema **hipotético* que pueda resolverse a través del análisis y visualización de datos espaciales.
+* Describa de forma general el enfoque propuesto para desarrollar el problema
+
+
+2.  Fuentes de datos
+
+* Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos **vectoriales**. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los  atributos principales a utilizar.
+ 
+3. Procesamiento de datos
+
+* Descripción detallada del procesamiento  realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
+* Idealmente incluir procesos que impliquen la utilización de las relaciones espaciales entre objetos, medidas, distancias y / o generación de geometrías.
+* Cargar los datos en el servidor postgresql / postgis asignado para la clase.
+* Listar las capas cargadas en el servidor postgresql / postgis (**Nota**: No olvide el prefijo asignado para la clase. Ejm: jc_departamentos )
+
+4. Capa Simbología SLD
+
+* Publicar una de las capas utilizando simbología basada en SLD
+* Si utiliza QGIS para generar el SLD, favor mencionar brevemente el proceso realizado. 
+* Incluir texto del SLD en el markdown del Readme.md (Ejemplo de clase https://github.com/dersteppenwolf/cartografia_web/tree/master/06_Simbologia) 
+* Describir método utilizado para clasificar los datos.
+* Describir el criterio para la selección de los colores a utilizar en la simbología
+* Las reglas de la simbología deben incluir control de escala y etiquetado. 
+* Adjuntar imagen con la leyenda de la capa.
+
+5. Capa Simbología CSS
+
+* Publicar una de las capas utilizando simbología basada en CSS
+* Incluir texto del CSS en el markdown del Readme.md (Ejemplo de clase https://github.com/dersteppenwolf/cartografia_web/tree/master/06_Simbologia) 
+* Describir método utilizado para clasificar los datos.
+* Describir el criterio para la selección de los colores a utilizar en la simbología
+* Las reglas de la simbología deben incluir control de escala y etiquetado. 
+* Adjuntar imagen con la leyenda de la capa.
+
+
+6. Capa Simbología YSLD
+
+* Publicar una de las capas utilizando simbología basada en YSLD
+* Incluir texto del YSLD en el markdown del Readme.md (Ejemplo de clase https://github.com/dersteppenwolf/cartografia_web/tree/master/06_Simbologia) 
+* Describir método utilizado para clasificar los datos.
+* Describir el criterio para la selección de los colores a utilizar en la simbología
+* Las reglas de la simbología deben incluir control de escala y etiquetado. 
+* Adjuntar imagen con la leyenda de la capa.
+
+
+7. Grupo de capas
+
+* Crear un **layer group** ( https://docs.geoserver.org/stable/en/user/data/webadmin/layergroups.html  ) que contenga las capas creadas en los puntos _4, 5 y 6_ y las adicionales que considere necesarias para darle contexto a la visualización (ejm. límites departamentales, límites municipales, límites internacionales, etc)
+* Adjuntar el url de la previsualización _openlayers_ del conjunto de capas generada por Geoserver. Ejemplo: http://34.83.176.208:18080/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&layers=tiger-ny&bbox=-74.047185%2C40.679648%2C-73.907005%2C40.882078&width=531&height=768&srs=EPSG%3A4326&format=application/openlayers 
+
+
+8.  Conclusiones 
+
+* Publicar un video en Loom ( https://www.loom.com/ ) de mínimo 5 minutos y máximo 8  donde describa brevemente lo siguiente:
+* Problema planteado
+* Procesamiento y análisis realizado a los datos
+* Proceso de publicación de capas 
+* Conclusiones del ejercicio desde el punto de vista temático según el problema definido. 
+* Tutorial de loom https://support.loom.com/hc/en-us/articles/360006847737-Guide-to-Using-Loom-for-Education
+* **Importante**  en el video debe quedar activa la cámara web durante todo el tiempo. Ejemplo: https://www.loom.com/share/9e89602fed3d40ff9cd3b79759ffce50
+<img src="img/loom.png" width="600"/>
+
+
+
+**Actividades OPCIONALES (Puntos extra para bono)** 
+
+1. Postgis
+
+Obtendrá un punto extra si demuestra haber realizado el procesamiento y análisis de los datos utilizando  Spatial SQL a partir de los datos publicados en el servidor  postgresql /  postgis asignado para la clase
+   * https://postgis.net/docs/manual-3.0/
+   * https://postgis.net/docs/manual-3.0/reference.html
+   * https://postgis.net/workshops/postgis-intro/
+   * https://live.osgeo.org/es/quickstart/postgis_quickstart.html
+
+2.  Leaflet 
+  
+Obtendrá un punto extra si implementa un visor simple con javascript / Leaflet donde se puedan ver las capas publicadas  en geoserver.
+
+* Incluir url del visor desplegado en github pages
+* Incluir url del código fuente del html visor en github.
+* En caso de reutilizar código (https://www.goodreads.com/book/show/29437996-copying-and-pasting-from-stack-overflow)    debe citar las fuentes originales e indicar los cambios realizados.  
+
+
+3.  Mapa base con Mapbox 
+  
+Obtendrá un punto extra si crea o personaliza un mapa base que pudiera utilizarse como _base map_ para los resultados generados durante la tarea 2. 
+* Describir brevemente la personalización realizada al mapa base (Ejm. Datos adicionales cargados, modificaciones realizadas a la simbología, criterios para selección de colores, etc)
+* Incluir Url del wmts del mapa base publicado en mapbox
+* Incluir pantallazo de QGIS donde pueda apreciarse el grupo de capas (punto 7) teniendo como fondo el mapa base.
+
+4.  Mapbox GL 
+  
+Obtendrá un punto extra si implementa un visor simple con javascript / Mapbox GL ( https://docs.mapbox.com/mapbox-gl-js/examples/ ) donde se puedan ver las capas publicadas  en geoserver.
+
+* Incluir url del visor desplegado en github pages
+* Incluir url del código fuente del html visor en github.
+* En caso de reutilizar código (https://www.goodreads.com/book/show/29437996-copying-and-pasting-from-stack-overflow)    debe citar las fuentes originales e indicar los cambios realizados. 
 
 
 
