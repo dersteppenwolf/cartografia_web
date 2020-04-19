@@ -312,7 +312,7 @@ Individual
 
 - Los datos deben quedar publicados en el servidor postgresql / postgis asignado para la clase.
 - Los mapas generados deben quedar publicados en el servidor geoserver asignado para la clase a través de WMS o WMTS.
-- Dadas las restricciones de ancho que tenemos para la carga de los datos en la base de datos, en caso que los conjuntos de datos a utilizar sean demasiado grandes, se sugiere limitar la zona de estudio a áreas más pequeñas.  Por ejemplo, en lugar de todos los predios de Bogotá, utilizar solamente los predios de la localidad X.
+- Dadas las restricciones de ancho de banda que tenemos para la carga de los datos en la base de datos, en caso que los conjuntos de datos a utilizar sean demasiado grandes, se sugiere limitar la zona de estudio a áreas más pequeñas.  Por ejemplo, en lugar de todos los predios de Bogotá, utilizar solamente los predios de la localidad X.
 
 
 **Calificación**
