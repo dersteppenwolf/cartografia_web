@@ -436,5 +436,17 @@ Obtendrá un punto extra si implementa un visor simple con javascript / Mapbox G
 * Incluir url del código fuente del html visor en github.
 * En caso de reutilizar código (https://www.goodreads.com/book/show/29437996-copying-and-pasting-from-stack-overflow)    debe citar las fuentes originales e indicar los cambios realizados. 
 
+5.  Ráster
+  
+Obtendrá un punto extra si publica una o más capas de tipo ráster **adicionales** a las vectoriales de los puntos _4, 5 y 6_.
+
+* Cargar imágenes ráster.  (Para este paso favor enviar los archivos al profesor con suficiente tiempo de antelación)
+* Publicar la o las capas utilizando simbología basada en SLD, CSS y/o YSLD
+* Incluir texto del SLD, CSS y/o YSLD en el markdown del Readme.md (Ejemplo de clase https://github.com/dersteppenwolf/cartografia_web/tree/master/06_Simbologia) 
+* Describir método utilizado para clasificar / simbolizar los datos.
+* Describir el criterio para la selección de los colores a utilizar en la simbología
+* Adjuntar imagen con la leyenda de la capa.
+* Adjuntar el url de la previsualización _openlayers_ del conjunto de capas generada por Geoserver que incluya la capa ráster. Ejemplo: http://34.83.176.208:18080/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&layers=spearfish&bbox=589425.9342365642%2C4913959.224611808%2C609518.6719560538%2C4928082.949945881&width=768&height=539&srs=EPSG%3A26713&format=application/openlayers
+
 
 
