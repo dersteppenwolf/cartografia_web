@@ -25,7 +25,10 @@
     - [Simbología para vector tiles](#simbolog%C3%ADa-para-vector-tiles)
     - [Diferencias entre teselas raster y vector](#diferencias-entre-teselas-raster-y-vector)
     - [Documentación técnica sobre Vector Tiles](#documentaci%C3%B3n-t%C3%A9cnica-sobre-vector-tiles)
+  - [Conversión de Simbología ESRI a formatos abiertos](#conversi%C3%B3n-de-simbolog%C3%ADa-esri-a-formatos-abiertos)
   - [Otros](#otros)
+  - [Ejercicio 1: Trabajando con postgis, qgis y geoserver](#ejercicio-1-trabajando-con-postgis-qgis-y-geoserver)
+  - [Ejercicio 2: Publicando una vista en geoserver](#ejercicio-2-publicando-una-vista-en-geoserver)
 
 ## SLD (Styled Layer Descriptor )
 
@@ -1001,8 +1004,256 @@ Ejemplos:
 > (Dstl) will advance an OGC approach to encode and publish Vector Tiles,
 > and will propose extensions for WFS, WMTS, and GeoPackage.
 
+## Conversión de Simbología ESRI a formatos abiertos
 
+- Geocat bridge https://www.geocat.net/es/bridge/  From your desktop GIS, you are literally only one click away from publishing your geographic data and metadata on the Internet using an open source server platform.
+- A tool for reading out styling information from ArcMap® and converting into Styled Layer Descriptor-Files (SLD) of OGC https://arcmap2sld.i3mainz.hs-mainz.de/ArcMap2SLDConverter_Eng.htm
+- Slyr : A Python ESRI lyr/style file converter/extracter/parser
+  - https://north-road.com/slyr/
+  - https://github.com/nyalldawson/slyr 
 
 ## Otros
 
 -  bridge-style https://github.com/GeoCat/bridge-style Cartography library making style format conversions as easy as using Python.
+
+## Ejercicio 1: Trabajando con postgis, qgis y geoserver
+
+Datos: 
+- Worldbank https://data.worldbank.org/  
+- Agricultural land (% of land area) https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?view=chart
+- Download CSV http://api.worldbank.org/v2/en/indicator/AG.LND.AGRI.ZS?downloadformat=csv
+
+Archivos:
+1. API_AG.LND.AGRI.ZS_DS2_en_csv_v2_937809.csv : Datos por país. 
+2.  Metadata_Country_API_AG.LND.AGRI.ZS_DS2_en_csv_v2_937809.csv : Metadata sobre países
+3.  Metadata_Indicator_API_AG.LND.AGRI.ZS_DS2_en_csv_v2_937809.csv : Metadata del indicador. AG.LND.AGRI.ZS  Agricultural land (% of land area)
+
+Proceso:
+
+* Se cargaron los archivos CSV 1 y 2 en postgresql utilizando qgis.
+  *  jc_worldbank_metadata_country  (Metadata_Country_API_AG.LND.AGRI.ZS_DS2_en_csv_v2_937809.csv )
+  *  jc_worldbank_ind_agri (Metadata_Indicator_API_AG.LND.AGRI.ZS_DS2_en_csv_v2_937809.csv )
+* Se cargó shp de World borders ( http://thematicmapping.org/downloads/ ) en Postgis. Nombre de tabla:  jc_world_borders
+* Crear nueva tabla geográfica que contenga los datos de los indicadores para todos los países 
+
+```sql
+-- remover espacios en nombres de atributos
+ALTER TABLE public.jc_worldbank_metadata_country RENAME COLUMN "country code" TO country_code;
+ALTER TABLE public.jc_worldbank_ind_agri RENAME COLUMN "country code" TO country_code;
+
+-- crear tabla que contenga el indicador para el año 2016, la metadata del país y la geometría
+create table jc_world_agriculture_2016 as 
+select jwb.*, c.incomegroup , 
+c.region as world_region, c.specialnotes , c.tablename as country_name, 
+i."2016"::numeric  as year_2016 , i."indicator code" as indicator_code , i."indicator name" as indicator_name
+from jc_world_borders as jwb inner join jc_worldbank_metadata_country as  c 
+on jwb.iso3 = c.country_code 
+inner join jc_worldbank_ind_agri as i 
+on jwb.iso3 = i.country_code
+where i."2016" <> ''
+
+-- crear índice espacial 
+CREATE INDEX sidx_jc_world_agriculture_2016_geom ON public.jc_world_agriculture_2016 USING gist (geom)
+```
+
+Crear mapa temático de coropletas utilizando qgis y exportar SLD
+
+![alt text](img/ejemplo_01.png)
+
+![alt text](img/ejemplo_02.png)
+
+![alt text](img/ejemplo_03.png)
+
+SLD generado:
+
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:se="http://www.opengis.net/se" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ogc="http://www.opengis.net/ogc" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
+  <NamedLayer>
+    <se:Name>jc_world_agriculture_2016</se:Name>
+    <UserStyle>
+      <se:Name>jc_world_agriculture_2016</se:Name>
+      <se:FeatureTypeStyle>
+        <se:Rule>
+          <se:Name>1 - 17 </se:Name>
+          <se:Description>
+            <se:Title>1 - 17 </se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:And>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
+                <ogc:PropertyName>year_2016</ogc:PropertyName>
+                <ogc:Literal>0.55769230769230804</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>year_2016</ogc:PropertyName>
+                <ogc:Literal>16.66666666666669983</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#f7fcf5</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>17 - 35 </se:Name>
+          <se:Description>
+            <se:Title>17 - 35 </se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>year_2016</ogc:PropertyName>
+                <ogc:Literal>16.66666666666669983</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>year_2016</ogc:PropertyName>
+                <ogc:Literal>34.78722422228379685</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#caeac3</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>35 - 51 </se:Name>
+          <se:Description>
+            <se:Title>35 - 51 </se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>year_2016</ogc:PropertyName>
+                <ogc:Literal>34.78722422228379685</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>year_2016</ogc:PropertyName>
+                <ogc:Literal>50.7291674613952992</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#7bc87c</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>51 - 65 </se:Name>
+          <se:Description>
+            <se:Title>51 - 65 </se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>year_2016</ogc:PropertyName>
+                <ogc:Literal>50.7291674613952992</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>year_2016</ogc:PropertyName>
+                <ogc:Literal>64.83650875386200596</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#2a924a</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>65 - 83 </se:Name>
+          <se:Description>
+            <se:Title>65 - 83 </se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>year_2016</ogc:PropertyName>
+                <ogc:Literal>64.83650875386200596</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>year_2016</ogc:PropertyName>
+                <ogc:Literal>82.55970523011650641</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#00441b</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+      </se:FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
+
+```
+
+Crear capa en geoserver y asignarle la simbología
+
+![alt text](img/ejemplo_04.png)
+
+![alt text](img/ejemplo_05.png)
+
+Previsualización openlayers generada por geoserver:
+
+![alt text](img/ejemplo_06.png)
+
+Url: http://34.83.176.208:18080/geoserver/clase_2020_01/wms?service=WMS&version=1.1.0&request=GetMap&layers=clase_2020_01%3Ajc_world_agriculture_2016&bbox=-180.0%2C-55.9197273254395%2C180.0%2C83.6235961914062&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers
+
+
+![alt text](img/ejemplo_07.png)
+
+
+## Ejercicio 2: Publicando una vista en geoserver 
+
+Crear una vista que contenga solo los países colindantes de Rumania
+
+```sql
+create view jc_view_world_agriculture_adjacent as 
+with ru as (
+select * from jc_world_agriculture_2016 as jcw 
+where jcw.iso3 = 'ROU' 
+)
+select f.* 
+from jc_world_agriculture_2016 as f , ru 
+where  st_touches(f.geom, ru.geom)
+```
+
+Url preview 
+http://34.83.176.208:18080/geoserver/clase_2020_01/wms?service=WMS&version=1.1.0&request=GetMap&layers=clase_2020_01%3Ajc_view_world_agriculture_adjacent&bbox=16.111805%2C41.24305%2C30.133228%2C48.57666&width=768&height=401&srs=EPSG%3A4326&format=application/openlayers
+
+![alt text](img/ejemplo_08.png)
