@@ -15,6 +15,7 @@
   - [Ejercicio 9: Carto y Spatial SQL](#ejercicio-9-carto-y-spatial-sql)
   - [Ejercicio 10: Carto y Spatial SQL - Simplificación de Geometrías](#ejercicio-10-carto-y-spatial-sql---simplificaci%C3%B3n-de-geometr%C3%ADas)
   - [Ejercicio 11: Carto y Spatial SQL - Generación de geometrías](#ejercicio-11-carto-y-spatial-sql---generaci%C3%B3n-de-geometr%C3%ADas)
+  - [Ejercicio 12: Arcgis Online (Introducción)](#ejercicio-12-arcgis-online-introducci%C3%B3n)
   - [Documentación adicional](#documentaci%C3%B3n-adicional)
 
 ## Presentación
@@ -417,6 +418,31 @@ where st_intersects(t.the_geom, b.the_geom)
 and t.source = 'foursquare') _analysis_source
 ```
 
+## Ejercicio 12:  Arcgis Online (Introducción)
+
+* ArcGIS Online, Cloud-based GIS Mapping software https://www.esri.com/en-us/arcgis/products/arcgis-online/overview
+
+
+Flujo de trabajo típico:
+
+* Cargar (publicar) datos en la nube
+* A partir de los datos publicados crear mapas web con la simbología.
+* A partir de los mapas web generar aplicaciones. Ejm.
+  * Story maps
+  * Web Appbuilder
+  * (Operations) Dashboard
+  * etc..
+
+* Video: Uso básico de arcgis online para publicar mapas y aplicaciones https://www.loom.com/share/f05d8f6b5ecd46e4b4e3bb4f48df9b18
+
+![](images/video.png)
+
+Más información:
+
+* Documentación sobre Arcgis Online https://www.esri.com/en-us/arcgis/products/arcgis-online/resources
+* Learning Plan - ArcGIS Online Fundamentals  (ESRI Training) https://www.esri.com/training/catalog/5b733e9d2fad23092c930883/arcgis-online-fundamentals/
+* Introducción a ArcGIS Online  https://learn.arcgis.com/es/projects/get-started-with-arcgis-online/
+* Esri's MOOC Program - Online courses on how to apply geography for a better world. https://www.esri.com/training/mooc/
 
 
 ## Documentación adicional 
