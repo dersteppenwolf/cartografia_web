@@ -18,6 +18,7 @@ Enlaces a herramientas comentadas durante el curso.
 ## Bases de datos espaciales
 
 - Postgis https://postgis.net/
+  - Tutoriales interactivos sobre postgresql y postgis https://learn.crunchydata.com/
 - Spatialite https://www.gaia-gis.it/fossil/libspatialite/index
 - Spatialite y Geopackage https://acolita.com/introduccion-al-uso-de-spatialite-y-geopackage-en-qgis-3/
 

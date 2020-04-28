@@ -57,9 +57,9 @@ Días:
 - Semana 3: 
   - Miércoles 22 de Abril: 6 - Simbología para Mapas Web
 - Semana 4: 
-  - Miércoles 29 de Abril: 7 -
+  - Miércoles 29 de Abril: 7 - Servicios en la nube
 - Semana 5: 
-  - Lunes  11  de Mayo: 8 -  
+  - Lunes  11  de Mayo: 8 - Arquitectura de aplicaciones. Bases de datos avanzadas
 
 
 
