@@ -300,7 +300,7 @@ Bonus (2 puntos):
 
 ### Tarea 2 - Publicación de mapas bajo estándares OGC utilizando base de datos espacial y servidor de mapas
 
-**Fecha Máxima de entrega:** 2020-04-29 23:30 (Martes)
+**Fecha Máxima de entrega:** 2020-04-29 23:30 (Miércoles)
 
 Individual
 
