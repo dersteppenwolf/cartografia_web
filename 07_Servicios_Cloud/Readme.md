@@ -16,6 +16,7 @@
   - [Ejercicio 10: Carto y Spatial SQL - Simplificación de Geometrías](#ejercicio-10-carto-y-spatial-sql---simplificaci%C3%B3n-de-geometr%C3%ADas)
   - [Ejercicio 11: Carto y Spatial SQL - Generación de geometrías](#ejercicio-11-carto-y-spatial-sql---generaci%C3%B3n-de-geometr%C3%ADas)
   - [Ejercicio 12: Arcgis Online (Introducción)](#ejercicio-12-arcgis-online-introducci%C3%B3n)
+  - [Ejercicio 13: Geonode (Introducción)](#ejercicio-13-geonode-introducci%C3%B3n)
   - [Documentación adicional](#documentaci%C3%B3n-adicional)
 
 ## Presentación
@@ -444,6 +445,26 @@ Más información:
 * Introducción a ArcGIS Online  https://learn.arcgis.com/es/projects/get-started-with-arcgis-online/
 * Esri's MOOC Program - Online courses on how to apply geography for a better world. https://www.esri.com/training/mooc/
 
+
+## Ejercicio 13:  Geonode (Introducción)
+
+Geonode http://geonode.org/
+
+    Open Source Geospatial Content Management System
+    GeoNode is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI).
+
+    It is designed to be extended and modified, and can be integrated into existing platforms.
+
+Favor leer:
+
++ Introducción a Geonode https://es.slideshare.net/geosolutions/introduction-to-geonode-89583201
++ Geonode User Features http://geonode.org/user_features/
++ Spatial Data Infrastructure Best Practices with GeoNode https://es.slideshare.net/SebastianBenthall/spatial-data-infrastructure-best-practices-with-geonode?
+
+* Arquitectura de Geonode (Imagen tomada de "GeoNode Integration with GIS
+and Data Processing workflows" http://siteresources.worldbank.org/INTLACREGTOPURBDEV/Images/840342-1264721236030/GeoNodeDM_2_IntegrationWithGISandDataProcessing.pdf  )
+
+![](images/geonode.png)
 
 ## Documentación adicional 
 
