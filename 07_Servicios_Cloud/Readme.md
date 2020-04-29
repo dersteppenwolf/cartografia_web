@@ -461,8 +461,10 @@ Favor leer:
 + Geonode User Features http://geonode.org/user_features/
 + Spatial Data Infrastructure Best Practices with GeoNode https://es.slideshare.net/SebastianBenthall/spatial-data-infrastructure-best-practices-with-geonode?
 
-* Arquitectura de Geonode (Imagen tomada de "GeoNode Integration with GIS
-and Data Processing workflows" http://siteresources.worldbank.org/INTLACREGTOPURBDEV/Images/840342-1264721236030/GeoNodeDM_2_IntegrationWithGISandDataProcessing.pdf  )
+*Arquitectura de Geonode*
+
+  Imagen tomada de "GeoNode Integration with GIS
+  and Data Processing workflows" http://siteresources.worldbank.org/INTLACREGTOPURBDEV/Images/840342-1264721236030/GeoNodeDM_2_IntegrationWithGISandDataProcessing.pdf  
 
 ![](images/geonode.png)
 
