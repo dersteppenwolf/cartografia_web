@@ -444,7 +444,9 @@ Artículos de interés:
 + Introducción a Geonode https://es.slideshare.net/geosolutions/introduction-to-geonode-89583201
 + Geonode User Features http://geonode.org/user_features/
 + Publicando datos y mapas: GeoNode Quickstart  https://live.osgeo.org/es/quickstart/geonode_quickstart.html
-+ Bringing GEOSS services into Practice for Beginners: GeoNode Tutorial https://shorturl.at/cY056
++ Video - Seminario Taller web: Manejo básico de GeoNode   https://www.youtube.com/watch?v=N1OqQb8b3pI&feature=youtu.be
+  + Nota: El tutorial para la carga de datos empieza en el minuto 9:44 https://youtu.be/N1OqQb8b3pI?t=584
++ Bringing GEOSS services into Practice for Beginners: GeoNode Tutorial https://es.slideshare.net/dersteppenwolf/bringing-geoss-services-into-practice-for-beginners-geonode-tutorial
 + Spatial Data Infrastructure Best Practices with GeoNode https://es.slideshare.net/SebastianBenthall/spatial-data-infrastructure-best-practices-with-geonode?
 
 *Arquitectura de Geonode*
