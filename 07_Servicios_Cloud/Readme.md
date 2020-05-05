@@ -139,6 +139,11 @@ Resultado
 Documentación: 
 
 * How CARTO works  https://carto.com/help/getting-started/
+* Video - Tutorial de Carto: crear un mapa a partir de datos procedentes de Open Data https://www.youtube.com/watch?v=1srIH83awvA 
+* Video - Analysis with CARTO https://www.youtube.com/watch?v=S_kNe24cO18
+* Video - Carto: CartoCSS  https://www.youtube.com/watch?v=pOT5rdyp4N0
+* Video - Learning CartoCSS with CARTO  https://www.youtube.com/watch?v=NkX3f-V87QU
+* Video - SQL in Carto https://www.youtube.com/watch?v=XaZrKti3G-8
 * Carto builder https://carto.com/help/tutorials/getting-started-with-carto-builder/
 * Understanding Map Layers in Builder https://carto.com/help/tutorials/understanding-map-layers-in-builder/
 * Your Dashboard Overview  https://carto.com/help/tutorials/your-dashboard-overview/
