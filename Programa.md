@@ -461,7 +461,7 @@ Obtendrá un punto extra si publica una o más capas de tipo ráster **adicional
 
 ### Tarea 3 - Publicación de mapas utilizando servicios en la nube
 
-**Fecha Máxima de entrega:** 2020-05-15 14:00 (Viernes)  (Esta fecha no está sujeta a cambios)
+**Fecha Máxima de entrega:** 2020-05-17 23:30 (Domingo)  (Fecha inamovible)
 
 Individual
 
@@ -477,7 +477,8 @@ Individual
 
 > Efectos, impacto y consecuencias en Colombia a causa  de la **cuarentena** ocasionada por la pandemia causada por el virus SRAS-CoV-2 y la enfermedad COVID-19. 
 
-Ejemplos: Efectos aplicado al transporte, economía, empleo, salud, movilidad, uso de internet, etc. 
+**Ejemplos:** Aplicaciones en transporte, economía, empleo, salud, movilidad, uso de internet, etc. 
+
 
 **Formulario para propuesta de tema**
 
@@ -491,7 +492,7 @@ Ejemplos: Efectos aplicado al transporte, economía, empleo, salud, movilidad, u
 - Cada actividad tiene un valor de __1__ punto si está completo y correcto. 
 - En caso de estar incompleta o incorrecta se otorgará __0__ puntos.
 - En caso de no diligenciar a tiempo el _Formulario para propuesta de tema_ se le restará un punto.
-- En caso de entregar tarde la tarea se le restarán 2 puntos.
+- En caso que la tarea sea entregada tarde se le restarán 2 puntos.
 
 
 **Entrega de resultados para revisión:**
