@@ -25,6 +25,7 @@
     - [Entrega de tareas](#entrega-de-tareas)
     - [Tarea 1 - Publicación de mapas web básicos](#tarea-1---publicaci%C3%B3n-de-mapas-web-b%C3%A1sicos)
     - [Tarea 2 - Publicación de mapas bajo estándares OGC utilizando base de datos espacial y servidor de mapas](#tarea-2---publicaci%C3%B3n-de-mapas-bajo-est%C3%A1ndares-ogc-utilizando-base-de-datos-espacial-y-servidor-de-mapas)
+    - [Tarea 3 - Publicación de mapas utilizando servicios en la nube](#tarea-3---publicaci%C3%B3n-de-mapas-utilizando-servicios-en-la-nube)
 
 ## Programa
 
@@ -452,5 +453,156 @@ Obtendrá un punto extra si publica una o más capas de tipo ráster **adicional
 * Adjuntar imagen con la leyenda de la capa.
 * Adjuntar el url de la previsualización _openlayers_ del conjunto de capas generada por Geoserver que incluya la capa ráster. Ejemplo: http://34.83.176.208:18080/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&layers=spearfish&bbox=589425.9342365642%2C4913959.224611808%2C609518.6719560538%2C4928082.949945881&width=768&height=539&srs=EPSG%3A26713&format=application/openlayers
 
+
+
+
+
+
+
+### Tarea 3 - Publicación de mapas utilizando servicios en la nube
+
+**Fecha Máxima de entrega:** 2020-05-15 14:00 (Viernes)  (Esta fecha no está sujeta a cambios)
+
+Individual
+
+**Objetivos**
+
+- Aplicar técnicas para  el procesamiento, análisis y visualización de información georrefenciada para plantear la solución de un problema de interés. 
+- Entender y aplicar los procedimientos requeridos para realizar la publicación y visualización de datos geográficos en internet  utilizando SaaS (Software as a Service).
+- Aprovechar los elementos de interactividad proporcionados por las diferentes herramientas para la generación de aplicaciones que incorporan mapas.
+- Narrar la solución dada al problema propuesto a través de una _historia interactiva_ que involucre mapas y elementos multimedia. 
+
+
+**Tema**
+
+> Efectos, impacto y consecuencias en Colombia a causa  de la **cuarentena** ocasionada por la pandemia causada por el virus SRAS-CoV-2 y la enfermedad COVID-19. 
+
+Ejemplos: Efectos aplicado al transporte, economía, empleo, salud, movilidad, uso de internet, etc. 
+
+**Formulario para propuesta de tema**
+
+  El título propuesto para el trabajo debe ser diligenciado en el siguiente formulario https://forms.gle/UJ9H2jfePaoWiD5z8  a más tardar el día jueves 2020-05-07 a las 23:00 horas.
+
+
+**Calificación**
+
+- Total de puntos obligatorios: 8
+- Total de opcionales para bono extra: 1
+- Cada actividad tiene un valor de __1__ punto si está completo y correcto. 
+- En caso de estar incompleta o incorrecta se otorgará __0__ puntos.
+- En caso de no diligenciar a tiempo el _Formulario para propuesta de tema_ se le restará un punto.
+- En caso de entregar tarde la tarea se le restarán 2 puntos.
+
+
+**Entrega de resultados para revisión:**
+
+- En el repositorio github personal creado para la clase crear una carpeta llamada **Tarea_3**
+- Dentro de la carpeta  **Tarea_3** Crear un archivo **Readme.md** con los resultados de las actividades solicitadas.  
+- Una vez tenga los resultados publicados en github, crear un issue en https://github.com/dersteppenwolf/cartografia_web/issues con lo siguiente:
+  - Título: Tarea 3 - CODIGO_ESTUDIANTE
+  - Contenido: Enlace (URL) al archivo **Readme.md** dentro de  la carpeta **Tarea_3** publicado en el repositorio personal del curso. Ejemplo: https://github.com/dersteppenwolf/tareas_jc/blob/master/Tarea_1/README.md
+
+
+**Actividades**
+
+1.  Definición del problema y fuentes de datos
+
+* Título del trabajo 
+* Descripción del trabajo
+* Describa de forma resumida el enfoque propuesto para el desarrollo del problema.
+* Crear un boceto (mockup) donde se plantee la  narrativa que se presentará al usuario e incluir cada una de las imágenes del mismo. 
+  * Ejemplo: Diseño de sitio web http://blog.scribeui.org/blog/2013/06/11/mockups/
+  * Herramientas sugeridas:
+    * Balsamiq Wireframes https://balsamiq.com/wireframes/ 
+    * Diagrams.net https://www.diagrams.net/  
+* Listado detallado de las fuentes de datos seleccionadas.  
+  * Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los  atributos principales a utilizar.
+ 
+2. Procesamiento de datos
+
+* Descripción detallada del procesamiento  realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
+* Idealmente incluir procesos que impliquen la utilización de las relaciones espaciales entre objetos, medidas, distancias y / o generación de geometrías.
+* Cargar los datos en los servicios utilizados para la generación de las aplicaciones.
+
+3. CARTO
+
+* Cree un tablero de control utilizando Carto (https://carto.com/) buscando soportar la historia a contar dentro de la narrativa propuesta.
+* Describir de forma detallada el procedimiento utilizado para publicar la aplicación.
+* Describir método utilizado para clasificar los datos.
+* Describir el criterio para la selección de los colores a utilizar en la simbología
+* Incluir url en línea  al mapa publicado 
+
+
+4. Arcgis Online 
+
+* Cree una aplicación de tipo "Operations dashboard" o  "Web Appbuilder"   utilizando Arcgis Online (https://www.esri.com/en-us/arcgis/products/arcgis-online/overview) buscando soportar la historia a contar dentro de la narrativa propuesta.
+  * **Nota:** Los elementos mostrados en aa aplicación deben ser diferentes a los creados con Carto  (**No** es repetir el mismo mapa o tablero creado con carto en el punto 3)
+* Describir de forma detallada el procedimiento utilizado para publicar la aplicación.
+* Describir método utilizado para clasificar los datos.
+* Describir el criterio para la selección de los colores a utilizar en la simbología
+* Incluir url en línea  al mapa publicado 
+
+5. Geonode
+
+* Cree una aplicación utilizando el servidor Geonode (http://geonode.org/) disponible para la clase buscando soportar la historia a contar dentro de la narrativa propuesta.
+  * **Nota:** Los elementos mostrados en aa aplicación deben ser diferentes a los creados con Carto y Arcgis Oline  (**No** es repetir el mismo mapa o tablero creado en los puntos  3 y 4)
+  * - Para la creación de objetos en ggeonode favor utilizar el prefijo asignado para la clase. Ejemplo: _jc_departamentos_.
+* Describir de forma detallada el procedimiento utilizado para publicar la aplicación.
+* Describir método utilizado para clasificar los datos.
+* Describir el criterio para la selección de los colores a utilizar en la simbología
+* Incluir url en línea  al mapa publicado 
+
+6. Kepler.gl
+
+* Cree una aplicación utilizando Kepler.gl (https://kepler.gl/ disponible para la clase buscando soportar la historia a contar dentro de la narrativa propuesta.
+  * **Nota:** Los elementos mostrados en aa aplicación deben ser diferentes a los creados con Carto,  Arcgis Oline y Geonode  (**No** es repetir el mismo mapa o tablero creado en los puntos  3,  4 y 5)
+* Describir de forma detallada el procedimiento utilizado para publicar la aplicación.
+* Describir método utilizado para clasificar los datos.
+* Describir el criterio para la selección de los colores a utilizar en la simbología
+* Publicar el html generado en Github para poder ser desplegado en el servidor web manejado por _Github Pages_.
+* Incluir url en línea  al mapa publicado a través de _Github Pages_.
+
+7. Publicar historia
+
+* Publique una historia utilizando Slides.com ( https://slides.com/ ) donde se integren los mapas creados en los puntos 3, 4 y 5 con elementos textuales y multimedia de tal forma que se explique de forma _amable_ al usuario la temática y solución propuesta al trabajo desarrollado. 
+* La historia como mínimo debe contener:
+  * Mapas / Aplicaciones creados en los puntos 3, 4, 5 y 6 (Carto, Arcgis Online, Geonode y Kepler.gl)
+  * Texto que explique la historia en los pasos que se requiera 
+  * Una imagen
+  * Un video
+* Incluir url  en línea a la historia creada
+
+
+
+8.  Conclusiones 
+
+* Publicar un video en Loom ( https://www.loom.com/ ) de mínimo 5 minutos y máximo 8 y adjuntar el url del mismo.
+* En el video  describa brevemente lo siguiente:
+  * Problema planteado
+  * Procesamiento y análisis realizado a los datos
+  * Proceso de publicación de las aplicaciones y la historia
+  * Conclusiones del ejercicio desde el punto de vista temático. 
+*  Conclusiones del ejercicio desde el punto de vista técnico. 
+  * Tutorial de loom https://support.loom.com/hc/en-us/articles/360006847737-Guide-to-Using-Loom-for-Education
+  * **Importante**  en el video debe quedar activa la cámara web durante todo el tiempo. Ejemplo: https://www.loom.com/share/9e89602fed3d40ff9cd3b79759ffce50
+<img src="img/loom.png" width="600"/>
+
+
+
+**Actividades OPCIONALES (Punto extra para bono)** 
+
+
+1.  Mapbox Interactive Storytelling 
+  
+Obtendrá un punto extra si implementa una aplicación interactiva utilizando la herramienta _Mapbox Interactive Storytelling_ https://www.mapbox.com/solutions/interactive-storytelling
+
+* Describir de forma detallada el proceso utilizado para generar la aplicación.
+* Incluir url de la aplicación generada desplegada en github pages
+* Incluir url del código fuente del html visor en github.
+* Tutoriales e información adicional
+  *  https://github.com/mapbox/storytelling
+  *  https://demos.mapbox.com/scrollytelling/
+  *  https://blog.mapbox.com/create-location-based-stories-with-minimal-code-fc8c5da60d96
+  *  https://glitch.com/glimmer/post/how-to-build-a-scrollytelling-map-using-mapbox-and-glitch/
 
 
