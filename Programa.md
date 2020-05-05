@@ -568,6 +568,7 @@ Individual
 * Publique una historia utilizando Slides.com ( https://slides.com/ ) donde se integren los mapas creados en los puntos 3, 4 y 5 con elementos textuales y multimedia de tal forma que se explique de forma _amable_ al usuario la temática y solución propuesta al trabajo desarrollado. 
 * La historia como mínimo debe contener:
   * Mapas / Aplicaciones creados en los puntos 3, 4, 5 y 6 (Carto, Arcgis Online, Geonode y Kepler.gl)
+    * Mapa opcional: Punto extra _Mapbox Interactive Storytelling_
   * Texto que explique la historia en los pasos que se requiera 
   * Una imagen
   * Un video
