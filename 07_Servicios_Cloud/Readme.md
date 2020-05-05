@@ -123,51 +123,29 @@ Resultado
 ## Ejercicio 3: Introducción a Carto 
 
 * Datos: Tweets Georreferenciados en Colombia recopilados del  19 al 28 de febrero de 2018 :   
-  * tweets_2018.zip
+  * tweets_2018_shp.zip
 
-![municipios](images/tweets.png)
-
-
-Ejemplo de la información contenida en el tweet:	_datos/tweet.geojson_
-
-```json
- {
-    "type": "Feature",
-    "geometry": {
-    "type": "Point",
-    "coordinates": [
-        -74.0833,
-        4.6
-    ]
-    },
-    "properties": {
-    "cartodb_id": 14999,
-    "id": 967763184885973000,
-    "created": "2018-02-25T09:08:18Z",
-    "place_name": "Bogotá, D.C.",
-    "place_country": "Colombia",
-    "source": "instagram",
-    "screen_name": "Reggaetonerawy",
-    "lang": "es",
-    "tweet_text": "Regrann from @yandeloficial  -  Sin trabajo duro y disciplina es difícil ser un buen… https://t.co/ddQtxoiAxo"
-    }
-}
-```
+![](images/tweets.png)
 
 * Departamentos : MGN_ADM_MPIO_POLITICO.zip
 
-![municipios](images/depto.png)
+![](images/depto.png)
 
-* Municipios: mgn_adm_mpio_politico_simplified.geojson.zip
+* Municipios: mgn_adm_mpio_politico_simplified_1.zip
 
-![municipios](images/muni.png)
+![](images/muni.png)
 
 
-Revisar: 
+Documentación: 
 
 * How CARTO works  https://carto.com/help/getting-started/
 * Carto builder https://carto.com/help/tutorials/getting-started-with-carto-builder/
 * Understanding Map Layers in Builder https://carto.com/help/tutorials/understanding-map-layers-in-builder/
+* Your Dashboard Overview  https://carto.com/help/tutorials/your-dashboard-overview/
+* Using builder https://carto.com/help/tutorials/using-builder/
+* Add Columns from 2nd Dataset https://carto.com/help/tutorials/add-columns-from-2nd-dataset/
+* Intersect and Aggregate https://carto.com/help/tutorials/intersect-and-aggregate/
+* Builder Widgets Overview https://carto.com/help/tutorials/builder-widgets-overview/
 
 Realizar lo siguiente: 
 
@@ -256,9 +234,10 @@ https://gkudos.carto.com/u/kudosg/builder/b4fd7e58-379a-4101-9cd9-bad1111c6fc4/e
 
 ![cartogram](images/density.png)
 
+
 ## Ejercicio 6:   Mapa de coropletas (choropleth) con Carto
 
-* Cargue en carto el conjunto de datos stateData.geojson
+* Cargue en carto el conjunto de datos statedata_shp.zip
 * cree un mapa a partir de esos datos
 * Simbolícelo por densidad y compare diferentes formas de clasificaciòn y rampas de color
 * Adicione las etiquetas utilizando el atributo name
@@ -455,10 +434,12 @@ Geonode http://geonode.org/
 
     It is designed to be extended and modified, and can be integrated into existing platforms.
 
-Favor leer:
+Artículos de interés:
 
 + Introducción a Geonode https://es.slideshare.net/geosolutions/introduction-to-geonode-89583201
 + Geonode User Features http://geonode.org/user_features/
++ Publicando datos y mapas: GeoNode Quickstart  https://live.osgeo.org/es/quickstart/geonode_quickstart.html
++ Bringing GEOSS services into Practice for Beginners: GeoNode Tutorial https://shorturl.at/cY056
 + Spatial Data Infrastructure Best Practices with GeoNode https://es.slideshare.net/SebastianBenthall/spatial-data-infrastructure-best-practices-with-geonode?
 
 *Arquitectura de Geonode*
