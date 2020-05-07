@@ -461,7 +461,7 @@ Obtendrá un punto extra si publica una o más capas de tipo ráster **adicional
 
 ### Tarea 3 - Publicación de mapas utilizando servicios en la nube
 
-**Fecha Máxima de entrega:** 2020-05-17 23:30 (Domingo)  (Fecha inamovible)
+**Fecha Máxima de entrega:** 2020-05-19 23:30 (Martes)  (Fecha inamovible)
 
 Individual
 
@@ -475,23 +475,39 @@ Individual
 
 **Tema**
 
-> Efectos, impacto y consecuencias en Colombia a causa  de la **cuarentena** ocasionada por la pandemia causada por el virus SRAS-CoV-2 y la enfermedad COVID-19. 
+> Efectos, impacto y consecuencias en el mundo a causa  de la **cuarentena** ocasionada por la pandemia causada por el virus SRAS-CoV-2 y la enfermedad COVID-19 en diversos aspectos en transporte, economía, empleo, salud, movilidad, uso de internet, etc. 
 
-**Ejemplos:** Aplicaciones en transporte, economía, empleo, salud, movilidad, uso de internet, etc. 
+**Ejemplos de títulos "hipotéticos":** 
+
+* _"Efectos de la cuarentena sobre la actividad económica en Colombia"_
+* _"La cuarentena reduce la contaminación"_
+* _"People Are Streaming Less Music Under Quarantine"_ Título tomado de https://civicscience.com/people-are-streaming-less-music-under-quarantine/amp/   
+* _"Cómo han cambiado las personas sus hábitos de desplazamiento en las ciudades a causa de la cuarentena y el COVID-19?"_
+
 
 
 **Formulario para propuesta de tema**
 
-  El título propuesto para el trabajo debe ser diligenciado en el siguiente formulario https://forms.gle/UJ9H2jfePaoWiD5z8  a más tardar el día jueves 2020-05-07 a las 23:00 horas.
+  El título propuesto para el trabajo debe ser diligenciado en el siguiente formulario https://forms.gle/UJ9H2jfePaoWiD5z8  a más tardar el día domingo 2020-05-10 a las 23:00 horas.
 
 
 **Calificación**
 
-- Total de puntos obligatorios: 8
+Actividades: 
+
+- Total de puntos obligatorios: 6
 - Total de opcionales para bono extra: 1
-- Cada actividad tiene un valor de __1__ punto si está completo y correcto. 
-- En caso de estar incompleta o incorrecta se otorgará __0__ puntos.
+
+Calificación:
+
+- Nota punto completo y correcto: 1
+- Nota punto incompleto: 0.5
+- Nota actividad no desarrollada: 0 
+
+Penalización:
+
 - En caso de no diligenciar a tiempo el _Formulario para propuesta de tema_ se le restará un punto.
+- En caso de no diligenciar el  _Formato de asistencia_ enviado por correo electrónico antes de finalizar la última clase  se le restará un punto.
 - En caso que la tarea sea entregada tarde se le restarán 2 puntos.
 
 
@@ -531,58 +547,47 @@ Individual
 * Describir de forma detallada el procedimiento utilizado para publicar la aplicación.
 * Describir método utilizado para clasificar los datos.
 * Describir el criterio para la selección de los colores a utilizar en la simbología
-* Incluir url en línea  al mapa publicado 
+* Incluir url en línea  al tablero de control  publicado. Ejemplo: https://gkudos.carto.com/u/kudosg/builder/501b7abf-3809-41e7-a71b-39223fb3dbbf/embed 
 
 
-4. Arcgis Online 
-
-* Cree una aplicación de tipo "Operations dashboard" o  "Web Appbuilder"   utilizando Arcgis Online (https://www.esri.com/en-us/arcgis/products/arcgis-online/overview) buscando soportar la historia a contar dentro de la narrativa propuesta.
-  * **Nota:** Los elementos mostrados en aa aplicación deben ser diferentes a los creados con Carto  (**No** es repetir el mismo mapa o tablero creado con carto en el punto 3)
-* Describir de forma detallada el procedimiento utilizado para publicar la aplicación.
-* Describir método utilizado para clasificar los datos.
-* Describir el criterio para la selección de los colores a utilizar en la simbología
-* Incluir url en línea  al mapa publicado 
-
-5. Geonode
+4. Geonode
 
 * Cree una aplicación utilizando el servidor Geonode (http://geonode.org/) disponible para la clase buscando soportar la historia a contar dentro de la narrativa propuesta.
-  * **Nota:** Los elementos mostrados en aa aplicación deben ser diferentes a los creados con Carto y Arcgis Oline  (**No** es repetir el mismo mapa o tablero creado en los puntos  3 y 4)
+  * **Nota:** Los elementos mostrados en aa aplicación deben ser diferentes a los creados con Carto (**No** es repetir el mismo mapa o tablero creado en el punto  3)
   * - Para la creación de objetos en ggeonode favor utilizar el prefijo asignado para la clase. Ejemplo: _jc_departamentos_.
+* Cargar los datos a utilizar en _Geonode_ 
 * Describir de forma detallada el procedimiento utilizado para publicar la aplicación.
-* Describir método utilizado para clasificar los datos.
+* Tanto para los datos como las aplicaciones creadas en geonode debe diligenciar el metadato básico de los mismos (Campos obligatorios).
+* Describir método utilizado para clasificar los datos en los mapas temáticos.
 * Describir el criterio para la selección de los colores a utilizar en la simbología
-* Incluir url en línea  al mapa publicado 
+* Incluir url público en línea  al mapa publicado.  Ejemplo: http://34.83.176.208/maps/7/view
 
-6. Kepler.gl
 
-* Cree una aplicación utilizando Kepler.gl (https://kepler.gl/ disponible para la clase buscando soportar la historia a contar dentro de la narrativa propuesta.
-  * **Nota:** Los elementos mostrados en aa aplicación deben ser diferentes a los creados con Carto,  Arcgis Oline y Geonode  (**No** es repetir el mismo mapa o tablero creado en los puntos  3,  4 y 5)
-* Describir de forma detallada el procedimiento utilizado para publicar la aplicación.
-* Describir método utilizado para clasificar los datos.
-* Describir el criterio para la selección de los colores a utilizar en la simbología
-* Publicar el html generado en Github para poder ser desplegado en el servidor web manejado por _Github Pages_.
-* Incluir url en línea  al mapa publicado a través de _Github Pages_.
 
-7. Publicar historia
+5. Publicar historia
 
-* Publique una historia utilizando Slides.com ( https://slides.com/ ) donde se integren los mapas creados en los puntos 3, 4 y 5 con elementos textuales y multimedia de tal forma que se explique de forma _amable_ al usuario la temática y solución propuesta al trabajo desarrollado. 
+* Publique una historia utilizando Slides.com ( https://slides.com/ ) donde se **integren** las aplicaciones creadas en los puntos 3 y  4  con elementos textuales y multimedia de tal forma que se explique de forma _amable_ al usuario la temática y solución propuesta al trabajo desarrollado. (_"Contar una historia"_)
 * La historia como mínimo debe contener:
-  * Mapas / Aplicaciones creados en los puntos 3, 4, 5 y 6 (Carto, Arcgis Online, Geonode y Kepler.gl)
-    * Mapa opcional: Punto extra _Mapbox Interactive Storytelling_
+  * Mapas / Aplicaciones creados en los puntos 3 y  4  (Carto, Geonode)
+    * Mapa opcional: Si desarrolla el punto extra favor también incluirlo.
   * Texto que explique la historia en los pasos que se requiera 
   * Una imagen
   * Un video
 * Incluir url  en línea a la historia creada
+* **Ejemplos:** En los siguientes ejemplos puede verse como los autores utilizaron mapas, texto, gráficos y multimedia para _"contar una historia"_ basada en datos.
+  * **Movimientos sísmicos** https://slides.com/geomaticos/deck-1#/
+  * **Estado Red Hidrometeorológica Car** https://slides.com/vivianacarolinadiazgarnica/estado-red-hidrometeorologica-car#/
+  
 
 
 
-8.  Conclusiones 
+6.  Conclusiones 
 
 * Publicar un video en Loom ( https://www.loom.com/ ) de mínimo 5 minutos y máximo 8 y adjuntar el url del mismo.
 * En el video  describa brevemente lo siguiente:
   * Problema planteado
   * Procesamiento y análisis realizado a los datos
-  * Proceso de publicación de las aplicaciones y la historia
+  * Proceso de creación de las aplicaciones y la historia con las herramientas seleccionadas.
   * Conclusiones del ejercicio desde el punto de vista temático. 
 *  Conclusiones del ejercicio desde el punto de vista técnico. 
   * Tutorial de loom https://support.loom.com/hc/en-us/articles/360006847737-Guide-to-Using-Loom-for-Education
@@ -591,10 +596,21 @@ Individual
 
 
 
-**Actividades OPCIONALES (Punto extra para bono)** 
+**Actividad OPCIONAL (Punto extra para bono)** 
 
+Para punto extra seleccionar **únicamente y exclusivamente una** de las dos siguientes opciones:
 
-1.  Mapbox Interactive Storytelling 
+1. Kepler.gl
+
+* Cree una aplicación utilizando Kepler.gl (https://kepler.gl/ disponible para la clase buscando soportar la historia a contar dentro de la narrativa propuesta.
+  * **Nota:** Los elementos mostrados en la aplicación deben ser diferentes a los creados en las aplicaciones de los puntos obligatorios 
+* Describir de forma detallada el procedimiento utilizado para publicar la aplicación.
+* Describir método utilizado para clasificar los datos.
+* Describir el criterio para la selección de los colores a utilizar en la simbología
+* Publicar el html generado en Github para poder ser desplegado en el servidor web manejado por _Github Pages_.
+* Incluir url en línea  al mapa publicado a través de _Github Pages_.
+
+2.  Mapbox Interactive Storytelling 
   
 Obtendrá un punto extra si implementa una aplicación interactiva utilizando la herramienta _Mapbox Interactive Storytelling_ https://www.mapbox.com/solutions/interactive-storytelling
 
@@ -606,5 +622,6 @@ Obtendrá un punto extra si implementa una aplicación interactiva utilizando la
   *  https://demos.mapbox.com/scrollytelling/
   *  https://blog.mapbox.com/create-location-based-stories-with-minimal-code-fc8c5da60d96
   *  https://glitch.com/glimmer/post/how-to-build-a-scrollytelling-map-using-mapbox-and-glitch/
+  *  Location helper https://demos.mapbox.com/location-helper/
 
 
