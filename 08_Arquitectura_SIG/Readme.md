@@ -1,14 +1,28 @@
 # Arquitectura de aplicaciones Web para SIG
 
 - [Arquitectura de aplicaciones Web para SIG](#arquitectura-de-aplicaciones-web-para-sig)
+  - [Bases de datos](#bases-de-datos)
   - [Arquitectura de aplicaciones SIG : Lecturas](#arquitectura-de-aplicaciones-sig--lecturas)
-  - [Bases de datos espaciales](#bases-de-datos-espaciales)
+  - [Artículos de interés](#art%C3%ADculos-de-inter%C3%A9s)
+  - [Taller](#taller)
+    - [Geonode](#geonode)
+      - [Introducción](#introducci%C3%B3n)
+      - [Arquitectura](#arquitectura)
+      - [Información adicional](#informaci%C3%B3n-adicional)
+
+## Bases de datos 
+
+- AWS: Enter the purpose-built database era: Finding the right database for the right job https://pages.awscloud.com/rs/112-TZM-766/images/Enter_the_Purpose-Built-Database-Era.pdf
+- AWS - Ingrese a la era de las bases de datos personalizadas: Encuentre la base de datos adecuada para el trabajo adecuado https://es.slideshare.net/dersteppenwolf/aws-ngrese-a-la-era-de-las-bases-de-datos-personalizadas-encuentre-la-base-de-datos-adecuada-para-el-trabajo-adecuado
+
 
 ## Arquitectura de aplicaciones SIG : Lecturas
 
-- Design and implementation of spatial database and geo-processing models for a road geo-hazard information management and risk assessment system WeiDong Wang, Jie Wu, LiGang Fang, Ke Zeng, XinSheng Chang
-
 - Architecting the ArcGIS Platform: Best Practices https://assets.esri.com/content/dam/esrisites/en-us/media/pdf/architecting-the-arcgis-platform.pdf
+
+## Artículos de interés
+
+- Design and implementation of spatial database and geo-processing models for a road geo-hazard information management and risk assessment system WeiDong Wang, Jie Wu, LiGang Fang, Ke Zeng, XinSheng Chang
 
 - Creating a Data Portal for Small Rivers in Rostock
   Sebastian Hübner, Ferdinand Vettermann, Christian Seip and Ralf Bill
@@ -24,6 +38,39 @@
 
 - Geospatial Big Data: Challenges and Opportunities. Jae-Gil Lee, Minseo Kang
 
-## Bases de datos espaciales
+## Taller 
 
-Nosql
+### Geonode
+
+Geonode http://geonode.org/
+
+    Open Source Geospatial Content Management System
+    GeoNode is a web-based application and platform for developing 
+    geospatial information systems (GIS) and for 
+    deploying spatial data infrastructures (SDI).
+
+    It is designed to be extended and modified, 
+    and can be integrated into existing platforms.
+
+#### Introducción 
+
++ Introducción a Geonode https://es.slideshare.net/geosolutions/introduction-to-geonode-89583201
+
++ Video - Seminario Taller web: Manejo básico de GeoNode   https://www.youtube.com/watch?v=N1OqQb8b3pI&feature=youtu.be
+  + Nota: El tutorial para la carga de datos empieza en el minuto 9:44 https://youtu.be/N1OqQb8b3pI?t=584
+
+
+#### Arquitectura 
+
+  Imagen tomada de "GeoNode Integration with GIS
+  and Data Processing workflows" http://siteresources.worldbank.org/INTLACREGTOPURBDEV/Images/840342-1264721236030/GeoNodeDM_2_IntegrationWithGISandDataProcessing.pdf  
+
+![](images/geonode.png)
+
+#### Información adicional
+
++ Geonode User Features http://geonode.org/user_features/
++ Publicando datos y mapas: GeoNode Quickstart  https://live.osgeo.org/es/quickstart/geonode_quickstart.html
++ Bringing GEOSS services into Practice for Beginners: GeoNode Tutorial https://es.slideshare.net/dersteppenwolf/bringing-geoss-services-into-practice-for-beginners-geonode-tutorial
++ Spatial Data Infrastructure Best Practices with GeoNode https://es.slideshare.net/SebastianBenthall/spatial-data-infrastructure-best-practices-with-geonode?
+
