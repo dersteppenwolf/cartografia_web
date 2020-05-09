@@ -101,6 +101,10 @@ Geonode http://geonode.org/
 + Video - Seminario Taller web: Manejo básico de GeoNode   https://www.youtube.com/watch?v=N1OqQb8b3pI&feature=youtu.be
   + Nota: El tutorial para la carga de datos empieza en el minuto 9:44 https://youtu.be/N1OqQb8b3pI?t=584
 
+<a href="https://youtu.be/N1OqQb8b3pI?t=584" target="_blank" >
+<img src="images/video_geonode.png"  >
+</a>
+
 
 #### Arquitectura 
 
