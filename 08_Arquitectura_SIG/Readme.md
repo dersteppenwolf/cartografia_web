@@ -51,7 +51,7 @@ Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/08_Arquitec
 **Videotutorial**
 
 <a href="https://www.youtube.com/watch?v=9UaAdF2ZkOM&feature=youtu.be" target="_blank" >
-<img src="images/video.png"  >
+<img src="images/video2.png"  >
 </a>
 
 **Datos:**
