@@ -49,7 +49,7 @@ Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/08_Arquitec
 ### Creando un tablero de control con Carto
 
 **Datos:**
- 
+
 data/world_agriculture_2016.zip
 
 **Modelo de datos:**
@@ -68,6 +68,12 @@ data/world_agriculture_2016.zip
 
 ![](images/mockup.png)
 
+
+**Resultado**
+
+<a href="https://gkudos.carto.com/u/kudosg/builder/501b7abf-3809-41e7-a71b-39223fb3dbbf/embed" target="_blank" >
+<img src="images/dashboard.png"  >
+</a>
 
 
 ### Geonode
