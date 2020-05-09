@@ -48,6 +48,12 @@ Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/08_Arquitec
 
 ### Creando un tablero de control con Carto
 
+**Videotutorial**
+
+<a href="https://www.youtube.com/watch?v=9UaAdF2ZkOM&feature=youtu.be" target="_blank" >
+<img src="images/video.png"  >
+</a>
+
 **Datos:**
 
 data/world_agriculture_2016.zip
@@ -60,7 +66,7 @@ data/world_agriculture_2016.zip
 
 * geom: Geometría tipo polígono
 * incomegroup: Categórica.  Nivel de ingreso.
-* world_region: Cateogórica. Región del mundo
+* world_region: Categórica. Región del mundo
 * year_2016: Secuencial.  % de área cultivable
 
 
@@ -69,7 +75,7 @@ data/world_agriculture_2016.zip
 ![](images/mockup.png)
 
 
-**Resultado**
+**Dashboard Resultado**
 
 <a href="https://gkudos.carto.com/u/kudosg/builder/501b7abf-3809-41e7-a71b-39223fb3dbbf/embed" target="_blank" >
 <img src="images/dashboard.png"  >
