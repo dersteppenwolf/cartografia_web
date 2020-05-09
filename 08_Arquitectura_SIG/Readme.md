@@ -6,6 +6,7 @@
   - [Arquitectura de aplicaciones SIG : Lecturas](#arquitectura-de-aplicaciones-sig--lecturas)
   - [Artículos de interés](#art%C3%ADculos-de-inter%C3%A9s)
   - [Taller](#taller)
+    - [Creando un tablero de control con Carto](#creando-un-tablero-de-control-con-carto)
     - [Geonode](#geonode)
       - [Introducción](#introducci%C3%B3n)
       - [Arquitectura](#arquitectura)
@@ -44,6 +45,30 @@ Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/08_Arquitec
 - Geospatial Big Data: Challenges and Opportunities. Jae-Gil Lee, Minseo Kang
 
 ## Taller 
+
+### Creando un tablero de control con Carto
+
+**Datos:**
+ 
+data/world_agriculture_2016.zip
+
+**Modelo de datos:**
+
+![](images/model.png)
+
+**Atributos principales:**
+
+* geom: Geometría tipo polígono
+* incomegroup: Categórica.  Nivel de ingreso.
+* world_region: Cateogórica. Región del mundo
+* year_2016: Secuencial.  % de área cultivable
+
+
+**Mockup:** 
+
+![](images/mockup.png)
+
+
 
 ### Geonode
 
