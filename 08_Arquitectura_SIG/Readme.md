@@ -98,7 +98,11 @@ Geonode http://geonode.org/
 
 SDI
 
-    A spatial data infrastructure (SDI) is a data infrastructure implementing a framework of geographic data, metadata, users and tools that are interactively connected in order to use spatial data in an efficient and flexible way. 
+    A spatial data infrastructure (SDI) is a data 
+    infrastructure implementing a framework of geographic 
+    data, metadata, users and tools that are interactively 
+    connected in order to use spatial data in an 
+    efficient and flexible way. 
 
 #### Servidor Geonode para pruebas en clase
 
