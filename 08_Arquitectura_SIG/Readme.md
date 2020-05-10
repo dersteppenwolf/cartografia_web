@@ -10,7 +10,8 @@
     - [Geonode](#geonode)
       - [Introducción](#introducci%C3%B3n)
       - [Arquitectura](#arquitectura)
-      - [Información adicional](#informaci%C3%B3n-adicional)
+      - [Tutoriales](#tutoriales)
+      - [Documentación adicional](#documentaci%C3%B3n-adicional)
 
 ## Presentación
 
@@ -97,7 +98,6 @@ Geonode http://geonode.org/
 #### Servidor Geonode para pruebas en clase
 
 
-
 * Url Geonode http://34.83.176.208
 * Url WMS Geonode http://34.83.176.208/geoserver/wms?version=1.3.0&request=GetCapabilities 
 * Url WFS Geonode http://34.83.176.208/geoserver/wfs?version=2.0.0&request=GetCapabilities 
@@ -108,6 +108,18 @@ Geonode http://geonode.org/
 
 + Introducción a Geonode https://es.slideshare.net/geosolutions/introduction-to-geonode-89583201
 
+#### Arquitectura 
+
+  Imagen tomada de "GeoNode Integration with GIS
+  and Data Processing workflows" http://siteresources.worldbank.org/INTLACREGTOPURBDEV/Images/840342-1264721236030/GeoNodeDM_2_IntegrationWithGISandDataProcessing.pdf  
+
+![](images/geonode.png)
+
+#### Tutoriales
+
++ Videotutorial: Introducción a Geonode
+
+
 + Video - Seminario Taller web: Manejo básico de GeoNode   https://www.youtube.com/watch?v=N1OqQb8b3pI&feature=youtu.be
   + Nota: El tutorial para la carga de datos empieza en el minuto 9:44 https://youtu.be/N1OqQb8b3pI?t=584
 
@@ -116,14 +128,9 @@ Geonode http://geonode.org/
 </a>
 
 
-#### Arquitectura 
 
-  Imagen tomada de "GeoNode Integration with GIS
-  and Data Processing workflows" http://siteresources.worldbank.org/INTLACREGTOPURBDEV/Images/840342-1264721236030/GeoNodeDM_2_IntegrationWithGISandDataProcessing.pdf  
 
-![](images/geonode.png)
-
-#### Información adicional
+#### Documentación adicional
 
 + Geonode User Features http://geonode.org/user_features/
 + Publicando datos y mapas: GeoNode Quickstart  https://live.osgeo.org/es/quickstart/geonode_quickstart.html
