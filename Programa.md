@@ -484,6 +484,12 @@ Individual
 * _"People Are Streaming Less Music Under Quarantine"_ Título tomado de https://civicscience.com/people-are-streaming-less-music-under-quarantine/amp/   
 * _"Cómo han cambiado las personas sus hábitos de desplazamiento en las ciudades a causa de la cuarentena y el COVID-19?"_
 
+**Temas propuestos por los estudiantes:**
+
+* 3101479: "Manejo de la red hospitalaria a raíz de los casos confirmados y posibles casos de gravedad por COVID-19"
+* 3101490: "Impacto Ambiental positivo que ha dejado el Covid-19"
+
+
 
 
 **Formulario para propuesta de tema**
