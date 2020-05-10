@@ -94,6 +94,16 @@ Geonode http://geonode.org/
     It is designed to be extended and modified, 
     and can be integrated into existing platforms.
 
+#### Servidor Geonode para pruebas en clase
+
+
+
+* Url Geonode http://34.83.176.208
+* Url WMS Geonode http://34.83.176.208/geoserver/wms?version=1.3.0&request=GetCapabilities 
+* Url WFS Geonode http://34.83.176.208/geoserver/wfs?version=2.0.0&request=GetCapabilities 
+* Url CSW Geonode http://34.83.176.208/catalogue/csw
+  * Consultando el catálogo de geonode con QGIS https://docs.qgis.org/3.10/en/docs/user_manual/plugins/core_plugins/plugins_metasearch.html?highlight=csw
+
 #### Introducción 
 
 + Introducción a Geonode https://es.slideshare.net/geosolutions/introduction-to-geonode-89583201

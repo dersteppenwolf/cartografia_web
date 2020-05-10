@@ -14,7 +14,7 @@
   - [Ejercicio 8: Carto y Spatial SQL](#ejercicio-8-carto-y-spatial-sql)
   - [Ejercicio 9: Carto y Spatial SQL - Simplificación de Geometrías](#ejercicio-9-carto-y-spatial-sql---simplificaci%C3%B3n-de-geometr%C3%ADas)
   - [Ejercicio 10: Carto y Spatial SQL - Generación de geometrías](#ejercicio-10-carto-y-spatial-sql---generaci%C3%B3n-de-geometr%C3%ADas)
-  - [Ejercicio 121: Arcgis Online (Introducción)](#ejercicio-121-arcgis-online-introducci%C3%B3n)
+  - [Ejercicio 11: Arcgis Online (Introducción)](#ejercicio-11-arcgis-online-introducci%C3%B3n)
 
 ## Presentación
 
@@ -342,7 +342,7 @@ where st_intersects(t.the_geom, b.the_geom)
 and t.source = 'foursquare') _analysis_source
 ```
 
-## Ejercicio 121:  Arcgis Online (Introducción)
+## Ejercicio 11:  Arcgis Online (Introducción)
 
 * ArcGIS Online, Cloud-based GIS Mapping software https://www.esri.com/en-us/arcgis/products/arcgis-online/overview
 
