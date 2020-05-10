@@ -8,6 +8,7 @@
   - [Taller](#taller)
     - [Creando un tablero de control con Carto](#creando-un-tablero-de-control-con-carto)
     - [Geonode](#geonode)
+      - [Servidor Geonode para pruebas en clase](#servidor-geonode-para-pruebas-en-clase)
       - [Introducción](#introducci%C3%B3n)
       - [Arquitectura](#arquitectura)
       - [Tutoriales](#tutoriales)
@@ -95,7 +96,11 @@ Geonode http://geonode.org/
     It is designed to be extended and modified, 
     and can be integrated into existing platforms.
 
-#### Servidor Geonode para pruebas en clase
+SDI
+
+    A spatial data infrastructure (SDI) is a data infrastructure implementing a framework of geographic data, metadata, users and tools that are interactively connected in order to use spatial data in an efficient and flexible way. 
+
+#### Servidor Geonode para pruebas en clase
 
 
 * Url Geonode http://34.83.176.208
