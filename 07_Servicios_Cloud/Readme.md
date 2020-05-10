@@ -4,19 +4,17 @@
 - [Publicando mapas utilizando servicios en la nube](#publicando-mapas-utilizando-servicios-en-la-nube)
   - [Introducción: Historias contadas con Mapas](#introducci%C3%B3n-historias-contadas-con-mapas)
   - [Prerrequisitos](#prerrequisitos)
-  - [Ejercicio 1: Creando mapas base con Mapbox y Cartogram](#ejercicio-1-creando-mapas-base-con-mapbox-y-cartogram)
-  - [Ejercicio 2: Mapa de coropletas (choropleth) con Mapbox studio](#ejercicio-2-mapa-de-coropletas-choropleth-con-mapbox-studio)
-  - [Ejercicio 3: Introducción a Carto](#ejercicio-3-introducci%C3%B3n-a-carto)
-  - [Ejercicio 4: Crear dashboard interactivo para el análisis de tweets](#ejercicio-4-crear-dashboard-interactivo-para-el-an%C3%A1lisis-de-tweets)
-  - [Ejercicio 5: Agregaciones / Densidad con Carto](#ejercicio-5-agregaciones--densidad-con-carto)
-  - [Ejercicio 6: Mapa de coropletas (choropleth) con Carto](#ejercicio-6-mapa-de-coropletas-choropleth-con-carto)
-  - [Ejercicio 7: Análisis espacial básico con Carto](#ejercicio-7-an%C3%A1lisis-espacial-b%C3%A1sico-con-carto)
-  - [Ejercicio 8: Enriquecer los datos con Análisis espacial utilizando Carto](#ejercicio-8-enriquecer-los-datos-con-an%C3%A1lisis-espacial-utilizando-carto)
-  - [Ejercicio 9: Carto y Spatial SQL](#ejercicio-9-carto-y-spatial-sql)
-  - [Ejercicio 10: Carto y Spatial SQL - Simplificación de Geometrías](#ejercicio-10-carto-y-spatial-sql---simplificaci%C3%B3n-de-geometr%C3%ADas)
-  - [Ejercicio 11: Carto y Spatial SQL - Generación de geometrías](#ejercicio-11-carto-y-spatial-sql---generaci%C3%B3n-de-geometr%C3%ADas)
-  - [Ejercicio 12: Arcgis Online (Introducción)](#ejercicio-12-arcgis-online-introducci%C3%B3n)
-  - [Documentación adicional](#documentaci%C3%B3n-adicional)
+  - [Ejercicio 1: Mapa de coropletas (choropleth) con Mapbox studio](#ejercicio-1-mapa-de-coropletas-choropleth-con-mapbox-studio)
+  - [Ejercicio 2: Introducción a Carto](#ejercicio-2-introducci%C3%B3n-a-carto)
+  - [Ejercicio 3: Crear dashboard interactivo para el análisis de tweets](#ejercicio-3-crear-dashboard-interactivo-para-el-an%C3%A1lisis-de-tweets)
+  - [Ejercicio 4: Agregaciones / Densidad con Carto](#ejercicio-4-agregaciones--densidad-con-carto)
+  - [Ejercicio 5: Mapa de coropletas (choropleth) con Carto](#ejercicio-5-mapa-de-coropletas-choropleth-con-carto)
+  - [Ejercicio 6: Análisis espacial básico con Carto](#ejercicio-6-an%C3%A1lisis-espacial-b%C3%A1sico-con-carto)
+  - [Ejercicio 7: Enriquecer los datos con Análisis espacial utilizando Carto](#ejercicio-7-enriquecer-los-datos-con-an%C3%A1lisis-espacial-utilizando-carto)
+  - [Ejercicio 8: Carto y Spatial SQL](#ejercicio-8-carto-y-spatial-sql)
+  - [Ejercicio 9: Carto y Spatial SQL - Simplificación de Geometrías](#ejercicio-9-carto-y-spatial-sql---simplificaci%C3%B3n-de-geometr%C3%ADas)
+  - [Ejercicio 10: Carto y Spatial SQL - Generación de geometrías](#ejercicio-10-carto-y-spatial-sql---generaci%C3%B3n-de-geometr%C3%ADas)
+  - [Ejercicio 121: Arcgis Online (Introducción)](#ejercicio-121-arcgis-online-introducci%C3%B3n)
 
 ## Presentación
 
@@ -50,65 +48,7 @@ Tener cuenta (gratuita / trial) en los siguientes servicios en la nube:
 * Arcgis Online
 
 
-
-
-
-## Ejercicio 1: Creando mapas base con  Mapbox y Cartogram
-
-	"instantly make a map from a photo."
-
-https://www.mapbox.com/cartogram/#11.05/4.622/-74.1774
-
-**Imagen de Ejemplo:**
-
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/300px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg)
-
-Resultado:
-
-![cartogram](images/cartogram.png)
-
-
-Utilizar Estilo
-
-![cartogram](images/cartogram_list.png)
-
-
-Ejemplo:
-
-https://api.mapbox.com/styles/v1/gkudos/cjeaqkalvk2i82slc4rrnjri8.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZ2t1ZG9zIiwiYSI6IkJ6Snd0WVUifQ.KkZKDrLUGoAuDv8CfLg4xg#13.0/40.720538/-73.997072/0
-
-**Ejemplo de uso con mapbox gl:**
-
-https://bl.ocks.org/dersteppenwolf/cd1c72c482ed72cfcf8156ad65ef3e26
-
-
-**Ejemplo de uso con leaflet:**
-
-https://bl.ocks.org/dersteppenwolf/e87dccd027e28208ca955047b08b2537
-
-
-**Ejemplo de uso en QGIS con WMTS**
-
-
-![cartogram](images/mapbox_qgis0.png)
-
-![cartogram](images/mapbox_qgis1.png)
-
-![cartogram](images/mapbox_qgis2.png)
-
-![cartogram](images/mapbox_qgis3.png)
-
-![cartogram](images/mapbox_qgis4.png)
-
-
-Personalizar estilos con Mapbox studio: 
-
-![cartogram](images/mapbox_custom.png)
-
-![cartogram](images/mapbox_custom2.png)
-
-
-## Ejercicio 2: Mapa de coropletas (choropleth)  con Mapbox studio
+## Ejercicio 1: Mapa de coropletas (choropleth)  con Mapbox studio
 
 * Datos: datos/stateData.geojson 
   * (Population density across US state (GeoJSON file is borrowed from the Leaflet choropleth tutorial https://leafletjs.com/examples/choropleth/ ) 
@@ -119,7 +59,7 @@ Resultado
 ![](images/choropleth-1520047366401.png)
 
 
-## Ejercicio 3: Introducción a Carto 
+## Ejercicio 2: Introducción a Carto 
 
 * Datos: Tweets Georreferenciados en Colombia recopilados del  19 al 28 de febrero de 2018 :   
   * tweets_2018_shp.zip
@@ -198,7 +138,7 @@ https://gkudos.carto.com/u/kudosg/builder/f7f21768-c27a-40ad-88d8-38ab19c6af12/e
 
 
 
-## Ejercicio 4:  Crear dashboard interactivo para el análisis de  tweets
+## Ejercicio 3:  Crear dashboard interactivo para el análisis de  tweets
 
 * Cree un nuevo mapa en carto a partir de los datos de los tweets
 
@@ -229,17 +169,17 @@ https://gkudos.carto.com/u/kudosg/builder/b4fd7e58-379a-4101-9cd9-bad1111c6fc4/e
 ![municipios](images/carto_dashboard.png)
 
 
-## Ejercicio 5:   Agregaciones / Densidad  con Carto
+## Ejercicio 4:   Agregaciones / Densidad  con Carto
 
 * Cree un nuevo mapa en carto a partir de los datos de los tweets y cambie la simbología agregando por cuadros o hexbins
-* cambie la simbología según como considere necesario
+* Cambie la simbología según como considere necesario
 * publique el mapa
 * resultado : https://gkudos.carto.com/u/kudosg/builder/63e02f53-fd37-43cd-a35a-74bcd00047d9/embed
 
 ![cartogram](images/density.png)
 
 
-## Ejercicio 6:   Mapa de coropletas (choropleth) con Carto
+## Ejercicio 5:   Mapa de coropletas (choropleth) con Carto
 
 * Cargue en carto el conjunto de datos statedata_shp.zip
 * cree un mapa a partir de esos datos
@@ -252,7 +192,7 @@ https://gkudos.carto.com/u/kudosg/builder/b4fd7e58-379a-4101-9cd9-bad1111c6fc4/e
 ![cartogram](images/choro.png)
 
 
-## Ejercicio 7:  Análisis espacial básico con Carto
+## Ejercicio 6:  Análisis espacial básico con Carto
 
 Objetivo: Crear un mapa de municipios clasificado por la cantidad de tweets
 
@@ -270,7 +210,7 @@ Objetivo: Crear un mapa de municipios clasificado por la cantidad de tweets
 
 * Ejercicio para el estudiante:  Normalizar los datos!!!
 
-## Ejercicio 8:  Enriquecer los datos con Análisis espacial utilizando Carto
+## Ejercicio 7:  Enriquecer los datos con Análisis espacial utilizando Carto
 
 **Objetivo:** 
 Adicionar atributos a los datos a partir de procesos de análisis espacial.
@@ -288,7 +228,7 @@ En nuestro caso, adicionar al tweet un atributo que contenga el departamento en 
 ![cartogram](images/enrichment.png)
 
 
-## Ejercicio 9:  Carto y Spatial SQL
+## Ejercicio 8:  Carto y Spatial SQL
 
 Postgis
 
@@ -333,7 +273,7 @@ https://gkudos.carto.com/u/kudosg/builder/2597eae1-1029-462d-80bd-ce3d3fba2538/e
 
 
 
-## Ejercicio 10:  Carto y Spatial SQL - Simplificación de Geometrías
+## Ejercicio 9:  Carto y Spatial SQL - Simplificación de Geometrías
 
 ST_Simplify:  http://www.postgis.org/docs/ST_Simplify.html  
 
@@ -379,7 +319,7 @@ FROM mgn_adm_mpio_politico
 
 
 
-## Ejercicio 11:  Carto y Spatial SQL - Generación de geometrías
+## Ejercicio 10:  Carto y Spatial SQL - Generación de geometrías
 
 * Agrupar puntos en polígonos (convex hull) https://carto.com/help/tutorials/create-polygons-from-points/
 
@@ -402,7 +342,7 @@ where st_intersects(t.the_geom, b.the_geom)
 and t.source = 'foursquare') _analysis_source
 ```
 
-## Ejercicio 12:  Arcgis Online (Introducción)
+## Ejercicio 121:  Arcgis Online (Introducción)
 
 * ArcGIS Online, Cloud-based GIS Mapping software https://www.esri.com/en-us/arcgis/products/arcgis-online/overview
 
@@ -417,9 +357,12 @@ Flujo de trabajo típico:
   * (Operations) Dashboard
   * etc..
 
-* Video: Uso básico de arcgis online para publicar mapas y aplicaciones https://www.loom.com/share/f05d8f6b5ecd46e4b4e3bb4f48df9b18
+* Video: Uso básico de arcgis online para publicar mapas y aplicaciones 
 
-![](images/video.png)
+<a href="https://youtu.be/j7qMKTadkPU" target="_blank" >
+<img src="images/video.png"  >
+</a>
+
 
 Más información:
 
@@ -429,15 +372,3 @@ Más información:
 * Esri's MOOC Program - Online courses on how to apply geography for a better world. https://www.esri.com/training/mooc/
 
 
-## Documentación adicional 
-
-El presente taller utiliza contenidos basados en recursos como los siguientes:
-
-* Mapbox
-	* Mapbox Studio Manual https://www.mapbox.com/help/studio-manual/
-	* Make a choropleth map, Part 1: create a style  https://www.mapbox.com/help/choropleth-studio-gl-pt-1/
-	* https://www.mapbox.com/help/tutorials/
-* Carto
-	* Carto documentation https://carto.com/docs/
-	* Carto Guides https://carto.com/learn/guides/
-	* Carto Tips https://carto.com/docs/tips-and-tricks/

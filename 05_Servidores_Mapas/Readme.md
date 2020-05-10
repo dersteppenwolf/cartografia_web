@@ -2,8 +2,8 @@
 
 - [Servidores de mapas](#servidores-de-mapas)
   - [Presentación](#presentaci%C3%B3n)
-  - [Ejercicio 1: Crear y publicar mapa base simple con mapbox](#ejercicio-1-crear-y-publicar-mapa-base-simple-con-mapbox)
-  - [Ejercicio 2: Crear y publicar mapas bases con mapbox](#ejercicio-2-crear-y-publicar-mapas-bases-con-mapbox)
+  - [Ejercicio 1: Crear y publicar mapa base simple con mapbox utilizando Cartogram](#ejercicio-1-crear-y-publicar-mapa-base-simple-con-mapbox-utilizando-cartogram)
+  - [Ejercicio 2: Crear, modificar y publicar mapas base con mapbox](#ejercicio-2-crear-modificar-y-publicar-mapas-base-con-mapbox)
   - [Ejercicio 3: Publicar datos en Postgis Utilizando QGIS](#ejercicio-3-publicar-datos-en-postgis-utilizando-qgis)
   - [Ejercicio 4: Consultando datos de Postgis con Dbeaver](#ejercicio-4-consultando-datos-de-postgis-con-dbeaver)
   - [Ejercicio 5: Publicando servicios WMS, WMTS y WFS en Geoserver](#ejercicio-5-publicando-servicios-wms-wmts-y-wfs-en-geoserver)
@@ -14,18 +14,74 @@
 Enlace https://github.com/dersteppenwolf/cartografia_web/blob/master/05_Servidores_Mapas/05_Servidores_de_Mapas.pdf
 
 
-## Ejercicio 1: Crear y publicar mapa base simple con mapbox
+
+## Ejercicio 1: Crear y publicar mapa base simple con mapbox utilizando Cartogram
 
 Realizar lo siguiente: 
 
 - Cree una cuenta en mapbox https://www.mapbox.com/
 - Cree un Mapa base con Cartogram https://apps.mapbox.com/cartogram/#13.01/40.7251/-74.0051
-- Consuma el mapa como WMTS con Qgis y Arcgis 
-  - Add Mapbox maps as layers in ArcGIS and QGIS with WMTS https://docs.mapbox.com/help/tutorials/mapbox-arcgis-qgis/
-  - Is it possible to use WMTS in QGIS? https://gis.stackexchange.com/questions/52346/is-it-possible-to-use-wmts-in-qgis
+
+> Cartogram: "instantly make a map from a photo."
 
 
-## Ejercicio 2: Crear y publicar mapas bases   con mapbox
+
+**Imagen de Ejemplo:**
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/300px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg)
+
+Resultado:
+
+![cartogram](images/cartogram.png)
+
+
+Utilizar Estilo
+
+![cartogram](images/cartogram_list.png)
+
+
+Ejemplo:
+
+https://api.mapbox.com/styles/v1/gkudos/cjeaqkalvk2i82slc4rrnjri8.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZ2t1ZG9zIiwiYSI6IkJ6Snd0WVUifQ.KkZKDrLUGoAuDv8CfLg4xg#13.0/40.720538/-73.997072/0
+
+**Ejemplo de uso con mapbox gl:**
+
+https://bl.ocks.org/dersteppenwolf/cd1c72c482ed72cfcf8156ad65ef3e26
+
+
+**Ejemplo de uso con leaflet:**
+
+https://bl.ocks.org/dersteppenwolf/e87dccd027e28208ca955047b08b2537
+
+
+**Consuma el mapa como WMTS con Qgis y Arcgis**
+
+- Add Mapbox maps as layers in ArcGIS and QGIS with WMTS https://docs.mapbox.com/help/tutorials/mapbox-arcgis-qgis/
+- Is it possible to use WMTS in QGIS? https://gis.stackexchange.com/questions/52346/is-it-possible-to-use-wmts-in-qgis
+
+
+**Ejemplo de uso en QGIS con WMTS**
+
+
+![cartogram](images/mapbox_qgis0.png)
+
+![cartogram](images/mapbox_qgis1.png)
+
+![cartogram](images/mapbox_qgis2.png)
+
+![cartogram](images/mapbox_qgis3.png)
+
+![cartogram](images/mapbox_qgis4.png)
+
+
+Personalizar estilos con Mapbox studio: 
+
+![cartogram](images/mapbox_custom.png)
+
+![cartogram](images/mapbox_custom2.png)
+
+
+## Ejercicio 2: Crear, modificar y publicar mapas base   con mapbox
 
 
 Realizar lo siguiente: 
