@@ -461,7 +461,7 @@ Obtendrá un punto extra si publica una o más capas de tipo ráster **adicional
 
 ### Tarea 3 - Publicación de mapas utilizando servicios en la nube
 
-**Fecha Máxima de entrega:** 2020-05-19 23:30 (Martes)  (Fecha inamovible)
+**Fecha Máxima de entrega:** 2020-05-23 23:30 (Sábado)  (Fecha inamovible)
 
 Individual
 

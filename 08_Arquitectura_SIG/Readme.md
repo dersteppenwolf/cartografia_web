@@ -13,6 +13,9 @@
       - [Arquitectura](#arquitectura)
       - [Tutoriales](#tutoriales)
       - [Documentación adicional](#documentaci%C3%B3n-adicional)
+    - [Kepler.gl](#keplergl)
+      - [Documentación](#documentaci%C3%B3n)
+      - [Ejemplo](#ejemplo)
 
 ## Presentación
 
@@ -158,3 +161,85 @@ SDI
 + Bringing GEOSS services into Practice for Beginners: GeoNode Tutorial https://es.slideshare.net/dersteppenwolf/bringing-geoss-services-into-practice-for-beginners-geonode-tutorial
 + Spatial Data Infrastructure Best Practices with GeoNode https://es.slideshare.net/SebastianBenthall/spatial-data-infrastructure-best-practices-with-geonode?
 
+
+
+
+### Kepler.gl
+
+**Kepler.gl**  https://kepler.gl/ __Kepler.gl is a powerful open source geospatial analysis tool for large-scale data sets.__
+
+Kepler.gl is a data-agnostic, high-performance web-based application for visual exploration of large-scale geolocation data sets. Built on top of **Mapbox GL** and **deck.gl**, kepler.gl can render millions of points representing thousands of trips and perform spatial aggregations on the fly.
+
++ Videotutorial: Introducción a Kepler.gl
+
+<a href="https://youtu.be/lBDApe6UKY8" target="_blank" >
+<img src="images/keplergl.png"  >
+</a>
+
+* Exploring large-scale geospatial data on the web with Kepler.gl
+
+<a href="https://www.youtube.com/watch?v=i2fRN4e2s0A" target="_blank" >
+<img src="images/kepler2.png"  >
+</a>
+
+*  Uber,   Introduction to Kepler.gl  
+
+<a href="https://www.youtube.com/watch?v=b8wKEY4dlvg" target="_blank" >
+<img src="images/kepler5.png"  >
+</a>
+
+* Introduction: Kepler.gl & Movement Speeds
+
+<a href="https://www.youtube.com/watch?v=0G8tiGd7RBQ" target="_blank" >
+<img src="images/kepler3.png"  >
+</a>
+
+
+
+#### Documentación 
+
+- **Mapbox GL JS** is a JavaScript library that uses WebGL to render interactive maps from vector tiles and Mapbox styles.  https://docs.mapbox.com/mapbox-gl-js/api/
+- **WebGL**	It is the JavaScript binding for OpenGL. OpenGL (Open Graphics Library) is a cross-language, cross-platform API for 2D and 3D graphics. https://www.tutorialspoint.com/webgl/webgl_introduction.htm
+  - It is a JavaScript API that can be used with HTML5. WebGL code is written within the <canvas> tag of HTML5. It is a specification that allows Internet browsers access to Graphic Processing Units (GPUs) on those computers where they were used.
+- **deck.gl** is a WebGL-powered framework for visual exploratory data analysis of large datasets. https://deck.gl/#/
+- From Beautiful Maps to Actionable Insights: **Introducing kepler.gl**, Uber’s Open Source Geospatial Toolbox https://eng.uber.com/keplergl/
+- User guide: https://github.com/keplergl/kepler.gl/blob/master/docs/user-guides/j-get-started.md
+- Código en Github https://github.com/keplergl/kepler.gl
+- **How to create a map in 3 minutes:** Animating 40 years of California Earthquakes https://medium.com/vis-gl/animating-40-years-of-california-earthquakes-e4ffcdd4a289
+- **Making a choropleth map:** Visualizing Unemployment for U.S. Counties with kepler.gl https://medium.com/vis-gl/visualizing-u-s-county-unemployment-with-kepler-gl-c5f2ed31c71
+-  Uber Movement and kepler.gl : Using kepler.gl and Movement data to Visualize Traffic Effects of a Rainstorm https://medium.com/vis-gl/movement-in-kepler-d00e843f464d
+
+
+
+
+#### Ejemplo
+
+**Datos Tweets Georreferenciados:**
+
+ - Formato Csv https://github.com/dersteppenwolf/cartografia_web/blob/master/03_Cartografia/example/geotweets.csv
+
+|id                 |source      |user.screen_name|pin.location.lat|pin.location.lon|lang|creation_date      |user.followers_count|entities.hashtags.text                   |
+|-------------------|------------|----------------|----------------|----------------|----|-------------------|--------------------|-----------------------------------------|
+|1201026267883065344|instagram   |alitos25        |3.47645398      |-76.52784348    |es  |2019-12-01T01:32:30|696                 |Chipichape,Mom,Diciembre,ILoveYou        |
+|1201026433306357767|instagram   |GuillermoLVP80  |3.89502747      |-76.29474677    |es  |2019-12-01T01:33:10|15                  |nuevostalentos,guadalajaradebuga         |
+|1201026492236533760|instagram   |COMBOESTRELLAS  |4.83553936      |-75.66899716    |es  |2019-12-01T01:33:24|727                 |elcombodelasestrellas,marlonmuriel,envivo|
+|1201027339578007552|world cities|MedellinCO      |6.24            |-75.59          |en  |2019-12-01T01:36:46|133                 |                                         |
+
+
+ - Formato geojson https://github.com/dersteppenwolf/cartografia_web/blob/master/03_Cartografia/example/geotweets.geojson
+
+```json
+{
+"type": "FeatureCollection",
+"name": "geotweets",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "1201026267883065344", "source": "instagram", "user.screen_name": "alitos25", "pin.location.lat": "3.47645398", "pin.location.lon": "-76.52784348", "lang": "es", "creation_date": "2019-12-01T01:32:30", "user.followers_count": "696", "entities.hashtags.text": "Chipichape,Mom,Diciembre,ILoveYou" }, "geometry": { "type": "Point", "coordinates": [ -76.52784348, 3.47645398 ] } },
+{ "type": "Feature", "properties": { "id": "1201026433306357767", "source": "instagram", "user.screen_name": "GuillermoLVP80", "pin.location.lat": "3.89502747", "pin.location.lon": "-76.29474677", "lang": "es", "creation_date": "2019-12-01T01:33:10", "user.followers_count": "15", "entities.hashtags.text": "nuevostalentos,guadalajaradebuga" }, "geometry": { "type": "Point", "coordinates": [ -76.29474677, 3.89502747 ] } },
+{ "type": "Feature", "properties": { "id": "1201026492236533760", "source": "instagram", "user.screen_name": "COMBOESTRELLAS", "pin.location.lat": "4.83553936", "pin.location.lon": "-75.66899716", "lang": "es", "creation_date": "2019-12-01T01:33:24", "user.followers_count": "727", "entities.hashtags.text": "elcombodelasestrellas,marlonmuriel,envivo" }, "geometry": { "type": "Point", "coordinates": [ -75.66899716, 4.83553936 ] } },
+
+```
+
+Archivo Html Generado por kepler.gl 
+- vista web https://dersteppenwolf.github.io/cartografia_web/03_Cartografia/example/kepler.gl.html
+- código https://github.com/dersteppenwolf/cartografia_web/blob/master/03_Cartografia/example/kepler.gl.html
