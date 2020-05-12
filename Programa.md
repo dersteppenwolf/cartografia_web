@@ -488,7 +488,10 @@ Individual
 
 * 3101479: "Manejo de la red hospitalaria a raíz de los casos confirmados y posibles casos de gravedad por COVID-19"
 * 3101490: "Impacto Ambiental positivo que ha dejado el Covid-19"
-
+* 3101478: "Comportamiento del transporte aéreo en Colombia, a causa de la emergencia generada por la pandemia del COVID-19"
+* 3101499: "Posible afectación a empresas comerciales por encontrarse ubicadas en zonas vulnerables a contagios por el COVID-19"
+* 3101489: "Impacto del Covid en turismo"
+* 3101494: "Estudio de las condiciones de idoneidad para el Departamento del Chocó frente a la crisis del Covid - 19"
 
 
 
