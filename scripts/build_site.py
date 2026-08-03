@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 RUBY_IMAGE = "ruby@sha256:347edd0c70ee08d87de9f01b99de2f14a64cedb5d1bfb38457dfe8cd0bf113c5"
+NPM = "npm.cmd" if sys.platform.startswith("win") else "npm"
 
 
 def main() -> int:
@@ -21,6 +22,11 @@ def main() -> int:
     output = args.output.resolve()
     if output.exists():
         shutil.rmtree(output)
+    client = ROOT / "examples" / "maplibre" / "app"
+    if client.is_dir():
+        result = subprocess.run([NPM, "run", "--workspace", "examples/maplibre/app", "build"], cwd=ROOT, check=False)
+        if result.returncode:
+            return result.returncode
     output_relative = output.relative_to(ROOT).as_posix()
     command = (
         "gem install bundler -v 2.6.2 --no-document "
@@ -46,6 +52,12 @@ def main() -> int:
     leaflet = ROOT / "examples" / "leaflet"
     if leaflet.is_dir():
         assemble.extend(["--leaflet-dir", str(leaflet)])
+    maplibre_dist = client / "dist"
+    if maplibre_dist.is_dir():
+        assemble.extend(["--maplibre-dist", str(maplibre_dist)])
+    cloud_assets = ROOT / "data" / "fixtures" / "cloud"
+    if cloud_assets.is_dir():
+        assemble.extend(["--cloud-assets", str(cloud_assets)])
     return subprocess.run(assemble, check=False).returncode
 
 
