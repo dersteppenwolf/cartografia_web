@@ -1,0 +1,4 @@
+html, body, #mapa { height: 100%; margin: 0; }
+body { font-family: system-ui, sans-serif; }
+main { height: 100%; }
+#estado { position: absolute; z-index: 1; background: #ffffff; color: #000000; padding: 0.75rem; margin: 0.75rem; }

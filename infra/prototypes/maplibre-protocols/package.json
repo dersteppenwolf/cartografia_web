@@ -1,0 +1,16 @@
+{
+  "name": "maplibre-protocols-prototype",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@geomatico/maplibre-cog-protocol": "^0.9.1",
+    "maplibre-gl": "^6.1.0",
+    "pmtiles": "^4.4.1",
+    "vite": "^8.2.0"
+  }
+}

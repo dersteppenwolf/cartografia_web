@@ -2,6 +2,9 @@
   "name": "cartografia_web",
   "version": "1.0.0",
   "description": "Publicación de cartografía vía web",
+  "workspaces": [
+    "infra/prototypes/maplibre-protocols"
+  ],
   "devDependencies": {
     "@axe-core/playwright": "^4.12.1",
     "@playwright/test": "^1.62.1",
