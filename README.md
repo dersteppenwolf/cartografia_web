@@ -2,6 +2,22 @@
 
 Curso en proceso de modernización curricular, editorial y técnica.
 
+- [Publicación de cartografía vía web](#publicación-de-cartografía-vía-web)
+  - [Material mantenido](#material-mantenido)
+  - [Completar el plan 0001](#completar-el-plan-0001)
+    - [1. Preparar el entorno](#1-preparar-el-entorno)
+    - [2. Validar material y cliente](#2-validar-material-y-cliente)
+    - [3. Iniciar y validar la infraestructura](#3-iniciar-y-validar-la-infraestructura)
+    - [4. Ejecutar notebooks y restauración](#4-ejecutar-notebooks-y-restauración)
+    - [5. Generar y medir activos cloud-native](#5-generar-y-medir-activos-cloud-native)
+    - [6. Construir el artefacto estático](#6-construir-el-artefacto-estático)
+    - [7. Ejecutar controles de seguridad](#7-ejecutar-controles-de-seguridad)
+    - [8. Confirmar reproducibilidad desde un clon limpio](#8-confirmar-reproducibilidad-desde-un-clon-limpio)
+    - [9. Preparar y ejecutar el piloto](#9-preparar-y-ejecutar-el-piloto)
+    - [10. Preparar la candidata](#10-preparar-la-candidata)
+  - [Programa y autor](#programa-y-autor)
+  - [Material histórico](#material-histórico)
+
 ## Material mantenido
 
 - [Estado de la modernización](docs/status.md)
