@@ -180,6 +180,15 @@ resources:
     target: root
     milestone: Hito 8
     notes: Narrow Trivy identifier allowlist linked to a time-bounded exception.
+  - path_glob: CHANGELOG.md
+    kind: release-notes
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: curricular
+    target: root
+    milestone: Hito 9
+    notes: Version candidate notes and pilot outcome summary.
   - path_glob: examples/maplibre/**
     kind: maintained-maplibre-example
     decision: conservar

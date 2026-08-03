@@ -40,6 +40,7 @@
     "validate:cloud": "npm run validate:stac && npm run test:range",
     "validate:stack": "uv run python infra/smoke/smoke_stack.py && npm run validate:cloud",
     "benchmark": "uv run python scripts/benchmark/run_benchmark.py",
+    "benchmark:browser": "npm run --workspace examples/maplibre/app benchmark:browser",
     "validate:client": "npm run --workspace examples/maplibre/app lint && npm run --workspace examples/maplibre/app test && npm run --workspace examples/maplibre/app build",
     "lint": "npm run lint:markdown && npm run lint:html && npm run lint:css",
     "test": "uv run pytest",

@@ -13,3 +13,7 @@ tabla equivalente a cada mapa.
 
 Durante el piloto, confirma esos flujos en Safari real sobre macOS. Playwright
 WebKit detecta regresiones tempranas, pero no sustituye esa evidencia.
+
+La [hoja de evidencia manual]({{ '/gobierno/evidencia-accesibilidad/' |
+relative_url }}) conserva las comprobaciones automatizadas y las revisiones que
+todavía requieren una persona.

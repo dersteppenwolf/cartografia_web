@@ -1,0 +1,21 @@
+browsers:
+  - browser: Chromium
+    environment: Playwright local
+    flows: carga, filtro, error, PMTiles, COG y Axe
+    result: passed
+    evidence: examples/maplibre/app/tests/app.spec.ts
+  - browser: Firefox
+    environment: Playwright local
+    flows: carga, filtro, error, PMTiles, COG y Axe
+    result: passed
+    evidence: examples/maplibre/app/tests/app.spec.ts
+  - browser: WebKit
+    environment: Playwright local
+    flows: carga, filtro, error, PMTiles, COG y Axe
+    result: passed-early-detection
+    evidence: examples/maplibre/app/tests/app.spec.ts
+  - browser: Safari
+    environment: macOS real required before pilot
+    flows: carga, filtro, consulta y error
+    result: pending
+    evidence: pending-pilot

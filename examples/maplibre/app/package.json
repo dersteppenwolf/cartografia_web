@@ -9,6 +9,7 @@
     "build": "npm run prepare:cog && tsc --noEmit && vite build",
     "test": "vitest run",
     "test:e2e": "npm run prepare:cog && playwright test --config playwright.config.ts",
+    "benchmark:browser": "npm run prepare:cog && node scripts/benchmark.mjs",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
