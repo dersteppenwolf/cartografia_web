@@ -7,7 +7,18 @@ export function createMap(state: MapState): Map {
   setWorkerUrl(workerUrl);
   return new Map({
     container: "mapa",
-    style: { version: 8, sources: {}, layers: [] },
+    style: {
+      version: 8,
+      sources: {
+        osm: {
+          type: "raster",
+          tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
+          tileSize: 256,
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        },
+      },
+      layers: [{ id: "osm", type: "raster", source: "osm" }],
+    },
     center: [state.longitude, state.latitude],
     zoom: state.zoom,
   });

@@ -17,7 +17,7 @@ filtrar.
 
 Consulta el [cliente MapLibre mantenido]({{ '/examples/maplibre/' |
 relative_url }}) para probar la colección, el filtro, PMTiles y COG desde el
-sitio publicado.
+sitio publicado sobre un mapa base OpenStreetMap atribuido.
 
 ## Ejecución
 

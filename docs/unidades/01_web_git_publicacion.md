@@ -13,8 +13,8 @@ ni tokens.
 
 El ejemplo [mapa Leaflet básico]({{ '/examples/leaflet/mapa_basico/' |
 relative_url }}) se sirve por HTTP local. Su JavaScript usa módulos del
-navegador, `fetch`, `async`/`await` y un mensaje de error cuando el archivo no
-está disponible.
+navegador, `fetch`, `async`/`await`, el mapa base OpenStreetMap con atribución
+visible y un mensaje de error cuando el archivo no está disponible.
 
 ## Diagnóstico
 

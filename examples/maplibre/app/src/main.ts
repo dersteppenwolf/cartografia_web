@@ -15,10 +15,11 @@ const dialog = document.querySelector<HTMLDialogElement>("#consulta")!;
 const detail = document.querySelector<HTMLParagraphElement>("#detalle-consulta")!;
 const closeButton = document.querySelector<HTMLButtonElement>("#cerrar-consulta")!;
 input.value = state.minimumValue?.toString() ?? "";
+sourceSelect.value = config.initialSource;
 
 async function load(): Promise<void> {
   try {
-    const response = await fetch(`${config.ogcApiUrl}/collections/${config.collection}/items`);
+    const response = await fetch(config.featuresUrl);
     if (!response.ok) throw new Error(`El servicio respondió HTTP ${response.status}.`);
     const data = (await response.json()) as GeoJSON.FeatureCollection;
     const features = data.features.filter((feature) => state.minimumValue === null || Number(feature.properties?.valor) >= state.minimumValue);

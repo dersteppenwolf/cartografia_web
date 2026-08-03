@@ -42,6 +42,12 @@ third_party:
     license: BSD-2-Clause
     kind: JavaScript mapping library
     use: Token-free introductory map example
+  - name: OpenStreetMap Standard raster tiles
+    version: service policy reviewed 2026-08-03
+    source: https://tile.openstreetmap.org/{z}/{x}/{y}.png
+    license: ODbL-1.0 data; CC-BY-SA-2.0 cartography
+    kind: public raster basemap service
+    use: Optional visual context for maintained Leaflet and MapLibre examples; attribution is visible and no tiles are prefetched
   - name: MapLibre GL JS
     version: 6.1.0
     source: package.json and package-lock.json

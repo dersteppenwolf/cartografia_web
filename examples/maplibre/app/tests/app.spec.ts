@@ -4,6 +4,7 @@ import AxeBuilder from "@axe-core/playwright";
 test("loads the collection and writes the filter to the URL", async ({ page }) => {
   await page.goto("/");
   await expect(page.locator("#estado")).toContainText("entidades cargadas");
+  await expect.poll(() => page.evaluate(() => Boolean((window as { courseMap?: { getSource: (id: string) => unknown } }).courseMap?.getSource("osm")))).toBe(true);
   await page.locator("#valor-minimo").fill("18");
   await page.locator("#aplicar-filtro").click();
   await expect(page).toHaveURL(/min=18/);
