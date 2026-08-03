@@ -306,6 +306,17 @@ resources:
     target: root
     milestone: Hito 1
     notes: Keep as the root index to approved documentation.
+  - path_glob: Dev.md
+    kind: development-guide
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: infrastructure-security
+    target: root
+    milestone: Hito 8
+    notes:
+      Technical workflow for build, validation, infrastructure, publication and
+      release evidence.
   - path_glob: Programa.md
     kind: curriculum-source
     decision: sustituir
