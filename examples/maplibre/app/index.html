@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapa de referencia</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p>Unidad 6</p>
+        <h1>Mapa de referencia</h1>
+        <p>Consulta la colección local y compártela mediante la URL.</p>
+      </header>
+      <section aria-labelledby="controles-titulo">
+        <h2 id="controles-titulo">Controles</h2>
+        <label for="valor-minimo">Valor mínimo</label>
+        <input id="valor-minimo" name="valor-minimo" type="number" min="0" step="1" />
+        <button id="aplicar-filtro" type="button">Aplicar filtro</button>
+      </section>
+      <p id="estado" role="status" aria-live="polite">Cargando datos.</p>
+      <section aria-labelledby="mapa-titulo">
+        <h2 id="mapa-titulo">Mapa</h2>
+        <div id="mapa" tabindex="0" aria-label="Mapa interactivo de la colección referencia"></div>
+        <p>Fuente: colección <code>curso:referencia</code> publicada por el stack local.</p>
+      </section>
+      <section aria-labelledby="tabla-titulo">
+        <h2 id="tabla-titulo">Datos equivalentes</h2>
+        <table>
+          <thead><tr><th>Nombre</th><th>Valor</th><th>Longitud</th><th>Latitud</th></tr></thead>
+          <tbody id="tabla-datos"></tbody>
+        </table>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

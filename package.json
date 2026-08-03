@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Publicación de cartografía vía web",
   "workspaces": [
-    "infra/prototypes/maplibre-protocols"
+    "infra/prototypes/maplibre-protocols",
+    "examples/maplibre/app"
   ],
   "devDependencies": {
     "@axe-core/playwright": "^4.12.1",

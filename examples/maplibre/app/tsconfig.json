@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "lib": ["ESNext", "DOM"],
+    "types": ["node", "geojson"]
+  },
+  "include": ["src", "tests", "vite.config.ts"]
+}

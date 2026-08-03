@@ -33,6 +33,7 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 - [x] (2026-08-03T16:38:43Z) Se completó el Hito 4: WFS/OGC API/OpenAPI, STAC estático y tres notebooks deterministas en modo fixtures.
 - [x] (2026-08-03T18:07:19Z) Se completó el Hito 5A: GeoServer/PostGIS, WMS/WFS/Features/MVT, COG, PMTiles, Range/CORS y MapLibre validados en prototipos aislados.
 - [x] (2026-08-03T18:18:15Z) Se completó el Hito 5B: Compose reconstruye PostGIS, GeoServer y Nginx; los notebooks pasan en modos fixtures/local y la restauración preserva una fila centinela.
+- [ ] Hito 6 en curso: workspace TypeScript/Vite/MapLibre carga OGC API - Features, mantiene estado URL y tabla equivalente; faltan E2E, popup con foco y revisión WCAG manual.
 - [ ] Completar el Hito 6: cliente TypeScript/Vite/MapLibre mantenible.
 - [ ] Completar el Hito 7: PMTiles, COG, STAC y benchmark reproducible.
 - [ ] Completar el Hito 8: seguridad, CI, build, restauracion y documentacion operativa.
@@ -759,5 +760,7 @@ Jekyll y Bundler son dependencias obligatorias de documentacion. Las dependencia
 2026-08-03: se promovió el stack a `infra/compose.yaml`. PostGIS conserva datos en un volumen, GeoServer se reconstruye mediante REST y Nginx entrega los assets cloud-native. Se restringieron los puertos a localhost y los secretos versionados son exclusivamente ejemplos ficticios.
 
 2026-08-03: se completó el Hito 5B con backups PostGIS verificados por SHA-256, restauración desde volumen vacío, reconfiguración REST y notebooks en modo local. La fila centinela se conservó tras la restauración destructiva.
+
+2026-08-03: se inició el Hito 6 con un workspace TypeScript/Vite/MapLibre sin framework. El cliente carga entidades de OGC API - Features, sincroniza vista y filtro en URL, muestra tabla equivalente y verifica el estado URL con Vitest.
 
 2026-08-03: el usuario confirmó que el software libre compatible puede sugerirse para uso personal sin autorizaciones ni licenciamiento adicional. Se registró la política, manteniendo la revisión obligatoria para recursos de terceros que no son herramientas.
