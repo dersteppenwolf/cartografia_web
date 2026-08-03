@@ -28,6 +28,20 @@ jobs:
         run: npm run validate
       - name: Run negative validation tests
         run: npm test
+      - name: Validate MapLibre client types and units
+        run:
+          npm run --workspace examples/maplibre/app lint && npm run --workspace
+          examples/maplibre/app test
+      - name: Install Chromium for browser checks
+        run: npx playwright install --with-deps chromium
+      - name: Run MapLibre browser checks
+        run:
+          npm run --workspace examples/maplibre/app test:e2e --
+          --project=chromium
+      - name: Build MapLibre client
+        run: npm run --workspace examples/maplibre/app build
+      - name: Validate static STAC and cloud assets
+        run: npm run validate:cloud
       - name: Build approved static site
         run: npm run build
       - name: Check internal links
