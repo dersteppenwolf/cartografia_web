@@ -4,8 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "prepare:cog": "python prepare_cog_protocol.py",
     "dev": "vite --host 0.0.0.0",
-    "test": "playwright test"
+    "test": "playwright test --config playwright.config.mjs"
   },
   "dependencies": {
     "@geomatico/maplibre-cog-protocol": "^0.9.1",

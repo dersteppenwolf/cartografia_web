@@ -112,6 +112,9 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 - Observacion: Planetiler generó y el CLI oficial verificó `referencia.pmtiles`, que Nginx sirvió con HTTP 206 y CORS restringido.
   Evidencia: `infra/prototypes/tools/build_pmtiles.py` y `validate_range.py --asset referencia.pmtiles` pasaron el 2026-08-03.
 
+- Observacion: WMS, WFS y OGC API - Features pasaron el smoke test, pero MVT devolvió HTTP 400 por formato no soportado.
+  Evidencia: `infra/prototypes/geoserver/smoke.py` del 2026-08-03.
+
 ## Decision Log
 
 - Decision: ejecutar los hitos en el orden de este plan y tratar Hito 0, Hito 1 y Hito 5A como puertas bloqueantes.
@@ -740,5 +743,7 @@ Jekyll y Bundler son dependencias obligatorias de documentacion. Las dependencia
 2026-08-03: se generó un COG sintético con GDAL y se validó HTTP Range/CORS sobre Nginx. PMTiles, MapLibre y los smoke tests integrados siguen pendientes.
 
 2026-08-03: Planetiler generó PMTiles desde el GeoJSON sintético y el CLI de Protomaps lo verificó. Nginx validó HTTP Range/CORS para el archivo. MapLibre y los smoke tests integrados siguen pendientes.
+
+2026-08-03: MapLibre validó PMTiles, COG y estados de error. WMS, WFS y OGC API - Features también pasaron, pero el endpoint MVT devolvió HTTP 400. Hito 5A continúa bloqueado hasta resolver la configuración MVT de GeoServer.
 
 2026-08-03: el usuario confirmó que el software libre compatible puede sugerirse para uso personal sin autorizaciones ni licenciamiento adicional. Se registró la política, manteniendo la revisión obligatoria para recursos de terceros que no son herramientas.

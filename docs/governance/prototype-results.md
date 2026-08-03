@@ -32,6 +32,16 @@ Decisión provisional: promover esta imagen a la siguiente prueba del Hito 5A.
 Antes de aprobar Hito 5A aún debe configurarse una colección PostGIS mediante
 REST y comprobar WMS, WFS, OGC API - Features y MVT sobre la misma capa.
 
+## Smoke test de servicios
+
+Fecha: 2026-08-03.
+
+Con la capa `curso:referencia` configurada por REST, WMS, WFS y OGC API -
+Features respondieron HTTP 200. La solicitud MVT mediante GeoWebCache respondió
+HTTP 400: `application/vnd.mapbox-vector-tile is not a supported format for
+curso:referencia`. La extensión vectorial necesita una configuración o endpoint
+adicional antes de promover el prototipo.
+
 ## COG sintético
 
 Fecha: 2026-08-03.
