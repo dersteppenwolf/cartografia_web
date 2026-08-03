@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import subprocess
 import sys
 from pathlib import Path
@@ -18,11 +19,12 @@ def main() -> int:
         result = subprocess.run([STAC_VALIDATOR, "validate", str(document)], cwd=ROOT, check=False)
         if result.returncode:
             return result.returncode
-    asset = STAC / ".." / "raster" / "referencia.tif"
-    if not asset.resolve().is_file():
-        print("STAC item asset is missing.", file=sys.stderr)
-        return 1
-    print("Validated Catalog, Collection, Item, and local asset.")
+    item = json.loads((STAC / "item-referencia.json").read_text(encoding="utf-8"))
+    for asset in item["assets"].values():
+        if not (STAC / asset["href"]).resolve().is_file():
+            print(f"STAC item asset is missing: {asset['href']}", file=sys.stderr)
+            return 1
+    print("Validated Catalog, Collection, Item, and local cloud-native assets.")
     return 0
 
 

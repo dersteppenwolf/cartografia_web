@@ -34,7 +34,7 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 - [x] (2026-08-03T18:07:19Z) Se completó el Hito 5A: GeoServer/PostGIS, WMS/WFS/Features/MVT, COG, PMTiles, Range/CORS y MapLibre validados en prototipos aislados.
 - [x] (2026-08-03T18:18:15Z) Se completó el Hito 5B: Compose reconstruye PostGIS, GeoServer y Nginx; los notebooks pasan en modos fixtures/local y la restauración preserva una fila centinela.
 - [ ] Hito 6 en curso: workspace TypeScript/Vite/MapLibre carga OGC API - Features, mantiene estado URL, tabla equivalente, diálogo con foco y E2E en Chromium/Firefox/WebKit; falta revisión WCAG manual y evidencia Safari real del piloto.
-- [ ] Hito 7 en curso: PMTiles y COG se regeneran con contenedores fijados, están registrados y superan HTTP Range/CORS; faltan conmutación en el cliente y benchmarks.
+- [ ] Hito 7 en curso: PMTiles y COG se regeneran con contenedores fijados, STAC, Range/CORS, conmutación MapLibre y benchmark HTTP de cinco repeticiones pasan; falta instrumentación de renderizado en navegador y criterio comparativo de aceptación.
 - [ ] Completar el Hito 6: cliente TypeScript/Vite/MapLibre mantenible.
 - [ ] Completar el Hito 7: PMTiles, COG, STAC y benchmark reproducible.
 - [ ] Completar el Hito 8: seguridad, CI, build, restauracion y documentacion operativa.
@@ -767,5 +767,7 @@ Jekyll y Bundler son dependencias obligatorias de documentacion. Las dependencia
 2026-08-03: Chromium, Firefox y WebKit ejecutaron carga, filtro y error de red mediante Playwright. WebKit es detección temprana y no reemplaza la evidencia Safari real exigida para el piloto.
 
 2026-08-03: se inició el Hito 7. Planetiler y GDAL regeneraron los activos PMTiles y COG en `data/fixtures/cloud/`; sus manifiestos registran checksum y ambos superaron la comprobación HTTP Range/CORS de Nginx.
+
+2026-08-03: los activos cloud-native se integraron al cliente y STAC. El benchmark HTTP ejecutó cinco repeticiones vectoriales y ráster, pero su resultado se limita explícitamente al transporte local y no sustituye la medición de renderizado en navegador.
 
 2026-08-03: el usuario confirmó que el software libre compatible puede sugerirse para uso personal sin autorizaciones ni licenciamiento adicional. Se registró la política, manteniendo la revisión obligatoria para recursos de terceros que no son herramientas.

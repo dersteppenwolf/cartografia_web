@@ -26,9 +26,14 @@
   ],
   "assets": {
     "data": {
-      "href": "../raster/referencia.tif",
-      "type": "image/tiff; application=geotiff",
-      "title": "GeoTIFF sintético de referencia"
+      "href": "../cloud/referencia.cog.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "COG sintético de referencia"
+    },
+    "vector": {
+      "href": "../cloud/referencia.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "PMTiles sintético de referencia"
     }
   }
 }
