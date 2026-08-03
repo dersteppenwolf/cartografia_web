@@ -42,6 +42,14 @@ HTTP 400: `application/vnd.mapbox-vector-tile is not a supported format for
 curso:referencia`. La extensión vectorial necesita una configuración o endpoint
 adicional antes de promover el prototipo.
 
+La solicitud WMS `GetMap` con
+`format=application/vnd.mapbox-vector-tile` respondió HTTP 200 y el tipo de
+contenido MVT esperado. Con ese endpoint, WMS, WFS, OGC API - Features y MVT
+pasaron el smoke test sobre `curso:referencia`.
+
+Decisión: promover las imágenes, Dockerfile, configuración REST, Nginx, COG,
+PMTiles y los protocolos MapLibre al Hito 5B.
+
 ## COG sintético
 
 Fecha: 2026-08-03.

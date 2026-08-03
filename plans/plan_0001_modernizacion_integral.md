@@ -31,8 +31,7 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 - [x] (2026-08-03T15:59:01Z) Se completó el Hito 2: programa de ocho unidades, rúbricas, prerrequisitos, trazabilidad y fixtures sintéticos con checksum estable.
 - [x] (2026-08-03T16:13:02Z) Se completó el Hito 3: unidades fundamentales, mapa Leaflet accesible, pipeline GeoJSON→GeoPackage determinista y pruebas de navegador.
 - [x] (2026-08-03T16:38:43Z) Se completó el Hito 4: WFS/OGC API/OpenAPI, STAC estático y tres notebooks deterministas en modo fixtures.
-- [ ] Hito 5A en curso (completado: imágenes candidatas GeoServer/PostGIS fijadas por digest; pendiente: prototipos y smoke tests).
-- [ ] Completar el Hito 5A: prototipos de GeoServer, Range/CORS y herramientas cloud-native.
+- [x] (2026-08-03T18:07:19Z) Se completó el Hito 5A: GeoServer/PostGIS, WMS/WFS/Features/MVT, COG, PMTiles, Range/CORS y MapLibre validados en prototipos aislados.
 - [ ] Completar el Hito 5B: stack reproducible con PostGIS, GeoServer y servidor estatico.
 - [ ] Completar el Hito 6: cliente TypeScript/Vite/MapLibre mantenible.
 - [ ] Completar el Hito 7: PMTiles, COG, STAC y benchmark reproducible.
@@ -114,6 +113,9 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 
 - Observacion: WMS, WFS y OGC API - Features pasaron el smoke test, pero MVT devolvió HTTP 400 por formato no soportado.
   Evidencia: `infra/prototypes/geoserver/smoke.py` del 2026-08-03.
+
+- Observacion: el endpoint MVT correcto es WMS GetMap con `format=application/vnd.mapbox-vector-tile`, no la ruta GeoWebCache usada inicialmente.
+  Evidencia: HTTP 200, 159 bytes y `Content-Type: application/vnd.mapbox-vector-tile` el 2026-08-03T18:07:19Z.
 
 ## Decision Log
 
@@ -745,5 +747,7 @@ Jekyll y Bundler son dependencias obligatorias de documentacion. Las dependencia
 2026-08-03: Planetiler generó PMTiles desde el GeoJSON sintético y el CLI de Protomaps lo verificó. Nginx validó HTTP Range/CORS para el archivo. MapLibre y los smoke tests integrados siguen pendientes.
 
 2026-08-03: MapLibre validó PMTiles, COG y estados de error. WMS, WFS y OGC API - Features también pasaron, pero el endpoint MVT devolvió HTTP 400. Hito 5A continúa bloqueado hasta resolver la configuración MVT de GeoServer.
+
+2026-08-03: el endpoint MVT se corrigió a WMS GetMap y pasó junto con WMS, WFS y OGC API - Features. Con COG, PMTiles, Nginx y MapLibre validados, Hito 5A se promovió a Hito 5B.
 
 2026-08-03: el usuario confirmó que el software libre compatible puede sugerirse para uso personal sin autorizaciones ni licenciamiento adicional. Se registró la política, manteniendo la revisión obligatoria para recursos de terceros que no son herramientas.
