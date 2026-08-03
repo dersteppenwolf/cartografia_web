@@ -1,0 +1,23 @@
+schema_name: Referencia sintética
+schema_description: Vector tiles de la colección sintética del curso.
+attribution: Datos sintéticos CC0-1.0
+args:
+  minzoom: 0
+  maxzoom: 14
+  force: true
+sources:
+  referencia:
+    type: geojson
+    local_path: /input/referencia.geojson
+    projection: EPSG:4326
+layers:
+  - id: referencia
+    features:
+      - source: referencia
+        geometry: point
+        min_zoom: 0
+        attributes:
+          - key: nombre
+            tag_value: nombre
+          - key: valor
+            tag_value: valor

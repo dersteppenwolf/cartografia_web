@@ -52,6 +52,16 @@ versions:
     digest: ghcr.io/osgeo/gdal@sha256:dab45abca3ca83695d442018692f4f8a0f41955871c57e6101d7f89a92375caa
     status: validated-hito-3
     owner: infrastructure-security
+  - component: Planetiler
+    candidate: ghcr.io/onthegomap/planetiler:latest
+    digest: ghcr.io/onthegomap/planetiler@sha256:e992a018666bd6f65535b24a3d76c6818fb0fe9f297395d2f7fa7cd8ac6c6751
+    status: selected-hito-5a
+    owner: infrastructure-security
+  - component: PMTiles CLI
+    candidate: protomaps/go-pmtiles:latest
+    digest: protomaps/go-pmtiles@sha256:06574f01f55a78f78f887bc7ebf729a5c093c0d6e17d9876300cfcb0758b59d3
+    status: selected-hito-5a
+    owner: infrastructure-security
   - component: Gitleaks
     candidate: 8.24.2
     digest: zricethezav/gitleaks@sha256:b5918eb91b8d2473cec722f066abb4352e4ffdc4ec9f4283ec143aba9ec9ebc4

@@ -231,6 +231,10 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
   Justificacion: el checksum del ZIP fue verificado y la landing page OGC API respondió HTTP 200; faltan capa y smoke tests para aprobar el hito.
   Fecha/Autor: 2026-08-03 / OpenCode.
 
+- Decision: usar Planetiler y el CLI oficial PMTiles como ruta estática vectorial en lugar de Tippecanoe.
+  Justificacion: Planetiler produce PMTiles directamente desde GeoJSON/GeoPackage con una imagen pública accesible y Apache-2.0; la imagen Tippecanoe candidata requirió acceso no disponible.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
 - Decision: permitir recomendar herramientas de software libre con licencia compatible para uso personal sin aprobación o licenciamiento adicional.
   Justificacion: el usuario confirmó que las herramientas sugeridas se ejecutan en computadores personales. La excepción no cubre datos, imágenes, fuentes, PDF, código vendorizado ni SaaS de terceros, que conservan su revisión de procedencia y licencia.
   Fecha/Autor: 2026-08-03 / OpenCode.

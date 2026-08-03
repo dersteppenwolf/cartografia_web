@@ -1,4 +1,16 @@
 third_party:
+  - name: Planetiler
+    version: 0.10.3-SNAPSHOT
+    source: ghcr.io/onthegomap/planetiler
+    license: Apache-2.0
+    kind: containerized vector tile generator
+    use: Static PMTiles generation from approved vector fixtures
+  - name: PMTiles CLI
+    version: pinned container digest
+    source: docker.io/protomaps/go-pmtiles
+    license: BSD-3-Clause
+    kind: PMTiles verifier and converter
+    use: Validate static PMTiles prototype output
   - name: GeoServer
     version: 3.0.0
     source: docker.osgeo.org/geoserver
