@@ -9,6 +9,9 @@ const state = readStateFromUrl();
 const map = createMap(state);
 const input = document.querySelector<HTMLInputElement>("#valor-minimo")!;
 const table = document.querySelector<HTMLTableSectionElement>("#tabla-datos")!;
+const dialog = document.querySelector<HTMLDialogElement>("#consulta")!;
+const detail = document.querySelector<HTMLParagraphElement>("#detalle-consulta")!;
+const closeButton = document.querySelector<HTMLButtonElement>("#cerrar-consulta")!;
 input.value = state.minimumValue?.toString() ?? "";
 
 async function load(): Promise<void> {
@@ -45,6 +48,26 @@ map.on("moveend", () => {
 });
 map.on("click", (event) => {
   const feature = map.queryRenderedFeatures(event.point, { layers: ["referencia-circulos"] })[0];
-  if (feature) setStatus(featureDescription(feature));
+  if (feature) showFeature(feature);
 });
+document.querySelector<HTMLElement>("#mapa")?.addEventListener("keydown", (event) => {
+  if (event.key !== "Enter" && event.key !== " ") return;
+  event.preventDefault();
+  const feature = map.queryRenderedFeatures(map.project(map.getCenter()), { layers: ["referencia-circulos"] })[0];
+  if (feature) showFeature(feature);
+  else setStatus("No hay una entidad en el centro actual del mapa.");
+});
+closeButton.addEventListener("click", () => {
+  dialog.close();
+  document.querySelector<HTMLElement>("#mapa")?.focus();
+});
+
+function showFeature(feature: Parameters<typeof featureDescription>[0]): void {
+  const description = featureDescription(feature);
+  detail.textContent = description;
+  setStatus(description);
+  dialog.showModal();
+  closeButton.focus();
+}
+
 void load();
