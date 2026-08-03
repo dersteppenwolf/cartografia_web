@@ -1,4 +1,22 @@
 third_party:
+  - name: GeoServer
+    version: 3.0.0
+    source: docker.osgeo.org/geoserver
+    license: GPL-2.0-or-later
+    kind: container image
+    use: Isolated Hito 5A interoperability prototype
+  - name: GeoServer OGC API - Features plugin
+    version: 3.0.0
+    source: sourceforge.net GeoServer extension archive
+    license: GPL-2.0-or-later
+    kind: GeoServer extension ZIP
+    use: Required module for Hito 5A OGC API - Features prototype
+  - name: PostgreSQL/PostGIS
+    version: 17-3.5
+    source: docker.io/postgis/postgis
+    license: PostgreSQL and GPL-2.0-or-later components
+    kind: container image
+    use: Isolated Hito 5A spatial database prototype
   - name: GDAL
     version: ubuntu-small-3.10.3
     source: ghcr.io/osgeo/gdal

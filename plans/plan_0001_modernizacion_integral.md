@@ -31,6 +31,7 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 - [x] (2026-08-03T15:59:01Z) Se completó el Hito 2: programa de ocho unidades, rúbricas, prerrequisitos, trazabilidad y fixtures sintéticos con checksum estable.
 - [x] (2026-08-03T16:13:02Z) Se completó el Hito 3: unidades fundamentales, mapa Leaflet accesible, pipeline GeoJSON→GeoPackage determinista y pruebas de navegador.
 - [x] (2026-08-03T16:38:43Z) Se completó el Hito 4: WFS/OGC API/OpenAPI, STAC estático y tres notebooks deterministas en modo fixtures.
+- [ ] Hito 5A en curso (completado: imágenes candidatas GeoServer/PostGIS fijadas por digest; pendiente: prototipos y smoke tests).
 - [ ] Completar el Hito 5A: prototipos de GeoServer, Range/CORS y herramientas cloud-native.
 - [ ] Completar el Hito 5B: stack reproducible con PostGIS, GeoServer y servidor estatico.
 - [ ] Completar el Hito 6: cliente TypeScript/Vite/MapLibre mantenible.
@@ -95,6 +96,15 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 
 - Observacion: `stac-valid` 4.2.1 instaló un ejecutable que no encontró su módulo interno en este entorno Windows.
   Evidencia: `uv run stac-valid --help` devolvió `ModuleNotFoundError`; `stac-validator` 4.1.2 validó Catalog, Collection e Item correctamente.
+
+- Observacion: las imágenes oficiales candidatas de GeoServer 3.0.0 y PostGIS 17-3.5 se descargaron correctamente.
+  Evidencia: digests `sha256:d8ff66...50ee7` y `sha256:45f2a6...48ea9` registrados el 2026-08-03.
+
+- Observacion: GeoServer 3.0.0 oficial inició con PostGIS y vector tiles, pero `/geoserver/ogc/features/v1` devolvió HTTP 404.
+  Evidencia: prototipo `infra/prototypes/geoserver/compose.yaml` y log del 2026-08-03T16:46:44Z; la configuración no se promovió.
+
+- Observacion: el Dockerfile alternativo con el plugin OGC API - Features verificado respondió HTTP 200 en `/geoserver/ogc/features/v1`.
+  Evidencia: build `cartografia-web/geoserver-ogcapi-features:3.0.0-prototype` y Compose saludable el 2026-08-03.
 
 ## Decision Log
 
@@ -208,6 +218,14 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 
 - Decision: usar temporalmente `stac-validator` 4.1.2 en lugar de `stac-valid` 4.2.1.
   Justificacion: el reemplazo anunciado falló durante su inicialización en el entorno fijado, mientras que 4.1.2 validó los tres documentos STAC. Se reevaluará antes de Hito 8.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: descartar la imagen oficial de GeoServer 3.0.0 con solo `vectortiles` para el prototipo OGC API.
+  Justificacion: el endpoint obligatorio OGC API - Features no existe en esa configuración. Se debe construir la alternativa con el módulo específico antes de promover cualquier stack.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: promover provisionalmente el Dockerfile con el plugin OGC API - Features a la prueba de configuración REST.
+  Justificacion: el checksum del ZIP fue verificado y la landing page OGC API respondió HTTP 200; faltan capa y smoke tests para aprobar el hito.
   Fecha/Autor: 2026-08-03 / OpenCode.
 
 - Decision: permitir recomendar herramientas de software libre con licencia compatible para uso personal sin aprobación o licenciamiento adicional.
@@ -702,5 +720,11 @@ Jekyll y Bundler son dependencias obligatorias de documentacion. Las dependencia
 2026-08-03: se inició Hito 4. Se añadió la unidad de interoperabilidad y fixtures locales de WFS, landing page, conformance, collections, items y OpenAPI. Los notebooks y STAC quedan pendientes para el siguiente incremento del hito.
 
 2026-08-03: se completó Hito 4. Se añadieron Catalog, Collection e Item STAC con activo local, validación OpenAPI y STAC, y tres notebooks que se ejecutan con nbmake en modo `fixtures`. El modo `local` permanece pendiente del stack de Hito 5B.
+
+2026-08-03: se inició Hito 5A. Se descargaron GeoServer 3.0.0 y PostGIS 17-3.5 y se registraron sus digests; los prototipos aislados quedan pendientes.
+
+2026-08-03: el primer prototipo GeoServer/PostGIS inició correctamente y se limpió con volúmenes vacíos. Vector tiles quedó disponible, pero OGC API - Features devolvió 404. La alternativa Dockerfile con módulo OGC API queda pendiente y bloquea Hito 5B.
+
+2026-08-03: el Dockerfile alternativo descargó y verificó el plugin OGC API - Features 3.0.0. El endpoint respondió HTTP 200 y el prototipo se limpió. Falta configurar y consultar una capa antes de promover Hito 5A.
 
 2026-08-03: el usuario confirmó que el software libre compatible puede sugerirse para uso personal sin autorizaciones ni licenciamiento adicional. Se registró la política, manteniendo la revisión obligatoria para recursos de terceros que no son herramientas.

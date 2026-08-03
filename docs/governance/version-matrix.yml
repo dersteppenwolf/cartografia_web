@@ -29,11 +29,18 @@ versions:
     owner: infrastructure-security
   - component: GeoServer
     candidate: 3.0.0
-    status: pending-prototype
+    digest: docker.osgeo.org/geoserver@sha256:d8ff66a3e0f956415e048494a876e03f6475ddabcf1b1e6e9a8adba82ca50ee7
+    status: pulled-hito-5a
+    owner: infrastructure-security
+  - component: GeoServer OGC API - Features plugin
+    candidate: geoserver-3.0.0-ogcapi-features-plugin.zip
+    checksum: sha256:1d338a1b89ca7a02cde8aae47ede387a1b28ffa51388e104aa1b1f75c3e41296
+    status: downloaded-hito-5a
     owner: infrastructure-security
   - component: PostgreSQL/PostGIS
     candidate: postgis/postgis:17-3.5
-    status: pending-prototype
+    digest: postgis/postgis@sha256:45f2a608397fa67d236b012c14a9e3ea31e9fe813edbeb5c1c0d1acbf0d48ea9
+    status: pulled-hito-5a
     owner: infrastructure-security
   - component: Nginx
     candidate: nginx:1.28.0-alpine
