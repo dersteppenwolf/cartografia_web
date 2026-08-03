@@ -1,257 +1,277 @@
-# Linus Rogge — Style Reference
-> Editorial portfolio on gallery-white — each project a wall-sized photograph with whisper-quiet captions in the corner.
+# Sistema visual del curso
+
+Este documento es la referencia visual para `docs/`, los ejemplos mantenidos y
+los artefactos publicados. No describe una marca que deba copiarse literalmente.
+Convierte dos ideas observadas en Memorisely y Uxcel en normas apropiadas para
+un curso sin cuentas obligatorias: aprendizaje visible mediante practica y
+feedback, y una ruta clara de lecciones pequenas que permite saber que hacer
+despues.
+
+La referencia anterior de portafolio se adapta al contenido docente. Un curso no
+es una galeria: necesita navegacion, objetivos, ejercicios, estados, datos,
+leyendas, atribuciones y alternativas accesibles. La funcion cartografica y WCAG
+2.2 AA prevalecen sobre cualquier decision estetica.
+
+## Principios
+
+1. **Orientar antes de explicar.** Cada pagina deja claro donde esta la persona,
+   que competencia trabaja, cuanto tiempo estima y cual es el siguiente
+   artefacto verificable.
+2. **Aprender haciendo.** La teoria se presenta en bloques cortos que culminan
+   en una observacion, un comando, una decision cartografica o una pregunta de
+   comprobacion. Una lectura no sustituye una practica reproducible.
+3. **Hacer visible el progreso sin gamificacion vacia.** La ruta de ocho
+   unidades, los resultados de aprendizaje y el producto de cada unidad se
+   muestran como texto y estructura semantica. No se agregan rachas, puntos,
+   medallas ni competencia entre estudiantes.
+4. **Usar una jerarquia editorial contenida.** El texto base es pequeno y claro;
+   la jerarquia aparece mediante encabezados semanticos, peso, espaciado,
+   agrupacion y contraste, no mediante titulos gigantes o decoracion.
+5. **Mostrar evidencia, no promesas.** Estados de carga, error, resultado de
+   pruebas, tablas, checksum, atribucion y limites del dato son partes visibles
+   del aprendizaje.
+6. **Mantener la interfaz calmada.** Una superficie clara, una familia sans
+   serif, bordes rectos y ausencia de sombras o gradientes permiten concentrarse
+   en mapas, datos y ejercicios.
+7. **No depender de una plataforma externa.** Un enlace a Pages, OSM u otra
+   referencia debe ser contextual u optativo. El recorrido obligatorio conserva
+   alternativa local y textual.
+
+## Referencias transformadas
+
+Memorisely aporta una secuencia enfocada en practica, retroalimentacion y
+resultados concretos. En este curso se traduce en: resultado de aprendizaje al
+inicio, bloque de practica, errores frecuentes, autoevaluacion y relacion con
+una entrega. No se copian sus testimonios, contadores, ilustraciones, llamados
+comerciales ni su identidad visual.
+
+Uxcel aporta lecciones breves, rutas de aprendizaje, progreso legible y
+ejercicios aplicados. En este curso se traduce en: ocho unidades ordenadas,
+tiempo declarado, producto verificable, navegacion entre unidad anterior y
+siguiente, y actividades de diagnostico. No se copian sus marcas, insignias,
+rankings, precios, perfiles, certificaciones ni mecanismos de retencion.
+
+## Tokens
+
+Los valores se definen en `docs/assets/css/tokens.css`. No repetir literales de
+color o espacio en componentes nuevos. Si hace falta un token, se agrega primero
+en ese archivo y luego se sincroniza con el cliente MapLibre.
+
+### Color
+
+| Nombre        | Valor     | Token                  | Uso                                                           |
+| ------------- | --------- | ---------------------- | ------------------------------------------------------------- |
+| Blanco papel  | `#ffffff` | `--color-paper-white`  | Lienzo, superficies principales y texto invertido             |
+| Negro tinta   | `#000000` | `--color-ink-black`    | Texto principal, bordes, foco y controles de alto contraste   |
+| Gris galeria  | `#e5e5e5` | `--color-gallery-gray` | Bandas funcionales, ejercicios o contexto secundario          |
+| Gris plinto   | `#d4d4d4` | `--color-plinth-gray`  | Separacion de secciones o pie de pagina                       |
+| Negro carbono | `#0a0a0a` | `--color-carbon-black` | Bloques oscuros de codigo, aviso o navegacion invertida       |
+| Negro pizarra | `#171717` | `--color-slate-black`  | Superficie oscura secundaria                                  |
+| Piedra        | `#737373` | `--color-stone`        | Texto secundario solo si supera contraste AA                  |
+| Grafito       | `#525252` | `--color-graphite`     | Texto secundario fuerte, metadatos y explicaciones auxiliares |
+
+`#a3a3a3` no se usa como texto sobre blanco. El color no es el unico canal para
+indicar estado, progreso, importancia, seleccion o error. Los mensajes incluyen
+texto y los controles mantienen etiquetas visibles.
+
+### Tipografia
+
+- Usar una sola familia sans serif: `--font-abc-oracle`, que corresponde a Inter
+  o la pila de sistema mientras no exista licencia documentada de ABC Oracle.
+- Mantener `0.875rem` como apariencia base y pesos 400 y 500.
+- Usar `line-height: 1.43` en prosa. No usar interlineado 1.0 en bloques de
+  varias lineas.
+- Conservar encabezados HTML `h1` a `h3`. Su jerarquia visual se resuelve con
+  peso, espacio y posicion, no con una escala tipografica espectacular.
+- Los metadatos, comandos y etiquetas se diferencian por agrupacion y contraste,
+  no por convertir todo el contenido en mayusculas.
+
+### Espacio y forma
+
+La unidad base es 6 px. Preferir 6, 8, 12 y 48 px. Usar entre 48 y 96 px entre
+secciones mayores. Los modulos de aprendizaje usan 12 px de separacion interna;
+un bloque extenso necesita espacio adicional antes y despues, no una sombra.
+
+Todos los radios son 0. No usar sombras, gradientes, blur, glassmorphism ni
+elevacion. Los bordes de 1 px se reservan para controles, tablas, bloques de
+estado y limites funcionales; no se usan para decorar cada parrafo.
+
+## Arquitectura de pagina
+
+### Pagina de inicio
 
-**Theme:** light
+La portada presenta primero el proposito del curso y la ruta de ocho unidades.
+Cada unidad muestra numero, tema, producto verificable y enlace. Los ejemplos
+mantenidos aparecen despues como entradas funcionales, no como una coleccion de
+tarjetas promocionales. La informacion de gobierno, planes y desarrollo queda
+visible pero subordinada al recorrido de aprendizaje.
 
-Linus Rogge is a personal portfolio built on radical typographic restraint: a single 14px type size across all text, only two colors (pure black and pure white), and gallery-scale photography as the only visual voice. Hierarchy is created through weight (400 vs 500) and generous negative space, not through size escalation. Each project is presented as a sparse left-aligned label paired with a full-bleed photograph, reading like museum wall text beside a large print. Components are nearly invisible — no shadows, no rounded corners on the canvas, no decorative color — letting the work itself carry the page.
+### Pagina de unidad
 
-## Tokens — Colors
+Cada unidad mantenida sigue esta secuencia:
 
-| Name | Value | Token | Role |
-|------|-------|-------|------|
-| Paper White | `#ffffff` | `--color-paper-white` | Primary canvas, all text on dark surfaces, inverted button text |
-| Ink Black | `#000000` | `--color-ink-black` | Dark supporting neutral for text, icons, and strong contrast. Do not promote it to the primary CTA color |
-| Gallery Gray | `#e5e5e5` | `--color-gallery-gray` | Secondary surface for section bands, footer background washes |
-| Plinth Gray | `#d4d4d4` | `--color-plinth-gray` | Tertiary surface, alternating section rhythm dividers |
-| Carbon Black | `#0a0a0a` | `--color-carbon-black` | Dark section background for content blocks (writing index, project list) — near-black avoids the harshness of pure #000 |
-| Slate Black | `#171717` | `--color-slate-black` | Secondary dark surface for stacked dark sections |
-| Concrete | `#a3a3a3` | `--color-concrete` | Muted helper text, metadata dates, tertiary annotations on white |
-| Stone | `#737373` | `--color-stone` | Secondary muted text, labels, non-active annotations |
-| Graphite | `#525252` | `--color-graphite` | Strongest muted text before full black, subtle emphasis |
+1. Titulo semantico, tiempo presencial/autonomo y producto verificable.
+2. Resultados de aprendizaje en una lista breve y accionable.
+3. Conceptos explicados en secciones pequenas, con terminos definidos antes de
+   usarlos.
+4. Ejemplo o artefacto mantenido enlazado con una frase que explique que
+   observar.
+5. Practica guiada con pasos numerados, resultado esperado y limite de
+   seguridad.
+6. Errores frecuentes que previenen interpretaciones o comandos peligrosos.
+7. Autoevaluacion o diagnostico que conecta con la entrega correspondiente.
+8. Navegacion textual hacia unidad anterior, siguiente, ejemplo y rubrica cuando
+   esas rutas existan.
 
-## Tokens — Typography
+No agregar una barra de progreso falsa. La ruta de unidades y el producto
+verificable ya comunican avance de forma honesta.
 
-### ABC Oracle — Sole typeface for all text — headlines, body, labels, metadata, navigation. The signature choice is using a single 14px size across the entire site: hierarchy comes from weight contrast (400 for body, 500 for titles and active items) and whitespace, never from size. This anti-hierarchical approach treats all information as equally important, like gallery wall text. · `--font-abc-oracle`
-- **Substitute:** Inter, Söhne, or Neue Haas Grotesk at a fixed 14px
-- **Weights:** 400, 500
-- **Sizes:** 14px
-- **Line height:** 1.00, 1.25, 1.43
-- **Letter spacing:** normal
-- **Role:** Sole typeface for all text — headlines, body, labels, metadata, navigation. The signature choice is using a single 14px size across the entire site: hierarchy comes from weight contrast (400 for body, 500 for titles and active items) and whitespace, never from size. This anti-hierarchical approach treats all information as equally important, like gallery wall text.
+### Paginas de referencia
 
-## Tokens — Spacing & Shapes
+Las guias, rubricas, gobierno y planes usan encabezados claros, prosa con ancho
+de lectura contenido y tablas solo cuando comparan valores o contratos. Los
+planes de ejecucion conservan el formato exigido por `PLANS.md`; esta guia no lo
+reemplaza.
 
-**Base unit:** 6px
+### Ejemplos cartograficos
 
-**Density:** comfortable
-
-### Spacing Scale
-
-| Name | Value | Token |
-|------|-------|-------|
-| 6 | 6px | `--spacing-6` |
-| 8 | 8px | `--spacing-8` |
-| 12 | 12px | `--spacing-12` |
-| 48 | 48px | `--spacing-48` |
-
-### Border Radius
-
-| Element | Value |
-|---------|-------|
-| tags | 0px |
-| cards | 0px |
-| inputs | 0px |
-| buttons | 0px |
-
-### Layout
-
-- **Section gap:** 48-96px
-- **Card padding:** 12px
-- **Element gap:** 12px
-
-## Components
-
-### Project Header Label
-**Role:** Project metadata block at top-left of each project section
-
-Three-line left-aligned stack: client/brand name (weight 500), project title (weight 500), project description (weight 400). All at 14px, black text on white. No icons, no bullets, no decorative elements. Appears in the top-left corner of each full-bleed image section.
-
-### Project Footer Label
-**Role:** Date and studio attribution at bottom-left of each project
-
-Two lines: year range (weight 400) and studio/company name (weight 400). 14px, black text, bottom-left corner. Minimal — just enough to credit the work.
-
-### Full-Bleed Project Image
-**Role:** Primary visual element of each project
-
-Large photograph occupying majority of viewport. No border, no radius (0px), no shadow. Images are product/lifestyle photography on clean backgrounds. No captions or overlays on the image itself — labels sit outside the image area in the corners.
-
-### Writing Index Entry
-**Role:** Blog post listing in the dark writing section
-
-Two-column layout: post title (weight 500, white) on left, publication date (weight 400, white) below it. Arranged in a multi-column grid. 14px, no links or hover states visible. Sits on Carbon Black (#0a0a0a) background.
-
-### Section Label
-**Role:** Category header for grouped content (e.g. 'Writing')
-
-Single word in weight 400, 14px, black on white or white on dark. Sits at top-left of its section with generous left margin. Functions as a quiet section anchor.
-
-### Filled Action Button
-**Role:** Primary call-to-action (e.g. 'Information')
-
-Ink Black (#000000) background, Paper White (#ffffff) text, weight 500, 14px. Zero border-radius (0px). Padding 12px 12px (top/bottom 12px, left/right 12px). No border, no shadow, no hover state. Sharp rectangular shape — the only 'colorful' element in the entire system is the inversion of black and white.
-
-### About Text Block
-**Role:** Personal bio text in the footer area
-
-Multi-line paragraph at 14px, weight 400, black text. Max-width appears to be 8-column equivalent (roughly 40% of viewport). Line-height 1.43. Sits on Gallery Gray (#e5e5e5) background. No pull quotes or emphasis — flat continuous prose.
-
-### Alternating Section Band
-**Role:** Vertical rhythm device separating page zones
-
-Full-width horizontal bands alternating between Gallery Gray (#e5e5e5), Plinth Gray (#d4d4d4), and Concrete (#a3a3a3). No text or content — purely a visual breath between sections, similar to the way a book uses blank pages between chapters.
-
-## Do's and Don'ts
-
-### Do
-- Use exactly 14px for all text regardless of importance — let weight (400 vs 500) and whitespace create hierarchy
-- Use pure #000000 and pure #ffffff for all primary text and surfaces; the system is strictly two-color
-- Set border-radius to 0px on every component — buttons, cards, images, inputs are all sharp rectangles
-- Left-align all text to the left edge with consistent left padding; never center text
-- Place project metadata in the corners (top-left and bottom-left) of full-bleed images, not overlaid on the image
-- Use section bands of Gallery Gray (#e5e5e5) and Plinth Gray (#d4d4d4) to create vertical rhythm between projects
-- Use weight 500 only for titles, active items, and button text — everything else stays at 400
-
-### Don't
-- Never introduce a second type size — the entire system runs on 14px
-- Never add color, gradients, or shadows — the design is flat and strictly monochrome
-- Never use border-radius greater than 0px on any element
-- Never center text or use symmetrical layouts — everything anchors to the left
-- Never overlay text on photographs — labels live in the margin outside the image
-- Never use decorative icons, bullets, or dividers — whitespace is the only separator
-- Never use #0a0a0a or #171717 as body text on white — those are surface colors for dark blocks only
-
-## Surfaces
-
-| Level | Name | Value | Purpose |
-|-------|------|-------|---------|
-| 0 | Canvas | `#ffffff` | Page background, primary surface |
-| 1 | Section Band | `#e5e5e5` | Alternating section backgrounds, footer wash |
-| 2 | Plinth | `#d4d4d4` | Secondary banded surface |
-| 3 | Dark Block | `#0a0a0a` | Inverted content sections (writing index, archive) |
-
-## Elevation
-
-The design has zero elevation. No shadows, no glows, no depth cues of any kind. Surfaces are defined purely by color contrast between adjacent bands of white and gray. Components sit flush against their background, and the only spatial separation comes from whitespace and the hard edges of photographs meeting solid color fields.
-
-## Imagery
-
-Large-format product and lifestyle photography is the dominant visual element. Images are full-bleed or near-full-bleed, with no borders, no rounded corners, and no overlays. Treatment is clean and natural — laptops on white desks, tablets on wood surfaces, hands interacting with devices. No duotone, no color grading, no masks. Photography carries the entire visual weight of the page; there are no illustrations, no abstract graphics, no icons of consequence. The objects in the photographs (products, devices, hands) are the heroes — the surrounding context is minimal and neutral so the subject reads clearly.
-
-## Layout
-
-Full-bleed single-column layout. Each project occupies a vertical section: metadata in top-left corner, large photograph filling the viewport, date/credit in bottom-left corner. Sections stack vertically with no gutters — each new project starts where the last one ends. Within sections, a dark inverted block (writing index) uses a multi-column grid (3-4 columns) for list items. The footer uses a light gray background with text left-aligned to a column roughly 40% of viewport width. No navigation bar, no sidebar, no sticky header — the page is a continuous vertical scroll of project blocks. No max-width constraint on images; text blocks are constrained to a narrow left column.
-
-## Agent Prompt Guide
-
-## Quick Color Reference
-- text: #000000
-- background: #ffffff
-- border: #000000
-- muted text: #737373
-- dark surface: #0a0a0a
-- section band: #e5e5e5
-- primary action: no distinct CTA color
-
-## Example Component Prompts
-
-1. **Project Header Label**: Create a top-left aligned text stack: first line 'Linus Rogge' at 14px weight 500, second line project title at 14px weight 500, third line description at 14px weight 400. All in #000000 on #ffffff background. 12px top padding, anchored to the left edge with no left margin beyond the page gutter.
-
-2. **Full-Bleed Project Image**: Render a large photograph occupying the full viewport width. Zero border-radius, no border, no shadow. No text or overlays on the image. Position absolutely in the section flow with the project metadata stacked above and the date/credit below.
-
-3. **Section Band Divider**: Create a full-width horizontal band with #e5e5e5 background, 48-96px height, no content. Functions as a visual breath between project sections.
-
-4. **Writing Index Entry**: On a #0a0a0a dark background, render a two-line block: title at 14px weight 500 in #ffffff, date below at 14px weight 400 in #ffffff. Arrange multiple entries in a 3-column grid with 48px column gap.
-
-5. **Filled Action Button**: Black (#000000) rectangle with white (#ffffff) text at 14px weight 500, label 'Information'. Zero border-radius. Padding 12px on all sides. No border, no shadow, no hover state.
-
-## Similar Brands
-
-- **Rauno Freiberg** — Same single-type-size anti-hierarchical typography, full-bleed photography, strict black-and-white palette, and left-aligned project lists with minimal metadata
-- **Studio Dumbar** — Portfolio presentation as curated gallery walls — large-format images with whisper-quiet text annotations in corners, no decorative chrome
-- **Frank Chimero** — Single-typeface restraint, generous whitespace, left-aligned text columns on light gray section bands, zero ornamental elements
-- **Bret Victor** — Radical typographic minimalism where one small body font carries all information and the work itself fills the page
-
-## Quick Start
-
-### CSS Custom Properties
-
-```css
-:root {
-  /* Colors */
-  --color-paper-white: #ffffff;
-  --color-ink-black: #000000;
-  --color-gallery-gray: #e5e5e5;
-  --color-plinth-gray: #d4d4d4;
-  --color-carbon-black: #0a0a0a;
-  --color-slate-black: #171717;
-  --color-concrete: #a3a3a3;
-  --color-stone: #737373;
-  --color-graphite: #525252;
-
-  /* Typography — Font Families */
-  --font-abc-oracle: 'ABC Oracle', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-
-  /* Typography — Scale */
-  --text-sm: 14px;
-  --leading-sm: 1.43;
-
-  /* Typography — Weights */
-  --font-weight-regular: 400;
-  --font-weight-medium: 500;
-
-  /* Spacing */
-  --spacing-unit: 6px;
-  --spacing-6: 6px;
-  --spacing-8: 8px;
-  --spacing-12: 12px;
-  --spacing-48: 48px;
-
-  /* Layout */
-  --section-gap: 48-96px;
-  --card-padding: 12px;
-  --element-gap: 12px;
-
-  /* Named Radii */
-  --radius-tags: 0px;
-  --radius-cards: 0px;
-  --radius-inputs: 0px;
-  --radius-buttons: 0px;
-
-  /* Surfaces */
-  --surface-canvas: #ffffff;
-  --surface-section-band: #e5e5e5;
-  --surface-plinth: #d4d4d4;
-  --surface-dark-block: #0a0a0a;
-}
-```
-
-### Tailwind v4
-
-```css
-@theme {
-  /* Colors */
-  --color-paper-white: #ffffff;
-  --color-ink-black: #000000;
-  --color-gallery-gray: #e5e5e5;
-  --color-plinth-gray: #d4d4d4;
-  --color-carbon-black: #0a0a0a;
-  --color-slate-black: #171717;
-  --color-concrete: #a3a3a3;
-  --color-stone: #737373;
-  --color-graphite: #525252;
-
-  /* Typography */
-  --font-abc-oracle: 'ABC Oracle', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-
-  /* Typography — Scale */
-  --text-sm: 14px;
-  --leading-sm: 1.43;
-
-  /* Spacing */
-  --spacing-6: 6px;
-  --spacing-8: 8px;
-  --spacing-12: 12px;
-  --spacing-48: 48px;
-}
-```
+El mapa es una region funcional, no un fondo decorativo. Debe conservar
+controles propios de la biblioteca cuando sean necesarios, atribucion legible,
+leyenda, estado, tabla o resumen equivalente y mensajes de error. Los controles
+de filtro primarios se sitúan fuera del canvas. Se permite un mapa base solo con
+atribucion, HTTPS, politica de uso compatible y alternativa cuando falle.
+
+## Componentes docentes
+
+### Franja de contexto
+
+Se usa al inicio de una unidad para indicar tiempo, producto y prerequisito. Es
+texto corto sobre blanco o gris galeria; no usa iconos decorativos. Si un
+prerrequisito falta, se enlaza a la guia o unidad correspondiente.
+
+### Resultado de aprendizaje
+
+Lista de verbos observables: explicar, comparar, generar, validar, justificar o
+recuperar. Evitar objetivos vagos como “comprender todo”. Cada resultado debe
+conectar con un ejercicio, prueba o criterio de rubrica.
+
+### Bloque de practica
+
+Agrupa proposito, pasos, comando, resultado esperado y recuperacion. Puede usar
+gris galeria para separarse de la prosa, pero mantiene texto negro, enlaces
+subrayados y comandos copiables. Un comando destructivo declara primero backup,
+alcance y recuperacion.
+
+### Bloque de evidencia
+
+Muestra un estado de prueba, respuesta HTTP, checksum, tabla o resultado de
+validacion. No se colorea unicamente en verde o rojo: incluye palabras como
+“correcto”, “error”, “pendiente” o “bloqueado” y explica la siguiente accion.
+
+### Diagnostico y autoevaluacion
+
+Las preguntas aparecen al final de la leccion y exigen aplicar conceptos, no
+memorizar definiciones. Deben poder responderse con el material y los artefactos
+locales; no deben exigir un login ni consultar una API externa.
+
+### Navegacion de unidad
+
+Usar enlaces de texto claros: “Unidad anterior”, “Siguiente unidad”, “Abrir
+ejemplo”, “Ver rubrica”. El estado actual se comunica con texto, `aria-current`
+cuando corresponda y foco visible. No sustituir enlaces por flechas sin
+etiqueta.
+
+### Tablas y datos
+
+Usar tablas HTML para equivalentes de mapa, resultados comparables o contratos
+de servicio. Incluir `caption`, encabezados `th`, unidades y orden de lectura.
+En pantallas pequenas, permitir desplazamiento horizontal o una version
+resumida; nunca ocultar los valores esenciales para proteger una composicion.
+
+## Interaccion y estados
+
+- Todo control se opera con teclado y muestra `:focus-visible` de alto
+  contraste.
+- Los enlaces se distinguen por subrayado, no solo por color.
+- Hover es opcional y nunca contiene informacion exclusiva.
+- Los estados de carga, exito, vacio y error usan una region de estado con texto
+  claro. No dejar un mapa, tabla o panel vacio sin explicacion.
+- Los dialogos gestionan foco al abrir y devolverlo al cerrar.
+- La URL conserva filtros y vista cuando esa informacion sea compartible.
+- Respetar `prefers-reduced-motion`; no introducir animacion decorativa. Una
+  transicion funcional debe ser breve y nunca impedir leer o operar contenido.
+
+## Responsive y accesibilidad
+
+La interfaz se prueba a 320 CSS px, zoom de texto y zoom de navegador al 200 %.
+No bloquear escalado, usar alturas fijas para prosa ni depender de arrastre. El
+contenido sigue una columna de lectura en movil y amplía el margen en pantallas
+grandes. Los mapas pueden usar mayor ancho cuando su funcion lo exige, pero la
+leyenda, filtros y tabla mantienen una lectura lineal fuera o junto al canvas.
+
+Toda imagen usa texto alternativo util. Una imagen decorativa usa `alt=""`; una
+captura que enseña un resultado describe la observacion relevante. Video incluye
+subtitulos o transcripcion. Axe y Playwright son apoyo; la revision manual de
+teclado, foco, contraste, reflow, lector de pantalla y Safari real se registra
+en `docs/governance/manual-accessibility-review.md`.
+
+## Imagenes, iconos y mapas base
+
+Las imagenes se incorporan solo si tienen procedencia, licencia y alternativa
+textual resueltas. No usar fotos de relleno ni ilustraciones que compitan con un
+mapa o ejercicio. Los iconos son funcionales, tienen nombre accesible y no
+sustituyen una etiqueta necesaria.
+
+Un mapa base aporta orientacion, no evidencia tematica. Si se usa OSM Standard,
+mostrar atribucion visible, usar HTTPS, no precargar teselas ni ofrecer descarga
+interpretables si ese servicio externo no responde.
+
+## Patrones que se deben evitar
+
+- Hero con imagen o eslogan que retrase la ruta de aprendizaje.
+- Carruseles, autoavance, contadores, rankings, medallas o gamificacion sin
+  valor curricular.
+- Tarjetas con sombra, radios grandes, degradados, efectos de cristal o iconos
+  decorativos.
+- Texto centrado de varias lineas, enlaces sin subrayado o controles solo por
+  hover.
+- Lienzos de mapa sin leyenda, atribucion, estado ni alternativa tabular.
+- Repetir datos de progreso o testimonios como sustituto de ejercicios y
+  evidencia verificable.
+- Ocultar complejidad operativa relevante, por ejemplo CORS, licencia, secreto,
+  sensibilidad, error o recuperacion, para mantener una pagina “limpia”.
+
+## Aplicacion tecnica
+
+`docs/assets/css/tokens.css` es la fuente de tokens. `docs/assets/css/site.css`
+aplica la composicion editorial del sitio. `scripts/sync_design_tokens.py`
+sincroniza tokens con `examples/maplibre/app/src/styles/tokens.css`; ejecutar su
+modo `--check` despues de modificar tokens. Los ejemplos pueden ampliar estilos
+por necesidad cartografica, pero conservan los colores, foco, tipografia, radios
+y espaciado definidos aqui.
+
+No agregar Tailwind, un framework de frontend ni una biblioteca de componentes
+solo para aplicar esta guia. CSS nativo y componentes semanticos son la opcion
+por defecto.
+
+## Lista de revision visual
+
+Antes de publicar una pagina o ejemplo, comprobar:
+
+- La pagina identifica unidad, resultado y siguiente accion sin depender de una
+  imagen.
+- Los encabezados mantienen orden semantico y la prosa usa interlineado legible.
+- Los enlaces, foco, estados y controles se distinguen con mas de un canal.
+- La practica incluye resultado esperado y recuperacion cuando hay riesgo.
+- El mapa tiene atribucion, leyenda, estado y alternativa equivalente.
+- Las tablas conservan encabezados y lectura a 320 CSS px.
+- Las dependencias externas son opcionales o tienen alternativa local.
+- El contraste y la revision manual se registran donde corresponda.
+
+## Revision
+
+2026-08-03: reemplazo de la referencia de portafolio por un sistema visual para
+aprendizaje guiado. Se adoptan lecciones breves, rutas claras, practica y
+feedback inspirados en Memorisely y Uxcel, sin copiar su identidad, componentes,
+marcas ni mecanismos comerciales. Se preservan las restricciones de
+accesibilidad, monocromia, CSS nativo y contenido cartografico del repositorio.
