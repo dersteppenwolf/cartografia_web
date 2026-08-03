@@ -1,0 +1,53 @@
+datasets:
+  - id: referencia-sintetica-vector
+    title: Colección sintética de zonas de referencia
+    source: Generada localmente por scripts/generate_fixtures.py
+    owner: instructor del curso
+    version: "2026-08-03"
+    retrieved_at: "2026-08-03"
+    checksum: sha256:6a55f1a46abbc4c8761403aa00ebb26eb2a394665aec2987e0a21d0d448a50b8
+    license: CC0-1.0
+    crs: EPSG:4326
+    schema: FeatureCollection with Point geometry and id, nombre, valor properties
+    sensitivity: public
+    files:
+      - data/fixtures/vector/referencia.geojson
+  - id: referencia-sintetica-tabular
+    title: Tabla sintética de zonas de referencia
+    source: Generada localmente por scripts/generate_fixtures.py
+    owner: instructor del curso
+    version: "2026-08-03"
+    retrieved_at: "2026-08-03"
+    checksum: sha256:0fd59984f612334a3cee3fa01576a5829a645a69b9ae14814d870c7d0144bcb7
+    license: CC0-1.0
+    crs: Not applicable
+    schema: CSV with id, nombre, valor columns
+    sensitivity: public
+    files:
+      - data/fixtures/vector/referencia.csv
+  - id: referencia-sintetica-geopackage
+    title: GeoPackage sintético de referencia
+    source: Generada localmente por scripts/prepare_vector_data.py
+    owner: instructor del curso
+    version: "2026-08-03"
+    retrieved_at: "2026-08-03"
+    checksum: sha256:2c103d1685a1482f7e40e0728a415f49239091cf5b77ca38de0268453b4101e7
+    license: CC0-1.0
+    crs: EPSG:4326
+    schema: GeoPackage Point layer with id, nombre, valor properties
+    sensitivity: public
+    files:
+      - data/fixtures/vector/referencia.gpkg
+  - id: referencia-sintetica-raster
+    title: Raster sintético de referencia
+    source: Generada localmente por scripts/generate_fixtures.py
+    owner: instructor del curso
+    version: "2026-08-03"
+    retrieved_at: "2026-08-03"
+    checksum: sha256:094a7775c431c63360be0e019be6df3478b5f739d9897bc6b6034d756aa59850
+    license: CC0-1.0
+    crs: EPSG:4326
+    schema: Single-band uint8 GeoTIFF with NoData value 0
+    sensitivity: public
+    files:
+      - data/fixtures/raster/referencia.tif

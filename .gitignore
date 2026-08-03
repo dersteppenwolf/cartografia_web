@@ -105,3 +105,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Modernization build and local operation artifacts
+_site/
+_site_*/
+.preview/
+.reports/
+.backups/
+test-results/
+playwright-report/

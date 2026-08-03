@@ -2,20 +2,35 @@
   "name": "cartografia_web",
   "version": "1.0.0",
   "description": "Publicación de cartografía vía web",
-  "dependencies": {},
   "devDependencies": {
-    "husky": "^3.1.0",
-    "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1"
+    "@axe-core/playwright": "^4.12.1",
+    "@playwright/test": "^1.62.1",
+    "html-validate": "^11.6.2",
+    "leaflet": "^1.9.4",
+    "linkinator": "^8.0.3",
+    "markdownlint-cli2": "^0.23.2",
+    "playwright": "^1.62.1",
+    "prettier": "^3.9.6",
+    "stylelint": "^17.14.1",
+    "stylelint-config-standard": "^40.0.0"
   },
   "scripts": {
-    "precommit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.md": [
-      "prettier --parser markdown --write",
-      "git add"
-    ]
+    "format:check": "prettier --check \"docs/**/*.{md,html,css,yml,yaml}\" \"examples/leaflet/mapa_basico/*.{html,css,js}\" \"playwright.config.mjs\" \".github/**/*.yml\" \".{prettier,htmlvalidate,stylelintrc}.json\" \"package.json\" \"README.md\"",
+    "lint:markdown": "markdownlint-cli2 \"docs/**/*.md\" \"README.md\"",
+    "lint:html": "html-validate \"docs/**/*.html\" \"examples/leaflet/mapa_basico/index.html\"",
+    "lint:css": "stylelint \"docs/assets/css/**/*.css\" \"examples/leaflet/mapa_basico/styles.css\"",
+    "links:internal": "linkinator _site --recurse --check-css --check-fragments --skip '^https?://'",
+    "build": "uv run python scripts/build_site.py --output _site_jekyll",
+    "prepare:leaflet": "uv run python scripts/prepare_leaflet_assets.py",
+    "validate:json": "uv run python scripts/validate_resources.py",
+    "validate:xml": "uv run python scripts/validate_xml.py",
+    "validate:licenses": "uv run python scripts/validate_resources.py",
+    "validate:structured": "npm run validate:json && npm run validate:xml && npm run validate:licenses",
+    "validate:curriculum": "uv run python scripts/validate_curriculum.py",
+    "lint": "npm run lint:markdown && npm run lint:html && npm run lint:css",
+    "test": "uv run pytest",
+    "test:a11y": "playwright test --config playwright.config.mjs",
+    "validate": "npm run format:check && npm run lint && npm run validate:structured"
   },
   "repository": {
     "type": "git",

@@ -22,10 +22,14 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 - [x] (2026-08-03T14:08:57Z) Se creo este ExecPlan; no se inicio ningun hito de implementacion.
 - [x] (2026-08-03T14:19:52Z) Se reviso el ExecPlan contra `PLANS.md` y se cerraron decisiones, dependencias entre prototipos, validadores y recorridos de recuperacion.
 - [x] (2026-08-03T14:37:11Z) Se completo una revision operativa final de workspaces, Jekyll, Range/MapLibre, restauracion, licencias, seguridad y gate de candidato.
-- [ ] Completar el Hito 0: inventario, cuarentena, licencias, secretos y matriz de versiones.
-- [ ] Completar el Hito 1: estructura editorial, sitio minimo y controles base.
-- [ ] Completar el Hito 2: programa, rubricas, prerrequisitos y fixtures aprobados.
-- [ ] Completar el Hito 3: fundamentos modernos y mapa Leaflet accesible.
+- [x] (2026-08-03T14:53:47Z) Se crearon los artefactos locales de Hito 0 y `uv run python scripts/validate_resources.py` validó 30 entradas contra 263 archivos versionados.
+- [x] (2026-08-03T15:14:58Z) Se fijaron digests de Gitleaks/Trivy, se sanitizaron cinco tokens del árbol actual y ambos escaneos completaron sin hallazgos bloqueantes del árbol actual.
+- [x] (2026-08-03T15:14:58Z) Se asignó al instructor del curso como autoridad de los cuatro roles y aprobador de excepciones.
+- [x] (2026-08-03T15:14:58Z) Se confirmó la baja de la cuenta Mapbox que emitía los tokens históricos y se registró la revocación.
+- [x] (2026-08-03T15:14:58Z) Se completó el Hito 0: inventario, cuarentena, licencias, secretos, matriz de versiones, autoridad y escaneos iniciales.
+- [x] (2026-08-03T15:44:52Z) Se completó el Hito 1: sitio Jekyll mínimo, exclusión temporal del material histórico, validadores locales, CI de referencia y pruebas negativas.
+- [x] (2026-08-03T15:59:01Z) Se completó el Hito 2: programa de ocho unidades, rúbricas, prerrequisitos, trazabilidad y fixtures sintéticos con checksum estable.
+- [x] (2026-08-03T16:13:02Z) Se completó el Hito 3: unidades fundamentales, mapa Leaflet accesible, pipeline GeoJSON→GeoPackage determinista y pruebas de navegador.
 - [ ] Completar el Hito 4: OGC clasico, OGC API - Features, STAC y notebooks deterministas.
 - [ ] Completar el Hito 5A: prototipos de GeoServer, Range/CORS y herramientas cloud-native.
 - [ ] Completar el Hito 5B: stack reproducible con PostGIS, GeoServer y servidor estatico.
@@ -58,6 +62,33 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 
 - Observacion: `DESIGN.md` propone `#a3a3a3` como texto auxiliar sobre blanco y una presentacion sin estados visibles. Esas decisiones no cumplen automaticamente WCAG 2.2 AA.
   Evidencia: `AGENTS.md` ya restringe el uso de `#a3a3a3`, exige foco visible, enlaces distinguibles y alternativas para mapas.
+
+- Observacion: el validador inicial de recursos cubre los 263 archivos versionados sin copiar datos sociales ni valores de tokens.
+  Evidencia: `uv run python scripts/validate_resources.py` informo "Validated 30 inventory entries and 263 tracked files." el 2026-08-03T14:50:40Z.
+
+- Observacion: Docker Desktop no tiene servidor disponible en este equipo, por lo que Gitleaks y Trivy fijados en contenedores no se pueden ejecutar todavia.
+  Evidencia: `docker info --format '{{.ServerVersion}}'` devolvio que no existe la tuberia `//./pipe/docker_engine` el 2026-08-03T14:50:40Z.
+
+- Observacion: el usuario declaró que los tokens Mapbox históricos ya fueron revocados, pero eligió mantener roles genéricos y no aportó evidencia de revocación. Docker seguía sin servidor después de indicar que lo iniciaría.
+  Evidencia: respuestas del usuario y `docker info --format '{{.ServerVersion}}'` del 2026-08-03T14:53:47Z.
+
+- Observacion: Docker se habilitó posteriormente. Gitleaks escaneó 305 commits y reportó tres tokens históricos más dos falsos positivos de `Leaflet.VectorGrid`; el árbol actual pasó después de retirar cinco valores de token. Trivy no reportó hallazgos altos o críticos.
+  Evidencia: Gitleaks con digest `sha256:b5918eb...9ebc4` y Trivy con digest `sha256:029e99...2ceac` completados el 2026-08-03T15:14:58Z.
+
+- Observacion: la construcción Jekyll desde la raíz confirma que las exclusiones temporales omiten los nueve directorios históricos. El tema histórico Hacker emite avisos de deprecación Sass.
+  Evidencia: construcción con `ruby@sha256:347edd...113c5` del 2026-08-03T15:50:21Z; no se encontró ningún directorio histórico en `.preview/root`.
+
+- Observacion: el primer intento de generar el fixture GeoTIFF falló porque Rasterio leyó una base PROJ antigua de la instalación local de PostGIS.
+  Evidencia: `proj.db` en `C:\Program Files\PostgreSQL\15\share\contrib\postgis-3.4\proj` tenía una versión de layout incompatible el 2026-08-03T15:54:53Z.
+
+- Observacion: forzar `PROJ_DATA` y `PROJ_LIB` al paquete Rasterio resolvió la colisión de PROJ. Los tres fixtures se generan dos veces con checksums idénticos.
+  Evidencia: `uv run pytest tests/data` pasó y `scripts/generate_fixtures.py` produjo los SHA-256 registrados el 2026-08-03T15:59:01Z.
+
+- Observacion: el primer GeoPackage generado por GDAL no fue binariamente determinista porque incluía una fecha interna variable.
+  Evidencia: dos conversiones idénticas produjeron SHA-256 diferentes el 2026-08-03; se fijó `OGR_CURRENT_DATE` para estabilizar el metadato.
+
+- Observacion: el ensamblador inicial omitía el directorio Leaflet y Linkinator detectó un enlace roto desde la Unidad 1.
+  Evidencia: `_site/examples/leaflet/mapa_basico` devolvió 404 antes de que `build_site.py` copiara el ejemplo el 2026-08-03.
 
 ## Decision Log
 
@@ -129,9 +160,57 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
   Justificacion: `AGENTS.md` limita las operaciones Git aunque `PLANS.md` recomiende commits frecuentes durante una ejecucion autorizada.
   Fecha/Autor: 2026-08-03 / OpenCode.
 
+- Decision: pausar Hito 0 despues de completar los artefactos que no requieren autoridad externa.
+  Justificacion: la asignacion de responsables institucionales, la evidencia de revocacion de tokens y la disponibilidad del servidor Docker son condiciones expresas de aceptacion que un agente no puede declarar por cuenta propia.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: registrar la revocacion declarada como `claimed-revoked-evidence-pending` y los cuatro responsables como roles genericos sin autoridad.
+  Justificacion: conserva la afirmacion del usuario sin convertirla en evidencia verificable ni habilitar aprobaciones institucionales inexistentes.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: asignar al instructor del curso como responsable curricular, de datos/licencias, web/accesibilidad e infraestructura/seguridad, y como aprobador de excepciones.
+  Justificacion: el usuario estableció que la autoridad corresponde al instructor del curso.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: considerar revocados los tokens históricos de Mapbox mediante la baja confirmada de la cuenta que los emitía.
+  Justificacion: el usuario confirmó la baja de la cuenta, el instructor del curso es la autoridad asignada y los valores se retiraron del árbol actual. El historial permanece sin reescritura.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: conservar `_config.yml` en la raíz como barrera temporal de exclusión del material histórico hasta que Hito 8 publique el sitio ensamblado aprobado.
+  Justificacion: eliminarlo después de dos builds de `docs/` reactivaría la publicación raíz de rutas históricas. La exclusión explícita protege datos y recursos pendientes mientras el despliegue definitivo se implementa.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: mantener `jekyll-theme-hacker` solo para la barrera temporal de exclusión de la raíz y no usarlo para el sitio mantenido construido desde `docs/`.
+  Justificacion: permite que la configuración raíz se construya y excluya material histórico, mientras el sitio mantenido usa la plantilla y CSS accesibles definidos en Hito 1.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: fijar `PROJ_DATA` y `PROJ_LIB` al directorio `rasterio/proj_data` del entorno virtual antes de importar Rasterio.
+  Justificacion: evita que el fixture reproducible dependa de una instalación local incompatible de PostGIS o PROJ.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: adoptar la ponderación propuesta de 20% ejercicios y diagnósticos, 10% quizzes, 20% Entrega 1, 20% Entrega 2 y 30% Entrega 3.
+  Justificacion: el instructor del curso es la autoridad curricular asignada y no indicó una ponderación alternativa.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: fijar `OGR_CURRENT_DATE` en la conversión GDAL del fixture GeoPackage.
+  Justificacion: la marca temporal interna variable impedía comprobar determinismo mediante checksum.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: hacer que `build_site.py` ensamble automáticamente Leaflet cuando exista.
+  Justificacion: garantiza que las unidades mantenidas no enlacen ejemplos ausentes del artefacto estático final.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: permitir recomendar herramientas de software libre con licencia compatible para uso personal sin aprobación o licenciamiento adicional.
+  Justificacion: el usuario confirmó que las herramientas sugeridas se ejecutan en computadores personales. La excepción no cubre datos, imágenes, fuentes, PDF, código vendorizado ni SaaS de terceros, que conservan su revisión de procedencia y licencia.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: añadir `.gitleaksignore` solo para las dos huellas de falsos positivos del código QGIS2Web generado; no incluir los tokens Mapbox históricos en la allowlist.
+  Justificacion: mantiene el escaneo del árbol útil sin suprimir credenciales históricas que requieren evidencia de revocación.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
 ## Outcomes & Retrospective
 
-La planificacion inicial esta completa y la implementacion no ha comenzado. El repositorio permanece en su estado historico, sin CI ni infraestructura reproducible y con decisiones pendientes sobre privacidad, licencias, versiones y publicacion. Al cerrar cada hito, esta seccion debe indicar que comportamiento nuevo quedo disponible, que criterios pasaron, que trabajo se descarto o pospuso, cuanto tiempo curricular consumio y que leccion cambia los hitos posteriores.
+La planificación inicial y los Hitos 0 a 3 están completos. El repositorio tiene inventario, esquemas, políticas iniciales, candidatos de versión, cuarentena declarativa, un validador ejecutable, escaneos de seguridad con digests fijados, autoridad asignada al instructor y revocación Mapbox confirmada. El sitio mínimo se construye mediante Jekyll en un contenedor Ruby, se ensambla sin material histórico y supera formato, lint, validación estructurada, pruebas negativas y enlaces internos. El currículo de ocho unidades, las rúbricas, los prerrequisitos y los fixtures sintéticos son verificables. El ejemplo Leaflet funciona sin token ni jQuery y presenta filtro, estado, tabla y pruebas de accesibilidad. La infraestructura reproducible y los ejemplos de APIs modernas aún no existen. Al cerrar cada hito, esta sección debe indicar qué comportamiento nuevo quedó disponible, qué criterios pasaron, qué trabajo se descartó o pospuso, cuánto tiempo curricular consumió y qué lección cambia los hitos posteriores.
 
 ## Contexto y orientacion
 
@@ -591,3 +670,23 @@ Jekyll y Bundler son dependencias obligatorias de documentacion. Las dependencia
 2026-08-03: se reviso el plan despues de una validacion formal. Se fijo Jekyll, npm workspaces, scripts Python, configuracion REST de GeoServer, candidatos iniciales de contenedores, un unico manifiesto de datasets, gobierno y revocacion, fixtures vector/raster previos a prototipos, comandos independientes para Hito 5A, backup/restauracion, Safari real y validadores por formato. La revision elimina decisiones abiertas que antes recaian en la persona ejecutora.
 
 2026-08-03: se cerro la revision operativa. Los prototipos recibieron scripts y workspaces propios; el ensamblado Jekyll/Vite usa entradas y salidas separadas; Ruby/Jekyll y front matter quedaron fijados; `Programa.md` conserva autoridad; restore usa centinela y reanudacion segura; Range/CORS y render COG tienen aserciones concretas; las dependencias y excepciones tienen registros procesables; y el cierre distingue `candidate-prepared`, `candidate-ready` y `released` sin autorreferencias Git.
+
+2026-08-03: se inicio Hito 0. Se agregaron el entorno Python bloqueado, manifiestos y esquemas, inventario de recursos, politicas iniciales de licencias/seguridad, registro de revocaciones, roles pendientes, mantenimiento por cohorte y matriz de versiones. El validador cubrio 263 archivos versionados. Hito 0 queda pausado hasta que se asignen roles, se confirme la revocacion de tokens y Docker permita ejecutar los escaneos fijados.
+
+2026-08-03: el usuario indicó mantener roles genéricos, declaró tokens Mapbox revocados e indicó que iniciaría Docker. Se registró la revocación como pendiente de evidencia, los roles como no autorizados y se comprobó que Docker seguía sin servidor. El Hito 0 continúa pausado.
+
+2026-08-03: Docker quedó disponible. Se fijaron los digests de Gitleaks 8.24.2 y Trivy 0.59.1, se retiraron cinco valores de token del árbol actual, se limitaron dos falsos positivos generados y se ejecutaron ambos escáneres. El Hito 0 sigue pausado únicamente por autoridad institucional y evidencia de revocación.
+
+2026-08-03: el usuario asignó al instructor del curso como autoridad de los cuatro roles y aprobador de excepciones. La evidencia de revocación Mapbox es el único bloqueo restante del Hito 0.
+
+2026-08-03: el usuario confirmó que se dio de baja la cuenta Mapbox. Se registró la revocación y se cerró Hito 0; Hito 1 queda habilitado.
+
+2026-08-03: se completó Hito 1. Se incorporaron el sitio Jekyll mínimo, CSS basado en `DESIGN.md`, configuración de exclusión temporal, ensamblador, lockfiles, scripts de validación, fixtures negativos y workflow de referencia. Se conservó `_config.yml` en la raíz como barrera de exclusión hasta que el despliegue del sitio ensamblado esté disponible en Hito 8.
+
+2026-08-03: se verificó la construcción Jekyll de raíz y confirmó que las exclusiones no publican los directorios históricos. El workflow de referencia se amplió para ejecutar las validaciones, pruebas negativas, build y enlaces internos. Los avisos Sass del tema Hacker quedan aceptados solo durante la transición de la raíz.
+
+2026-08-03: se completó Hito 2. `Programa.md` quedó como fuente curricular canónica, se generó su copia Jekyll, se publicaron rúbricas y guías, se validó la trazabilidad de ocho unidades y se generaron fixtures vectorial, tabular y ráster sin datos personales. Se aisló una colisión local de PROJ para que la generación ráster siga siendo determinista.
+
+2026-08-03: se completó Hito 3. Se publicaron las tres unidades iniciales, se creó un mapa Leaflet local y accesible, se añadió la distribución Leaflet 1.9.4 con licencia registrada y se creó la conversión GDAL reproducible a GeoPackage. Se fijó la fecha interna de GDAL para estabilizar checksums y se corrigió el ensamblado para incluir el ejemplo en el sitio estático.
+
+2026-08-03: el usuario confirmó que el software libre compatible puede sugerirse para uso personal sin autorizaciones ni licenciamiento adicional. Se registró la política, manteniendo la revisión obligatoria para recursos de terceros que no son herramientas.

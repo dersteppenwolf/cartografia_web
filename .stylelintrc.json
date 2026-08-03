@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "color-hex-length": null,
+    "custom-property-pattern": null,
+    "media-feature-range-notation": null,
+    "value-keyword-case": null
+  }
+}

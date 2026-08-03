@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["resources"],
+  "properties": {
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path_glob", "kind", "decision", "license_status", "sensitivity", "owner", "target", "milestone"],
+        "properties": {
+          "path_glob": {"type": "string", "minLength": 1},
+          "kind": {"type": "string", "minLength": 1},
+          "decision": {"enum": ["conservar", "sustituir", "archivar", "eliminar", "bloquear"]},
+          "license_status": {"enum": ["project", "pending", "third-party", "quarantine"]},
+          "sensitivity": {"enum": ["public", "internal", "restricted", "personal-data"]},
+          "owner": {"type": "string", "minLength": 1},
+          "target": {"type": "string", "minLength": 1},
+          "milestone": {"type": "string", "minLength": 1},
+          "dataset_id": {"type": "string"},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

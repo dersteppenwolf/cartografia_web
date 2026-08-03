@@ -1,0 +1,2 @@
+resources:
+  - path_glob: missing-required-fields

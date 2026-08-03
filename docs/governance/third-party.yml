@@ -1,0 +1,39 @@
+third_party:
+  - name: GDAL
+    version: ubuntu-small-3.10.3
+    source: ghcr.io/osgeo/gdal
+    license: MIT
+    kind: containerized geospatial data tool
+    use: Deterministic GeoJSON to GeoPackage conversion
+  - name: Leaflet
+    version: 1.9.4
+    source:
+      package.json, package-lock.json, and examples/leaflet/mapa_basico/vendor
+    license: BSD-2-Clause
+    kind: JavaScript mapping library
+    use: Token-free introductory map example
+  - name: Jekyll and jekyll-theme-hacker
+    version: Jekyll 4.3.4 and jekyll-theme-hacker 0.2.0
+    source: Gemfile and Gemfile.lock
+    license: MIT
+    kind: Ruby gem
+    use: Temporary root publication barrier and maintained documentation build
+  - name: Historic npm tooling
+    version: 'husky 3.1.0, lint-staged 9.5.0, prettier 1.19.1'
+    source: package.json
+    license: pending
+    kind: npm
+    use: historical tooling to replace in Hito 1
+  - name: QGIS2Web generated dependencies
+    version: pending inventory by generated tree
+    source:
+      02_Conceptos/ejemplo_qgis2web and 02_Conceptos/qgis2web_world_borders
+    license: pending
+    kind: vendored JavaScript, CSS, fonts, and images
+    use: archive only after license review
+  - name: Course PDFs and images
+    version: historical
+    source: 01_Fundamentos through 08_Arquitectura_SIG
+    license: pending
+    kind: educational content and screenshots
+    use: exclude from public build until reviewed

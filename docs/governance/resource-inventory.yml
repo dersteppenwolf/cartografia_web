@@ -1,0 +1,452 @@
+resources:
+  - path_glob: .gitleaksignore
+    kind: security-allowlist
+    decision: conservar
+    license_status: project
+    sensitivity: internal
+    owner: infrastructure-security
+    target: root
+    milestone: Hito 0
+    notes: Contains only generated-code false-positive fingerprints.
+  - path_glob: .github/**
+    kind: ci-configuration
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: infrastructure-security
+    target: .github/
+    milestone: Hito 1
+    notes: Workflows must run only local-equivalent validation.
+  - path_glob: .htmlvalidate.json
+    kind: validation-configuration
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: root
+    milestone: Hito 1
+    notes: HTML validation configuration.
+  - path_glob: .markdownlint-cli2.yaml
+    kind: validation-configuration
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: root
+    milestone: Hito 1
+    notes: Markdown validation configuration for maintained docs.
+  - path_glob: .prettierrc.json
+    kind: validation-configuration
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: root
+    milestone: Hito 1
+    notes: Formatting configuration.
+  - path_glob: .ruby-version
+    kind: runtime-configuration
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: root
+    milestone: Hito 1
+    notes: Pinned Ruby version for Jekyll.
+  - path_glob: .stylelintrc.json
+    kind: validation-configuration
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: root
+    milestone: Hito 1
+    notes: CSS validation configuration preserving design tokens.
+  - path_glob: Gemfile
+    kind: ruby-dependency-manifest
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: root
+    milestone: Hito 1
+    notes: Jekyll dependency manifest.
+  - path_glob: Gemfile.lock
+    kind: ruby-lockfile
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: root
+    milestone: Hito 1
+    notes: Locked Ruby dependency graph.
+  - path_glob: THIRD_PARTY_NOTICES.md
+    kind: third-party-notices
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: data-licenses
+    target: root
+    milestone: Hito 0
+    notes: Human-readable third-party license notices.
+  - path_glob: data/**
+    kind: data-governance
+    decision: conservar
+    license_status: project
+    sensitivity: internal
+    owner: data-licenses
+    target: data/
+    milestone: Hito 0
+    notes: Schemas and manifests; approved fixtures are added in Hito 2.
+  - path_glob: docs/**
+    kind: maintained-documentation
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: curricular
+    target: docs/
+    milestone: Hito 1
+    notes: Only approved documentation is published.
+  - path_glob: examples/leaflet/mapa_basico/data/referencia.geojson
+    kind: approved-fixture-copy
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: data-licenses
+    target: examples/leaflet/mapa_basico/data/
+    milestone: Hito 3
+    dataset_id: referencia-sintetica-vector
+    notes: Copied from the approved synthetic fixture for static example use.
+  - path_glob: examples/leaflet/mapa_basico/vendor/**
+    kind: vendored-leaflet
+    decision: conservar
+    license_status: third-party
+    sensitivity: public
+    owner: data-licenses
+    target: examples/leaflet/mapa_basico/vendor/
+    milestone: Hito 3
+    notes: Pinned Leaflet 1.9.4 distribution copied from node_modules.
+  - path_glob: examples/leaflet/mapa_basico/*
+    kind: maintained-leaflet-example
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: examples/leaflet/mapa_basico/
+    milestone: Hito 3
+    notes: Token-free introductory example with a data alternative.
+  - path_glob: playwright.config.mjs
+    kind: browser-test-configuration
+    decision: conservar
+    license_status: project
+    sensitivity: internal
+    owner: web-accessibility
+    target: root
+    milestone: Hito 3
+    notes: Local Playwright server configuration for maintained examples.
+  - path_glob: pyproject.toml
+    kind: python-dependency-manifest
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: infrastructure-security
+    target: root
+    milestone: Hito 0
+    notes: Python validation tooling manifest.
+  - path_glob: scripts/**
+    kind: automation-script
+    decision: conservar
+    license_status: project
+    sensitivity: internal
+    owner: infrastructure-security
+    target: scripts/
+    milestone: Hito 0
+    notes: Reproducible validation and build tooling.
+  - path_glob: tests/**
+    kind: validation-fixture
+    decision: conservar
+    license_status: project
+    sensitivity: internal
+    owner: web-accessibility
+    target: tests/
+    milestone: Hito 1
+    notes: Negative and regression validation fixtures.
+  - path_glob: uv.lock
+    kind: python-lockfile
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: infrastructure-security
+    target: root
+    milestone: Hito 0
+    notes: Locked Python dependency graph.
+  - path_glob: .gitignore
+    kind: configuration
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: infrastructure-security
+    target: root
+    milestone: Hito 1
+    notes: Update ignores for generated artifacts and local secrets.
+  - path_glob: _config.yml
+    kind: jekyll-configuration
+    decision: sustituir
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: docs/_config.yml
+    milestone: Hito 1
+    notes: Replace only after the docs build succeeds twice.
+  - path_glob: AGENTS.md
+    kind: governance
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: curricular
+    target: root
+    milestone: Hito 0
+    notes: Repository operating rules.
+  - path_glob: DESIGN.md
+    kind: design-reference
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: root
+    milestone: Hito 1
+    notes: Apply only with WCAG 2.2 AA and semantic exceptions.
+  - path_glob: PLANS.md
+    kind: governance
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: curricular
+    target: root
+    milestone: Hito 0
+    notes: ExecPlan requirements.
+  - path_glob: UPGRADE_PLAN.md
+    kind: roadmap
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: curricular
+    target: root
+    milestone: Hito 0
+    notes: Modernization roadmap.
+  - path_glob: plans/**
+    kind: execution-plan
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: curricular
+    target: plans/
+    milestone: Hito 0
+    notes: Living execution plans.
+  - path_glob: README.md
+    kind: public-index
+    decision: sustituir
+    license_status: project
+    sensitivity: public
+    owner: curricular
+    target: root
+    milestone: Hito 1
+    notes: Keep as the root index to approved documentation.
+  - path_glob: Programa.md
+    kind: curriculum-source
+    decision: sustituir
+    license_status: project
+    sensitivity: public
+    owner: curricular
+    target: Programa.md
+    milestone: Hito 2
+    notes: Canonical curriculum source; docs copy is generated.
+  - path_glob: Herramientas.md
+    kind: tools-catalog
+    decision: sustituir
+    license_status: project
+    sensitivity: public
+    owner: curricular
+    target: docs/guias/herramientas.md
+    milestone: Hito 2
+    notes: Classify every tool as core, elective, historical, or removed.
+  - path_glob: Geoserver.md
+    kind: infrastructure-guide
+    decision: sustituir
+    license_status: project
+    sensitivity: public
+    owner: infrastructure-security
+    target: docs/unidades/05_servicios_infraestructura.md
+    milestone: Hito 5B
+    notes: Supersede manual Java 8 and Tomcat guidance.
+  - path_glob: LICENSE
+    kind: project-license
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: data-licenses
+    target: root
+    milestone: Hito 0
+    notes: Applies only to project-owned material.
+  - path_glob: package.json
+    kind: node-tooling
+    decision: sustituir
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: root
+    milestone: Hito 1
+    notes: Replace mutating precommit tooling with read-only validation scripts.
+  - path_glob: package-lock.json
+    kind: node-lockfile
+    decision: sustituir
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: root
+    milestone: Hito 1
+    notes: Regenerate only with approved dependencies.
+  - path_glob: 00_Intro/**
+    kind: historical-course-material
+    decision: sustituir
+    license_status: pending
+    sensitivity: public
+    owner: curricular
+    target: docs/unidades/01_web_git_publicacion.md
+    milestone: Hito 2
+    notes: Update prerequisites and diagnostic exercise.
+  - path_glob: 01_Fundamentos/**
+    kind: historical-course-material
+    decision: sustituir
+    license_status: pending
+    sensitivity: public
+    owner: web-accessibility
+    target: docs/unidades/01_web_git_publicacion.md
+    milestone: Hito 3
+    notes: Replace legacy Leaflet examples and embedded tokens.
+  - path_glob: 02_Conceptos/ejemplo_qgis2web/**
+    kind: generated-qgis2web
+    decision: archivar
+    license_status: third-party
+    sensitivity: public
+    owner: data-licenses
+    target: archive/qgis2web/ejemplo_qgis2web/
+    milestone: Hito 1
+    notes: Generated output; do not edit internals.
+  - path_glob: 02_Conceptos/qgis2web_world_borders/**
+    kind: generated-qgis2web
+    decision: archivar
+    license_status: third-party
+    sensitivity: public
+    owner: data-licenses
+    target: archive/qgis2web/qgis2web_world_borders/
+    milestone: Hito 1
+    notes: Generated output; do not edit internals.
+  - path_glob: 02_Conceptos/**
+    kind: historical-course-material
+    decision: sustituir
+    license_status: pending
+    sensitivity: public
+    owner: curricular
+    target: docs/unidades/02_datos_calidad.md
+    milestone: Hito 3
+    notes: Preserve concepts, add quality and CRS exercises.
+  - path_glob: 03_Cartografia/example/geotweets.csv
+    kind: social-geolocation-data
+    decision: bloquear
+    license_status: quarantine
+    sensitivity: personal-data
+    owner: data-licenses
+    target: excluded-from-public-build
+    milestone: Hito 0
+    notes: Do not copy, transform, or republish.
+  - path_glob: 03_Cartografia/example/geotweets.geojson
+    kind: social-geolocation-data
+    decision: bloquear
+    license_status: quarantine
+    sensitivity: personal-data
+    owner: data-licenses
+    target: excluded-from-public-build
+    milestone: Hito 0
+    notes: Do not copy, transform, or republish.
+  - path_glob: 03_Cartografia/example/kepler.gl.html
+    kind: social-geolocation-export
+    decision: bloquear
+    license_status: quarantine
+    sensitivity: personal-data
+    owner: data-licenses
+    target: excluded-from-public-build
+    milestone: Hito 0
+    notes: Embedded social data and historical client dependencies.
+  - path_glob: 03_Cartografia/**
+    kind: historical-course-material
+    decision: sustituir
+    license_status: pending
+    sensitivity: public
+    owner: curricular
+    target: docs/unidades/03_cartografia_accesible.md
+    milestone: Hito 3
+    notes: Specific quarantine entries take precedence.
+  - path_glob: 04_Servicios_Web_Geoservicios_OGC/**
+    kind: historical-course-material
+    decision: sustituir
+    license_status: pending
+    sensitivity: public
+    owner: curricular
+    target: docs/unidades/04_apis_interoperabilidad.md
+    milestone: Hito 4
+    notes: Replace network-dependent notebooks with deterministic fixtures.
+  - path_glob: 05_Servidores_Mapas/**
+    kind: historical-course-material
+    decision: sustituir
+    license_status: pending
+    sensitivity: public
+    owner: infrastructure-security
+    target: docs/unidades/05_servicios_infraestructura.md
+    milestone: Hito 5B
+    notes: Replace provider-specific server instructions.
+  - path_glob: 06_Simbologia/**
+    kind: historical-course-material
+    decision: sustituir
+    license_status: pending
+    sensitivity: public
+    owner: curricular
+    target: docs/unidades/03_cartografia_accesible.md
+    milestone: Hito 3
+    notes: Split styling material between Units 3, 5, and 7.
+  - path_glob: 07_Servicios_Cloud/datos/tweets_2018_shp.zip
+    kind: social-geolocation-data
+    decision: bloquear
+    license_status: quarantine
+    sensitivity: personal-data
+    owner: data-licenses
+    target: excluded-from-public-build
+    milestone: Hito 0
+    notes: Do not copy, transform, or republish.
+  - path_glob: 07_Servicios_Cloud/**
+    kind: historical-course-material
+    decision: archivar
+    license_status: pending
+    sensitivity: public
+    owner: data-licenses
+    target: archive/servicios_cloud/
+    milestone: Hito 1
+    notes: Preserve only approved comparative material.
+  - path_glob: 08_Arquitectura_SIG/**
+    kind: historical-course-material
+    decision: sustituir
+    license_status: pending
+    sensitivity: public
+    owner: curricular
+    target: docs/unidades/08_operacion_publicacion.md
+    milestone: Hito 8
+    notes: Replace historical GeoNode endpoints and social-data references.
+  - path_glob: img/**
+    kind: shared-image
+    decision: bloquear
+    license_status: pending
+    sensitivity: public
+    owner: data-licenses
+    target: review-before-public-build
+    milestone: Hito 0
+    notes: Require provenance, license, utility, and alternative text.

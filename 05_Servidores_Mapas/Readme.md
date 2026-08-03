@@ -42,7 +42,7 @@ Utilizar Estilo
 
 Ejemplo:
 
-https://api.mapbox.com/styles/v1/gkudos/cjeaqkalvk2i82slc4rrnjri8.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZ2t1ZG9zIiwiYSI6IkJ6Snd0WVUifQ.KkZKDrLUGoAuDv8CfLg4xg#13.0/40.720538/-73.997072/0
+https://api.mapbox.com/styles/v1/gkudos/cjeaqkalvk2i82slc4rrnjri8.html?fresh=true&title=true&access_token=MAPBOX_ACCESS_TOKEN_REQUIRED#13.0/40.720538/-73.997072/0
 
 **Ejemplo de uso con mapbox gl:**
 

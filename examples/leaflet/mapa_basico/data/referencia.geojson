@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "zona-1",
+      "properties": {
+        "id": "zona-1",
+        "nombre": "Zona 1",
+        "valor": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1,
+          4.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zona-2",
+      "properties": {
+        "id": "zona-2",
+        "nombre": "Zona 2",
+        "valor": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08,
+          4.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zona-3",
+      "properties": {
+        "id": "zona-3",
+        "nombre": "Zona 3",
+        "valor": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05999999999999,
+          4.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zona-4",
+      "properties": {
+        "id": "zona-4",
+        "nombre": "Zona 4",
+        "valor": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03999999999999,
+          4.73
+        ]
+      }
+    }
+  ]
+}

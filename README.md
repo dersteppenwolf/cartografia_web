@@ -1,56 +1,23 @@
 # Publicación de cartografía vía web
 
-- [Publicación de cartografía vía web](#publicaci%C3%B3n-de-cartograf%C3%ADa-v%C3%ADa-web)
-  - [Autor](#autor)
-  - [Contenido](#contenido)
-  - [Otros](#otros)
+Curso en proceso de modernización curricular, editorial y técnica.
 
-## Autor
+## Material mantenido
 
-Juan Carlos Méndez
-juan[~at~]gkudos.com
+- [Estado de la modernización](docs/status.md)
+- [Inventario de migración](docs/migration-inventory.md)
+- [Plan de modernización](UPGRADE_PLAN.md)
+- [Plan de ejecución](plans/plan_0001_modernizacion_integral.md)
 
-## Contenido
+## Programa y autor
 
-- [Introducción](00_Intro)
-- [Programa](Programa.md)
-- [Unidad 1: Fundamentos de Internet](01_Fundamentos)
-- [Unidad 2: Los SIG y la Web](02_Conceptos)
-- [Unidad 3: Cartografía](03_Cartografia)
-- [Unidad 4: Servicios web, geoservicios y estándares OGC](04_Servicios_Web_Geoservicios_OGC)
-- [Unidad 5: Servidores de mapas](05_Servidores_Mapas)
-- [Unidad 6: Simbologia](06_Simbologia)
-- [Unidad 7: Servicios en la Nube](07_Servicios_Cloud)
-- [Unidad 8: Arquitectura de aplicaciones Web para SIG](05_Arquitectura_SIG)
+- [Programa vigente en revisión](Programa.md)
+- Juan Carlos Méndez
+- juan[~~at~~]gkudos.com
 
+## Material histórico
 
-## Otros 
-
-- [Herramientas](Herramientas.md)
-- [Geoserver](Geoserver.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Las unidades, guías, exportaciones y datos anteriores se mantienen versionados
+para inventario y revisión. No se enlazan desde la navegación mantenida ni deben
+tratarse como requisitos vigentes hasta que superen las revisiones de licencia,
+accesibilidad, seguridad, privacidad y compatibilidad.

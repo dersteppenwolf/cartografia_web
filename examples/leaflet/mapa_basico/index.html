@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mapa básico accesible</title>
+    <link rel="stylesheet" href="vendor/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#tabla-datos">Saltar a la tabla de datos</a>
+    <main>
+      <h1>Mapa básico accesible</h1>
+      <p>
+        Zonas sintéticas de referencia. El mapa no usa mapa base ni servicios
+        externos; la tabla contiene la misma información.
+      </p>
+
+      <div class="controls">
+        <label for="filtro-valor">Mostrar zonas con valor mínimo</label>
+        <select id="filtro-valor" name="filtro-valor">
+          <option value="0">Todas las zonas</option>
+          <option value="20">Valor 20 o superior</option>
+          <option value="30">Valor 30 o superior</option>
+        </select>
+      </div>
+
+      <p id="estado" role="status" aria-live="polite">
+        Cargando datos de referencia.
+      </p>
+
+      <section aria-labelledby="titulo-mapa">
+        <h2 id="titulo-mapa">Mapa de zonas</h2>
+        <div
+          id="mapa"
+          tabindex="0"
+          aria-label="Mapa interactivo de zonas sintéticas"
+        ></div>
+        <p class="leyenda">
+          <strong>Leyenda:</strong> cada círculo representa una zona; su
+          etiqueta incluye nombre y valor.
+        </p>
+      </section>
+
+      <section aria-labelledby="titulo-tabla">
+        <h2 id="titulo-tabla">Datos equivalentes</h2>
+        <table id="tabla-datos">
+          <caption>
+            Valores de zonas sintéticas
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Zona</th>
+              <th scope="col">Valor</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <p class="atribucion">
+        Datos sintéticos generados localmente para el curso, licencia CC0-1.0.
+      </p>
+    </main>
+    <script src="vendor/leaflet.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+units:
+  - id: 1
+    topic: web-git-publicacion
+    document: docs/unidades/01_web_git_publicacion.md
+    exercise: examples/leaflet/mapa_basico/
+    validation: npm run build
+    rubric: docs/evaluacion/entrega_1.md
+  - id: 2
+    topic: datos-calidad
+    document: docs/unidades/02_datos_calidad.md
+    exercise: scripts/prepare_vector_data.py
+    validation: uv run pytest tests/data
+    rubric: docs/evaluacion/entrega_1.md
+  - id: 3
+    topic: cartografia-accesible
+    document: docs/unidades/03_cartografia_accesible.md
+    exercise: examples/leaflet/mapa_basico/
+    validation: npm run test:a11y
+    rubric: docs/evaluacion/entrega_1.md
+  - id: 4
+    topic: apis-interoperabilidad
+    document: docs/unidades/04_apis_interoperabilidad.md
+    exercise: notebooks/ogc_api_features.ipynb
+    validation: npm run validate:openapi
+    rubric: docs/evaluacion/entrega_2.md
+  - id: 5
+    topic: servicios-infraestructura
+    document: docs/unidades/05_servicios_infraestructura.md
+    exercise: infra/compose.yaml
+    validation: uv run python infra/smoke/smoke_stack.py
+    rubric: docs/evaluacion/entrega_2.md
+  - id: 6
+    topic: cliente-web-moderno
+    document: docs/unidades/06_cliente_web.md
+    exercise: examples/maplibre/app/
+    validation: npm run test:e2e
+    rubric: docs/evaluacion/entrega_3.md
+  - id: 7
+    topic: rendimiento-cloud-native
+    document: docs/unidades/07_rendimiento_cloud_native.md
+    exercise: scripts/benchmark/run_benchmark.py
+    validation: npm run validate:cloud
+    rubric: docs/evaluacion/entrega_3.md
+  - id: 8
+    topic: operacion-publicacion
+    document: docs/unidades/08_operacion_publicacion.md
+    exercise: scripts/release_gate.py
+    validation: npm run validate
+    rubric: docs/evaluacion/entrega_3.md
+required_topics:
+  - web-git-publicacion
+  - datos-calidad
+  - cartografia-accesible
+  - apis-interoperabilidad
+  - servicios-infraestructura
+  - cliente-web-moderno
+  - rendimiento-cloud-native
+  - operacion-publicacion

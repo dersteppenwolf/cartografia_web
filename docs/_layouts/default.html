@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/tokens.css' | relative_url }}"
+    />
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+    <header class="site-header">
+      <p class="site-title">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </p>
+      <p class="site-description">{{ site.description }}</p>
+    </header>
+    <main id="contenido">{{ content }}</main>
+    <footer class="site-footer">
+      <p>
+        Material en modernizacion. Consulte el estado y las condiciones de uso
+        antes de reutilizar recursos historicos.
+      </p>
+    </footer>
+  </body>
+</html>

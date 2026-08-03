@@ -1,1 +1,19 @@
 theme: jekyll-theme-hacker
+exclude:
+  - 00_Intro
+  - 01_Fundamentos
+  - 02_Conceptos
+  - 03_Cartografia
+  - 04_Servicios_Web_Geoservicios_OGC
+  - 05_Servidores_Mapas
+  - 06_Simbologia
+  - 07_Servicios_Cloud
+  - 08_Arquitectura_SIG
+  - Geoserver.md
+  - Herramientas.md
+  - img
+  - data
+  - scripts
+  - tests
+  - plans
+  - .venv

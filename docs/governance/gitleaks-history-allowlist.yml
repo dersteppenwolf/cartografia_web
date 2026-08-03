@@ -1,0 +1,15 @@
+allowlist:
+  - fingerprint: /repo/02_Conceptos/ejemplo_qgis2web/js/Leaflet.VectorGrid.js:generic-api-key:2251
+    reason:
+      Generated Leaflet.VectorGrid source uses an internal option named key.
+    status: false-positive-current-tree
+  - fingerprint: /repo/02_Conceptos/qgis2web_world_borders/js/Leaflet.VectorGrid.js:generic-api-key:2251
+    reason:
+      Generated Leaflet.VectorGrid source uses an internal option named key.
+    status: false-positive-current-tree
+  - fingerprint: 6e15924659a054e8faa3c6634b37099b63bc2abe:02_Conceptos/qgis2web_world_borders/js/Leaflet.VectorGrid.js:generic-api-key:2251
+    reason: Historical generated Leaflet.VectorGrid false positive.
+    status: false-positive-history
+  - fingerprint: 7b6032fef725462a705fe05247ed198a1d1720a4:02_Servicios_Web_Geoservicios_OGC/ejemplo_qgis2web/js/Leaflet.VectorGrid.js:generic-api-key:2251
+    reason: Historical generated Leaflet.VectorGrid false positive.
+    status: false-positive-history

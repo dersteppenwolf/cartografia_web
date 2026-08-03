@@ -1,0 +1,16 @@
+[project]
+name = "cartografia-web-tools"
+version = "0.1.0"
+description = "Herramientas de validacion para la modernizacion del curso"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "jsonschema==4.23.0",
+  "lxml==5.3.0",
+  "numpy==2.2.3",
+  "PyYAML==6.0.2",
+  "pytest==8.3.4",
+  "rasterio==1.4.3",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
