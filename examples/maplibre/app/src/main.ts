@@ -1,13 +1,15 @@
 import "maplibre-gl/dist/maplibre-gl.css";
 import "./styles.css";
 import { config } from "./config";
-import { createMap, featureDescription, updateFeatures } from "./map";
+import { createMap, featureDescription, updateCloudAsset, updateFeatures } from "./map";
 import { readStateFromUrl, writeStateToUrl } from "./state";
 import { setStatus } from "./status";
 
 const state = readStateFromUrl();
 const map = createMap(state);
+Object.assign(window, { courseMap: map });
 const input = document.querySelector<HTMLInputElement>("#valor-minimo")!;
+const sourceSelect = document.querySelector<HTMLSelectElement>("#fuente")!;
 const table = document.querySelector<HTMLTableSectionElement>("#tabla-datos")!;
 const dialog = document.querySelector<HTMLDialogElement>("#consulta")!;
 const detail = document.querySelector<HTMLParagraphElement>("#detalle-consulta")!;
@@ -21,7 +23,8 @@ async function load(): Promise<void> {
     const data = (await response.json()) as GeoJSON.FeatureCollection;
     const features = data.features.filter((feature) => state.minimumValue === null || Number(feature.properties?.valor) >= state.minimumValue);
     const filtered = { ...data, features };
-    if (map.loaded()) updateFeatures(map, filtered); else map.once("load", () => updateFeatures(map, filtered));
+    const render = () => sourceSelect.value === "api" ? updateFeatures(map, filtered) : updateCloudAsset(map, sourceSelect.value as "pmtiles" | "cog", config.assetsUrl);
+    if (map.loaded()) render(); else map.once("load", render);
     table.replaceChildren(...features.map((feature) => {
       const [longitude, latitude] = feature.geometry?.type === "Point" ? feature.geometry.coordinates : ["", ""];
       const row = document.createElement("tr");
@@ -39,6 +42,7 @@ document.querySelector("#aplicar-filtro")?.addEventListener("click", () => {
   writeStateToUrl(state);
   void load();
 });
+sourceSelect.addEventListener("change", () => void load());
 map.on("moveend", () => {
   const center = map.getCenter();
   state.longitude = center.lng;

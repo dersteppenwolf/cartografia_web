@@ -16,6 +16,15 @@ test("announces a network error", async ({ page }) => {
   await expect(page.locator("#estado")).toContainText("No fue posible cargar los datos");
 });
 
+for (const source of ["pmtiles", "cog"]) {
+  test(`renders the ${source.toUpperCase()} source`, async ({ page }) => {
+    await page.goto("/");
+    await page.locator("#fuente").selectOption(source);
+    await expect(page.locator("#estado")).toContainText("entidades cargadas");
+    await expect.poll(() => page.evaluate(() => Boolean((window as { courseMap?: { getSource: (id: string) => unknown } }).courseMap?.getSource("referencia")))).toBe(true);
+  });
+}
+
 test("has no automated accessibility violations", async ({ page }) => {
   await page.goto("/");
   await expect(page.locator("#estado")).toContainText("entidades cargadas");

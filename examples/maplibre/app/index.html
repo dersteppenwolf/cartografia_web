@@ -16,6 +16,12 @@
         <h2 id="controles-titulo">Controles</h2>
         <label for="valor-minimo">Valor mínimo</label>
         <input id="valor-minimo" name="valor-minimo" type="number" min="0" step="1" />
+        <label for="fuente">Fuente cartográfica</label>
+        <select id="fuente" name="fuente">
+          <option value="api">OGC API - Features</option>
+          <option value="pmtiles">PMTiles</option>
+          <option value="cog">COG</option>
+        </select>
         <button id="aplicar-filtro" type="button">Aplicar filtro</button>
       </section>
       <p id="estado" role="status" aria-live="polite">Cargando datos.</p>
@@ -36,6 +42,7 @@
       <p id="detalle-consulta"></p>
       <button id="cerrar-consulta" type="button">Cerrar detalle</button>
     </dialog>
+    <script src="/cog-protocol.js"></script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

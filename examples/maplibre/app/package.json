@@ -4,14 +4,17 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
-    "build": "tsc --noEmit && vite build",
+    "prepare:cog": "python prepare_cog_protocol.py",
+    "dev": "npm run prepare:cog && vite --host 0.0.0.0",
+    "build": "npm run prepare:cog && tsc --noEmit && vite build",
     "test": "vitest run",
-    "test:e2e": "playwright test --config playwright.config.ts",
+    "test:e2e": "npm run prepare:cog && playwright test --config playwright.config.ts",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
+    "@geomatico/maplibre-cog-protocol": "^0.9.1",
     "maplibre-gl": "^6.1.0",
+    "pmtiles": "^4.4.1",
     "vite": "^8.2.0"
   },
   "devDependencies": {
