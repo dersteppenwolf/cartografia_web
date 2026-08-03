@@ -100,6 +100,9 @@ podran bloquear la finalizacion del nucleo.
 - [x] (2026-08-03T19:43:26Z) Un clon limpio instalado con `npm ci` y
       `uv sync     --frozen` superó `npm run validate`, `npm test` y
       `npm run validate:stack` usando el stack local saludable.
+- [x] (2026-08-03T19:45:00Z) El mismo clon limpio superó cinco pruebas E2E
+      Chromium, los tres notebooks en modos fixtures/local y
+      `scripts/test_restore.py` desde volúmenes vacíos.
 - [ ] Actualizar este plan despues de cada punto de pausa con estado, evidencia,
       decisiones y resultados reales.
 - [ ] Crear commits solo si el usuario autoriza explicitamente confirmarlos
