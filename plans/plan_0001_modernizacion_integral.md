@@ -97,6 +97,9 @@ podran bloquear la finalizacion del nucleo.
 - [ ] Hito 9 preparado: documentos, matriz de navegadores y gate bloqueante
       creados; falta piloto real, Safari en macOS y decisiones curriculares
       basadas en evidencia.
+- [x] (2026-08-03T19:43:26Z) Un clon limpio instalado con `npm ci` y
+      `uv sync     --frozen` superó `npm run validate`, `npm test` y
+      `npm run validate:stack` usando el stack local saludable.
 - [ ] Actualizar este plan despues de cada punto de pausa con estado, evidencia,
       decisiones y resultados reales.
 - [ ] Crear commits solo si el usuario autoriza explicitamente confirmarlos
