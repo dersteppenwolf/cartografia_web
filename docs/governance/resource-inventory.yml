@@ -189,6 +189,15 @@ resources:
     target: root
     milestone: Hito 9
     notes: Version candidate notes and pilot outcome summary.
+  - path_glob: .gitattributes
+    kind: repository-text-normalization
+    decision: conservar
+    license_status: project
+    sensitivity: internal
+    owner: infrastructure-security
+    target: root
+    milestone: Hito 8
+    notes: Enforces deterministic LF line endings for clean-clone validation.
   - path_glob: examples/maplibre/**
     kind: maintained-maplibre-example
     decision: conservar
