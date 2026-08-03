@@ -1,7 +1,9 @@
-import { Map, type GeoJSONSource, type MapGeoJSONFeature } from "maplibre-gl";
+import { Map, setWorkerUrl, type GeoJSONSource, type MapGeoJSONFeature } from "maplibre-gl";
+import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import type { MapState } from "./state";
 
 export function createMap(state: MapState): Map {
+  setWorkerUrl(workerUrl);
   return new Map({
     container: "mapa",
     style: { version: 8, sources: {}, layers: [] },
