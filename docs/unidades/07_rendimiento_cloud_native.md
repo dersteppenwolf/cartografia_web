@@ -24,3 +24,7 @@ npm run test:range
 Un proyecto elige PMTiles para vector o COG para ráster. Todo el grupo debe
 comprender y visualizar ambas rutas, sin confundir el formato, el servidor
 estático y el catálogo STAC que describe el activo.
+
+El [cliente MapLibre mantenido]({{ '/examples/maplibre/' | relative_url }})
+permite alternar entre OGC API - Features, PMTiles y COG para observar las dos
+rutas cloud-native con una alternativa tabular.

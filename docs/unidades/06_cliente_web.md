@@ -15,6 +15,10 @@ La función `readStateFromUrl()` aplica valores seguros cuando un parámetro fal
 o es inválido; `writeStateToUrl()` actualiza la URL tras mover el mapa o
 filtrar.
 
+Consulta el [cliente MapLibre mantenido]({{ '/examples/maplibre/' |
+relative_url }}) para probar la colección, el filtro, PMTiles y COG desde el
+sitio publicado.
+
 ## Ejecución
 
 Inicia primero el stack de la Unidad 5. Luego, desde la raíz del repositorio:

@@ -11,9 +11,10 @@ para interacción. Git registra cambios locales; un hosting estático publica
 archivos sin ejecutar un servidor de aplicación. La práctica no requiere cuentas
 ni tokens.
 
-El ejemplo [mapa Leaflet básico](../../../examples/leaflet/mapa_basico/) se
-sirve por HTTP local. Su JavaScript usa módulos del navegador, `fetch`,
-`async`/`await` y un mensaje de error cuando el archivo no está disponible.
+El ejemplo [mapa Leaflet básico]({{ '/examples/leaflet/mapa_basico/' |
+relative_url }}) se sirve por HTTP local. Su JavaScript usa módulos del
+navegador, `fetch`, `async`/`await` y un mensaje de error cuando el archivo no
+está disponible.
 
 ## Diagnóstico
 
