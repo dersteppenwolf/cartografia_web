@@ -51,7 +51,7 @@ Explicar WCAG aplicada a mapas: nombre accesible, teclado, foco visible, control
 Desde la raiz ejecutar:
 
     python -m http.server 8000
-    npm run test:a11y -- --project=leaflet
+    npm run test:a11y
     npm run lint:markdown
 
 Abrir `http://localhost:8000/examples/leaflet/mapa_basico/`, navegar con Tab y Shift+Tab, aplicar filtros, verificar tabla y ampliar al 200 por ciento. La unidad debe documentar este recorrido y explicar que Axe es apoyo, no sustituto de revision humana.
@@ -60,7 +60,7 @@ Abrir `http://localhost:8000/examples/leaflet/mapa_basico/`, navegar con Tab y S
 
 La unidad se acepta cuando una persona puede justificar una clasificacion, identificar por que un total no siempre es comparable, proponer una alternativa al color y completar una lista de teclado, foco, reflow, leyenda, atribucion, estado y tabla. Debe corregir la frase truncada actual y enlazar Entrega 1 y la guia de accesibilidad.
 
-`npm run test:a11y -- --project=leaflet`, `npm run lint:markdown` y `git diff --check` deben pasar. La evidencia manual se registra en `docs/governance/manual-accessibility-review.md`, sin declarar Safari real si no se probo.
+`npm run test:a11y`, `npm run lint:markdown` y `git diff --check` deben pasar. La evidencia manual se registra en `docs/governance/manual-accessibility-review.md`, sin declarar Safari real si no se probo.
 
 ## Idempotencia y recuperacion
 
