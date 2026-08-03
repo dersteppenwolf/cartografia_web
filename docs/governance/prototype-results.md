@@ -31,3 +31,13 @@ instaló sus JAR bajo `/opt/additional_libs`. El mismo Compose inició saludable
 Decisión provisional: promover esta imagen a la siguiente prueba del Hito 5A.
 Antes de aprobar Hito 5A aún debe configurarse una colección PostGIS mediante
 REST y comprobar WMS, WFS, OGC API - Features y MVT sobre la misma capa.
+
+## COG sintético
+
+Fecha: 2026-08-03.
+
+La imagen GDAL fijada generó `referencia.cog.tif` con layout COG, compresión
+DEFLATE, EPSG:4326 y bloque 256x256. Su SHA-256 es
+`c226f051dd093075daf40e5ad38fc30f17f8bf1d972673ccb160c68b9a034831`.
+Nginx lo sirvió con HTTP 206, `Accept-Ranges: bytes`, `Content-Range` y CORS
+restringido a `http://localhost:4173`.

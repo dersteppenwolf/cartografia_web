@@ -1,0 +1,13 @@
+services:
+  static:
+    image: nginx@sha256:30f1c0d78e0ad60901648be663a710bdadf19e4c10ac6782c235200619158284
+    ports:
+      - "127.0.0.1:18081:8080"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ../assets:/usr/share/nginx/html/assets:ro
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://localhost:8080/assets/referencia.cog.tif"]
+      interval: 5s
+      timeout: 3s
+      retries: 20

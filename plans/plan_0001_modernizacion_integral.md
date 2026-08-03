@@ -106,6 +106,9 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 - Observacion: el Dockerfile alternativo con el plugin OGC API - Features verificado respondió HTTP 200 en `/geoserver/ogc/features/v1`.
   Evidencia: build `cartografia-web/geoserver-ogcapi-features:3.0.0-prototype` y Compose saludable el 2026-08-03.
 
+- Observacion: el COG sintético se sirvió correctamente con HTTP 206 y CORS restringido mediante Nginx.
+  Evidencia: `infra/prototypes/range/validate_range.py` pasó contra `referencia.cog.tif` el 2026-08-03.
+
 ## Decision Log
 
 - Decision: ejecutar los hitos en el orden de este plan y tratar Hito 0, Hito 1 y Hito 5A como puertas bloqueantes.
@@ -726,5 +729,7 @@ Jekyll y Bundler son dependencias obligatorias de documentacion. Las dependencia
 2026-08-03: el primer prototipo GeoServer/PostGIS inició correctamente y se limpió con volúmenes vacíos. Vector tiles quedó disponible, pero OGC API - Features devolvió 404. La alternativa Dockerfile con módulo OGC API queda pendiente y bloquea Hito 5B.
 
 2026-08-03: el Dockerfile alternativo descargó y verificó el plugin OGC API - Features 3.0.0. El endpoint respondió HTTP 200 y el prototipo se limpió. Falta configurar y consultar una capa antes de promover Hito 5A.
+
+2026-08-03: se generó un COG sintético con GDAL y se validó HTTP Range/CORS sobre Nginx. PMTiles, MapLibre y los smoke tests integrados siguen pendientes.
 
 2026-08-03: el usuario confirmó que el software libre compatible puede sugerirse para uso personal sin autorizaciones ni licenciamiento adicional. Se registró la política, manteniendo la revisión obligatoria para recursos de terceros que no son herramientas.
