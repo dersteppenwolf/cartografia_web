@@ -22,7 +22,8 @@ la fila centinela sin pasos manuales. Podra observar el resultado con
       explica SQL espacial, roles, indices, stores, capas, estilos, salud, logs
       ni el modelo de recuperacion.
 - [x] (2026-08-03) Se reescribió la unidad con arquitectura, PostGIS, GiST,
-      GeoServer REST, SLD, Compose, healthchecks, logs, interfaces y recuperación.
+      GeoServer REST, SLD, Compose, healthchecks, logs, interfaces y
+      recuperación.
 - [x] (2026-08-03) Se agregaron prácticas SQL, lectura de configuración REST,
       smoke test, logs, backup, recuperación, errores y autoevaluación.
 - [x] (2026-08-03) Pasaron stack vacío, notebooks locales, restauración de fila
@@ -40,12 +41,29 @@ la fila centinela sin pasos manuales. Podra observar el resultado con
   `infra/compose.yaml`, `scripts/configure_geoserver.py`,
   `infra/smoke/smoke_stack.py` y `scripts/test_restore.py`.
 
+- Observacion: la descarga dinámica de Vector Tiles en el arranque podía dejar
+  un ZIP vacío y MVT dejaba de estar disponible después de una restauración
+  desde volúmenes vacíos. Evidencia: respuesta WMS `InvalidFormat` y ZIP de 0
+  bytes en `/opt/additional_libs` el 2026-08-03.
+
+- Observacion: el plugin Vector Tiles 3.0.0 descargado desde un mirror explícito
+  y verificado por SHA-256 mantuvo MVT disponible antes y después de la
+  restauración. Evidencia: SHA-256
+  `b763248cf13e66678cae456f64c8e93c4e5762aebe7a9ce01cab67f408fc7263` y smoke
+  test correcto el 2026-08-03.
+
 ## Decision Log
 
 - Decision: enseñar GeoServer como configuracion declarada por REST y SLD
   versionado, no como secuencia de clics en una interfaz. Justificacion: la
   reconstruccion debe ser demostrable desde un clon limpio y no depender de un
   data directory opaco. Fecha/Autor: 2026-08-03 / OpenCode.
+
+- Decision: instalar Vector Tiles durante el build de GeoServer desde un mirror
+  explícito, con SHA-256 verificado, y desactivar la descarga dinámica al
+  arranque. Justificacion: elimina una dependencia no determinista de
+  SourceForge y hace que MVT sobreviva una reconstrucción desde volúmenes
+  vacíos. Fecha/Autor: 2026-08-03 / OpenCode.
 
 ## Outcomes & Retrospective
 

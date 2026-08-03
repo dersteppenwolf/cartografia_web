@@ -26,8 +26,7 @@ services:
     environment:
       SKIP_DEMO_DATA: "true"
       RUN_UNPRIVILEGED: "true"
-      INSTALL_EXTENSIONS: "true"
-      STABLE_EXTENSIONS: "vectortiles"
+      INSTALL_EXTENSIONS: "false"
       CORS_ENABLED: "true"
       CORS_ALLOWED_ORIGINS: "http://localhost:4173"
       CORS_ALLOWED_METHODS: "GET,HEAD,OPTIONS"

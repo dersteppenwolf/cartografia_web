@@ -23,6 +23,12 @@ third_party:
     license: GPL-2.0-or-later
     kind: GeoServer extension ZIP
     use: Required module for Hito 5A OGC API - Features prototype
+  - name: GeoServer Vector Tiles plugin
+    version: 3.0.0
+    source: netix.dl.sourceforge.net GeoServer extension archive
+    license: GPL-2.0-or-later
+    kind: GeoServer extension ZIP
+    use: Pinned MVT support for the reproducible GeoServer stack
   - name: PostgreSQL/PostGIS
     version: 17-3.5
     source: docker.io/postgis/postgis

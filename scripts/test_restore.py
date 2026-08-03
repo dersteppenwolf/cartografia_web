@@ -43,7 +43,25 @@ def main() -> int:
     )
     if check.stdout.strip() != SENTINEL_ID:
         raise RuntimeError("La fila centinela no se recuperó después de la restauración.")
-    print("Clean-stack backup and restore preserved the sentinel row.")
+    subprocess.run(
+        compose_command(
+            args.compose_file,
+            "exec",
+            "-T",
+            "postgis",
+            "psql",
+            "-U",
+            "curso_admin",
+            "-d",
+            "curso",
+            "-v",
+            "ON_ERROR_STOP=1",
+            "-c",
+            f"DELETE FROM referencia WHERE id = '{SENTINEL_ID}';",
+        ),
+        check=True,
+    )
+    print("Clean-stack backup and restore preserved the sentinel row and restored the fixture baseline.")
     return 0
 
 

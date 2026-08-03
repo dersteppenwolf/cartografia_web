@@ -37,6 +37,11 @@ versions:
     checksum: sha256:1d338a1b89ca7a02cde8aae47ede387a1b28ffa51388e104aa1b1f75c3e41296
     status: downloaded-hito-5a
     owner: infrastructure-security
+  - component: GeoServer Vector Tiles plugin
+    candidate: geoserver-3.0.0-vectortiles-plugin.zip
+    checksum: sha256:b763248cf13e66678cae456f64c8e93c4e5762aebe7a9ce01cab67f408fc7263
+    status: pinned-hito-5b
+    owner: infrastructure-security
   - component: PostgreSQL/PostGIS
     candidate: postgis/postgis:17-3.5
     digest: postgis/postgis@sha256:45f2a608397fa67d236b012c14a9e3ea31e9fe813edbeb5c1c0d1acbf0d48ea9
