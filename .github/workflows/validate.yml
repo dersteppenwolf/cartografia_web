@@ -40,9 +40,31 @@ jobs:
           --project=chromium
       - name: Build MapLibre client
         run: npm run --workspace examples/maplibre/app build
-      - name: Validate static STAC and cloud assets
-        run: npm run validate:cloud
       - name: Build approved static site
         run: npm run build
       - name: Check internal links
         run: npm run links:internal
+  stack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 24
+          cache: npm
+      - uses: astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86
+        with:
+          version: 0.6.14
+      - name: Install dependencies
+        run: npm ci && uv sync --frozen
+      - name: Start reproducible stack
+        run: docker compose -f infra/compose.yaml up -d --build --wait
+      - name: Configure and validate services
+        run:
+          uv run python scripts/configure_geoserver.py && npm run validate:stack
+      - name: Collect service logs on failure
+        if: failure()
+        run: docker compose -f infra/compose.yaml logs
+      - name: Stop reproducible stack
+        if: always()
+        run: docker compose -f infra/compose.yaml down --volumes

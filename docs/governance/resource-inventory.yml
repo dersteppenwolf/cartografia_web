@@ -171,6 +171,15 @@ resources:
     target: scripts/
     milestone: Hito 0
     notes: Reproducible validation and build tooling.
+  - path_glob: .trivyignore
+    kind: security-scanner-exception
+    decision: conservar
+    license_status: project
+    sensitivity: internal
+    owner: infrastructure-security
+    target: root
+    milestone: Hito 8
+    notes: Narrow Trivy identifier allowlist linked to a time-bounded exception.
   - path_glob: examples/maplibre/**
     kind: maintained-maplibre-example
     decision: conservar

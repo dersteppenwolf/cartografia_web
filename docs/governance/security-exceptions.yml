@@ -4,5 +4,8 @@ exceptions:
     severity: high
     owner: infrastructure-security
     approver: instructor
-    justification: GeoServer 3.0.0 startup installs extensions and credentials as root, then RUN_UNPRIVILEGED=true starts Tomcat as UID/GID 999. Forcing a final Dockerfile USER prevents startup and fails the stack smoke test.
-    expires_at: "2026-12-31"
+    justification:
+      GeoServer 3.0.0 startup installs extensions and credentials as root, then
+      RUN_UNPRIVILEGED=true starts Tomcat as UID/GID 999. Forcing a final
+      Dockerfile USER prevents startup and fails the stack smoke test.
+    expires_at: '2026-12-31'

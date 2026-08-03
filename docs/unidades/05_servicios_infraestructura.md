@@ -8,8 +8,9 @@ permalink: /unidades/05-servicios-infraestructura/
 
 El stack de referencia ejecuta PostGIS, GeoServer y un servidor estático local.
 PostGIS conserva la colección `referencia`; GeoServer publica la misma colección
-mediante WMS, WFS y OGC API - Features, y también genera MVT por WMS. El servidor
-estático entrega PMTiles y COG con HTTP Range y CORS para el cliente MapLibre.
+mediante WMS, WFS y OGC API - Features, y también genera MVT por WMS. El
+servidor estático entrega PMTiles y COG con HTTP Range y CORS para el cliente
+MapLibre.
 
 No se publica ninguna interfaz administrativa fuera de `localhost`. Las
 credenciales de los ejemplos son ficticias, se entregan por archivo y no deben
@@ -26,8 +27,8 @@ uv run python scripts/configure_geoserver.py
 uv run python infra/smoke/smoke_stack.py
 ```
 
-El último comando comprueba WMS, WFS, OGC API - Features, MVT, HTTP Range y CORS.
-Para detener el entorno y eliminar sus datos de práctica, ejecuta:
+El último comando comprueba WMS, WFS, OGC API - Features, MVT, HTTP Range y
+CORS. Para detener el entorno y eliminar sus datos de práctica, ejecuta:
 
 ```powershell
 docker compose -f infra/compose.yaml down --volumes

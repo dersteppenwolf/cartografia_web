@@ -38,12 +38,13 @@
     "data:build:cog": "uv run python scripts/build_cog.py",
     "test:range": "uv run python scripts/validate_range.py --asset referencia.pmtiles && uv run python scripts/validate_range.py --asset referencia.cog.tif",
     "validate:cloud": "npm run validate:stac && npm run test:range",
+    "validate:stack": "uv run python infra/smoke/smoke_stack.py && npm run validate:cloud",
     "benchmark": "uv run python scripts/benchmark/run_benchmark.py",
     "validate:client": "npm run --workspace examples/maplibre/app lint && npm run --workspace examples/maplibre/app test && npm run --workspace examples/maplibre/app build",
     "lint": "npm run lint:markdown && npm run lint:html && npm run lint:css",
     "test": "uv run pytest",
     "test:a11y": "playwright test --config playwright.config.mjs",
-    "validate": "npm run format:check && npm run lint && npm run validate:structured && npm run validate:cloud && npm run validate:client"
+    "validate": "npm run format:check && npm run lint && npm run validate:structured && npm run validate:client"
   },
   "repository": {
     "type": "git",
