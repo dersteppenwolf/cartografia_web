@@ -10,3 +10,7 @@ RUN mkdir -p /opt/additional_libs \
     && echo "$OGCAPI_FEATURES_SHA256  /tmp/ogcapi-features.zip" | sha256sum -c - \
     && unzip -q /tmp/ogcapi-features.zip -d /opt/additional_libs \
     && rm /tmp/ogcapi-features.zip
+
+# GeoServer's startup script must run privileged to install extensions, then
+# RUN_UNPRIVILEGED=true drops the serving process to its dedicated tomcat user.
+USER root

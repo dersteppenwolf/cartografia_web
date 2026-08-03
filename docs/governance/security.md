@@ -10,8 +10,9 @@ futuras se limitaran a `localhost` y los secretos futuros se leeran desde
 archivos ignorados por Git.
 
 Docker Desktop estuvo disponible el 2026-08-03. Gitleaks 8.24.2 pasó sobre el
-árbol actual tras retirar cinco valores de token y limitar dos falsos positivos
-de `Leaflet.VectorGrid` mediante huellas exactas. La auditoría histórica halló
+árbol actual tras retirar cinco valores de token y limitar falsos positivos de
+`Leaflet.VectorGrid` y checksums públicos de GeoServer mediante huellas exactas.
+La auditoría histórica halló
 tres tokens históricos y dos falsos positivos; los tokens quedan con evidencia
 de revocación pendiente y el historial no se reescribe.
 

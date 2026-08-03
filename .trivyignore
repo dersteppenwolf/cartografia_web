@@ -1,0 +1,3 @@
+# GeoServer startup performs a documented root-to-tomcat handoff; see
+# docs/governance/security-exceptions.yml#geoserver-runtime-root-handoff.
+AVD-DS-0002

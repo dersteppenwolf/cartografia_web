@@ -23,6 +23,7 @@ def main() -> int:
     parser.add_argument("--scope", choices=("worktree", "history", "dependencies"), required=True)
     parser.add_argument("--report", type=Path)
     args = parser.parse_args()
+    report = args.report.resolve() if args.report is not None else None
     if args.scope == "worktree":
         with tempfile.TemporaryDirectory() as empty_dir:
             command = [
@@ -31,24 +32,25 @@ def main() -> int:
                 GITLEAKS, "detect", "--source", "/repo", "--no-git", "--max-target-megabytes", "1",
                 "--redact=100", "--no-banner",
             ]
-            if args.report is not None:
-                command[5:5] = ["-v", f"{args.report.parent}:/reports"]
-                command.extend(["--report-format", "json", "--report-path", f"/reports/{args.report.name}"])
+            if report is not None:
+                report.parent.mkdir(parents=True, exist_ok=True)
+                command[5:5] = ["-v", f"{report.parent}:/reports"]
+                command.extend(["--report-format", "json", "--report-path", f"/reports/{report.name}"])
             return run(command)
     if args.scope == "history":
-        if args.report is None:
+        if report is None:
             parser.error("--report is required for history")
         return run([
             "docker", "run", "--rm", "-v", f"{ROOT}:/repo:ro",
-            "-v", f"{args.report.parent}:/reports", GITLEAKS,
+            "-v", f"{report.parent}:/reports", GITLEAKS,
             "git", "/repo", "--log-opts=--all", "--max-target-megabytes", "5",
-            "--redact=100", "--report-format", "json", "--report-path", f"/reports/{args.report.name}",
+            "--redact=100", "--report-format", "json", "--report-path", f"/reports/{report.name}",
             "--no-banner",
         ])
     return run([
         "docker", "run", "--rm", "-v", f"{ROOT}:/workspace:ro", TRIVY,
-        "fs", "--exit-code", "1", "--severity", "CRITICAL,HIGH", "--scanners", "vuln,secret,misconfig",
-        "--skip-dirs", ".git,.venv", "/workspace",
+        "fs", "--exit-code", "1", "--severity", "CRITICAL,HIGH", "--scanners", "vuln,secret,misconfig", "--ignorefile", "/workspace/.trivyignore",
+        "--skip-dirs", ".git,.venv,.preview,_site,_site_jekyll", "/workspace",
     ])
 
 

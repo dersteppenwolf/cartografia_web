@@ -10,3 +10,6 @@ RUN mkdir -p /opt/additional_libs \
     && echo "$OGCAPI_FEATURES_SHA256  /tmp/ogcapi-features.zip" | sha256sum -c - \
     && unzip -q /tmp/ogcapi-features.zip -d /opt/additional_libs \
     && rm /tmp/ogcapi-features.zip
+
+# The prototype follows the same root-to-tomcat handoff as the promoted image.
+USER root
