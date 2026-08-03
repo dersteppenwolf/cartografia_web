@@ -3,16 +3,20 @@
 from __future__ import annotations
 
 import sys
+import argparse
 
 import requests
 
 
-URL = "http://localhost:18081/assets/referencia.cog.tif"
 HEADERS = {"Origin": "http://localhost:4173", "Range": "bytes=0-15"}
 
 
 def main() -> int:
-    response = requests.get(URL, headers=HEADERS, timeout=30)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--asset", default="referencia.cog.tif")
+    args = parser.parse_args()
+    url = f"http://localhost:18081/assets/{args.asset}"
+    response = requests.get(url, headers=HEADERS, timeout=30)
     required = {
         "Access-Control-Allow-Origin": "http://localhost:4173",
         "Accept-Ranges": "bytes",
@@ -23,7 +27,7 @@ def main() -> int:
     if not response.headers.get("Content-Range", "").startswith("bytes 0-15/"):
         print("Missing expected Content-Range header", file=sys.stderr)
         return 1
-    print("Validated HTTP 206, Range, and CORS for the raster prototype.")
+    print(f"Validated HTTP 206, Range, and CORS for {args.asset}.")
     return 0
 
 

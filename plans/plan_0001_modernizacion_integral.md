@@ -109,6 +109,9 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 - Observacion: el COG sintético se sirvió correctamente con HTTP 206 y CORS restringido mediante Nginx.
   Evidencia: `infra/prototypes/range/validate_range.py` pasó contra `referencia.cog.tif` el 2026-08-03.
 
+- Observacion: Planetiler generó y el CLI oficial verificó `referencia.pmtiles`, que Nginx sirvió con HTTP 206 y CORS restringido.
+  Evidencia: `infra/prototypes/tools/build_pmtiles.py` y `validate_range.py --asset referencia.pmtiles` pasaron el 2026-08-03.
+
 ## Decision Log
 
 - Decision: ejecutar los hitos en el orden de este plan y tratar Hito 0, Hito 1 y Hito 5A como puertas bloqueantes.
@@ -735,5 +738,7 @@ Jekyll y Bundler son dependencias obligatorias de documentacion. Las dependencia
 2026-08-03: el Dockerfile alternativo descargó y verificó el plugin OGC API - Features 3.0.0. El endpoint respondió HTTP 200 y el prototipo se limpió. Falta configurar y consultar una capa antes de promover Hito 5A.
 
 2026-08-03: se generó un COG sintético con GDAL y se validó HTTP Range/CORS sobre Nginx. PMTiles, MapLibre y los smoke tests integrados siguen pendientes.
+
+2026-08-03: Planetiler generó PMTiles desde el GeoJSON sintético y el CLI de Protomaps lo verificó. Nginx validó HTTP Range/CORS para el archivo. MapLibre y los smoke tests integrados siguen pendientes.
 
 2026-08-03: el usuario confirmó que el software libre compatible puede sugerirse para uso personal sin autorizaciones ni licenciamiento adicional. Se registró la política, manteniendo la revisión obligatoria para recursos de terceros que no son herramientas.

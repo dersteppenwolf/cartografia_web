@@ -41,3 +41,11 @@ DEFLATE, EPSG:4326 y bloque 256x256. Su SHA-256 es
 `c226f051dd093075daf40e5ad38fc30f17f8bf1d972673ccb160c68b9a034831`.
 Nginx lo sirvió con HTTP 206, `Accept-Ranges: bytes`, `Content-Range` y CORS
 restringido a `http://localhost:4173`.
+
+## PMTiles sintético
+
+Fecha: 2026-08-03.
+
+Planetiler generó `referencia.pmtiles` desde el GeoJSON sintético y el CLI
+oficial PMTiles lo verificó correctamente. Nginx sirvió el archivo con HTTP
+206, `Accept-Ranges: bytes`, `Content-Range` y el mismo CORS restringido.
