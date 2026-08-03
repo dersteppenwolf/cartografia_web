@@ -30,7 +30,7 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 - [x] (2026-08-03T15:44:52Z) Se completó el Hito 1: sitio Jekyll mínimo, exclusión temporal del material histórico, validadores locales, CI de referencia y pruebas negativas.
 - [x] (2026-08-03T15:59:01Z) Se completó el Hito 2: programa de ocho unidades, rúbricas, prerrequisitos, trazabilidad y fixtures sintéticos con checksum estable.
 - [x] (2026-08-03T16:13:02Z) Se completó el Hito 3: unidades fundamentales, mapa Leaflet accesible, pipeline GeoJSON→GeoPackage determinista y pruebas de navegador.
-- [ ] Completar el Hito 4: OGC clasico, OGC API - Features, STAC y notebooks deterministas.
+- [x] (2026-08-03T16:38:43Z) Se completó el Hito 4: WFS/OGC API/OpenAPI, STAC estático y tres notebooks deterministas en modo fixtures.
 - [ ] Completar el Hito 5A: prototipos de GeoServer, Range/CORS y herramientas cloud-native.
 - [ ] Completar el Hito 5B: stack reproducible con PostGIS, GeoServer y servidor estatico.
 - [ ] Completar el Hito 6: cliente TypeScript/Vite/MapLibre mantenible.
@@ -89,6 +89,12 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 
 - Observacion: el ensamblador inicial omitía el directorio Leaflet y Linkinator detectó un enlace roto desde la Unidad 1.
   Evidencia: `_site/examples/leaflet/mapa_basico` devolvió 404 antes de que `build_site.py` copiara el ejemplo el 2026-08-03.
+
+- Observacion: los fixtures locales permiten explicar WFS, OGC API - Features y OpenAPI sin consultar servicios externos.
+  Evidencia: `data/fixtures/responses/ogc-clasico/`, `data/fixtures/responses/ogc-api-features/` y `data/fixtures/openapi/features.json` se validaron como JSON o XML bien formado el 2026-08-03T16:23:29Z.
+
+- Observacion: `stac-valid` 4.2.1 instaló un ejecutable que no encontró su módulo interno en este entorno Windows.
+  Evidencia: `uv run stac-valid --help` devolvió `ModuleNotFoundError`; `stac-validator` 4.1.2 validó Catalog, Collection e Item correctamente.
 
 ## Decision Log
 
@@ -200,6 +206,10 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
   Justificacion: garantiza que las unidades mantenidas no enlacen ejemplos ausentes del artefacto estático final.
   Fecha/Autor: 2026-08-03 / OpenCode.
 
+- Decision: usar temporalmente `stac-validator` 4.1.2 en lugar de `stac-valid` 4.2.1.
+  Justificacion: el reemplazo anunciado falló durante su inicialización en el entorno fijado, mientras que 4.1.2 validó los tres documentos STAC. Se reevaluará antes de Hito 8.
+  Fecha/Autor: 2026-08-03 / OpenCode.
+
 - Decision: permitir recomendar herramientas de software libre con licencia compatible para uso personal sin aprobación o licenciamiento adicional.
   Justificacion: el usuario confirmó que las herramientas sugeridas se ejecutan en computadores personales. La excepción no cubre datos, imágenes, fuentes, PDF, código vendorizado ni SaaS de terceros, que conservan su revisión de procedencia y licencia.
   Fecha/Autor: 2026-08-03 / OpenCode.
@@ -210,7 +220,7 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 
 ## Outcomes & Retrospective
 
-La planificación inicial y los Hitos 0 a 3 están completos. El repositorio tiene inventario, esquemas, políticas iniciales, candidatos de versión, cuarentena declarativa, un validador ejecutable, escaneos de seguridad con digests fijados, autoridad asignada al instructor y revocación Mapbox confirmada. El sitio mínimo se construye mediante Jekyll en un contenedor Ruby, se ensambla sin material histórico y supera formato, lint, validación estructurada, pruebas negativas y enlaces internos. El currículo de ocho unidades, las rúbricas, los prerrequisitos y los fixtures sintéticos son verificables. El ejemplo Leaflet funciona sin token ni jQuery y presenta filtro, estado, tabla y pruebas de accesibilidad. La infraestructura reproducible y los ejemplos de APIs modernas aún no existen. Al cerrar cada hito, esta sección debe indicar qué comportamiento nuevo quedó disponible, qué criterios pasaron, qué trabajo se descartó o pospuso, cuánto tiempo curricular consumió y qué lección cambia los hitos posteriores.
+La planificación inicial y los Hitos 0 a 4 están completos. El repositorio tiene inventario, esquemas, políticas iniciales, candidatos de versión, cuarentena declarativa, un validador ejecutable, escaneos de seguridad con digests fijados, autoridad asignada al instructor y revocación Mapbox confirmada. El sitio mínimo se construye mediante Jekyll en un contenedor Ruby, se ensambla sin material histórico y supera formato, lint, validación estructurada, pruebas negativas y enlaces internos. El currículo de ocho unidades, las rúbricas, los prerrequisitos y los fixtures sintéticos son verificables. El ejemplo Leaflet funciona sin token ni jQuery y presenta filtro, estado, tabla y pruebas de accesibilidad. WFS, OGC API - Features, OpenAPI y STAC se enseñan con fixtures y notebooks sin red. La infraestructura reproducible y los ejemplos de APIs modernas aún no existen. Al cerrar cada hito, esta sección debe indicar qué comportamiento nuevo quedó disponible, qué criterios pasaron, qué trabajo se descartó o pospuso, cuánto tiempo curricular consumió y qué lección cambia los hitos posteriores.
 
 ## Contexto y orientacion
 
@@ -688,5 +698,9 @@ Jekyll y Bundler son dependencias obligatorias de documentacion. Las dependencia
 2026-08-03: se completó Hito 2. `Programa.md` quedó como fuente curricular canónica, se generó su copia Jekyll, se publicaron rúbricas y guías, se validó la trazabilidad de ocho unidades y se generaron fixtures vectorial, tabular y ráster sin datos personales. Se aisló una colisión local de PROJ para que la generación ráster siga siendo determinista.
 
 2026-08-03: se completó Hito 3. Se publicaron las tres unidades iniciales, se creó un mapa Leaflet local y accesible, se añadió la distribución Leaflet 1.9.4 con licencia registrada y se creó la conversión GDAL reproducible a GeoPackage. Se fijó la fecha interna de GDAL para estabilizar checksums y se corrigió el ensamblado para incluir el ejemplo en el sitio estático.
+
+2026-08-03: se inició Hito 4. Se añadió la unidad de interoperabilidad y fixtures locales de WFS, landing page, conformance, collections, items y OpenAPI. Los notebooks y STAC quedan pendientes para el siguiente incremento del hito.
+
+2026-08-03: se completó Hito 4. Se añadieron Catalog, Collection e Item STAC con activo local, validación OpenAPI y STAC, y tres notebooks que se ejecutan con nbmake en modo `fixtures`. El modo `local` permanece pendiente del stack de Hito 5B.
 
 2026-08-03: el usuario confirmó que el software libre compatible puede sugerirse para uso personal sin autorizaciones ni licenciamiento adicional. Se registró la política, manteniendo la revisión obligatoria para recursos de terceros que no son herramientas.

@@ -1,0 +1,17 @@
+{
+  "collections": [
+    {
+      "id": "referencia",
+      "title": "Colección sintética de referencia",
+      "extent": {
+        "spatial": { "bbox": [[-74.1, 4.7, -74.04, 4.73]] },
+        "temporal": {
+          "interval": [["2026-08-03T00:00:00Z", "2026-08-03T00:00:00Z"]]
+        }
+      },
+      "links": [
+        { "rel": "items", "href": "items.json", "type": "application/geo+json" }
+      ]
+    }
+  ]
+}

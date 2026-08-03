@@ -1,0 +1,12 @@
+{
+  "openapi": "3.0.3",
+  "info": { "title": "API de entidades de referencia", "version": "1.0.0" },
+  "paths": {
+    "/collections": {
+      "get": { "responses": { "200": { "description": "Colecciones" } } }
+    },
+    "/collections/referencia/items": {
+      "get": { "responses": { "200": { "description": "Entidades" } } }
+    }
+  }
+}

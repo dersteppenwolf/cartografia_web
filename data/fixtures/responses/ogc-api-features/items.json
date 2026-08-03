@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "zona-1",
+      "properties": {
+        "nombre": "Zona 1",
+        "valor": 12,
+        "datetime": "2026-08-03T00:00:00Z"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.1, 4.7] }
+    }
+  ]
+}

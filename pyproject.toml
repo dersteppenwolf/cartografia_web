@@ -10,6 +10,12 @@ dependencies = [
   "PyYAML==6.0.2",
   "pytest==8.3.4",
   "rasterio==1.4.3",
+  "owslib==0.36.0",
+  "requests==2.34.2",
+  "nbclient==0.11.0",
+  "nbformat==5.10.4",
+  "nbmake==1.5.5",
+  "stac-validator==4.1.2",
 ]
 
 [tool.pytest.ini_options]

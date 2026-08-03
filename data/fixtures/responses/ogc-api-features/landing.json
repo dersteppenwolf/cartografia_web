@@ -1,0 +1,11 @@
+{
+  "title": "API de entidades de referencia",
+  "links": [
+    {
+      "rel": "conformance",
+      "href": "conformance.json",
+      "type": "application/json"
+    },
+    { "rel": "data", "href": "collections.json", "type": "application/json" }
+  ]
+}

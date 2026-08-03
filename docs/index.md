@@ -21,6 +21,7 @@ y las guias de gobierno antes de reutilizar ejemplos o datos.
 - [Unidad 1: Web, Git y publicación](unidades/01-web-git-publicacion/)
 - [Unidad 2: Datos y calidad](unidades/02-datos-calidad/)
 - [Unidad 3: Cartografía accesible y UX](unidades/03-cartografia-accesible/)
+- [Unidad 4: APIs e interoperabilidad](unidades/04-apis-interoperabilidad/)
 - [Rúbricas](evaluacion/rubricas/)
 - [Entrega 1](evaluacion/entrega-1/)
 - [Entrega 2](evaluacion/entrega-2/)

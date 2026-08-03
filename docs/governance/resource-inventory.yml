@@ -153,6 +153,15 @@ resources:
     target: root
     milestone: Hito 0
     notes: Python validation tooling manifest.
+  - path_glob: notebooks/**
+    kind: maintained-notebook
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: curricular
+    target: notebooks/
+    milestone: Hito 4
+    notes: Required notebooks use local fixtures and no external endpoints.
   - path_glob: scripts/**
     kind: automation-script
     decision: conservar

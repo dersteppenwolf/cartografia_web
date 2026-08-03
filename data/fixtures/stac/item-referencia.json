@@ -1,0 +1,34 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Feature",
+  "id": "referencia-raster-2026-08-03",
+  "collection": "referencia",
+  "bbox": [-74.12, 4.7, -74.08, 4.74],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-74.12, 4.7],
+        [-74.08, 4.7],
+        [-74.08, 4.74],
+        [-74.12, 4.74],
+        [-74.12, 4.7]
+      ]
+    ]
+  },
+  "properties": { "datetime": "2026-08-03T00:00:00Z" },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "../raster/referencia.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "GeoTIFF sintético de referencia"
+    }
+  }
+}
