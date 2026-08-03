@@ -5,23 +5,22 @@ import type { MapState } from "./state";
 
 export function createMap(state: MapState): Map {
   setWorkerUrl(workerUrl);
-  return new Map({
+  const map = new Map({
     container: "mapa",
-    style: {
-      version: 8,
-      sources: {
-        osm: {
-          type: "raster",
-          tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
-          tileSize: 256,
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        },
-      },
-      layers: [{ id: "osm", type: "raster", source: "osm" }],
-    },
+    style: { version: 8, sources: {}, layers: [] },
     center: [state.longitude, state.latitude],
     zoom: state.zoom,
   });
+  map.once("load", () => {
+    map.addSource("osm", {
+      type: "raster",
+      tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
+      tileSize: 256,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    });
+    map.addLayer({ id: "osm", type: "raster", source: "osm" });
+  });
+  return map;
 }
 
 export function updateFeatures(map: Map, features: GeoJSON.FeatureCollection): void {

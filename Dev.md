@@ -33,8 +33,17 @@ npm run --workspace examples/maplibre/app test:e2e -- --project=chromium
 ```
 
 `npm run validate` comprueba formato, Markdown, HTML, CSS, inventario,
-licencias, API - Features, errores de red, PMTiles, COG y Axe. Si Chromium no
+licencias, tipos TypeScript, pruebas unitarias y build Vite. El recorrido E2E
+verifica OGC API - Features, errores de red, PMTiles, COG y Axe. Si Chromium no
 está instalado, ejecuta `npx playwright install chromium`.
+
+Después de cambiar `docs/assets/css/tokens.css`, sincroniza los tokens del
+cliente MapLibre y el ejemplo Leaflet:
+
+```powershell
+uv run python scripts/sync_design_tokens.py
+uv run python scripts/sync_design_tokens.py --check
+```
 
 ## Infraestructura local
 

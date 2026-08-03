@@ -3,7 +3,7 @@
 }
 
 html {
-  background: var(--color-paper-white);
+  background: var(--color-gallery-gray);
   color: var(--color-ink-black);
   font-family: var(--font-abc-oracle);
   font-size: var(--text-sm);
@@ -12,6 +12,7 @@ html {
 
 body {
   margin: 0;
+  background: var(--color-gallery-gray);
 }
 
 a {
@@ -21,13 +22,13 @@ a {
 }
 
 a:focus-visible {
-  outline: 0.2rem solid var(--color-ink-black);
+  outline: 0.2rem solid var(--color-focus);
   outline-offset: 0.2rem;
 }
 
 .skip-link {
-  background: var(--color-ink-black);
-  color: var(--color-paper-white);
+  background: var(--color-accent-yellow);
+  color: var(--color-ink-black);
   left: var(--spacing-12);
   padding: var(--spacing-12);
   position: absolute;
@@ -38,15 +39,37 @@ a:focus-visible {
   top: var(--spacing-12);
 }
 
-.site-header,
-main,
-.site-footer {
+.site-shell {
   max-width: 72rem;
+  margin: 0 auto;
   padding: var(--spacing-48) var(--spacing-12);
 }
 
 .site-header {
-  background: var(--color-paper-white);
+  background: var(--color-primary-indigo);
+  color: var(--color-paper-white);
+}
+
+.site-kicker {
+  color: var(--color-plinth-gray);
+  margin: 0 0 var(--spacing-6);
+}
+
+.site-header a {
+  color: inherit;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-12);
+  margin-top: var(--spacing-24);
+}
+
+.site-nav a {
+  border-bottom: 1px solid currentColor;
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
 }
 
 .site-title,
@@ -64,28 +87,93 @@ li {
 }
 
 .site-description {
-  color: var(--color-graphite);
+  color: var(--color-plinth-gray);
   margin: 0;
 }
 
-main {
-  background: var(--color-gallery-gray);
+.site-main {
+  background: var(--color-paper-white);
   min-height: 50vh;
 }
 
 .site-footer {
-  background: var(--color-plinth-gray);
+  background: var(--color-carbon-black);
+  color: var(--color-paper-white);
 }
 
-.site-footer p {
+.site-footer p,
+.site-main > p,
+.site-main > ul,
+.site-main > ol {
   margin: 0;
   max-width: 48rem;
 }
 
+.site-main > * + * {
+  margin-top: var(--spacing-24);
+}
+
+.site-main h1 {
+  color: var(--color-carbon-black);
+}
+
+.site-main h2 {
+  border-top: 3px solid var(--color-primary-indigo);
+  color: var(--color-carbon-black);
+  padding-top: var(--spacing-12);
+}
+
+.site-main h3 {
+  color: var(--color-primary-indigo-strong);
+}
+
+.site-main table {
+  border-collapse: collapse;
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.site-main th {
+  background: var(--color-primary-indigo);
+  color: var(--color-paper-white);
+  font-weight: var(--font-weight-medium);
+}
+
+.site-main th,
+.site-main td {
+  border: 1px solid var(--color-plinth-gray);
+  padding: var(--spacing-8);
+  text-align: left;
+}
+
+.site-main tr:nth-child(even) {
+  background: var(--color-gallery-gray);
+}
+
+.site-main blockquote,
+.site-main pre {
+  background: var(--color-gallery-gray);
+  border-left: 4px solid var(--color-primary-indigo);
+  margin-left: 0;
+  padding: var(--spacing-12);
+}
+
+.site-main pre {
+  border-left-color: var(--color-carbon-black);
+  overflow-x: auto;
+}
+
+.site-main code {
+  color: var(--color-primary-indigo-strong);
+}
+
+.site-main pre code {
+  color: inherit;
+}
+
 @media (min-width: 48rem) {
-  .site-header,
-  main,
-  .site-footer {
+  .site-shell {
     padding-left: var(--spacing-48);
     padding-right: var(--spacing-48);
   }

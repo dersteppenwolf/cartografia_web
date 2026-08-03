@@ -13,17 +13,32 @@
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
     <header class="site-header">
-      <p class="site-title">
-        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      </p>
-      <p class="site-description">{{ site.description }}</p>
+      <div class="site-shell">
+        <p class="site-kicker">Curso abierto · cartografía web</p>
+        <p class="site-title">
+          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </p>
+        <p class="site-description">{{ site.description }}</p>
+        <nav class="site-nav" aria-label="Navegación principal">
+          <a href="{{ '/' | relative_url }}">Inicio</a>
+          <a href="{{ '/programa/' | relative_url }}">Programa</a>
+          <a href="{{ '/#material-curricular-aprobado' | relative_url }}"
+            >Unidades</a
+          >
+          <a href="{{ '/examples/leaflet/mapa_basico/' | relative_url }}"
+            >Ejemplos</a
+          >
+        </nav>
+      </div>
     </header>
-    <main id="contenido">{{ content }}</main>
+    <main id="contenido" class="site-main site-shell">{{ content }}</main>
     <footer class="site-footer">
-      <p>
-        Material en modernizacion. Consulte el estado y las condiciones de uso
-        antes de reutilizar recursos historicos.
-      </p>
+      <div class="site-shell">
+        <p>
+          Material en modernizacion. Consulte el estado y las condiciones de uso
+          antes de reutilizar recursos historicos.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

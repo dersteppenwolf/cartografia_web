@@ -1,11 +1,85 @@
-@import "./styles/tokens.css";
+@import url('./styles/tokens.css');
 
-body { margin: 0; color: var(--color-ink-black); font: var(--font-weight-regular) var(--text-sm) / var(--leading-sm) var(--font-abc-oracle); }
-main { max-width: 72rem; margin: 0 auto; padding: var(--spacing-48); }
-h1, h2 { font-weight: var(--font-weight-medium); }
-#mapa { min-height: 28rem; border: 1px solid var(--color-ink-black); }
-input, button { border: 1px solid var(--color-ink-black); border-radius: 0; padding: var(--spacing-8); }
-button { background: var(--color-ink-black); color: var(--color-paper-white); }
-:focus-visible { outline: 3px solid var(--color-ink-black); outline-offset: 3px; }
-table { border-collapse: collapse; width: 100%; }
-th, td { border: 1px solid var(--color-ink-black); padding: var(--spacing-8); text-align: left; }
+body {
+  background: var(--color-gallery-gray);
+  color: var(--color-ink-black);
+  font: var(--font-weight-regular) var(--text-sm) / var(--leading-sm)
+    var(--font-abc-oracle);
+  margin: 0;
+}
+
+main {
+  background: var(--color-paper-white);
+  margin: 0 auto;
+  max-width: 72rem;
+  padding: var(--spacing-48);
+}
+
+h1,
+h2 {
+  color: var(--color-carbon-black);
+  font-weight: var(--font-weight-medium);
+}
+
+h2 {
+  border-top: 3px solid var(--color-primary-indigo);
+  padding-top: var(--spacing-12);
+}
+
+#mapa {
+  border: 2px solid var(--color-primary-indigo);
+  min-height: 28rem;
+}
+
+input,
+select,
+button {
+  border: 1px solid var(--color-primary-indigo);
+  border-radius: 0;
+  color: var(--color-ink-black);
+  padding: var(--spacing-8);
+}
+
+button {
+  background: var(--color-primary-indigo);
+  color: var(--color-paper-white);
+  font-weight: var(--font-weight-medium);
+}
+
+#estado {
+  background: var(--color-gallery-gray);
+  border-left: 4px solid var(--color-primary-indigo);
+  padding: var(--spacing-12);
+}
+
+#estado[data-state='error'] {
+  border-left-color: var(--color-accent-coral);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background: var(--color-primary-indigo);
+  color: var(--color-paper-white);
+  font-weight: var(--font-weight-medium);
+}
+
+th,
+td {
+  border: 1px solid var(--color-plinth-gray);
+  padding: var(--spacing-8);
+  text-align: left;
+}
+
+.maplibregl-ctrl-attrib {
+  background: var(--color-paper-white) !important;
+  color: var(--color-graphite);
+}

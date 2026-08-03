@@ -25,7 +25,7 @@ async function load(): Promise<void> {
     const features = data.features.filter((feature) => state.minimumValue === null || Number(feature.properties?.valor) >= state.minimumValue);
     const filtered = { ...data, features };
     const render = () => sourceSelect.value === "api" ? updateFeatures(map, filtered) : updateCloudAsset(map, sourceSelect.value as "pmtiles" | "cog", config.assetsUrl);
-    if (map.loaded()) render(); else map.once("load", render);
+    if (map.getLayer("osm")) render(); else map.once("load", render);
     table.replaceChildren(...features.map((feature) => {
       const [longitude, latitude] = feature.geometry?.type === "Point" ? feature.geometry.coordinates : ["", ""];
       const row = document.createElement("tr");

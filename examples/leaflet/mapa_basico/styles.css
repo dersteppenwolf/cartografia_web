@@ -1,8 +1,8 @@
 :root {
-  color: #000000;
-  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.43;
+  color: var(--color-ink-black);
+  font-family: var(--font-abc-oracle);
+  font-size: var(--text-sm);
+  line-height: var(--leading-sm);
 }
 
 * {
@@ -11,94 +11,100 @@
 
 body {
   margin: 0;
-  background: #ffffff;
+  background: var(--color-gallery-gray);
 }
 
 main {
   max-width: 72rem;
-  padding: 3rem 0.75rem;
+  background: var(--color-paper-white);
+  padding: var(--spacing-48) var(--spacing-12);
 }
 
 h1,
 h2 {
   font-size: inherit;
-  font-weight: 500;
-  margin: 0 0 0.75rem;
+  color: var(--color-carbon-black);
+  font-weight: var(--font-weight-medium);
+  margin: 0 0 var(--spacing-12);
 }
 
 .controls {
   display: grid;
-  gap: 0.75rem;
-  margin: 3rem 0;
+  background: var(--color-gallery-gray);
+  border-left: 4px solid var(--color-primary-indigo);
+  gap: var(--spacing-12);
+  margin: var(--spacing-48) 0;
   max-width: 22rem;
+  padding: var(--spacing-12);
 }
 
 select {
-  border: 1px solid #000000;
+  border: 1px solid var(--color-primary-indigo);
   border-radius: 0;
-  color: #000000;
+  color: var(--color-ink-black);
   min-height: 2.75rem;
-  padding: 0.75rem;
+  padding: var(--spacing-12);
 }
 
 select:focus-visible,
 a:focus-visible {
-  outline: 0.2rem solid #000000;
+  outline: 0.2rem solid var(--color-focus);
   outline-offset: 0.2rem;
 }
 
 .skip-link {
-  background: #000000;
-  color: #ffffff;
-  left: 0.75rem;
-  padding: 0.75rem;
+  background: var(--color-accent-yellow);
+  color: var(--color-ink-black);
+  left: var(--spacing-12);
+  padding: var(--spacing-12);
   position: absolute;
   top: -8rem;
 }
 
 .skip-link:focus {
-  top: 0.75rem;
+  top: var(--spacing-12);
 }
 
 #mapa {
-  background: #e5e5e5;
+  background: var(--color-plinth-gray);
+  border: 2px solid var(--color-primary-indigo);
   height: min(60vh, 32rem);
-  margin-bottom: 0.75rem;
+  margin-bottom: var(--spacing-12);
   width: 100%;
 }
 
 #mapa:focus-visible {
-  outline: 0.2rem solid #000000;
+  outline: 0.2rem solid var(--color-focus);
   outline-offset: 0.2rem;
 }
 
 .leyenda,
 .atribucion {
-  color: #525252;
+  color: var(--color-graphite);
   max-width: 48rem;
 }
 
 table {
   border-collapse: collapse;
-  margin-top: 0.75rem;
+  margin-top: var(--spacing-12);
   width: 100%;
 }
 
 caption {
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   text-align: left;
 }
 
 th,
 td {
-  border: 1px solid #000000;
-  padding: 0.75rem;
+  border: 1px solid var(--color-plinth-gray);
+  padding: var(--spacing-12);
   text-align: left;
 }
 
 @media (min-width: 48rem) {
   main {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: var(--spacing-48);
+    padding-right: var(--spacing-48);
   }
 }

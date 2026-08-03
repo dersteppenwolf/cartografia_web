@@ -59,20 +59,25 @@ en ese archivo y luego se sincroniza con el cliente MapLibre.
 
 ### Color
 
-| Nombre        | Valor     | Token                  | Uso                                                           |
-| ------------- | --------- | ---------------------- | ------------------------------------------------------------- |
-| Blanco papel  | `#ffffff` | `--color-paper-white`  | Lienzo, superficies principales y texto invertido             |
-| Negro tinta   | `#000000` | `--color-ink-black`    | Texto principal, bordes, foco y controles de alto contraste   |
-| Gris galeria  | `#e5e5e5` | `--color-gallery-gray` | Bandas funcionales, ejercicios o contexto secundario          |
-| Gris plinto   | `#d4d4d4` | `--color-plinth-gray`  | Separacion de secciones o pie de pagina                       |
-| Negro carbono | `#0a0a0a` | `--color-carbon-black` | Bloques oscuros de codigo, aviso o navegacion invertida       |
-| Negro pizarra | `#171717` | `--color-slate-black`  | Superficie oscura secundaria                                  |
-| Piedra        | `#737373` | `--color-stone`        | Texto secundario solo si supera contraste AA                  |
-| Grafito       | `#525252` | `--color-graphite`     | Texto secundario fuerte, metadatos y explicaciones auxiliares |
+| Nombre         | Valor     | Token                           | Uso                                                               |
+| -------------- | --------- | ------------------------------- | ----------------------------------------------------------------- |
+| Blanco papel   | `#ffffff` | `--color-paper-white`           | Lienzo, superficies principales y texto invertido                 |
+| Azul tinta     | `#161a42` | `--color-ink-black`             | Texto principal, bordes y controles de alto contraste             |
+| Azul nube      | `#eef2ff` | `--color-gallery-gray`          | Bandas funcionales, ejercicios y contexto secundario              |
+| Azul niebla    | `#dce4ff` | `--color-plinth-gray`           | Separacion de secciones y superficies auxiliares                  |
+| Azul noche     | `#10155f` | `--color-carbon-black`          | Pie, codigo y bloques de evidencia invertidos                     |
+| Azul profundo  | `#27348d` | `--color-slate-black`           | Superficie oscura secundaria                                      |
+| Índigo         | `#3f51e8` | `--color-primary-indigo`        | Cabecera, acciones, bordes funcionales y encabezados de tabla     |
+| Índigo fuerte  | `#2d3cc7` | `--color-primary-indigo-strong` | Enfasis editorial sobre fondo claro                               |
+| Amarillo señal | `#ffc21a` | `--color-accent-yellow`         | Foco, salto al contenido y accion secundaria con texto azul tinta |
+| Coral          | `#e06960` | `--color-accent-coral`          | Enfasis no critico, borde de error y aviso contextual             |
+| Piedra         | `#626a93` | `--color-stone`                 | Texto secundario solo si supera contraste AA                      |
+| Grafito        | `#373e70` | `--color-graphite`              | Texto secundario fuerte, metadatos y explicaciones auxiliares     |
 
-`#a3a3a3` no se usa como texto sobre blanco. El color no es el unico canal para
-indicar estado, progreso, importancia, seleccion o error. Los mensajes incluyen
-texto y los controles mantienen etiquetas visibles.
+El amarillo se usa con texto azul tinta, nunca con texto blanco. El coral no
+indica por sí solo un error o éxito. El color no es el unico canal para indicar
+estado, progreso, importancia, seleccion o error. Los mensajes incluyen texto y
+los controles mantienen etiquetas visibles.
 
 ### Tipografia
 
@@ -245,10 +250,9 @@ interpretables si ese servicio externo no responde.
 
 `docs/assets/css/tokens.css` es la fuente de tokens. `docs/assets/css/site.css`
 aplica la composicion editorial del sitio. `scripts/sync_design_tokens.py`
-sincroniza tokens con `examples/maplibre/app/src/styles/tokens.css`; ejecutar su
-modo `--check` despues de modificar tokens. Los ejemplos pueden ampliar estilos
-por necesidad cartografica, pero conservan los colores, foco, tipografia, radios
-y espaciado definidos aqui.
+sincroniza tokens con MapLibre y el ejemplo Leaflet; ejecutar su modo `--check`
+cartografica, pero conservan los colores, foco, tipografia, radios y espaciado
+definidos aqui.
 
 No agregar Tailwind, un framework de frontend ni una biblioteca de componentes
 solo para aplicar esta guia. CSS nativo y componentes semanticos son la opcion
@@ -274,4 +278,4 @@ Antes de publicar una pagina o ejemplo, comprobar:
 aprendizaje guiado. Se adoptan lecciones breves, rutas claras, practica y
 feedback inspirados en Memorisely y Uxcel, sin copiar su identidad, componentes,
 marcas ni mecanismos comerciales. Se preservan las restricciones de
-accesibilidad, monocromia, CSS nativo y contenido cartografico del repositorio.
+accesibilidad, CSS nativo y contenido cartografico del repositorio.

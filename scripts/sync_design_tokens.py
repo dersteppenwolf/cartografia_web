@@ -9,7 +9,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/assets/css/tokens.css"
-TARGET = ROOT / "examples/maplibre/app/src/styles/tokens.css"
+TARGETS = (
+    ROOT / "examples/maplibre/app/src/styles/tokens.css",
+    ROOT / "examples/leaflet/mapa_basico/tokens.css",
+)
 
 
 def main() -> int:
@@ -18,11 +21,14 @@ def main() -> int:
     args = parser.parse_args()
     source = SOURCE.read_text(encoding="utf-8")
     if args.check:
-        if TARGET.read_text(encoding="utf-8") != source:
-            print(f"{TARGET.relative_to(ROOT)} no coincide con {SOURCE.relative_to(ROOT)}", file=sys.stderr)
+        divergent = [target for target in TARGETS if not target.is_file() or target.read_text(encoding="utf-8") != source]
+        if divergent:
+            for target in divergent:
+                print(f"{target.relative_to(ROOT)} no coincide con {SOURCE.relative_to(ROOT)}", file=sys.stderr)
             return 1
         return 0
-    TARGET.write_text(source, encoding="utf-8")
+    for target in TARGETS:
+        target.write_text(source, encoding="utf-8")
     return 0
 
 
