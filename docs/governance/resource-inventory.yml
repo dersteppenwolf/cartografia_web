@@ -171,6 +171,24 @@ resources:
     target: scripts/
     milestone: Hito 0
     notes: Reproducible validation and build tooling.
+  - path_glob: examples/maplibre/**
+    kind: maintained-maplibre-example
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: examples/maplibre/app/
+    milestone: Hito 6
+    notes: TypeScript/Vite/MapLibre client with maintained browser tests.
+  - path_glob: infra/**
+    kind: reproducible-course-infrastructure
+    decision: conservar
+    license_status: project
+    sensitivity: internal
+    owner: infrastructure-security
+    target: infra/
+    milestone: Hito 5B
+    notes: Pinned local stack, generated prototype evidence, and smoke tests.
   - path_glob: tests/**
     kind: validation-fixture
     decision: conservar

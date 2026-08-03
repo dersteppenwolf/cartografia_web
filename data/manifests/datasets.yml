@@ -51,3 +51,29 @@ datasets:
     sensitivity: public
     files:
       - data/fixtures/raster/referencia.tif
+  - id: referencia-sintetica-pmtiles
+    title: PMTiles sintético de referencia
+    source: Generada localmente por scripts/build_vector_tiles.py
+    owner: instructor del curso
+    version: "2026-08-03"
+    retrieved_at: "2026-08-03"
+    checksum: sha256:8afc291ca49c2bcbb1b557305db6ed395bb38ae69f6d6aff1e427561d17d830a
+    license: CC0-1.0
+    crs: EPSG:4326
+    schema: PMTiles MVT with Point geometry and nombre, valor properties
+    sensitivity: public
+    files:
+      - data/fixtures/cloud/referencia.pmtiles
+  - id: referencia-sintetica-cog
+    title: Cloud Optimized GeoTIFF sintético de referencia
+    source: Generada localmente por scripts/build_cog.py
+    owner: instructor del curso
+    version: "2026-08-03"
+    retrieved_at: "2026-08-03"
+    checksum: sha256:c226f051dd093075daf40e5ad38fc30f17f8bf1d972673ccb160c68b9a034831
+    license: CC0-1.0
+    crs: EPSG:4326
+    schema: Single-band uint8 Cloud Optimized GeoTIFF with NoData value 0
+    sensitivity: public
+    files:
+      - data/fixtures/cloud/referencia.cog.tif

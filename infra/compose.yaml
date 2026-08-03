@@ -50,7 +50,7 @@ services:
       - "127.0.0.1:18081:8080"
     volumes:
       - ./static/nginx.conf:/etc/nginx/conf.d/default.conf:ro
-      - ./prototypes/assets:/usr/share/nginx/html/assets:ro
+      - ../data/fixtures/cloud:/usr/share/nginx/html/assets:ro
     healthcheck:
       test: ["CMD-SHELL", "wget -q -O /dev/null http://localhost:8080/assets/referencia.cog.tif"]
       interval: 5s

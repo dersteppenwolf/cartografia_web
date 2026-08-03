@@ -10,7 +10,7 @@ third_party:
     source: docker.io/protomaps/go-pmtiles
     license: BSD-3-Clause
     kind: PMTiles verifier and converter
-    use: Validate static PMTiles prototype output
+    use: Validate static PMTiles output from the maintained Hito 7 generator
   - name: GeoServer
     version: 3.0.0
     source: docker.osgeo.org/geoserver
@@ -34,7 +34,7 @@ third_party:
     source: ghcr.io/osgeo/gdal
     license: MIT
     kind: containerized geospatial data tool
-    use: Deterministic GeoJSON to GeoPackage conversion
+    use: Deterministic GeoJSON to GeoPackage conversion and COG generation
   - name: Leaflet
     version: 1.9.4
     source:
