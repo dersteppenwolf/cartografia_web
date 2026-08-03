@@ -110,6 +110,7 @@ venv.bak/
 _site/
 _site_*/
 .preview/
+preview_site/
 .reports/
 .backups/
 test-results/
