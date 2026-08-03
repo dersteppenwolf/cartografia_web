@@ -63,6 +63,7 @@ def main() -> int:
     else:
         raise RuntimeError(f"No se pudo consultar el estilo referencia: {style_response.status_code}")
     request(session, "PUT", args.base_url, "/layers/curso:referencia", "<layer><defaultStyle><name>referencia</name></defaultStyle></layer>")
+    request(session, "POST", args.base_url, "/workspaces/curso/layergroups", "<layerGroup><name>referencia</name><layers><layer>curso:referencia</layer></layers><styles><style>referencia</style></styles></layerGroup>")
     return 0
 
 

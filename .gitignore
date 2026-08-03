@@ -118,3 +118,4 @@ playwright-report/
 # Local credentials are never versioned; examples contain only fictitious values.
 infra/secrets/*
 !infra/secrets/*.example
+notebooks/config.local.json

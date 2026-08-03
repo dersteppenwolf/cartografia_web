@@ -32,7 +32,7 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 - [x] (2026-08-03T16:13:02Z) Se completó el Hito 3: unidades fundamentales, mapa Leaflet accesible, pipeline GeoJSON→GeoPackage determinista y pruebas de navegador.
 - [x] (2026-08-03T16:38:43Z) Se completó el Hito 4: WFS/OGC API/OpenAPI, STAC estático y tres notebooks deterministas en modo fixtures.
 - [x] (2026-08-03T18:07:19Z) Se completó el Hito 5A: GeoServer/PostGIS, WMS/WFS/Features/MVT, COG, PMTiles, Range/CORS y MapLibre validados en prototipos aislados.
-- [ ] Hito 5B en curso: Compose promovido, configuración REST y smoke test pasan desde volúmenes vacíos; faltan backup/restauración y notebooks en modo local.
+- [x] (2026-08-03T18:18:15Z) Se completó el Hito 5B: Compose reconstruye PostGIS, GeoServer y Nginx; los notebooks pasan en modos fixtures/local y la restauración preserva una fila centinela.
 - [ ] Completar el Hito 6: cliente TypeScript/Vite/MapLibre mantenible.
 - [ ] Completar el Hito 7: PMTiles, COG, STAC y benchmark reproducible.
 - [ ] Completar el Hito 8: seguridad, CI, build, restauracion y documentacion operativa.
@@ -119,6 +119,9 @@ La implementacion debe caber en el contrato curricular de 32 horas presenciales 
 
 - Observacion: el stack promovido reconstruyó el workspace, datastore, capa y estilo desde un volumen PostGIS vacío.
   Evidencia: `docker compose -f infra/compose.yaml up -d --build --wait`, `scripts/configure_geoserver.py` y `infra/smoke/smoke_stack.py` pasaron el 2026-08-03.
+
+- Observacion: la restauración limpia preservó la fila centinela y recuperó WMS, WFS, OGC API - Features, MVT, Range y CORS.
+  Evidencia: `scripts/test_restore.py --compose-file infra/compose.yaml --backup-dir .backups` pasó el 2026-08-03.
 
 ## Decision Log
 
@@ -754,5 +757,7 @@ Jekyll y Bundler son dependencias obligatorias de documentacion. Las dependencia
 2026-08-03: el endpoint MVT se corrigió a WMS GetMap y pasó junto con WMS, WFS y OGC API - Features. Con COG, PMTiles, Nginx y MapLibre validados, Hito 5A se promovió a Hito 5B.
 
 2026-08-03: se promovió el stack a `infra/compose.yaml`. PostGIS conserva datos en un volumen, GeoServer se reconstruye mediante REST y Nginx entrega los assets cloud-native. Se restringieron los puertos a localhost y los secretos versionados son exclusivamente ejemplos ficticios.
+
+2026-08-03: se completó el Hito 5B con backups PostGIS verificados por SHA-256, restauración desde volumen vacío, reconfiguración REST y notebooks en modo local. La fila centinela se conservó tras la restauración destructiva.
 
 2026-08-03: el usuario confirmó que el software libre compatible puede sugerirse para uso personal sin autorizaciones ni licenciamiento adicional. Se registró la política, manteniendo la revisión obligatoria para recursos de terceros que no son herramientas.

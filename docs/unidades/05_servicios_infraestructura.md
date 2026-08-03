@@ -33,6 +33,14 @@ Para detener el entorno y eliminar sus datos de práctica, ejecuta:
 docker compose -f infra/compose.yaml down --volumes
 ```
 
+El respaldo y la prueba de recuperación no dependen de una copia del directorio
+de datos de GeoServer. Su configuración se vuelve a aplicar desde REST y el SLD
+versionado:
+
+```powershell
+uv run python scripts/test_restore.py --compose-file infra/compose.yaml --backup-dir .backups
+```
+
 ## Diagnóstico
 
 Explica qué interfaz es adecuada para: dibujar una imagen de mapa, descargar
