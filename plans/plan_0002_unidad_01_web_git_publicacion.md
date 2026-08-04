@@ -1,8 +1,11 @@
 # plan_0002 - Hacer autonoma la Unidad 1 de web, Git y publicacion
 
-**Fecha**: 2026-08-03 **Ambito**: `docs/unidades/01_web_git_publicacion.md`,
-`examples/leaflet/mapa_basico/`, guias y validacion editorial **Estado**:
-propuesto **Prioridad**: alta; prerrequisito didactico de las Unidades 2 a 8
+**Fecha**: 2026-08-03
+**Ambito**: `docs/unidades/01_web_git_publicacion.md`,
+`examples/leaflet/mapa_basico/`, guias y validacion editorial
+**Estado**: cerrado técnicamente; revisión manual transversal pendiente en
+`plan_0001`
+**Prioridad**: alta; prerrequisito didactico de las Unidades 2 a 8
 
 Este ExecPlan es un documento vivo. Debe mantenerse conforme a `PLANS.md`,
 `AGENTS.md`, `UPGRADE_PLAN.md` y `DESIGN.md`.
@@ -59,9 +62,11 @@ referencia de la publicacion estatica.
 
 ## Outcomes & Retrospective
 
-El resultado inicial es una ficha breve. Al cerrar este plan, la Unidad 1 sera
-una leccion autocontenida con teoria, practica, errores comunes y criterios de
-verificacion que preparan las unidades posteriores.
+La Unidad 1 quedó convertida en una lección autocontenida con teoría, práctica,
+errores comunes y autoevaluación. Leaflet carga el GeoJSON por HTTP, presenta
+estado, tabla equivalente y atribución OSM, y las pruebas cubren carga, filtro y
+error. La revisión manual de teclado, foco, contraste y reflow se conserva como
+evidencia transversal pendiente del piloto en `plan_0001`.
 
 ## Contexto y orientacion
 

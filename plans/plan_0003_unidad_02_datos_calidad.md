@@ -1,9 +1,10 @@
 # plan_0003 - Hacer autonoma la Unidad 2 de datos y calidad
 
-**Fecha**: 2026-08-03 **Ambito**: `docs/unidades/02_datos_calidad.md`, fixtures,
-manifiestos, `scripts/generate_fixtures.py` y `scripts/prepare_vector_data.py`
-**Estado**: propuesto **Prioridad**: alta; base de cartografia, servicios y
-cliente
+**Fecha**: 2026-08-03
+**Ambito**: `docs/unidades/02_datos_calidad.md`, fixtures, manifiestos,
+`scripts/generate_fixtures.py` y `scripts/prepare_vector_data.py`
+**Estado**: cerrado técnicamente
+**Prioridad**: alta; base de cartografia, servicios y cliente
 
 Este ExecPlan es un documento vivo. Debe mantenerse conforme a `PLANS.md`,
 `AGENTS.md`, `UPGRADE_PLAN.md` y `DESIGN.md`.
@@ -48,9 +49,10 @@ GeoPackage sin descargar datos externos.
 
 ## Outcomes & Retrospective
 
-La unidad pasara de un glosario a un recorrido que conecta calidad conceptual,
-metadatos y un pipeline verificable. El producto sera el insumo documentado para
-Entrega 1.
+La Unidad 2 quedó convertida en un recorrido de modelo de datos, CRS, formatos,
+validez, precisión, manifiestos y pipeline verificable. Los fixtures sintéticos,
+la conversión GeoPackage y sus pruebas permiten preparar el insumo documentado
+para Entrega 1 sin descargas externas ni datos en cuarentena.
 
 ## Contexto y orientacion
 

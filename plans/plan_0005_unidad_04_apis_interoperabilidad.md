@@ -1,7 +1,9 @@
 # plan_0005 - Hacer autonoma la Unidad 4 de APIs e interoperabilidad
 
-**Fecha**: 2026-08-03 **Ambito**: `docs/unidades/04_apis_interoperabilidad.md`,
-notebooks, fixtures OGC/OpenAPI/STAC y validadores **Estado**: propuesto
+**Fecha**: 2026-08-03
+**Ambito**: `docs/unidades/04_apis_interoperabilidad.md`, notebooks, fixtures
+OGC/OpenAPI/STAC y validadores
+**Estado**: cerrado técnicamente
 **Prioridad**: alta; prerrequisito conceptual de servicios y cliente
 
 Este ExecPlan es un documento vivo. Debe mantenerse conforme a `PLANS.md`,
@@ -45,8 +47,10 @@ misma coleccion local mediante WFS y OGC API sin depender de Internet.
 
 ## Outcomes & Retrospective
 
-La unidad dejara de ser una comparacion terminologica y se convertira en una
-guia de descubrimiento, consulta y evaluacion de contratos geoespaciales.
+La Unidad 4 quedó convertida en una guía de descubrimiento, consulta y evaluación
+de contratos geoespaciales. Los notebooks demuestran WFS, OGC API - Features y
+STAC con fixtures y stack local, mientras OpenAPI y los validadores hacen
+observable el contrato sin red externa obligatoria.
 
 ## Contexto y orientacion
 

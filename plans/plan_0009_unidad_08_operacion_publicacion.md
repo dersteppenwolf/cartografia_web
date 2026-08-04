@@ -1,7 +1,9 @@
 # plan_0009 - Hacer autonoma la Unidad 8 de operacion y publicacion
 
-**Fecha**: 2026-08-03 **Ambito**: `docs/unidades/08_operacion_publicacion.md`,
-guias operativas, workflows, release gate y piloto **Estado**: propuesto
+**Fecha**: 2026-08-03
+**Ambito**: `docs/unidades/08_operacion_publicacion.md`, guias operativas,
+workflows, release gate y piloto
+**Estado**: cerrado técnicamente; gate y piloto pendientes en `plan_0001`
 **Prioridad**: alta; cierre curricular y operativo del curso
 
 Este ExecPlan es un documento vivo. Debe mantenerse conforme a `PLANS.md`,
@@ -48,8 +50,9 @@ locales que reflejan los workflows de referencia.
 
 ## Outcomes & Retrospective
 
-El resultado sera una unidad que conecta el proyecto con operacion responsable y
-deja claros los limites de automatizacion frente a evidencia humana.
+La Unidad 8 quedó convertida en una lección de seguridad, CI, Pages, artefacto,
+observabilidad, recuperación, costes, ética y gate. Los controles técnicos pasan
+Safari real y piloto. Esas dependencias siguen abiertas en `plan_0001`.
 
 ## Contexto y orientacion
 

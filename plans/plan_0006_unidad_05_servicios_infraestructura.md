@@ -1,9 +1,10 @@
 # plan_0006 - Hacer autonoma la Unidad 5 de servicios e infraestructura
 
-**Fecha**: 2026-08-03 **Ambito**:
-`docs/unidades/05_servicios_infraestructura.md`, `infra/`, scripts de
-configuracion, smoke y restauracion **Estado**: propuesto **Prioridad**: alta;
-base de Entrega 2 y de los modos locales posteriores
+**Fecha**: 2026-08-03
+**Ambito**: `docs/unidades/05_servicios_infraestructura.md`, `infra/`, scripts
+de configuracion, smoke y restauracion
+**Estado**: cerrado técnicamente
+**Prioridad**: alta; base de Entrega 2 y de los modos locales posteriores
 
 Este ExecPlan es un documento vivo. Debe mantenerse conforme a `PLANS.md`,
 `AGENTS.md`, `UPGRADE_PLAN.md` y `DESIGN.md`.
@@ -67,8 +68,11 @@ la fila centinela sin pasos manuales. Podra observar el resultado con
 
 ## Outcomes & Retrospective
 
-El resultado sera una unidad capaz de explicar por que existe cada servicio y
-como operarlo localmente, no solo una receta para ejecutar Compose.
+La Unidad 5 quedó convertida en una explicación de arquitectura, SQL espacial,
+GeoServer REST, SLD, Compose, healthchecks, logs y recuperación. La extensión
+Vector Tiles se fija durante el build con checksum verificado y la restauración
+desde volúmenes vacíos conserva MVT y vuelve al fixture base después de comprobar
+la fila centinela.
 
 ## Contexto y orientacion
 

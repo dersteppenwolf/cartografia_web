@@ -1,8 +1,11 @@
 # plan_0010 - Aplicar un sistema visual educativo en color
 
-**Fecha**: 2026-08-03 **Ámbito**: `DESIGN.md`, tokens y estilos de `docs/`,
-layout Jekyll y cliente MapLibre **Estado**: en curso **Prioridad**: alta;
-mejora la orientación del material docente mantenido
+**Fecha**: 2026-08-03
+**Ámbito**: `DESIGN.md`, tokens y estilos de `docs/`, layout Jekyll y cliente
+MapLibre
+**Estado**: cerrado técnicamente; revisión manual de contraste pendiente en
+`plan_0001`
+**Prioridad**: alta; mejora la orientación del material docente mantenido
 
 Este ExecPlan es un documento vivo. Debe mantenerse conforme a `PLANS.md`,
 `AGENTS.md`, `UPGRADE_PLAN.md` y `DESIGN.md`.
@@ -59,9 +62,10 @@ fotografía, componentes, gamificación ni contenido.
 
 ## Outcomes & Retrospective
 
-El resultado previo es una guía monocromática de portafolio adaptada
-parcialmente al curso. Al cerrar este plan, guía, sitio y cliente compartirán
-tokens de un sistema educativo contrastado y verificable.
+La guía, sitio y cliente comparten ahora tokens de un sistema educativo índigo,
+azul claro, amarillo y coral. Pasaron sincronización, formato, lint, pruebas,
+build, enlaces e inventario. La revisión manual de contraste sobre las nuevas
+superficies y focos sigue pendiente como evidencia transversal del plan principal.
 
 ## Contexto y orientación
 

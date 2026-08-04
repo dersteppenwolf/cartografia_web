@@ -1,7 +1,9 @@
 # plan_0007 - Hacer autonoma la Unidad 6 de cliente web moderno
 
-**Fecha**: 2026-08-03 **Ambito**: `docs/unidades/06_cliente_web.md`,
-`examples/maplibre/app/`, pruebas Vitest y Playwright **Estado**: propuesto
+**Fecha**: 2026-08-03
+**Ambito**: `docs/unidades/06_cliente_web.md`, `examples/maplibre/app/`, pruebas
+Vitest y Playwright
+**Estado**: cerrado técnicamente; Safari real pendiente en `plan_0001`
 **Prioridad**: alta; base de Entrega 3
 
 Este ExecPlan es un documento vivo. Debe mantenerse conforme a `PLANS.md`,
@@ -48,8 +50,10 @@ el local sin confundir el GeoServer de desarrollo con los assets estaticos.
 
 ## Outcomes & Retrospective
 
-El resultado sera una leccion de arquitectura de frontend geoespacial que
-permite leer, modificar y verificar el cliente mantenido.
+La Unidad 6 quedó convertida en una lección de arquitectura de frontend
+geoespacial. El cliente explica módulos, configuración local/publicada, fuentes,
+capas, estado URL, accesibilidad y pruebas. Vitest y Playwright pasaron en
+Chromium, Firefox y WebKit; Safari real continúa como evidencia de piloto.
 
 ## Contexto y orientacion
 

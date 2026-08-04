@@ -1,9 +1,11 @@
 # plan_0008 - Hacer autonoma la Unidad 7 de rendimiento y cloud-native
 
-**Fecha**: 2026-08-03 **Ambito**:
-`docs/unidades/07_rendimiento_cloud_native.md`, activos cloud, STAC, scripts de
-build, Range y benchmark **Estado**: propuesto **Prioridad**: alta; requisito
-tecnico de Entrega 3
+**Fecha**: 2026-08-03
+**Ambito**: `docs/unidades/07_rendimiento_cloud_native.md`, activos cloud, STAC,
+scripts de build, Range y benchmark
+**Estado**: cerrado técnicamente; decisión curricular de rendimiento pendiente
+en `plan_0001`
+**Prioridad**: alta; requisito tecnico de Entrega 3
 
 Este ExecPlan es un documento vivo. Debe mantenerse conforme a `PLANS.md`,
 `AGENTS.md`, `UPGRADE_PLAN.md` y `DESIGN.md`.
@@ -47,8 +49,11 @@ formato, servidor o catalogo.
 
 ## Outcomes & Retrospective
 
-El resultado sera una unidad que enseña una cadena completa desde dato a entrega
-optimizada y una interpretacion responsable de mediciones.
+La Unidad 7 quedó convertida en una lección de cadenas vectorial y ráster,
+PMTiles, COG, Range, CORS, caché, STAC y benchmarks. Los builders, validadores y
+mediciones pasan, pero la aceptación del objetivo curricular de rendimiento o una
+excepción justificada corresponde al instructor y sigue pendiente en el plan
+principal.
 
 ## Contexto y orientacion
 

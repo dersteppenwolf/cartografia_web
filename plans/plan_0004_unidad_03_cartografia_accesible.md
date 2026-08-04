@@ -1,7 +1,10 @@
 # plan_0004 - Hacer autonoma la Unidad 3 de cartografia accesible
 
-**Fecha**: 2026-08-03 **Ambito**: `docs/unidades/03_cartografia_accesible.md`,
-ejemplo Leaflet, rubricas y guia de accesibilidad **Estado**: propuesto
+**Fecha**: 2026-08-03
+**Ambito**: `docs/unidades/03_cartografia_accesible.md`, ejemplo Leaflet,
+rubricas y guia de accesibilidad
+**Estado**: cerrado técnicamente; revisión manual WCAG y Safari real pendientes
+en `plan_0001`
 **Prioridad**: alta; requisito de Entrega 1 y de toda visualizacion posterior
 
 Este ExecPlan es un documento vivo. Debe mantenerse conforme a `PLANS.md`,
@@ -48,8 +51,10 @@ ejemplo Leaflet con teclado, foco, reflow, leyenda, atribucion, estado y tabla.
 
 ## Outcomes & Retrospective
 
-El resultado sera una unidad que enseña decisiones cartograficas y accesibilidad
-como parte del mismo proceso, no como una lista final de controles.
+La Unidad 3 quedó convertida en una lección de normalización, clasificación,
+Leaflet demuestra tabla equivalente, estado, foco, leyenda y atribución; Axe y
+Playwright pasan. La conformidad manual WCAG y Safari real permanecen como
+evidencia de piloto, sin declararse aprobadas por este cierre técnico.
 
 ## Contexto y orientacion
 
