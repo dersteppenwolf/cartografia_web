@@ -6,16 +6,42 @@ permalink: /status/
 
 # Estado de la modernizacion
 
-El Hito 0 completó el inventario inicial, la cuarentena de datos sociales, el
-saneamiento de tokens del árbol actual y los escaneos iniciales. El contenido
-histórico todavía no está aprobado para publicación.
+La modernización técnica y editorial del núcleo está implementada. El sitio
+publica ocho unidades mantenidas, ejemplos Leaflet y MapLibre, datos sintéticos,
+notebooks, guías operativas y un artefacto estático ensamblado. El contenido
+histórico permanece fuera de la navegación pública mientras se revisan licencia,
+accesibilidad, seguridad, privacidad y compatibilidad.
 
-## Publicacion aprobada
+## Disponible
 
-Por ahora solo se publica esta estructura mínima y los documentos de gobierno
-que no contienen datos personales ni recursos de terceros sin licencia resuelta.
+- Unidades 1 a 8 con resultados de aprendizaje, práctica, errores frecuentes y
+  autoevaluación.
+- Mapa Leaflet accesible con datos sintéticos, atribución, estado y tabla
+  equivalente.
+- Cliente TypeScript/Vite/MapLibre con filtro, estado URL, fuentes OGC API,
+  PMTiles y COG, diálogo con foco y pruebas E2E.
+- Stack local PostGIS, GeoServer y Nginx con WMS, WFS, OGC API - Features, MVT,
+  HTTP Range, CORS, backup y restauración.
+- Activos PMTiles y COG descritos por STAC estático y publicados mediante el
+  artefacto de GitHub Pages.
+- Validaciones editoriales, datos, licencias, seguridad, build, enlaces y
+  controles de CI de referencia.
 
-## Siguiente incremento
+## Límites pendientes
 
-El siguiente incremento incorporará el programa actualizado, ejemplos nuevos y
-validaciones editoriales sin depender de cuentas SaaS personales.
+El plan principal no está cerrado todavía. Faltan evidencias que no se deben
+simular:
+
+- Revisión manual WCAG 2.2 AA, incluido teclado, foco, contraste, reflow y
+  lector de pantalla.
+- Pruebas en Safari real sobre macOS.
+- Decisión curricular del instructor sobre la meta de rendimiento o una
+  excepción justificada.
+- Piloto con participantes, horas, soporte, entregas e incidencias reales.
+
+El
+[plan de ejecución](https://github.com/dersteppenwolf/cartografia_web/blob/master/plans/plan_0001_modernizacion_integral.md)
+conserva el estado detallado. La
+[guía técnica](https://github.com/dersteppenwolf/cartografia_web/blob/master/Dev.md)
+explica cómo reproducir las validaciones locales y preparar la evidencia
+pendiente.

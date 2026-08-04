@@ -2,8 +2,8 @@
 
 **Fecha**: 2026-08-03 **Ambito**: documentacion, curriculo, datos, ejemplos web,
 notebooks, infraestructura, pruebas, seguridad, accesibilidad y publicacion
-**Estado**: implementacion activa; Hitos 0 a 5B completados y Hitos 6 a 8 en
-cierre tecnico **Prioridad**: bloqueante y secuencial
+**Estado**: implementación técnica completada; aceptación final pendiente de
+evidencia externa del Hito 9 **Prioridad**: bloqueante y secuencial
 
 Este ExecPlan es un documento vivo. Las secciones `Progress`,
 `Surprises & Discoveries`, `Decision Log` y `Outcomes & Retrospective` deben
@@ -83,19 +83,19 @@ podran bloquear la finalizacion del nucleo.
       PostGIS, GeoServer y Nginx; los notebooks pasan en modos fixtures/local y
       la restauración preserva una fila centinela.
 - [x] (2026-08-03) Se cerró técnicamente el Hito 6: cliente
-       TypeScript/Vite/MapLibre, configuración local/publicada, estado URL,
-       tabla equivalente, diálogo con foco y E2E en Chromium/Firefox/WebKit.
+      TypeScript/Vite/MapLibre, configuración local/publicada, estado URL, tabla
+      equivalente, diálogo con foco y E2E en Chromium/Firefox/WebKit.
 - [ ] Aceptación externa del Hito 6: revisión WCAG manual y Safari real durante
-       el piloto.
+      el piloto.
 - [x] (2026-08-03) Se cerró técnicamente el Hito 7: PMTiles y COG con
-       contenedores fijados, STAC, Range/CORS, conmutación MapLibre y benchmarks
-       HTTP/Chromium de cinco repeticiones.
-- [ ] Aceptación curricular del Hito 7: decisión del instructor sobre la meta
-       de rendimiento o una excepción justificada.
+      contenedores fijados, STAC, Range/CORS, conmutación MapLibre y benchmarks
+      HTTP/Chromium de cinco repeticiones.
+- [ ] Aceptación curricular del Hito 7: decisión del instructor sobre la meta de
+      rendimiento o una excepción justificada.
 - [x] (2026-08-03) Se cerró técnicamente el Hito 8: seguridad, CI, build,
-       restauración, Pages, documentación operativa y gate factual bloqueado.
+      restauración, Pages, documentación operativa y gate factual bloqueado.
 - [ ] Aceptación externa del Hito 8: resultados de CI/hosting institucional que
-       corresponda y evidencia de piloto exigida por el gate.
+      corresponda y evidencia de piloto exigida por el gate.
 - [ ] Hito 9 preparado: documentos, matriz de navegadores y gate bloqueante
       creados; falta piloto real, Safari en macOS y decisiones curriculares
       basadas en evidencia.
