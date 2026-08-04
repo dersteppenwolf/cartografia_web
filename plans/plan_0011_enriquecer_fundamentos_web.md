@@ -6,7 +6,8 @@
 `examples/leaflet/mapa_basico/`, `docs/evaluacion/entrega_1.md` y trazabilidad
 curricular.
 
-**Estado**: propuesto
+**Estado**: cerrado técnicamente; revisión manual transversal pendiente en
+`plan_0001`
 
 **Prioridad**: alta; mejora la autonomía conceptual de la Unidad 1 sin ampliar
 sus cuatro horas presenciales.
@@ -33,17 +34,19 @@ estadísticas históricas ni imágenes del PDF de 2020.
 - [x] (2026-08-03) Se analizaron las 78 páginas de
       `01_Fundamentos/01_Fundamentos_Internet.pdf` y `01_Fundamentos/Readme.md`
       para separar conceptos vigentes de instrucciones históricas.
-- [ ] Clasificar el contenido histórico como incorporar, actualizar, mover a
-      otra unidad, panorama histórico o excluir por licencia, seguridad o
-      procedencia.
-- [ ] Reescribir `docs/unidades/01_web_git_publicacion.md` con el modelo
-      Internet-Web-URL-navegador-servidor-HTTP-HTTPS-caché.
-- [ ] Añadir diagramas textuales accesibles, práctica de inspección de red,
-      Markdown local y diagnóstico actualizado.
-- [ ] Actualizar trazabilidad curricular si una nueva actividad requiere una
-      validación adicional.
-- [ ] Validar Markdown, ejemplo Leaflet, build, enlaces internos y recorrido
-      manual de red.
+- [x] (2026-08-03) Se clasificaron los conceptos útiles del PDF y se excluyeron
+      capturas, estadísticas, cuentas, HTTP inseguro y tecnologías históricas
+      del núcleo mantenido.
+- [x] (2026-08-03) Se reescribió `docs/unidades/01_web_git_publicacion.md` con
+      Internet, Web, URL, navegador, cliente-servidor, HTTP, HTTPS, origen y
+      caché.
+- [x] (2026-08-03) Se añadieron diagramas textuales, práctica de inspección de
+      red, Markdown local, panorama posterior y autoevaluación ampliada.
+- [x] (2026-08-03) Se mantuvo la trazabilidad existente porque las nuevas
+      actividades usan los mismos artefactos y validaciones de Unidad 1.
+- [x] (2026-08-03) Pasaron Markdownlint, las dos pruebas Leaflet, build y 41
+       enlaces internos. La inspección manual de red y accesibilidad permanece
+       como evidencia transversal del piloto en `plan_0001`.
 
 ## Surprises & Discoveries
 
@@ -83,12 +86,12 @@ estadísticas históricas ni imágenes del PDF de 2020.
 
 ## Outcomes & Retrospective
 
-La Unidad 1 actual ya explica HTML, CSS, JavaScript, `fetch`, Git y publicación
-estática. Este plan debe cerrar el vacío conceptual entre esos elementos
-mediante el modelo de red y navegador, sin duplicar contenidos de datos, APIs,
-infraestructura o rendimiento. Al cierre se documentarán los conceptos
-incorporados, los contenidos históricos excluidos y cualquier ajuste de tiempo
-observado.
+La Unidad 1 ya explica HTML, CSS, JavaScript, `fetch`, Git y publicación
+estática. Este plan incorporó el modelo de red y navegador, URL, HTTPS, caché y
+arquitectura inicial sin duplicar contenidos de datos, APIs, infraestructura o
+rendimiento. El PDF histórico permanece como fuente de ideas no publicada; sus
+capturas, estadísticas, cuentas obligatorias y tecnologías retiradas no se
+migraron.
 
 ## Contexto y orientación
 
@@ -256,3 +259,8 @@ Pages sigue siendo un adaptador de publicación, no un requisito de estudiantes.
 `01_Fundamentos/Readme.md`. Conserva fundamentos de red, Web, URL, navegador,
 cliente-servidor, HTTP, HTTPS, caché y tecnologías web; actualiza HTML/CSS/JS y
 excluye instrucciones de cuentas, issues, capturas, HTTP inseguro, Flash/Flex,
+estadísticas históricas y material sin licencia resuelta.
+
+2026-08-03: cerrado técnicamente tras ampliar la unidad y validar Markdown,
+Leaflet, build y enlaces. La revisión manual de red, foco, reflow y contraste se
+mantiene como evidencia transversal del plan principal.

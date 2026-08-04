@@ -23,6 +23,69 @@ Al finalizar podrás:
 - Registrar cambios locales con Git y distinguir repositorio, commit, remoto y
   publicación estática.
 
+## Internet, Web y publicación
+
+**Internet** es una red de redes que intercambian información mediante
+protocolos. La **Web** es uno de los sistemas que usa Internet para enlazar
+recursos mediante URLs e hipervínculos. Correo electrónico, SSH y transferencia
+de archivos también usan Internet, pero no son páginas web.
+
+Un **protocolo** define reglas para que dos sistemas se entiendan. HTTP define
+cómo un cliente solicita un recurso y cómo un servidor responde. HTTPS usa HTTP
+sobre TLS para proteger esa comunicación. El curso usa HTTPS para recursos
+publicados y reserva HTTP para `localhost` durante el desarrollo local.
+
+Un **cliente** solicita recursos; en esta unidad es el navegador. Un
+**servidor** responde. Un servidor estático entrega archivos ya construidos,
+como HTML, CSS, JavaScript, GeoJSON, PMTiles o COG. Más adelante, GeoServer
+responderá servicios geoespaciales y PostGIS conservará datos, pero una
+publicación estática no necesita exponer esos servicios en Internet.
+
+## Anatomía de una URL
+
+Una URL identifica un recurso y puede contener varias partes:
+
+```text
+https://curso.example.org:443/unidades/01?tema=http#practica
+\____/   \________________/ \_/ \__________/ \________/ \_______/
+esquema          host        puerto    ruta      consulta   fragmento
+```
+
+- El **esquema** indica el protocolo, por ejemplo `https`.
+- El **host** identifica el servidor, por ejemplo `curso.example.org`.
+- El **puerto** identifica un servicio dentro del host; `443` es habitual para
+  HTTPS y se puede omitir en una URL pública.
+- La **ruta** localiza un recurso dentro del sitio.
+- La **consulta** agrega parámetros, por ejemplo `tema=http`.
+- El **fragmento** lleva a una sección del documento y no se envía al servidor.
+
+No coloques credenciales, tokens ni información personal en una URL. Las URLs se
+pueden guardar en historial, registros, marcadores y capturas.
+
+## Del navegador al mapa
+
+Cuando abres el ejemplo Leaflet, el navegador sigue un recorrido observable:
+
+```text
+Navegador
+  -> GET /examples/leaflet/mapa_basico/
+  <- HTML, CSS y JavaScript
+  -> GET /examples/leaflet/mapa_basico/data/referencia.geojson
+  <- GeoJSON con HTTP 200
+  -> Renderiza la capa, la leyenda, el estado y la tabla
+```
+
+El documento HTML referencia CSS y JavaScript. JavaScript solicita el GeoJSON y
+actualiza el mapa y la tabla. Si la solicitud devuelve 200, el recurso llegó; si
+devuelve 404, la ruta no existe; si devuelve 500, el servidor falló al procesar
+la solicitud. Un 200 no demuestra por sí solo que el dato responda la pregunta
+territorial, y una colección vacía no es necesariamente un error.
+
+Las herramientas de desarrollo permiten observar URL, método, código de estado,
+tipo de contenido, tamaño, tiempo y si una respuesta vino de caché. Esa
+evidencia es más útil que asumir que un recurso se cargó porque el mapa parece
+visible.
+
 ## De un archivo a una página web
 
 El navegador interpreta **HTML** para conocer la estructura y el significado del
@@ -86,6 +149,37 @@ ruta; 500 indica un problema interno del servidor. Una colección vacía no es l
 mismo que un error: el primer caso puede ser un resultado válido y el segundo
 debe explicarse en la región de estado.
 
+## HTTPS, origen y caché
+
+Un **origen** combina esquema, host y puerto. Por ejemplo,
+`http://localhost:8000` y `https://curso.example.org` son orígenes distintos. El
+navegador aplica reglas adicionales cuando una página solicita recursos de otro
+origen; esas reglas se profundizan al trabajar CORS y activos cloud-native en
+las Unidades 5 y 7.
+
+La **caché** guarda temporalmente recursos para evitar solicitudes repetidas.
+Puede estar en el navegador, un proxy o un servidor. Una respuesta rápida puede
+provenir de caché y no de una nueva transferencia. La caché no autoriza
+precargar grandes áreas, descargar teselas para uso offline ni presentar una
+copia antigua como dato actual. Para comprobar una solicitud nueva, usa una
+ventana privada o desactiva la caché en las herramientas de desarrollo.
+
+## Arquitectura de una publicación cartográfica
+
+El curso usa el mismo modelo cliente-servidor en distintas escalas:
+
+```text
+Datos y manifiesto -> cliente Leaflet o MapLibre -> servidor estático
+Datos y servicios locales -> PostGIS y GeoServer -> cliente MapLibre
+PMTiles o COG -> servidor con HTTP Range -> protocolo MapLibre
+```
+
+Los datos y su manifiesto explican qué se publica; el cliente presenta una
+interfaz; el servidor entrega recursos. Una API, un servidor de mapas o un
+catálogo STAC no son sinónimos: cada uno resuelve una parte de la arquitectura.
+Las Unidades 2, 4, 5 y 7 desarrollan esos conceptos sin aumentar la carga de
+esta introducción.
+
 ## Módulos y mapa base
 
 Un módulo ES es un archivo JavaScript con dependencias explícitas cargado con
@@ -130,16 +224,43 @@ HTTPS y preserva las rutas relativas del sitio.
 2. Abre `http://localhost:8000/examples/leaflet/mapa_basico/`.
 3. Recorre el selector con Tab, elige `Valor 20 o superior` y comprueba que el
    estado y la tabla muestran el mismo número de zonas que el mapa.
-4. Abre las herramientas de desarrollo del navegador y observa la solicitud de
-   `data/referencia.geojson`: registra URL, código, tipo de contenido y tamaño.
-5. En una copia temporal del ejemplo, renombra el GeoJSON, recarga y lee el
-   mensaje de error. Restaura el nombre antes de terminar.
+4. Abre las herramientas de desarrollo, selecciona la pestaña Network y recarga.
+   Observa `data/referencia.geojson`: registra URL, método, código, tipo de
+   contenido, tamaño y si la respuesta vino de caché.
+5. En una copia temporal del ejemplo, cambia la ruta del GeoJSON a un nombre
+   inexistente, recarga y observa el error 404. Restaura la ruta antes de
+   terminar.
+6. Crea una nota Markdown local con encabezado, lista, enlace relativo al
+   ejemplo y bloque de código. Comprueba su formato con `npm run lint:markdown`;
+   no publiques datos personales ni necesitas una cuenta remota.
+
+## Panorama posterior
+
+Algunas tecnologías aparecen en unidades posteriores:
+
+- **JSON** es texto estructurado usado por GeoJSON y OGC API - Features. La
+  Unidad 2 estudia datos geográficos y la Unidad 4 contratos de API.
+- **XML**, **GML** y **KML** son formatos basados en etiquetas. WFS puede
+  entregar GML; la Unidad 4 compara contratos y representaciones.
+- **REST** es un estilo de arquitectura HTTP con recursos direccionables y
+  operaciones bien definidas. OGC API - Features lo aplica en la Unidad 4.
+- **RPC** y **SOAP** son modelos históricos o panorámicos para invocar
+  operaciones remotas; no son requisitos del núcleo.
+- Los frameworks de interfaz, servidores de aplicación, clientes de escritorio y
+  móviles son opciones de arquitectura. El núcleo usa JavaScript modular,
+  TypeScript, Vite, Leaflet y MapLibre sin exigir React, Vue o Svelte.
+- Flash y Flex son tecnologías históricas retiradas; se mencionan solo para
+  reconocer por qué el contenido antiguo no debe reutilizarse.
 
 ## Errores frecuentes
 
 - Abrir la página con `file://` y concluir que `fetch` está roto.
 - Usar un `div` clicable en vez de un `button` o un control sin `label`.
 - Tratar cualquier respuesta como JSON sin revisar `response.ok`.
+- Confundir Internet con la Web o una URL con el recurso que identifica.
+- Poner una credencial en una URL o copiar una URL histórica sin revisar su
+  origen y seguridad.
+- Interpretar una respuesta en caché como una transferencia nueva.
 - Ocultar la tabla porque “el mapa ya muestra los datos”.
 - Eliminar la atribución del mapa base o usar una URL HTTP insegura.
 - Confundir un commit local con una publicación remota.
@@ -153,6 +274,9 @@ Antes de continuar, responde:
 3. ¿Qué debe hacer la interfaz después de un HTTP 404 del GeoJSON?
 4. ¿Qué registra un commit y qué no registra Git?
 5. ¿Qué información ofrece la tabla que no debe depender de operar el mapa?
+6. ¿Qué partes de una URL se envían al servidor y cuál usa solo el navegador?
+7. ¿Qué diferencia hay entre una respuesta HTTP nueva y una respuesta desde
+   caché?
 
 La respuesta a estas preguntas y el mapa servido por HTTP preparan la [Entrega
 1]({{ '/evaluacion/entrega-1/' | relative_url }}).
