@@ -342,6 +342,35 @@ Fuentes:
 
 ---
 
+<!-- Diapositiva modernizada: 16a -->
+
+# Del territorio a una entidad geográfica
+
+```text
+Fenómeno territorial
+  -> observación y documentación
+  -> entidad: geometría + atributos
+  -> GeoJSON
+  -> mapa, leyenda y tabla
+```
+
+- La **geometría** indica dónde está una entidad o qué extensión ocupa.
+- Los **atributos** explican qué representa, por ejemplo su nombre, fecha o
+  valor.
+- En `referencia.geojson`, cada zona es un punto con `nombre` y `valor`: Leaflet
+  usa la geometría para ubicarla; el filtro y la tabla usan los atributos.
+
+Un mapa representa un modelo del territorio, no el territorio mismo. El CRS, el
+orden de coordenadas, la precisión y la validez se estudian en la Unidad 2.
+
+<!--
+Fuentes:
+- Unidad 2. Datos y calidad, Modelo de datos geográficos, 2026-08-03:
+  ../../unidades/02_datos_calidad.md
+-->
+
+---
+
 <!-- Diapositiva modernizada: 17 -->
 
 # Observa una solicitud real
@@ -596,8 +625,10 @@ Fuentes:
   style="display: block; height: 16rem; margin: 0 auto;"
 />
 
-El mapa base es opcional: la interfaz conserva leyenda, atribución, estado y
-tabla equivalente si falla.
+El mapa base aporta orientación y contexto; no es la fuente de la capa temática.
+La capa temática contiene la variable que responde a la pregunta territorial. Si
+el mapa base falla, la interfaz conserva leyenda, atribución, estado y tabla
+equivalente.
 
 <!--
 Fuentes:
@@ -670,7 +701,9 @@ Fuentes:
 3. Abre el mapa Leaflet básico y recorre el filtro solo con teclado.
 4. Comprueba que mapa, leyenda, estado y tabla representan el mismo conjunto de
    datos.
-5. Abre Network y registra la respuesta de `referencia.geojson`.
+5. Abre Network, inspecciona la respuesta de `referencia.geojson` e identifica
+   una geometría y los atributos `nombre` y `valor`; registra también URL,
+   método, código, tipo, tamaño y caché.
 6. En una copia temporal, cambia la ruta del GeoJSON y observa el mensaje 404.
 7. Restaura la ruta, crea una nota Markdown local y registra un cambio pequeño
    con Git.
