@@ -357,8 +357,9 @@ Fenómeno territorial
 - La **geometría** indica dónde está una entidad o qué extensión ocupa.
 - Los **atributos** explican qué representa, por ejemplo su nombre, fecha o
   valor.
-- En `referencia.geojson`, cada zona es un punto con `nombre` y `valor`: Leaflet
-  usa la geometría para ubicarla; el filtro y la tabla usan los atributos.
+- En `data/referencia.geojson`, cada zona es un punto con `nombre` y `valor`:
+  Leaflet usa la geometría para ubicarla; el filtro y la tabla usan sus
+  atributos.
 
 Un mapa representa un modelo del territorio, no el territorio mismo. El CRS, el
 orden de coordenadas, la precisión y la validez se estudian en la Unidad 2.
@@ -701,15 +702,16 @@ Fuentes:
 3. Abre el mapa Leaflet básico y recorre el filtro solo con teclado.
 4. Comprueba que mapa, leyenda, estado y tabla representan el mismo conjunto de
    datos.
-5. Abre Network, inspecciona la respuesta de `referencia.geojson` e identifica
-   una geometría y los atributos `nombre` y `valor`; registra también URL,
-   método, código, tipo, tamaño y caché.
+5. Abre Network, inspecciona la respuesta de `data/referencia.geojson` e
+   identifica una geometría y los atributos `nombre` y `valor`; registra también
+   URL, método, código, tipo, tamaño y caché.
 6. En una copia temporal, cambia la ruta del GeoJSON y observa el mensaje 404.
 7. Restaura la ruta, crea una nota Markdown local y registra un cambio pequeño
    con Git.
 
-**Resultado esperado:** un mapa local que conserva una alternativa interpretable
-cuando falla una solicitud o el mapa base.
+**Resultado esperado:** un mapa local que comunica con claridad un fallo al
+cargar el GeoJSON y conserva leyenda, atribución, estado y tabla equivalente
+cuando el mapa base no está disponible.
 
 ---
 
