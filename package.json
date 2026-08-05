@@ -19,10 +19,10 @@
     "stylelint-config-standard": "^40.0.0"
   },
   "scripts": {
-    "format:check": "prettier --check \"docs/**/*.{md,html,css,yml,yaml}\" \"examples/leaflet/mapa_basico/*.{html,css,js}\" \"playwright.config.mjs\" \".github/**/*.yml\" \".{prettier,htmlvalidate,stylelintrc}.json\" \"package.json\" \"README.md\"",
+    "format:check": "prettier --check \"docs/**/*.{md,html,css,yml,yaml}\" \"examples/leaflet/*/*.{html,css,js}\" \"playwright.config.mjs\" \".github/**/*.yml\" \".{prettier,htmlvalidate,stylelintrc}.json\" \"package.json\" \"README.md\"",
     "lint:markdown": "markdownlint-cli2 \"docs/**/*.md\" \"README.md\"",
-    "lint:html": "html-validate \"docs/**/*.html\" \"examples/leaflet/mapa_basico/index.html\"",
-    "lint:css": "stylelint \"docs/assets/css/**/*.css\" \"examples/leaflet/mapa_basico/styles.css\"",
+    "lint:html": "html-validate \"docs/**/*.html\" \"examples/leaflet/*/index.html\"",
+    "lint:css": "stylelint \"docs/assets/css/**/*.css\" \"examples/leaflet/*/styles.css\"",
     "links:internal": "linkinator _site --recurse --check-css --check-fragments --skip '^https?://'",
     "build": "uv run python scripts/build_site.py --output _site_jekyll",
     "prepare:leaflet": "uv run python scripts/prepare_leaflet_assets.py",

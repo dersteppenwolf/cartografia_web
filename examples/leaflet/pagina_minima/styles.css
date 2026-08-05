@@ -1,0 +1,66 @@
+@import url('../mapa_basico/tokens.css');
+
+:root {
+  color: var(--color-ink-black);
+  font-family: var(--font-abc-oracle);
+  font-size: var(--text-sm);
+  line-height: var(--leading-sm);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-gallery-gray);
+}
+
+main {
+  max-width: 48rem;
+  min-height: 100vh;
+  background: var(--color-paper-white);
+  padding: var(--spacing-48) var(--spacing-12);
+}
+
+h1 {
+  color: var(--color-carbon-black);
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-medium);
+  margin: 0 0 var(--spacing-12);
+}
+
+button {
+  min-height: 2.75rem;
+  border: 2px solid var(--color-ink-black);
+  border-radius: 0;
+  background: var(--color-ink-black);
+  color: var(--color-paper-white);
+  font: inherit;
+  padding: var(--spacing-12);
+}
+
+#estado {
+  border-left: 4px solid var(--color-primary-indigo);
+  background: var(--color-gallery-gray);
+  margin: var(--spacing-24) 0;
+  padding: var(--spacing-12);
+}
+
+a {
+  color: var(--color-primary-indigo-strong);
+  text-decoration: underline;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 0.2rem solid var(--color-focus);
+  outline-offset: 0.2rem;
+}
+
+@media (min-width: 48rem) {
+  main {
+    padding-left: var(--spacing-48);
+    padding-right: var(--spacing-48);
+  }
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Página mínima con módulos ES</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Mi primera página publicada por HTTP</h1>
+      <p>
+        HTML describe este contenido, CSS controla su presentación y JavaScript
+        actualiza el estado mediante un módulo ES.
+      </p>
+      <button id="actualizar-estado" type="button">Actualizar mensaje</button>
+      <p id="estado" role="status" aria-live="polite">Página lista.</p>
+      <p>
+        Continúa con el
+        <a href="../mapa_basico/">mapa Leaflet básico accesible</a> cuando hayas
+        comprobado el cambio de estado.
+      </p>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

@@ -2,6 +2,8 @@ title: Publicacion de cartografia via web
 description: Curso reproducible de cartografia web
 baseurl: ''
 markdown: kramdown
+exclude:
+  - slides
 defaults:
   - scope:
       path: ''

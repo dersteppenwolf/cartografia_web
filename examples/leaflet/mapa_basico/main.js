@@ -1,4 +1,6 @@
-(async () => {
+import { setStatus } from './status.js';
+
+async function initializeMap() {
   const status = document.querySelector('#estado');
   const filter = document.querySelector('#filtro-valor');
   const tableBody = document.querySelector('#tabla-datos tbody');
@@ -13,10 +15,6 @@
   }).addTo(map);
   let layer;
   let features = [];
-
-  function setStatus(message) {
-    status.textContent = message;
-  }
 
   function render() {
     const minimum = Number(filter.value);
@@ -47,7 +45,7 @@
         return row;
       }),
     );
-    setStatus(`${visible.length} zonas visibles.`);
+    setStatus(status, `${visible.length} zonas visibles.`);
   }
 
   try {
@@ -59,7 +57,10 @@
     filter.addEventListener('change', render);
   } catch (error) {
     setStatus(
+      status,
       `No fue posible cargar los datos de referencia: ${error.message}. Consulte la tabla cuando el servicio esté disponible.`,
     );
   }
-})();
+}
+
+initializeMap();

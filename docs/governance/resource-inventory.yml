@@ -126,6 +126,15 @@ resources:
     target: examples/leaflet/mapa_basico/vendor/
     milestone: Hito 3
     notes: Pinned Leaflet 1.9.4 distribution copied from node_modules.
+  - path_glob: examples/leaflet/pagina_minima/*
+    kind: maintained-web-foundation-example
+    decision: conservar
+    license_status: project
+    sensitivity: public
+    owner: web-accessibility
+    target: examples/leaflet/pagina_minima/
+    milestone: Hito 3
+    notes: Token-free HTML, CSS and ES module example before the Leaflet map.
   - path_glob: examples/leaflet/mapa_basico/*
     kind: maintained-leaflet-example
     decision: conservar
