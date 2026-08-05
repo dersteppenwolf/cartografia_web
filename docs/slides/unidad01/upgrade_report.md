@@ -1267,16 +1267,47 @@ Fuentes:
    las imágenes históricas fuera del sitio público hasta resolver licencias.
 
 2. **Actualizaciones de alto impacto.** Reestructurar el deck para que la Unidad
-   1 tenga una práctica progresiva de mapa Leaflet servido localmente. Mover
-   formatos a Unidad 2, APIs y servicios web a Unidad 4, servidores a Unidad 5,
-   frameworks a Unidad 6 y caché a Unidad 7. Sustituir capturas externas por
-   diagramas propios y fixtures locales.
+   1 tenga una práctica progresiva de mapa Leaflet servido localmente. Esta
+   secuencia sustituye contenido histórico; no aumenta las cuatro horas del
+   núcleo obligatorio.
+
+   1. Explicar el recorrido del navegador hasta un recurso y observar URL,
+      método, código HTTP, tipo de contenido, tamaño y caché en Network.
+   2. Construir una página con HTML semántico y controles etiquetados.
+   3. Aplicar CSS responsive, contraste suficiente y foco visible, comprobando
+      reflow a 320 CSS px y zoom al 200 %.
+   4. Cargar GeoJSON sintético con módulos ES, `fetch`, `async`/`await`,
+      `response.ok` y un mensaje de error comprensible.
+   5. Explicar las partes de una URL, el origen y el uso de HTTPS; prohibir
+      tokens, contraseñas o datos personales en URLs.
+   6. Distinguir el historial local de Git del remoto y del hosting estático.
+   7. Servir el artefacto mediante HTTP local y presentar GitHub Pages solo como
+      una implementación opcional de hosting estático con HTTPS.
+   8. Tratar el mapa como una interfaz: conservar leyenda, atribución, estado de
+      carga o error y tabla equivalente de los datos.
+   9. Documentar procedencia y licencia de imágenes, datos y mapa base;
+      priorizar dominio público, recursos propios o imágenes asistidas por IA
+      con términos, trazabilidad, revisión humana y texto alternativo resueltos.
+   10. Cerrar con un diagnóstico que demuestre mapa servido por HTTP, solicitud
+       GeoJSON observada, filtro operable por teclado, tabla equivalente y error
+       404 comprensible.
 
 3. **Mejoras editoriales opcionales.** Corregir capitalización, concordancia y
    nombres oficiales. Añadir comentarios HTML con fuentes en cada diapositiva
    factual. Reemplazar listas de productos por decisiones justificadas según
-   función, accesibilidad, reproducibilidad y seguridad. Añadir una diapositiva
-   de autoevaluación antes del cierre.
+   función, accesibilidad, reproducibilidad y seguridad. Usar diagramas propios
+   o recursos visuales con licencia documentada en lugar de capturas externas.
+
+### Contenidos que se trasladan fuera de la Unidad 1
+
+- Formatos geográficos, CRS, orden de coordenadas, precisión, GeoJSON, GML, KML
+  y TopoJSON: Unidad 2.
+- REST, SOAP, XML, WFS, OGC API - Features y contratos OpenAPI: Unidad 4.
+- PostGIS, GeoServer, Docker Compose, servicios y servidores de aplicaciones:
+  Unidad 5.
+- TypeScript, MapLibre y frameworks de interfaz: Unidad 6.
+- Caché HTTP, HTTP Range, PMTiles, COG y benchmarks: Unidad 7.
+- CI, secretos, despliegue, restauración y operación: Unidad 8.
 
 ## 6. Fuentes consolidadas
 
