@@ -26,11 +26,11 @@ progresión, la actividad Markdown y el destino de los contenidos históricos si
 reintroducir catálogos de productos ni ampliar las cuatro horas presenciales.
 
 Además, los diagramas propios de Slidev se servirán desde un directorio público
-separado. Las imágenes extraídas del PDF histórico permanecerán disponibles para
-la migración en el árbol de trabajo, pero no podrán aparecer en una
-previsualización ni en un build de la presentación. El resultado se comprobará
-construyendo un sitio Slidev aislado y verificando las rutas de un diagrama
-propio y de una captura histórica.
+separado. Las imágenes extraídas del PDF histórico no se publicarán ni se
+conservarán en el árbol de trabajo después de la migración; el PDF de origen
+permanecerá disponible para una extracción temporal futura. El resultado se
+comprobará construyendo un sitio Slidev aislado y verificando las rutas de un
+diagrama propio y de una captura histórica ausente.
 
 ## Progress
 
@@ -54,6 +54,9 @@ propio y de una captura histórica.
 - [x] (2026-08-05 20:45Z) Se intentó `npm run build`; MapLibre construyó
       correctamente, pero Docker no está disponible para la preparación
       posterior de activos. El bloqueo se documenta como limitación del entorno.
+- [x] (2026-08-05 23:04Z) Con aprobación explícita, se eliminaron 47 JPEG y 6
+      máscaras PPM históricas no versionadas. El PDF de origen y la guía de
+      extracción temporal permanecen disponibles.
 
 ## Surprises & Discoveries
 
@@ -134,6 +137,13 @@ propio y de una captura histórica.
   extensión `.mts` mantiene `defineConfig` y `publicDir` sin la advertencia de
   compatibilidad futura de Vite. Fecha/Autor: 2026-08-05 / OpenCode.
 
+- Decisión: eliminar las extracciones históricas no versionadas de
+  `docs/slides/unidad01/public/assets/` tras cerrar la migración. Justificación:
+  la presentación no las referencia, Slidev solo sirve `public-generated/` y su
+  licencia pendiente impide reutilizarlas. El PDF de origen permite una
+  extracción temporal y controlada si fuera necesaria. Fecha/Autor: 2026-08-05 /
+  OpenCode.
+
 ## Outcomes & Retrospective
 
 La Unidad 1 ahora empieza con `examples/leaflet/pagina_minima/`, una página
@@ -153,8 +163,9 @@ mínima.
 de
 `C:\Users\juanm\AppData\Local\Temp\opencode\slides-unidad01-final-gaps-20260805`
 contiene `assets/generated/connectividad_2025.svg` y no contiene
-`assets/slide-001-image-000.jpg`. Las capturas históricas continúan en el árbol
-de migración y no se eliminaron.
+`assets/slide-001-image-000.jpg`. Después del cierre técnico y con aprobación
+explícita, se eliminaron las capturas históricas no versionadas; el PDF de
+origen permanece disponible para una extracción temporal.
 
 Pasaron `npm run format:check`, `npm run lint`, `npm run test:a11y`,
 `npm run validate:curriculum`, `uv run python scripts/validate_resources.py`,
@@ -296,8 +307,10 @@ directorio `public-generated/assets/generated/` a la estructura indicada por
 `vite.config.mts`, sin reactivar `public/` como origen público. Si el nuevo
 módulo afecta el mapa, revertir únicamente la importación y el script
 `type="module"` después de comprobar que el módulo `status.js` está presente; no
-cambiar datos, atribución ni estilos del mapa. Las capturas históricas no se
-borran ni se modifican durante este plan.
+cambiar datos, atribución ni estilos del mapa. Las capturas históricas se
+conservaron durante la implementación y se eliminaron posteriormente con
+aprobación explícita; si se requieren de nuevo, se extraen temporalmente desde
+el PDF de origen fuera del repositorio.
 
 ## Artefactos y notas
 
@@ -346,3 +359,7 @@ modificadas.
 2026-08-05: plan cerrado. El build aislado confirmó el aislamiento de assets y
 la revisión individual confirmó composición y contraste. Se registró el bloqueo
 de Docker de `npm run build` sin modificar infraestructura ajena.
+
+2026-08-05: con aprobación explícita posterior al cierre, se eliminaron las 53
+capturas históricas no versionadas y se actualizó la guía de migración para usar
+extracciones temporales fuera del repositorio. El PDF de origen se conserva.

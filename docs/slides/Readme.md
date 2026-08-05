@@ -1,16 +1,21 @@
 # Generación de presentaciones Slidev
 
 Este directorio conserva presentaciones Slidev creadas durante la migración de
-los PDF docentes. Cada presentación debe poder reconstruirse desde el PDF de
-origen, mantener una diapositiva por página y usar recursos con nombres
-deterministas.
+los PDF docentes. Los PDF históricos son fuentes de consulta y reconstrucción;
+las presentaciones mantenidas pueden condensar su contenido y deben declarar qué
+material histórico se conserva, reemplaza o excluye.
+
+Las capturas extraídas de PDF solo se usan temporalmente durante una revisión de
+migración. No se versionan en el repositorio ni se publican hasta resolver su
+procedencia, licencia, texto alternativo y utilidad pedagógica.
 
 ## Alcance y publicación
 
-`docs/_config.yml` excluye `slides/` del build Jekyll. Las presentaciones y sus
-recursos se usan durante la migración, no se publican con el sitio del curso. No
-elimine esa exclusión ni publique recursos extraídos hasta revisar la
-procedencia, la licencia y el texto alternativo de cada imagen.
+`docs/_config.yml` excluye `slides/` del build Jekyll. En la Unidad 1,
+`vite.config.mts` sirve solo `public-generated/`; las capturas históricas no se
+copian a la previsualización ni al build de Slidev. No elimine esas exclusiones
+ni publique recursos extraídos hasta revisar su procedencia, licencia y texto
+alternativo.
 
 Los PDF históricos son la única fuente para su conversión. Conserve idioma,
 terminología, código, cifras y enlaces. No complete texto ilegible ni sustituya
@@ -23,23 +28,27 @@ Cada unidad usa esta estructura:
 ```text
 docs/slides/
   Readme.md
-  unidad01/
-    slides.md
-    public/
-      assets/
-        README.md
-        slide-001-image-000.jpg
+     unidad01/
+       slides.md
+       public/
+         assets/
+           README.md
+       public-generated/
+         assets/
+           generated/
+             internet_web.svg
 ```
 
-`slides.md` usa el tema `default` de Slidev. Cada diapositiva comienza con el
-comentario `<!-- PDF página: N -->` y contiene un layout compatible con Slidev.
-Los archivos dentro de `public/assets/` se referencian con rutas absolutas para
-el servidor de desarrollo de Slidev, por ejemplo:
+`slides.md` usa el tema `default` de Slidev. Una reconstrucción histórica puede
+usar comentarios `<!-- PDF página: N -->`; una presentación mantenida documenta
+sus revisiones con comentarios que no impliquen una correspondencia uno a uno
+con el PDF. En la Unidad 1, los diagramas propios se sirven desde
+`public-generated/assets/generated/`, por ejemplo:
 
 ```html
 <img
-  src="/assets/slide-004-image-000.jpg"
-  alt="Infografía de población mundial y estimación de usuarios de internet."
+  src="/assets/generated/internet_web.svg"
+  alt="Diagrama que diferencia Internet de la Web."
 />
 ```
 
@@ -92,11 +101,11 @@ sincronizado con su `package.json`.
 
 ## Extracción de imágenes
 
-Antes de extraer, cree el directorio de assets y confirme que es el destino
-correcto:
+Antes de extraer, cree un directorio temporal fuera del repositorio y confirme
+que es el destino correcto:
 
 ```powershell
-$assets = "docs/slides/unidad01/public/assets"
+$assets = Join-Path $env:TEMP "cartografia-web-unidad01-assets"
 New-Item -ItemType Directory -Force -Path $assets
 Test-Path -LiteralPath $assets -PathType Container
 ```
@@ -106,7 +115,7 @@ origen. El siguiente comando genera archivos como `slide-004-image-000.jpg`:
 
 ```powershell
 $source = "01_Fundamentos/01_Fundamentos_Internet.pdf"
-$assets = "docs/slides/unidad01/public/assets"
+$assets = Join-Path $env:TEMP "cartografia-web-unidad01-assets"
 
 foreach ($page in 1..78) {
   $prefix = Join-Path $assets ("slide-{0:D3}-image" -f $page)
@@ -118,23 +127,24 @@ foreach ($page in 1..78) {
 ```
 
 `pdfimages -j` conserva los JPEG embebidos. Algunas imágenes transparentes
-generan además una máscara PPM. Mantenga la máscara junto al JPEG mientras se
-decide si se necesita componer un PNG derivado con una herramienta aprobada. No
-elimine ni publique las imágenes ni sus derivados sin la revisión de licencia
-correspondiente.
+generan además una máscara PPM. Mantenga la máscara junto al JPEG solo durante
+la revisión necesaria para decidir si se requiere un derivado aprobado. Elimine
+la extracción temporal al terminar y no publique imágenes ni derivados sin la
+revisión de licencia correspondiente.
 
-Después de extraer, reemplace los marcadores TODO por elementos `img` con texto
-alternativo que describa la información visible. Compruebe que cada referencia
-apunta a un archivo existente:
+Después de extraer, no enlace directamente la captura temporal. Solo un recurso
+con procedencia, licencia, texto alternativo y utilidad pedagógica documentados
+puede convertirse en un asset mantenido. Compruebe sus referencias antes de
+publicar:
 
 ```powershell
 $references = @(
-  rg --only-matching 'src="/assets/[^"]+"' docs/slides/unidad01/slides.md |
-    ForEach-Object { $_ -replace '^src="/assets/', '' -replace '"$', '' }
+  rg --only-matching 'src="/assets/generated/[^"]+"' docs/slides/unidad01/slides.md |
+    ForEach-Object { $_ -replace '^src="/assets/generated/', '' -replace '"$', '' }
 )
 
 $references | ForEach-Object {
-  $path = Join-Path "docs/slides/unidad01/public/assets" $_
+  $path = Join-Path "docs/slides/unidad01/public-generated/assets/generated" $_
   if (-not (Test-Path -LiteralPath $path)) {
     throw "Asset ausente: $_"
   }
@@ -143,8 +153,8 @@ $references | ForEach-Object {
 
 ## Previsualización y build
 
-Ejecute Slidev desde el directorio de la unidad para que `public/assets/` sea el
-directorio público de la presentación:
+Ejecute Slidev desde el directorio de la unidad. En la Unidad 1,
+`vite.config.mts` configura `public-generated/` como directorio público:
 
 ```powershell
 Set-Location docs/slides/unidad01
@@ -188,5 +198,6 @@ if ($found.Count -ne $expected.Count -or $missing.Count -gt 0 -or $duplicates.Co
 }
 ```
 
-Registre en el `README.md` de assets de cada unidad el PDF de origen, el patrón
-de nombres, las máscaras extraídas y las restricciones de reutilización.
+Registre en el `README.md` de assets de cada unidad el PDF de origen, la
+decisión de conservar o eliminar las extracciones temporales y las restricciones
+de reutilización.
