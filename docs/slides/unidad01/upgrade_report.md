@@ -1276,21 +1276,29 @@ Fuentes:
    2. Construir una página con HTML semántico y controles etiquetados.
    3. Aplicar CSS responsive, contraste suficiente y foco visible, comprobando
       reflow a 320 CSS px y zoom al 200 %.
-   4. Cargar GeoJSON sintético con módulos ES, `fetch`, `async`/`await`,
-      `response.ok` y un mensaje de error comprensible.
+   4. Cargar GeoJSON sintético con módulos ES, `fetch`, `async`/`await` y
+      `response.ok`; distinguir HTTP 404, fallo de red, colección vacía y mapa
+      base no disponible mediante mensajes de estado comprensibles.
    5. Explicar las partes de una URL, el origen y el uso de HTTPS; prohibir
       tokens, contraseñas o datos personales en URLs.
    6. Distinguir el historial local de Git del remoto y del hosting estático.
    7. Servir el artefacto mediante HTTP local y presentar GitHub Pages solo como
       una implementación opcional de hosting estático con HTTPS.
-   8. Tratar el mapa como una interfaz: conservar leyenda, atribución, estado de
-      carga o error y tabla equivalente de los datos.
-   9. Documentar procedencia y licencia de imágenes, datos y mapa base;
-      priorizar dominio público, recursos propios o imágenes asistidas por IA
-      con términos, trazabilidad, revisión humana y texto alternativo resueltos.
+   8. Tratar el mapa como una interfaz accesible: conservar leyenda, atribución,
+      foco visible, operación por teclado, estado de carga o error y tabla
+      equivalente de los datos.
+   9. Evaluar privacidad de ubicación, procedencia y licencia de imágenes, datos
+      y mapa base; no publicar coordenadas sensibles. Priorizar dominio público,
+      recursos propios o imágenes asistidas por IA con términos, trazabilidad,
+      declaración de uso, revisión humana y texto alternativo resueltos.
    10. Cerrar con un diagnóstico que demuestre mapa servido por HTTP, solicitud
        GeoJSON observada, filtro operable por teclado, tabla equivalente y error
        404 comprensible.
+
+   Las cuatro capacidades transversales se validan durante la práctica, no como
+   contenido decorativo: explicar el riesgo de una ubicación sensible, operar el
+   mapa sin ratón, recuperar una interfaz ante un fallo y declarar cualquier uso
+   de IA junto con la revisión humana realizada.
 
 3. **Mejoras editoriales opcionales.** Corregir capitalización, concordancia y
    nombres oficiales. Añadir comentarios HTML con fuentes en cada diapositiva
@@ -1308,6 +1316,18 @@ Fuentes:
 - TypeScript, MapLibre y frameworks de interfaz: Unidad 6.
 - Caché HTTP, HTTP Range, PMTiles, COG y benchmarks: Unidad 7.
 - CI, secretos, despliegue, restauración y operación: Unidad 8.
+
+### Regla de depuración de diapositivas
+
+Eliminar toda diapositiva vacía, puramente decorativa o compuesta solo por una
+imagen que no aporte un resultado de aprendizaje, evidencia, contexto histórico
+rotulado o función de transición. Una imagen informativa debe incluir texto
+alternativo y una explicación o alternativa textual equivalente.
+
+Se conservan únicamente los separadores que orientan la secuencia didáctica,
+como las diapositivas 2, 6, 24, 40 y 68. Cada separador debe anunciar la sección
+que sigue; no debe utilizarse para llenar tiempo ni para reproducir la estética
+del PDF histórico.
 
 ## 6. Fuentes consolidadas
 
