@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Evidencia de una solicitud GeoJSON</title>
+  <desc id="desc">Un panel de red propio muestra una solicitud GET al archivo referencia.geojson con respuesta HTTP 200 y tipo GeoJSON.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="72" y="66" width="1056" height="1" fill="#161a42"/>
+  <text x="72" y="126" fill="#161a42" font-family="Arial, sans-serif" font-size="42" font-weight="600">Observa evidencia de la solicitud</text>
+  <rect x="72" y="184" width="1056" height="356" fill="#161a42"/>
+  <text x="104" y="236" fill="#ffffff" font-family="Arial, sans-serif" font-size="22">Network · ejemplo local</text>
+  <rect x="104" y="268" width="992" height="74" fill="#27348d"/>
+  <text x="132" y="314" fill="#ffffff" font-family="monospace" font-size="23">GET  data/referencia.geojson</text>
+  <rect x="104" y="358" width="310" height="132" fill="#eef2ff"/>
+  <text x="132" y="404" fill="#161a42" font-family="Arial, sans-serif" font-size="20">Estado</text>
+  <text x="132" y="452" fill="#3f51e8" font-family="Arial, sans-serif" font-size="40" font-weight="600">200</text>
+  <rect x="448" y="358" width="310" height="132" fill="#eef2ff"/>
+  <text x="476" y="404" fill="#161a42" font-family="Arial, sans-serif" font-size="20">Representación</text>
+  <text x="476" y="452" fill="#161a42" font-family="Arial, sans-serif" font-size="28" font-weight="600">GeoJSON</text>
+  <rect x="792" y="358" width="304" height="132" fill="#eef2ff"/>
+  <text x="820" y="404" fill="#161a42" font-family="Arial, sans-serif" font-size="20">Qué registrar</text>
+  <text x="820" y="440" fill="#373e70" font-family="Arial, sans-serif" font-size="18">URL · método · tipo</text>
+  <text x="820" y="468" fill="#373e70" font-family="Arial, sans-serif" font-size="18">tamaño · caché · tiempo</text>
+  <text x="72" y="620" fill="#626a93" font-family="Arial, sans-serif" font-size="18">Modelo de evidencia propio; comprobar los valores reales en DevTools.</text>
+</svg>

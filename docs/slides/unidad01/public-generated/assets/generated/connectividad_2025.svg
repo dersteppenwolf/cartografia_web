@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Conectividad mundial en 2025</title>
+  <desc id="desc">Un gráfico de barras muestra aproximadamente seis mil millones de personas en línea y 2.2 mil millones sin conexión, junto con cobertura 5G del 55 por ciento de la población mundial.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="72" y="66" width="1056" height="1" fill="#161a42"/>
+  <text x="72" y="126" fill="#161a42" font-family="Arial, sans-serif" font-size="42" font-weight="600">Conectividad mundial en 2025</text>
+  <text x="72" y="170" fill="#373e70" font-family="Arial, sans-serif" font-size="22">Último dato disponible: ITU Facts and Figures 2025</text>
+  <text x="72" y="252" fill="#161a42" font-family="Arial, sans-serif" font-size="26" font-weight="600">Población mundial estimada</text>
+  <rect x="72" y="280" width="770" height="94" fill="#3f51e8"/>
+  <rect x="842" y="280" width="286" height="94" fill="#dce4ff"/>
+  <text x="104" y="338" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="600">≈ 6 mil millones en línea</text>
+  <text x="864" y="338" fill="#161a42" font-family="Arial, sans-serif" font-size="24" font-weight="600">2,2 mil millones</text>
+  <text x="864" y="366" fill="#373e70" font-family="Arial, sans-serif" font-size="18">sin conexión</text>
+  <rect x="72" y="454" width="476" height="142" fill="#eef2ff"/>
+  <text x="104" y="503" fill="#161a42" font-family="Arial, sans-serif" font-size="24" font-weight="600">55 %</text>
+  <text x="104" y="541" fill="#373e70" font-family="Arial, sans-serif" font-size="21">de la población mundial cuenta</text>
+  <text x="104" y="570" fill="#373e70" font-family="Arial, sans-serif" font-size="21">con cobertura 5G.</text>
+  <text x="72" y="638" fill="#626a93" font-family="Arial, sans-serif" font-size="18">Fuente: International Telecommunication Union, 2025. Diagrama propio.</text>
+</svg>

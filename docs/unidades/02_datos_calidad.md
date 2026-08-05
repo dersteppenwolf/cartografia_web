@@ -59,6 +59,13 @@ duplicación en límites administrativos. Es una comparación útil de tamaño y
 topología, pero no corrige geometrías inválidas, atributos ambiguos ni una
 licencia ausente. Un formato compacto no demuestra calidad.
 
+**GML** y **KML** son formatos XML de compatibilidad que se sitúan en la Unidad
+4: GML puede aparecer como representación de WFS y KML se orienta a
+visualización. **ESRI JSON** es una representación específica de un proveedor.
+Si se recibe alguno de estos formatos, documenta fuente, versión, CRS, esquema y
+conversión antes de usarlo; no son formatos iniciales ni entregables de esta
+unidad.
+
 | Necesidad                                  | Decisión inicial | Razón                                    |
 | ------------------------------------------ | ---------------- | ---------------------------------------- |
 | Inspeccionar entidades en una página web   | GeoJSON          | El navegador lo puede leer directamente. |

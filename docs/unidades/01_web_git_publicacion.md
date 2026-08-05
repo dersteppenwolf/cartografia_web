@@ -30,6 +30,10 @@ protocolos. La **Web** es uno de los sistemas que usa Internet para enlazar
 recursos mediante URLs e hipervínculos. Correo electrónico, SSH y transferencia
 de archivos también usan Internet, pero no son páginas web.
 
+El **hipertexto** permite enlazar un recurso con otro sin exigir una lectura
+lineal. Una URL identifica el recurso y el navegador puede presentar la
+representación que recibe al seguir ese enlace.
+
 Un **protocolo** define reglas para que dos sistemas se entiendan. HTTP define
 cómo un cliente solicita un recurso y cómo un servidor responde. HTTPS usa HTTP
 sobre TLS para proteger esa comunicación. El curso usa HTTPS para recursos
@@ -114,6 +118,25 @@ El atributo `for` enlaza la etiqueta con el control. `role="status"` y
 `aria-live="polite"` permiten anunciar cambios de carga o error sin interrumpir
 innecesariamente a quien usa un lector de pantalla.
 
+## Antes del mapa: una página mínima
+
+`examples/leaflet/pagina_minima/` es el primer artefacto de la unidad. Su HTML
+define un encabezado, contenido principal, botón y región de estado.
+`styles.css` presenta esos elementos. `main.js` importa `setStatus` desde
+`status.js`, por lo que la separación entre comportamiento y dependencia se
+puede observar sin frameworks ni empaquetador.
+
+Desde la raíz del repositorio, ejecuta:
+
+```powershell
+python -m http.server 8000
+```
+
+Después abre `http://localhost:8000/examples/leaflet/pagina_minima/`, cambia el
+texto del encabezado y activa el botón. La región de estado debe anunciar que el
+módulo ES actualizó el mensaje. En las herramientas de desarrollo, `main.js` y
+`status.js` deben aparecer como solicitudes separadas.
+
 ## CSS que se adapta
 
 Una interfaz responsive no depende de una medida exacta de pantalla. Usa anchos
@@ -183,9 +206,9 @@ esta introducción.
 ## Módulos y mapa base
 
 Un módulo ES es un archivo JavaScript con dependencias explícitas cargado con
-`type="module"`. El ejemplo Leaflet mantiene su código separado en `main.js` y
-sus estilos en `styles.css`; esa separación permite localizar responsabilidades
-sin editar una página monolítica.
+`type="module"`. La página mínima y el ejemplo Leaflet cargan `main.js` de esa
+forma e importan `setStatus` desde `status.js`. Esa separación permite localizar
+responsabilidades sin editar una página monolítica.
 
 El [mapa Leaflet básico]({{ '/examples/leaflet/mapa_basico/' | relative_url }})
 carga zonas sintéticas, filtra por atributo, muestra una leyenda y actualiza una
@@ -221,16 +244,18 @@ HTTPS y preserva las rutas relativas del sitio.
 ## Práctica guiada
 
 1. Desde la raíz, sirve el repositorio con `python -m http.server 8000`.
-2. Abre `http://localhost:8000/examples/leaflet/mapa_basico/`.
-3. Recorre el selector con Tab, elige `Valor 20 o superior` y comprueba que el
+2. Abre `http://localhost:8000/examples/leaflet/pagina_minima/`, cambia su
+   encabezado y activa el botón para comprobar la región de estado.
+3. Abre `http://localhost:8000/examples/leaflet/mapa_basico/`.
+4. Recorre el selector con Tab, elige `Valor 20 o superior` y comprueba que el
    estado y la tabla muestran el mismo número de zonas que el mapa.
-4. Abre las herramientas de desarrollo, selecciona la pestaña Network y recarga.
+5. Abre las herramientas de desarrollo, selecciona la pestaña Network y recarga.
    Observa `data/referencia.geojson`: registra URL, método, código, tipo de
    contenido, tamaño y si la respuesta vino de caché.
-5. En una copia temporal del ejemplo, cambia la ruta del GeoJSON a un nombre
+6. En una copia temporal del ejemplo, cambia la ruta del GeoJSON a un nombre
    inexistente, recarga y observa el error 404. Restaura la ruta antes de
    terminar.
-6. Crea una nota Markdown local con encabezado, lista, enlace relativo al
+7. Crea una nota Markdown local con encabezado, lista, enlace relativo al
    ejemplo y bloque de código. Comprueba su formato con `npm run lint:markdown`;
    no publiques datos personales ni necesitas una cuenta remota.
 
@@ -241,7 +266,9 @@ Algunas tecnologías aparecen en unidades posteriores:
 - **JSON** es texto estructurado usado por GeoJSON y OGC API - Features. La
   Unidad 2 estudia datos geográficos y la Unidad 4 contratos de API.
 - **XML**, **GML** y **KML** son formatos basados en etiquetas. WFS puede
-  entregar GML; la Unidad 4 compara contratos y representaciones.
+  entregar GML; la Unidad 4 compara contratos y representaciones. **ESRI JSON**
+  es una representación específica de un proveedor: se documenta si llega como
+  entrada, pero no es un formato inicial ni un producto obligatorio del curso.
 - **REST** es un estilo de arquitectura HTTP con recursos direccionables y
   operaciones bien definidas. OGC API - Features lo aplica en la Unidad 4.
 - **RPC** y **SOAP** son modelos históricos o panorámicos para invocar

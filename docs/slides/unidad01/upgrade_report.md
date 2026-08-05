@@ -1306,7 +1306,7 @@ Fuentes:
    función, accesibilidad, reproducibilidad y seguridad. Usar diagramas propios
    o recursos visuales con licencia documentada en lugar de capturas externas.
 
-### Contenidos que se trasladan fuera de la Unidad 1
+### Contenidos cuyo desarrollo práctico se traslada
 
 - Formatos geográficos, CRS, orden de coordenadas, precisión, GeoJSON, GML, KML
   y TopoJSON: Unidad 2.
@@ -1316,6 +1316,20 @@ Fuentes:
 - TypeScript, MapLibre y frameworks de interfaz: Unidad 6.
 - Caché HTTP, HTTP Range, PMTiles, COG y benchmarks: Unidad 7.
 - CI, secretos, despliegue, restauración y operación: Unidad 8.
+
+### Contexto histórico y tecnológico que se conserva
+
+La Unidad 1 abre con un panorama breve y rotulado, antes de los resultados y la
+práctica: la evolución de documentos web hacia publicaciones cartográficas,
+modelos RPC, SOAP/XML, WMS/WFS, REST y OGC API, formatos geográficos, clientes
+de escritorio y web, y responsabilidades de servidores y lenguajes. El objetivo
+es explicar por qué coexisten tecnologías y dónde se estudian, no exigir su
+instalación ni ocupar el tiempo de la práctica local.
+
+Las tecnologías retiradas, como Flash/Flex, y productos institucionales, como
+ArcMap o ArcGIS Desktop, se presentan únicamente como contexto histórico. Las
+interfaces clásicas WMS y WFS se presentan como compatibilidad institucional;
+OGC API - Features se presenta como núcleo moderno de la Unidad 4.
 
 ### Regla de depuración de diapositivas
 
@@ -1350,3 +1364,5 @@ del PDF histórico.
 17. [Repositorio del curso — _Programa del curso_ — 3 de agosto de 2026](../../../Programa.md)
 18. [Repositorio del curso — _Unidad 1. Web, Git y publicación_ — 3 de agosto de 2026](../../unidades/01_web_git_publicacion.md)
 19. [Repositorio del curso — _Política de Licencias Inicial_ — 3 de agosto de 2026](../../governance/licenses.md)
+20. [Domo — _Data Never Sleeps: AI Edition 2025_ — 2025](https://www.domo.com/learn/infographic/data-never-sleeps-ai-edition-2025)
+21. [Cloudflare — _The 2025 Cloudflare Radar Year in Review_ — 2025](https://blog.cloudflare.com/radar-2025-year-in-review/)

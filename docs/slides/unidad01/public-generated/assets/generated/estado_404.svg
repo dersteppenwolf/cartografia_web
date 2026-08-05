@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Estado de error HTTP 404 en un mapa web</title>
+  <desc id="desc">Una interfaz de mapa propia muestra un panel de estado que explica que no se pudieron cargar los datos porque el recurso respondió HTTP 404 y recomienda revisar la ruta.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="72" y="66" width="1056" height="1" fill="#161a42"/>
+  <text x="72" y="126" fill="#161a42" font-family="Arial, sans-serif" font-size="42" font-weight="600">Un 404 debe explicar qué ocurrió</text>
+  <rect x="72" y="188" width="694" height="338" fill="#dce4ff" stroke="#3f51e8" stroke-width="3"/>
+  <text x="106" y="242" fill="#161a42" font-family="Arial, sans-serif" font-size="24" font-weight="600">Mapa de zonas</text>
+  <path d="M130 430 L270 304 L386 386 L520 268 L704 442" fill="none" stroke="#737373" stroke-width="7"/>
+  <circle cx="270" cy="304" r="12" fill="#e06960"/>
+  <circle cx="386" cy="386" r="12" fill="#e06960"/>
+  <circle cx="520" cy="268" r="12" fill="#e06960"/>
+  <rect x="800" y="188" width="328" height="338" fill="#161a42"/>
+  <text x="832" y="250" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="600">Estado</text>
+  <text x="832" y="312" fill="#ffc21a" font-family="Arial, sans-serif" font-size="44" font-weight="600">HTTP 404</text>
+  <text x="832" y="362" fill="#ffffff" font-family="Arial, sans-serif" font-size="20">No fue posible cargar</text>
+  <text x="832" y="392" fill="#ffffff" font-family="Arial, sans-serif" font-size="20">los datos de referencia.</text>
+  <text x="832" y="450" fill="#dce4ff" font-family="Arial, sans-serif" font-size="18">Siguiente acción:</text>
+  <text x="832" y="480" fill="#dce4ff" font-family="Arial, sans-serif" font-size="18">verificar la ruta solicitada.</text>
+  <text x="72" y="620" fill="#626a93" font-family="Arial, sans-serif" font-size="18">Diagrama propio de un estado recuperable; no es una captura de un servicio externo.</text>
+</svg>

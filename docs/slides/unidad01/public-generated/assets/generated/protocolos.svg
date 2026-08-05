@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Protocolos para necesidades distintas</title>
+  <desc id="desc">Cuatro tarjetas relacionan correo electrónico con POP3, IMAP y SMTP; administración remota con SSH; archivos con FTP; y recursos web con HTTP y HTTPS.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="72" y="66" width="1056" height="1" fill="#161a42"/>
+  <text x="72" y="126" fill="#161a42" font-family="Arial, sans-serif" font-size="42" font-weight="600">Protocolos: reglas para necesidades distintas</text>
+  <rect x="72" y="208" width="240" height="244" fill="#eef2ff"/>
+  <rect x="336" y="208" width="240" height="244" fill="#dce4ff"/>
+  <rect x="600" y="208" width="240" height="244" fill="#eef2ff"/>
+  <rect x="864" y="208" width="264" height="244" fill="#161a42"/>
+  <text x="104" y="270" fill="#161a42" font-family="Arial, sans-serif" font-size="26" font-weight="600">Correo</text>
+  <text x="104" y="322" fill="#373e70" font-family="Arial, sans-serif" font-size="23">POP3</text>
+  <text x="104" y="356" fill="#373e70" font-family="Arial, sans-serif" font-size="23">IMAP</text>
+  <text x="104" y="390" fill="#373e70" font-family="Arial, sans-serif" font-size="23">SMTP</text>
+  <text x="368" y="270" fill="#161a42" font-family="Arial, sans-serif" font-size="26" font-weight="600">Administración</text>
+  <text x="368" y="348" fill="#373e70" font-family="Arial, sans-serif" font-size="30">SSH</text>
+  <text x="632" y="270" fill="#161a42" font-family="Arial, sans-serif" font-size="26" font-weight="600">Archivos</text>
+  <text x="632" y="348" fill="#373e70" font-family="Arial, sans-serif" font-size="30">FTP</text>
+  <text x="896" y="270" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="600">Recursos web</text>
+  <text x="896" y="338" fill="#dce4ff" font-family="Arial, sans-serif" font-size="30">HTTP</text>
+  <text x="896" y="384" fill="#ffc21a" font-family="Arial, sans-serif" font-size="30">HTTPS</text>
+  <text x="72" y="544" fill="#161a42" font-family="Arial, sans-serif" font-size="24" font-weight="600">Un protocolo no es una aplicación: define reglas para que sistemas distintos se entiendan.</text>
+  <text x="72" y="628" fill="#626a93" font-family="Arial, sans-serif" font-size="18">Diagrama propio.</text>
+</svg>

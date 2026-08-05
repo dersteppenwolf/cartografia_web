@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Internet y Web</title>
+  <desc id="desc">Un diagrama distingue Internet como red de sistemas conectados y la Web como documentos y recursos enlazados que usan HTTP.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="72" y="66" width="1056" height="1" fill="#161a42"/>
+  <text x="72" y="126" fill="#161a42" font-family="Arial, sans-serif" font-size="42" font-weight="600">Internet sostiene; la Web enlaza recursos</text>
+  <rect x="72" y="188" width="488" height="354" fill="#eef2ff"/>
+  <text x="104" y="242" fill="#161a42" font-family="Arial, sans-serif" font-size="28" font-weight="600">Internet</text>
+  <text x="104" y="278" fill="#373e70" font-family="Arial, sans-serif" font-size="20">Red de sistemas y protocolos</text>
+  <line x1="174" y1="390" x2="300" y2="320" stroke="#3f51e8" stroke-width="5"/>
+  <line x1="300" y1="320" x2="438" y2="392" stroke="#3f51e8" stroke-width="5"/>
+  <line x1="174" y1="390" x2="438" y2="392" stroke="#3f51e8" stroke-width="5"/>
+  <circle cx="174" cy="390" r="42" fill="#ffffff" stroke="#3f51e8" stroke-width="4"/>
+  <circle cx="300" cy="320" r="42" fill="#ffffff" stroke="#3f51e8" stroke-width="4"/>
+  <circle cx="438" cy="392" r="42" fill="#ffffff" stroke="#3f51e8" stroke-width="4"/>
+  <text x="146" y="398" fill="#161a42" font-family="Arial, sans-serif" font-size="17">cliente</text>
+  <text x="272" y="328" fill="#161a42" font-family="Arial, sans-serif" font-size="17">router</text>
+  <text x="408" y="400" fill="#161a42" font-family="Arial, sans-serif" font-size="17">servidor</text>
+  <rect x="640" y="188" width="488" height="354" fill="#161a42"/>
+  <text x="672" y="242" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="600">Web</text>
+  <text x="672" y="278" fill="#dce4ff" font-family="Arial, sans-serif" font-size="20">Recursos y enlaces de hipertexto</text>
+  <rect x="688" y="328" width="148" height="96" fill="#ffffff"/>
+  <rect x="916" y="328" width="148" height="96" fill="#ffffff"/>
+  <text x="718" y="382" fill="#161a42" font-family="Arial, sans-serif" font-size="20">HTML</text>
+  <text x="940" y="382" fill="#161a42" font-family="Arial, sans-serif" font-size="20">GeoJSON</text>
+  <line x1="836" y1="376" x2="916" y2="376" stroke="#ffc21a" stroke-width="6"/>
+  <polygon points="916,376 890,360 890,392" fill="#ffc21a"/>
+  <text x="815" y="476" fill="#dce4ff" font-family="Arial, sans-serif" font-size="20">HTTP conecta cliente y recursos.</text>
+  <text x="72" y="630" fill="#626a93" font-family="Arial, sans-serif" font-size="18">Diagrama propio. Correo, SSH y FTP usan Internet sin ser parte de la Web.</text>
+</svg>

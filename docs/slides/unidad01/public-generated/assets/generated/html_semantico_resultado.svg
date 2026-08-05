@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Resultado de una página HTML semántica</title>
+  <desc id="desc">Un diagrama compara una estructura HTML con main y heading con su resultado visible: título, etiqueta de filtro y mensaje de estado.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="72" y="66" width="1056" height="1" fill="#161a42"/>
+  <text x="72" y="126" fill="#161a42" font-family="Arial, sans-serif" font-size="42" font-weight="600">De estructura semántica a interfaz visible</text>
+  <rect x="72" y="190" width="490" height="362" fill="#161a42"/>
+  <text x="104" y="244" fill="#ffffff" font-family="monospace" font-size="22">&lt;main&gt;</text>
+  <text x="132" y="286" fill="#dce4ff" font-family="monospace" font-size="22">&lt;h1&gt;Mapa de zonas&lt;/h1&gt;</text>
+  <text x="132" y="328" fill="#dce4ff" font-family="monospace" font-size="22">&lt;label&gt;Valor mínimo&lt;/label&gt;</text>
+  <text x="132" y="370" fill="#dce4ff" font-family="monospace" font-size="22">&lt;select&gt;...&lt;/select&gt;</text>
+  <text x="132" y="412" fill="#dce4ff" font-family="monospace" font-size="22">&lt;p role="status"&gt;...&lt;/p&gt;</text>
+  <text x="104" y="454" fill="#ffffff" font-family="monospace" font-size="22">&lt;/main&gt;</text>
+  <line x1="590" y1="370" x2="654" y2="370" stroke="#3f51e8" stroke-width="6"/>
+  <polygon points="654,370 628,354 628,386" fill="#3f51e8"/>
+  <rect x="680" y="190" width="448" height="362" fill="#eef2ff" stroke="#3f51e8" stroke-width="3"/>
+  <text x="716" y="256" fill="#161a42" font-family="Arial, sans-serif" font-size="30" font-weight="600">Mapa de zonas</text>
+  <text x="716" y="320" fill="#373e70" font-family="Arial, sans-serif" font-size="20">Mostrar zonas con valor mínimo</text>
+  <rect x="716" y="340" width="352" height="56" fill="#ffffff" stroke="#161a42" stroke-width="2"/>
+  <text x="738" y="376" fill="#161a42" font-family="Arial, sans-serif" font-size="20">Todas las zonas</text>
+  <rect x="716" y="430" width="352" height="68" fill="#dce4ff"/>
+  <text x="738" y="471" fill="#161a42" font-family="Arial, sans-serif" font-size="19">3 zonas visibles.</text>
+  <text x="72" y="626" fill="#626a93" font-family="Arial, sans-serif" font-size="18">Diagrama propio: la semántica permite estructura, etiquetas y estado comprensibles.</text>
+</svg>

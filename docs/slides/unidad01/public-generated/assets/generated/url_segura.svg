@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Anatomía de una URL segura</title>
+  <desc id="desc">Un diagrama identifica el esquema HTTPS, host, puerto, ruta, consulta y fragmento de una URL de ejemplo sin credenciales ni tokens.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="72" y="66" width="1056" height="1" fill="#161a42"/>
+  <text x="72" y="126" fill="#161a42" font-family="Arial, sans-serif" font-size="42" font-weight="600">Una URL segura identifica un recurso</text>
+  <text x="72" y="224" fill="#3f51e8" font-family="monospace" font-size="32" font-weight="600">https://curso.example.org:443/unidades/01?tema=http#practica</text>
+  <line x1="72" y1="250" x2="232" y2="250" stroke="#3f51e8" stroke-width="5"/>
+  <line x1="240" y1="250" x2="590" y2="250" stroke="#161a42" stroke-width="5"/>
+  <line x1="598" y1="250" x2="670" y2="250" stroke="#e06960" stroke-width="5"/>
+  <line x1="678" y1="250" x2="878" y2="250" stroke="#3f51e8" stroke-width="5"/>
+  <line x1="886" y1="250" x2="1035" y2="250" stroke="#161a42" stroke-width="5"/>
+  <line x1="1043" y1="250" x2="1128" y2="250" stroke="#e06960" stroke-width="5"/>
+  <text x="72" y="312" fill="#3f51e8" font-family="Arial, sans-serif" font-size="22">esquema HTTPS</text>
+  <text x="292" y="312" fill="#161a42" font-family="Arial, sans-serif" font-size="22">host</text>
+  <text x="598" y="312" fill="#e06960" font-family="Arial, sans-serif" font-size="22">puerto</text>
+  <text x="722" y="312" fill="#3f51e8" font-family="Arial, sans-serif" font-size="22">ruta</text>
+  <text x="900" y="312" fill="#161a42" font-family="Arial, sans-serif" font-size="22">consulta</text>
+  <text x="1040" y="312" fill="#e06960" font-family="Arial, sans-serif" font-size="22">fragmento</text>
+  <rect x="72" y="418" width="1056" height="130" fill="#eef2ff"/>
+  <text x="104" y="466" fill="#161a42" font-family="Arial, sans-serif" font-size="24" font-weight="600">No incluir en la URL</text>
+  <text x="104" y="510" fill="#373e70" font-family="Arial, sans-serif" font-size="23">Contraseñas, tokens, información personal ni datos sensibles. El fragmento se interpreta en el navegador y no se envía al servidor.</text>
+  <text x="72" y="632" fill="#626a93" font-family="Arial, sans-serif" font-size="18">Fuente conceptual: WHATWG URL Standard. Diagrama propio.</text>
+</svg>

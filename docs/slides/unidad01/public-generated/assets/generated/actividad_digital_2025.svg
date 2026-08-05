@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Actividad digital por minuto en 2025</title>
+  <desc id="desc">Tres tarjetas muestran indicadores de actividad de inteligencia artificial por minuto publicados por Domo: 694 mil prompts de ChatGPT, 23.611 imágenes creadas con inteligencia artificial y 1,21 millones de dólares de gasto en inteligencia artificial.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="72" y="66" width="1056" height="1" fill="#161a42"/>
+  <text x="72" y="126" fill="#161a42" font-family="Arial, sans-serif" font-size="42" font-weight="600">Actividad digital por minuto: evidencia 2025</text>
+  <text x="72" y="168" fill="#373e70" font-family="Arial, sans-serif" font-size="21">Indicadores de IA publicados por Domo; no representan toda la actividad de Internet.</text>
+  <rect x="72" y="242" width="320" height="242" fill="#eef2ff"/>
+  <rect x="440" y="242" width="320" height="242" fill="#dce4ff"/>
+  <rect x="808" y="242" width="320" height="242" fill="#161a42"/>
+  <text x="104" y="308" fill="#161a42" font-family="Arial, sans-serif" font-size="46" font-weight="600">694 mil</text>
+  <text x="104" y="352" fill="#373e70" font-family="Arial, sans-serif" font-size="23">prompts de ChatGPT</text>
+  <text x="104" y="384" fill="#373e70" font-family="Arial, sans-serif" font-size="23">cada minuto</text>
+  <text x="472" y="308" fill="#161a42" font-family="Arial, sans-serif" font-size="46" font-weight="600">23.611</text>
+  <text x="472" y="352" fill="#373e70" font-family="Arial, sans-serif" font-size="23">imágenes creadas con IA</text>
+  <text x="472" y="384" fill="#373e70" font-family="Arial, sans-serif" font-size="23">cada minuto</text>
+  <text x="840" y="308" fill="#ffffff" font-family="Arial, sans-serif" font-size="46" font-weight="600">USD 1,21 M</text>
+  <text x="840" y="352" fill="#ffffff" font-family="Arial, sans-serif" font-size="23">gasto en IA</text>
+  <text x="840" y="384" fill="#ffffff" font-family="Arial, sans-serif" font-size="23">cada minuto</text>
+  <text x="72" y="568" fill="#161a42" font-family="Arial, sans-serif" font-size="25" font-weight="600">Lectura responsable</text>
+  <text x="72" y="604" fill="#373e70" font-family="Arial, sans-serif" font-size="21">Las cifras sirven para discutir escala, procedencia, costo y límites de los datos, no para justificar usos sin evaluación.</text>
+  <text x="72" y="644" fill="#626a93" font-family="Arial, sans-serif" font-size="18">Fuente: Domo, Data Never Sleeps: AI Edition 2025. Diagrama propio.</text>
+</svg>

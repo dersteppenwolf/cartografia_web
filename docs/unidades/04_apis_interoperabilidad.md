@@ -65,6 +65,20 @@ y sus atributos, por lo que el cliente puede filtrarlas, tabularlas o
 simbolizarlas. STAC no reemplaza ninguno de esos servicios: describe dónde están
 activos como un COG o PMTiles, junto con fecha, extensión y enlaces.
 
+## Compatibilidad de formatos y contratos
+
+GML es una representación XML que un WFS puede entregar cuando el contrato o la
+institución lo requiere. KML es un formato XML orientado a visualización. ESRI
+JSON es una representación específica de un proveedor. Estos formatos se pueden
+identificar, documentar y convertir de forma reproducible, pero el recorrido
+obligatorio del curso usa GeoJSON, GeoPackage y OGC API - Features para evitar
+mezclar compatibilidad con el formato inicial.
+
+RPC y SOAP describen modelos históricos para invocar operaciones remotas. Se
+conservan como contexto para interpretar servicios institucionales, no como una
+API nueva ni una práctica obligatoria. WPS se compara más adelante con OGC API -
+Processes, que permanece como contenido panorámico o electivo.
+
 ## Descubrir OGC API - Features
 
 No construyas rutas a ciegas ni copies URLs de una cohorte anterior. Una landing

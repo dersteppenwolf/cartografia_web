@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Componentes de un mapa accesible</title>
+  <desc id="desc">Una composición muestra un mapa con puntos, leyenda, control de filtro, estado de carga y tabla equivalente de datos.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="72" y="66" width="1056" height="1" fill="#161a42"/>
+  <text x="72" y="126" fill="#161a42" font-family="Arial, sans-serif" font-size="42" font-weight="600">Un mapa accesible mantiene alternativas visibles</text>
+  <rect x="72" y="190" width="598" height="336" fill="#dce4ff" stroke="#3f51e8" stroke-width="3"/>
+  <text x="104" y="238" fill="#161a42" font-family="Arial, sans-serif" font-size="24" font-weight="600">Mapa de zonas</text>
+  <path d="M120 438 L244 306 L382 398 L538 284 L628 438" fill="none" stroke="#737373" stroke-width="7"/>
+  <circle cx="244" cy="306" r="15" fill="#3f51e8"/>
+  <circle cx="382" cy="398" r="15" fill="#3f51e8"/>
+  <circle cx="538" cy="284" r="15" fill="#3f51e8"/>
+  <rect x="704" y="190" width="424" height="90" fill="#eef2ff"/>
+  <text x="736" y="228" fill="#161a42" font-family="Arial, sans-serif" font-size="20" font-weight="600">Filtro con etiqueta</text>
+  <text x="736" y="258" fill="#373e70" font-family="Arial, sans-serif" font-size="19">Valor mínimo: Todas las zonas</text>
+  <rect x="704" y="302" width="424" height="90" fill="#dce4ff"/>
+  <text x="736" y="340" fill="#161a42" font-family="Arial, sans-serif" font-size="20" font-weight="600">Estado</text>
+  <text x="736" y="370" fill="#373e70" font-family="Arial, sans-serif" font-size="19">3 zonas visibles.</text>
+  <rect x="704" y="414" width="424" height="112" fill="#161a42"/>
+  <text x="736" y="452" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="600">Leyenda y tabla equivalente</text>
+  <text x="736" y="484" fill="#dce4ff" font-family="Arial, sans-serif" font-size="19">No dependen de operar el canvas.</text>
+  <text x="72" y="630" fill="#626a93" font-family="Arial, sans-serif" font-size="18">Diagrama propio: leyenda, atribución, estado, control y alternativa de datos forman parte del mapa.</text>
+</svg>

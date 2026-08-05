@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">HTTPS y origen</title>
+  <desc id="desc">Un navegador conecta mediante HTTPS a un origen compuesto por esquema, host y puerto. Un segundo origen se muestra separado para explicar solicitudes entre orígenes.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="72" y="66" width="1056" height="1" fill="#161a42"/>
+  <text x="72" y="126" fill="#161a42" font-family="Arial, sans-serif" font-size="36" font-weight="600">HTTPS protege la comunicación; el origen define el límite</text>
+  <rect x="72" y="240" width="236" height="160" fill="#eef2ff" stroke="#3f51e8" stroke-width="3"/>
+  <text x="104" y="300" fill="#161a42" font-family="Arial, sans-serif" font-size="27" font-weight="600">Navegador</text>
+  <text x="104" y="342" fill="#373e70" font-family="Arial, sans-serif" font-size="20">Solicita recursos</text>
+  <line x1="332" y1="320" x2="650" y2="320" stroke="#3f51e8" stroke-width="7"/>
+  <polygon points="650,320 624,304 624,336" fill="#3f51e8"/>
+  <text x="414" y="290" fill="#3f51e8" font-family="Arial, sans-serif" font-size="24" font-weight="600">HTTPS</text>
+  <rect x="680" y="212" width="448" height="216" fill="#161a42"/>
+  <text x="716" y="268" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="600">Origen publicado</text>
+  <text x="716" y="314" fill="#dce4ff" font-family="monospace" font-size="24">https://curso.example.org:443</text>
+  <text x="716" y="362" fill="#dce4ff" font-family="Arial, sans-serif" font-size="20">esquema + host + puerto</text>
+  <rect x="680" y="486" width="448" height="82" fill="#dce4ff"/>
+  <text x="716" y="536" fill="#161a42" font-family="Arial, sans-serif" font-size="22">Otro origen requiere autorización explícita.</text>
+  <text x="72" y="630" fill="#626a93" font-family="Arial, sans-serif" font-size="18">Diagrama propio. HTTP se reserva para localhost durante el desarrollo.</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Git y hosting estático</title>
+  <desc id="desc">Un flujo distingue el directorio de trabajo y el commit local de un remoto opcional y un hosting estático que entrega un artefacto mediante HTTPS.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="72" y="66" width="1056" height="1" fill="#161a42"/>
+  <text x="72" y="126" fill="#161a42" font-family="Arial, sans-serif" font-size="42" font-weight="600">Git registra cambios; el hosting entrega archivos</text>
+  <rect x="72" y="248" width="212" height="166" fill="#eef2ff"/>
+  <text x="102" y="306" fill="#161a42" font-family="Arial, sans-serif" font-size="25" font-weight="600">Directorio</text>
+  <text x="102" y="340" fill="#373e70" font-family="Arial, sans-serif" font-size="20">HTML · CSS · JS</text>
+  <text x="102" y="372" fill="#373e70" font-family="Arial, sans-serif" font-size="20">datos y docs</text>
+  <rect x="358" y="248" width="212" height="166" fill="#dce4ff"/>
+  <text x="404" y="306" fill="#161a42" font-family="Arial, sans-serif" font-size="25" font-weight="600">Git local</text>
+  <text x="394" y="346" fill="#373e70" font-family="Arial, sans-serif" font-size="20">diff · add · commit</text>
+  <rect x="644" y="248" width="212" height="166" fill="#eef2ff"/>
+  <text x="688" y="306" fill="#161a42" font-family="Arial, sans-serif" font-size="25" font-weight="600">Remoto</text>
+  <text x="676" y="346" fill="#373e70" font-family="Arial, sans-serif" font-size="20">copia opcional</text>
+  <rect x="930" y="248" width="198" height="166" fill="#161a42"/>
+  <text x="956" y="306" fill="#ffffff" font-family="Arial, sans-serif" font-size="25" font-weight="600">Hosting</text>
+  <text x="956" y="346" fill="#dce4ff" font-family="Arial, sans-serif" font-size="20">artefacto HTTPS</text>
+  <line x1="284" y1="330" x2="358" y2="330" stroke="#3f51e8" stroke-width="6"/>
+  <polygon points="358,330 332,314 332,346" fill="#3f51e8"/>
+  <line x1="570" y1="330" x2="644" y2="330" stroke="#3f51e8" stroke-width="6"/>
+  <polygon points="644,330 618,314 618,346" fill="#3f51e8"/>
+  <line x1="856" y1="330" x2="930" y2="330" stroke="#ffc21a" stroke-width="6"/>
+  <polygon points="930,330 904,314 904,346" fill="#ffc21a"/>
+  <text x="72" y="548" fill="#161a42" font-family="Arial, sans-serif" font-size="23">Un commit no publica por sí mismo. La publicación estática es una decisión de despliegue separada.</text>
+  <text x="72" y="630" fill="#626a93" font-family="Arial, sans-serif" font-size="18">Diagrama propio.</text>
+</svg>
