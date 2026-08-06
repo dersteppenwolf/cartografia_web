@@ -77,8 +77,11 @@ errores de carga de recursos del deck.
       pruebas Playwright bajo `/cartografia_web`.
 - [ ] Revisión manual pendiente: teclado, foco, reflow a 320 CSS px, zoom 200 %,
       lector de pantalla y Safari real sobre la presentación publicada.
-- [ ] Confirmar en CI y en GitHub Pages el despliegue real después de un commit
-      autorizado y un push; no se han creado commits ni publicado cambios.
+- [x] (2026-08-06 01:00Z) Se creó el commit `a920a84` y se empujó `master` a
+      `origin/master`; el repositorio local quedó sincronizado con el remoto.
+- [ ] Confirmar desde GitHub Actions y GitHub Pages la ejecución remota y la
+      ruta publicada. El entorno local no incluye `gh`, por lo que esta
+      evidencia no se puede consultar desde la terminal actual.
 
 ## Surprises & Discoveries
 
@@ -154,6 +157,13 @@ errores de carga de recursos del deck.
   pruebas no fallaron. Evidencia: logs del servidor durante
   `npm run test:slides:unidad01` y resultado final de 2 pruebas aprobadas el
   2026-08-06.
+
+- Observación: el commit de integración se empujó correctamente, pero la CLI
+  oficial `gh` no está instalada en este entorno para consultar estados de
+  Actions o la URL de Pages. Evidencia: `git rev-parse HEAD` y
+  `git rev-parse origin/master` devolvieron ambos
+  `a920a84adc127ad757d6f5b49a212965a64bc19a`; `gh run list` devolvió que el
+  comando no se reconoce el 2026-08-06.
 
 ## Decision Log
 
@@ -243,9 +253,9 @@ encima de 500 kB permanece preexistente y no bloquea su build.
 
 Este plan no puede declararse completamente cerrado: las tareas manuales de
 accesibilidad y Safari real siguen pendientes en
-`docs/governance/manual-accessibility-review.md`, y falta la ejecución real de
-GitHub Actions/Pages después de un commit y push autorizados. No se crearon
-commits, tags ni despliegues durante esta ejecución.
+`docs/governance/manual-accessibility-review.md`, y falta revisar la ejecución
+real de GitHub Actions/Pages después del push. Se creó y empujó el commit
+`a920a84`; no se crearon tags, releases ni despliegues manuales.
 
 ## Contexto y orientación
 
@@ -684,3 +694,8 @@ Se corrigieron la decodificación UTF-8 de la prueba Python y la etiqueta del
 enlace docente. El artefacto, los enlaces y las pruebas publicadas pasan; quedan
 pendientes la revisión manual, Safari real y el despliegue de Pages tras un push
 autorizado.
+
+2026-08-06: con autorización explícita, se creó y empujó `a920a84` a
+`origin/master`. La evidencia de CI y Pages continúa pendiente porque `gh` no
+está disponible en el entorno local; el estado remoto debe revisarse desde
+GitHub Actions o una terminal con esa CLI.
