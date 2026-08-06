@@ -193,15 +193,21 @@ Fuentes:
   style="display: block; height: 15rem; margin: 0 auto;"
 />
 
-La disponibilidad, calidad y asequibilidad de la red condicionan cómo se
-publican y usan los mapas web. Diseñar una alternativa textual y evitar
-transferencias innecesarias sigue siendo parte del problema técnico.
+La conectividad no es binaria: además de disponibilidad, importan velocidad,
+estabilidad, costo, habilidades e idioma. En seis ciudades brasileñas, las zonas
+más prósperas mantuvieron mejores velocidades aun con mejoras generales (Gozzi
+et al., 2024). Diseña para conexiones imperfectas: reduce transferencias y
+ofrece una alternativa textual.
 
 <!--
 Fuentes:
 - International Telecommunication Union, Measuring digital development: Facts
   and Figures 2025, 2025:
   https://www.itu.int/itu-d/reports/statistics/facts-figures-2025/
+- Gozzi, N., Comini, N., y Perra, N., Bridging the Digital Divide, 2024:
+  https://doi.org/10.1140/epjds/s13688-024-00508-8
+- Raihan, M. M. H. et al., Dimensions and Barriers for Digital (In)equity and
+  Digital Divide, 2024: https://doi.org/10.1108/DTS-04-2024-0054
 -->
 
 ---
@@ -626,15 +632,19 @@ Fuentes:
   style="display: block; height: 16rem; margin: 0 auto;"
 />
 
-El mapa base aporta orientación y contexto; no es la fuente de la capa temática.
-La capa temática contiene la variable que responde a la pregunta territorial. Si
-el mapa base falla, la interfaz conserva leyenda, atribución, estado y tabla
-equivalente.
+El mapa base aporta orientación; la capa temática contiene la variable de
+interés. Si el mapa base falla, la interfaz conserva leyenda, atribución, estado
+y tabla equivalente. WCAG es necesaria, pero no suficiente: se requieren
+controles operables y alternativas cartográficas fuera del canvas (Manu,
+Burghardt y Hauthal, 2025).
 
 <!--
 Fuentes:
 - W3C, Web Content Accessibility Guidelines (WCAG) 2.2, 2024-12-12:
   https://www.w3.org/TR/WCAG22/
+- Manu, S. D., Burghardt, D., y Hauthal, E., Enhancing Accessibility of Thematic
+  Web Maps for Visually Impaired Users, 2025:
+  https://doi.org/10.1007/s42489-025-00189-x
 - Programa del curso, Entrega 1, 2026-08-03: ../../../Programa.md
 -->
 
@@ -647,7 +657,7 @@ Fuentes:
 <img
   src="/assets/generated/privacidad_ubicacion.svg"
   alt="Diagrama propio que muestra una coordenada precisa pasando por una revisión de sensibilidad, licencia y minimización antes de publicarse."
-  style="display: block; height: 11rem; margin: 0 auto;"
+  style="display: block; height: 8rem; margin: 0 auto;"
 />
 
 Antes de publicar datos geográficos, identifica:
@@ -659,12 +669,18 @@ Antes de publicar datos geográficos, identifica:
   <li>Qué atribución, límites de uso y medidas de minimización deben acompañarlo.</li>
 </ul>
 
-No uses datos sociales geolocalizados en cuarentena para completar la práctica.
+Enmascarar puede proteger, pero alterar patrones locales (Tiwari et al., 2023);
+no hay una técnica universal (Li et al., 2025). Documenta método, límites y
+contexto. No uses datos sociales geolocalizados en cuarentena para la práctica.
 
 <!--
 Fuentes:
 - Programa del curso, Competencias específicas y política de IA, 2026-08-03:
   ../../../Programa.md
+- Tiwari, A. et al., Exploring Geomasking Methods for Geoprivacy, 2023:
+  https://doi.org/10.4081/gh.2023.1205
+- Li, H., Huang, J., y Kwan, M.-P., Challenges in Geoprivacy Protection, 2025:
+  https://doi.org/10.1111/tgis.70075
 -->
 
 ---
@@ -753,6 +769,14 @@ Fuentes:
 
 <!-- Diapositiva modernizada: 34 -->
 
-# Gracias
+# Referencias científicas incorporadas
+
+<ul class="reference-list">
+  <li>Gozzi, N., Comini, N., y Perra, N. (2024). <em>Bridging the Digital Divide: Mapping Internet Connectivity Evolution, Inequalities, and Resilience in Six Brazilian Cities</em>. <em>EPJ Data Science</em>, 13. https://doi.org/10.1140/epjds/s13688-024-00508-8</li>
+  <li>Li, H., Huang, J., y Kwan, M.-P. (2025). <em>Challenges in Geoprivacy Protection: Methodological Issues, Cultural and Regulatory Contexts, and Public Attitudes</em>. <em>Transactions in GIS</em>, 29(4), e70075. https://doi.org/10.1111/tgis.70075</li>
+  <li>Manu, S. D., Burghardt, D., y Hauthal, E. (2025). <em>Enhancing Accessibility of Thematic Web Maps for Visually Impaired Users</em>. <em>KN - Journal of Cartography and Geographic Information</em>, 75(2), 107-121. https://doi.org/10.1007/s42489-025-00189-x</li>
+  <li>Raihan, M. M. H. et al. (2024). <em>Dimensions and Barriers for Digital (In)equity and Digital Divide: A Systematic Integrative Review</em>. <em>Digital Transformation and Society</em>, 4(2), 111-127. https://doi.org/10.1108/DTS-04-2024-0054</li>
+  <li>Tiwari, A. et al. (2023). <em>Exploring Geomasking Methods for Geoprivacy: A Pilot Study in an Environment with Built Features</em>. <em>Geospatial Health</em>, 18(2). https://doi.org/10.4081/gh.2023.1205</li>
+</ul>
 
 <!-- markdownlint-restore -->
