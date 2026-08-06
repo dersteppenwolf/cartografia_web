@@ -144,7 +144,7 @@ resources:
     target: examples/leaflet/mapa_basico/
     milestone: Hito 3
     notes: Token-free introductory example with a data alternative.
-  - path_glob: playwright.config.mjs
+  - path_glob: playwright*.config.mjs
     kind: browser-test-configuration
     decision: conservar
     license_status: project
@@ -152,7 +152,8 @@ resources:
     owner: web-accessibility
     target: root
     milestone: Hito 3
-    notes: Local Playwright server configuration for maintained examples.
+    notes:
+      Local Playwright server configurations for maintained examples and slides.
   - path_glob: pyproject.toml
     kind: python-dependency-manifest
     decision: conservar

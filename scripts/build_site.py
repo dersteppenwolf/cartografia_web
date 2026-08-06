@@ -41,6 +41,18 @@ def main() -> int:
     )
     if result.returncode:
         return result.returncode
+    slides_output = output.parent / "_site_slides"
+    slides = [
+        sys.executable,
+        str(ROOT / "scripts" / "build_slides.py"),
+        "--baseurl",
+        args.baseurl,
+        "--output",
+        str(slides_output),
+    ]
+    result = subprocess.run(slides, check=False)
+    if result.returncode:
+        return result.returncode
     assemble = [
         sys.executable,
         str(ROOT / "scripts" / "assemble_site.py"),
@@ -58,6 +70,7 @@ def main() -> int:
     cloud_assets = ROOT / "data" / "fixtures" / "cloud"
     if cloud_assets.is_dir():
         assemble.extend(["--cloud-assets", str(cloud_assets)])
+    assemble.extend(["--slides-dir", str(slides_output)])
     return subprocess.run(assemble, check=False).returncode
 
 

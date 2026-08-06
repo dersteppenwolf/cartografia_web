@@ -4,6 +4,7 @@ title: Unidad 1. Web, Git y publicación
 transition: slide-left
 mdc: true
 layout: cover
+routerMode: hash
 ---
 
 <!-- markdownlint-disable MD024 -->

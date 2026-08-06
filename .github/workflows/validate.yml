@@ -38,6 +38,8 @@ jobs:
         run:
           npm run --workspace examples/maplibre/app test:e2e --
           --project=chromium
+      - name: Run published slides checks
+        run: npm run test:slides:unidad01
       - name: Build MapLibre client
         run: npm run --workspace examples/maplibre/app build
       - name: Build approved static site

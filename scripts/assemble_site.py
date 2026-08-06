@@ -23,6 +23,7 @@ def main() -> int:
     parser.add_argument("--leaflet-dir", type=Path)
     parser.add_argument("--maplibre-dist", type=Path)
     parser.add_argument("--cloud-assets", type=Path)
+    parser.add_argument("--slides-dir", type=Path)
     args = parser.parse_args()
 
     output = args.output.resolve()
@@ -36,6 +37,7 @@ def main() -> int:
         (args.leaflet_dir, output / "examples" / "leaflet"),
         (args.maplibre_dist, output / "examples" / "maplibre"),
         (args.cloud_assets, output / "assets" / "data"),
+        (args.slides_dir, output / "presentaciones" / "unidad-01"),
     )
     for source, destination in optional_trees:
         if source is not None:

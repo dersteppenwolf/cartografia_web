@@ -31,6 +31,17 @@ sí sola esa conformidad.
 - [ ] Confirmar en Safari real sobre macOS los flujos de carga, filtro, consulta
       y error. Playwright WebKit solo es detección temprana.
 
+## Presentación de la Unidad 1 pendiente
+
+- [ ] Abrir la presentación desde el enlace de la Unidad 1 y recorrer sus
+      diapositivas con teclado; confirmar orden lógico y foco visible.
+- [ ] Con zoom del navegador al 200 % y ancho de 320 CSS px, comprobar reflow
+      sin ocultar citas, bibliografía o controles de la presentación.
+- [ ] Revisar con lector de pantalla los encabezados, texto alternativo de los
+      diagramas, citas visibles y bibliografía final.
+- [ ] Confirmar en Safari real sobre macOS la ruta `/presentaciones/unidad-01/`
+      y la navegación por hash.
+
 La persona responsable de web y accesibilidad debe completar fecha, navegador,
 asistencia técnica, resultado y cualquier excepción institucional en los
 resultados del piloto. No marcar una casilla pendiente sin evidencia observable.

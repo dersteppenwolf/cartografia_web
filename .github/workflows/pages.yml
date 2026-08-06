@@ -35,11 +35,7 @@ jobs:
       - name: Build and assemble approved site
         run: >-
           uv run python scripts/build_site.py --baseurl "${{
-          steps.pages.outputs.base_path }}" --output _site_jekyll && uv run
-          python scripts/assemble_site.py --jekyll-site _site_jekyll
-          --leaflet-dir examples/leaflet --maplibre-dist
-          examples/maplibre/app/dist --cloud-assets data/fixtures/cloud --output
-          _site
+          steps.pages.outputs.base_path }}" --output _site_jekyll
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
         with:

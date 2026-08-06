@@ -82,6 +82,14 @@ third_party:
     license: MIT
     kind: Ruby gem
     use: Temporary root publication barrier and maintained documentation build
+  - name: Slidev CLI
+    version: 52.19.0
+    source: docs/slides/unidad01/package.json and package-lock.json
+    license: MIT
+    kind: static presentation generator
+    use:
+      Build the published Unidad 1 presentation from approved Markdown and SVG
+      assets
   - name: Historic npm tooling
     version: 'husky 3.1.0, lint-staged 9.5.0, prettier 1.19.1'
     source: package.json

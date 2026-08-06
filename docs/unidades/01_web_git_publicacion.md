@@ -23,6 +23,13 @@ Al finalizar podrás:
 - Registrar cambios locales con Git y distinguir repositorio, commit, remoto y
   publicación estática.
 
+## Presentación de apoyo
+
+Selecciona [Abrir presentación de la Unidad 1]({{
+'/presentaciones/unidad-01/' | relative_url }}) para seguir visualmente la misma
+ruta de HTML, HTTP, GeoJSON, accesibilidad, privacidad y publicación. Úsala para
+acompañar la guía; no reemplaza la práctica ni el mapa Leaflet.
+
 ## Internet, Web y publicación
 
 **Internet** es una red de redes que intercambian información mediante
@@ -203,6 +210,19 @@ catálogo STAC no son sinónimos: cada uno resuelve una parte de la arquitectura
 Las Unidades 2, 4, 5 y 7 desarrollan esos conceptos sin aumentar la carga de
 esta introducción.
 
+## Evidencia científica para decisiones de diseño
+
+La conectividad no equivale solo a cobertura: velocidad, estabilidad, costo,
+habilidades e idioma afectan qué mapas se pueden usar. La accesibilidad de un
+mapa requiere medidas específicas además de WCAG, como controles operables,
+leyenda y datos equivalentes fuera del canvas. La minimización de ubicaciones
+puede proteger datos, pero también modificar patrones locales; por eso se deben
+documentar método, límites y contexto antes de publicar.
+
+Estas conclusiones respaldan la presentación y orientan decisiones iniciales. No
+añaden ejercicios de rendimiento, geomasking ni cartografía temática avanzada a
+esta unidad.
+
 ## Módulos y mapa base
 
 Un módulo ES es un archivo JavaScript con dependencias explícitas cargado con
@@ -278,6 +298,29 @@ Algunas tecnologías aparecen en unidades posteriores:
   TypeScript, Vite, Leaflet y MapLibre sin exigir React, Vue o Svelte.
 - Flash y Flex son tecnologías históricas retiradas; se mencionan solo para
   reconocer por qué el contenido antiguo no debe reutilizarse.
+
+## Referencias científicas de apoyo
+
+1. Gozzi, N., Comini, N., y Perra, N. (2024). _Bridging the Digital Divide:
+   Mapping Internet Connectivity Evolution, Inequalities, and Resilience in Six
+   Brazilian Cities_. _EPJ Data Science_, 13.
+   [https://doi.org/10.1140/epjds/s13688-024-00508-8](https://doi.org/10.1140/epjds/s13688-024-00508-8)
+2. Li, H., Huang, J., y Kwan, M.-P. (2025). _Challenges in Geoprivacy
+   Protection: Methodological Issues, Cultural and Regulatory Contexts, and
+   Public Attitudes_. _Transactions in GIS_, 29(4), e70075.
+   [https://doi.org/10.1111/tgis.70075](https://doi.org/10.1111/tgis.70075)
+3. Manu, S. D., Burghardt, D., y Hauthal, E. (2025). _Enhancing Accessibility of
+   Thematic Web Maps for Visually Impaired Users_. _KN - Journal of Cartography
+   and Geographic Information_, 75(2), 107-121.
+   [https://doi.org/10.1007/s42489-025-00189-x](https://doi.org/10.1007/s42489-025-00189-x)
+4. Raihan, M. M. H. et al. (2024). _Dimensions and Barriers for Digital
+   (In)equity and Digital Divide: A Systematic Integrative Review_. _Digital
+   Transformation and Society_, 4(2), 111-127.
+   [https://doi.org/10.1108/DTS-04-2024-0054](https://doi.org/10.1108/DTS-04-2024-0054)
+5. Tiwari, A. et al. (2023). _Exploring Geomasking Methods for Geoprivacy: A
+   Pilot Study in an Environment with Built Features_. _Geospatial Health_,
+   18(2).
+   [https://doi.org/10.4081/gh.2023.1205](https://doi.org/10.4081/gh.2023.1205)
 
 ## Errores frecuentes
 

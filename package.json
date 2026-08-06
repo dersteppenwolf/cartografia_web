@@ -4,7 +4,8 @@
   "description": "Publicación de cartografía vía web",
   "workspaces": [
     "infra/prototypes/maplibre-protocols",
-    "examples/maplibre/app"
+    "examples/maplibre/app",
+    "docs/slides/unidad01"
   ],
   "devDependencies": {
     "@axe-core/playwright": "^4.12.1",
@@ -19,13 +20,16 @@
     "stylelint-config-standard": "^40.0.0"
   },
   "scripts": {
-    "format:check": "prettier --check \"docs/**/*.{md,html,css,yml,yaml}\" \"examples/leaflet/*/*.{html,css,js}\" \"playwright.config.mjs\" \".github/**/*.yml\" \".{prettier,htmlvalidate,stylelintrc}.json\" \"package.json\" \"README.md\"",
+    "format:check": "prettier --check \"docs/**/*.{md,html,css,yml,yaml}\" \"docs/slides/unidad01/package.json\" \"examples/leaflet/*/*.{html,css,js}\" \"playwright*.config.mjs\" \"tests/**/*.mjs\" \".github/**/*.yml\" \".{prettier,htmlvalidate,stylelintrc}.json\" \"package.json\" \"README.md\"",
     "lint:markdown": "markdownlint-cli2 \"docs/**/*.md\" \"README.md\"",
     "lint:html": "html-validate \"docs/**/*.html\" \"examples/leaflet/*/index.html\"",
-    "lint:css": "stylelint \"docs/assets/css/**/*.css\" \"examples/leaflet/*/styles.css\"",
+    "lint:css": "stylelint \"docs/assets/css/**/*.css\" \"docs/slides/unidad01/style.css\" \"examples/leaflet/*/styles.css\"",
     "links:internal": "linkinator _site --recurse --check-css --check-fragments --skip '^https?://'",
     "build": "uv run python scripts/build_site.py --output _site_jekyll",
     "prepare:leaflet": "uv run python scripts/prepare_leaflet_assets.py",
+    "build:slides:unidad01": "uv run python scripts/build_slides.py --output _site_slides",
+    "validate:slides:unidad01": "uv run python scripts/validate_slides.py",
+    "test:slides:unidad01": "uv run python scripts/build_site.py --baseurl /cartografia_web --output _site_preview_jekyll && uv run python scripts/assemble_site.py --jekyll-site _site_preview_jekyll --leaflet-dir examples/leaflet --maplibre-dist examples/maplibre/app/dist --cloud-assets data/fixtures/cloud --slides-dir _site_slides --output .preview/cartografia_web && playwright test --config playwright.slides.config.mjs",
     "validate:json": "uv run python scripts/validate_resources.py",
     "validate:xml": "uv run python scripts/validate_xml.py",
     "validate:licenses": "uv run python scripts/validate_resources.py",
@@ -45,7 +49,7 @@
     "lint": "npm run lint:markdown && npm run lint:html && npm run lint:css",
     "test": "uv run pytest",
     "test:a11y": "playwright test --config playwright.config.mjs",
-    "validate": "npm run format:check && npm run lint && npm run validate:structured && npm run validate:client"
+    "validate": "npm run format:check && npm run lint && npm run validate:structured && npm run validate:slides:unidad01 && npm run validate:client"
   },
   "repository": {
     "type": "git",

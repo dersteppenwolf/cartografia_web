@@ -18,6 +18,8 @@ accesibilidad, seguridad, privacidad y compatibilidad.
   autoevaluación.
 - Mapa Leaflet accesible con datos sintéticos, atribución, estado y tabla
   equivalente.
+- Presentación estática de la Unidad 1, enlazada desde su guía y construida con
+  sus diagramas propios y referencias científicas verificables.
 - Cliente TypeScript/Vite/MapLibre con filtro, estado URL, fuentes OGC API,
   PMTiles y COG, diálogo con foco y pruebas E2E.
 - Stack local PostGIS, GeoServer y Nginx con WMS, WFS, OGC API - Features, MVT,

@@ -13,9 +13,10 @@ procedencia, licencia, texto alternativo y utilidad pedagógica.
 
 `docs/_config.yml` excluye `slides/` del build Jekyll. En la Unidad 1,
 `vite.config.mts` sirve solo `public-generated/`; las capturas históricas no se
-copian a la previsualización ni al build de Slidev. No elimine esas exclusiones
-ni publique recursos extraídos hasta revisar su procedencia, licencia y texto
-alternativo.
+copian a la previsualización ni al build de Slidev. El ensamblador del sitio
+copia únicamente la salida validada de Slidev a `/presentaciones/unidad-01/`. No
+elimine esas exclusiones ni publique recursos extraídos hasta revisar su
+procedencia, licencia y texto alternativo.
 
 Los PDF históricos son la única fuente para su conversión. Conserve idioma,
 terminología, código, cifras y enlaces. No complete texto ilegible ni sustituya
@@ -67,17 +68,15 @@ pdfinfo -v
 pdfimages -v
 ```
 
-Instale Slidev como dependencia local de cada presentación. Esto evita una
-dependencia global y permite repetir la previsualización en otro equipo:
+Slidev es un workspace npm fijado en `docs/slides/unidad01/`. Desde la raíz,
+instale todas las dependencias con:
 
 ```powershell
-Set-Location docs/slides/unidad01
-npm init -y
-npm install --save-dev @slidev/cli
+npm ci
 ```
 
-El archivo `package-lock.json` generado en la unidad debe mantenerse
-sincronizado con su `package.json`.
+El `package-lock.json` de la raíz registra esa dependencia. No use una CLI
+Slidev instalada globalmente para validar o publicar la presentación.
 
 ## Conversión del PDF
 
@@ -153,23 +152,24 @@ $references | ForEach-Object {
 
 ## Previsualización y build
 
-Ejecute Slidev desde el directorio de la unidad. En la Unidad 1,
-`vite.config.mts` configura `public-generated/` como directorio público:
+Para previsualizar el deck desde el directorio de la unidad, ejecute el script
+del workspace. En la Unidad 1, `vite.config.mts` configura `public-generated/`
+como directorio público:
 
 ```powershell
-Set-Location docs/slides/unidad01
-npx slidev slides.md
+npm run --workspace @cartografia-web/slides-unidad01 dev
 ```
 
 Para construir la versión estática:
 
 ```powershell
-npx slidev build slides.md
+npm run build:slides:unidad01
 ```
 
-El directorio `dist/` es un artefacto generado y no sustituye la revisión de
-licencias. No lo integre al sitio Jekyll mientras `slides/` permanezca excluido
-del build público.
+`_site_slides/` es un artefacto generado e ignorado por Git y no sustituye la
+revisión de licencias. `npm run build` construye la misma salida y la integra al
+artefacto público bajo `/presentaciones/unidad-01/`, mientras la fuente de
+`slides/` permanece excluida de Jekyll.
 
 ## Validación
 

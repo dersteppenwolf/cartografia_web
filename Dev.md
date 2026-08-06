@@ -102,7 +102,8 @@ rendimiento requiere una decisión documentada del instructor.
 ## Build y vista previa
 
 `npm run build` construye Jekyll, el cliente MapLibre y el artefacto ensamblado
-`_site/`, incluyendo Leaflet, MapLibre, PMTiles y COG:
+`_site/`, incluyendo Leaflet, MapLibre, PMTiles, COG y la presentación estática
+de la Unidad 1:
 
 ```powershell
 npm run build
@@ -112,6 +113,22 @@ python -m http.server 8000 --directory _site
 
 Abre `http://localhost:8000/`. No pruebes ejemplos que usan `fetch` mediante
 `file://`.
+
+La presentación usa la CLI Slidev fijada en el workspace
+`docs/slides/unidad01/`; no requiere una instalación global. Para construirla o
+validarla de forma aislada:
+
+```powershell
+npm run build:slides:unidad01
+npm run validate:slides:unidad01
+```
+
+Para comprobar el enlace desde la guía, el prefijo de GitHub Pages, las citas y
+los recursos de la presentación, con Docker y Chromium disponibles:
+
+```powershell
+npm run test:slides:unidad01
+```
 
 Para comprobar rutas bajo el prefijo de GitHub Pages:
 

@@ -1,0 +1,12 @@
+{
+  "name": "@cartografia-web/slides-unidad01",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.19.0"
+  }
+}
